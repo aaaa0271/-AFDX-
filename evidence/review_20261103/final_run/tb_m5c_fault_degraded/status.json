@@ -1,0 +1,9 @@
+{
+  "name": "tb_m5c_fault_degraded",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_m5c_fault_degraded/result.log",
+  "audits": [],
+  "issues": []
+}

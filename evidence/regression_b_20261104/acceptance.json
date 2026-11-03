@@ -1,0 +1,1341 @@
+{
+  "release": "AFDX-COMPETITION-FINAL-20261012",
+  "source_root": "C:\\Users\\lenovo\\Desktop\\FPGA\\_elinx_split\\b_tree",
+  "competition_prototype_status": "INCOMPLETE",
+  "competition_prototype_complete": false,
+  "functional_status": "PASS",
+  "full_functional_regression": false,
+  "production_hdl_total": 122,
+  "production_hdl_passed": 122,
+  "experimental_model_total": 5,
+  "experimental_model_passed": 5,
+  "elinx": {
+    "status": "NOT_RUN"
+  },
+  "changed_inputs": [],
+  "preflight_gates": [
+    {
+      "name": "test_verdict.py",
+      "exit": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "test_conformance_gate.py",
+      "exit": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "test_packaging.py",
+      "exit": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "test_competition_gate.py",
+      "exit": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "verify_standard_mib_inventory.py",
+      "exit": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "test_worst_case_envelope.py",
+      "exit": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "test_release_paths.py",
+      "exit": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "freeze_plugin_manifests.py",
+      "exit": 0,
+      "status": "PASS"
+    }
+  ],
+  "tests": [
+    {
+      "name": "tb_afdx_eth_ipv4_udp_parser",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_eth_ipv4_udp_parser/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_eth_ipv4_udp_parser_full",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_eth_ipv4_udp_parser_full/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_payload_commit_buffer",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_payload_commit_buffer/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_rx_frontend",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_rx_frontend/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_rx_frontend_m3c",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_rx_frontend_m3c/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_rx_frontend_m3d",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_rx_frontend_m3d/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_sequence_integrity",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_sequence_integrity/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_udp_checksum",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_udp_checksum/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_vl_identifier",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_vl_identifier/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_gmii_rx_adapter",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_gmii_rx_adapter/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_gmii_rx_adapter_full",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_gmii_rx_adapter_full/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_redundant_tx_fork",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_redundant_tx_fork/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_redundant_tx_fork_degraded",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_redundant_tx_fork_degraded/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_rx_dual_arbiter",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_rx_dual_arbiter/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_rx_dual_frontend",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_rx_dual_frontend/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_rx_frame_parser",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_rx_frame_parser/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_rx_payload_frame_arbiter",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_rx_payload_frame_arbiter/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_rx_redundancy_decision_core",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_rx_redundancy_decision_core/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_rx_redundancy_eliminator",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_rx_redundancy_eliminator/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_m5b_dual_gmii_integrity",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_m5b_dual_gmii_integrity/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_m5c_fault_degraded",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_m5c_fault_degraded/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_multi_vl_dual_gmii_tx",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_multi_vl_dual_gmii_tx/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_redundancy_integrity_monitor",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_redundancy_integrity_monitor/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_m6a_integration",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_m6a_integration/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_m6b_integration",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_m6b_integration/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_management_telemetry",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_management_telemetry/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_mib_register_bank",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_mib_register_bank/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_ber_oid_codec",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_ber_oid_codec/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_ber_primitive_codec",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_ber_primitive_codec/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_m6c_integration",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_m6c_integration/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_m6d_integration",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_m6d_integration/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_snmp_request_decoder",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_snmp_request_decoder/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_snmp_response_builder",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_snmp_response_builder/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_snmp_transaction",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_snmp_transaction/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_frame_builder_varlen_cfg",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_frame_builder_varlen_cfg/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_m6e_02a_boundary",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_m6e_02a_boundary/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_m6e_integration",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_m6e_integration/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_m6e_udp_rx_buffer",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_m6e_udp_rx_buffer/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_gmii_tx_adapter_varlen",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_gmii_tx_adapter_varlen/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_m6e_01d_mechanics",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_m6e_01d_mechanics/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_m6e_gmii",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_m6e_gmii/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_m6f_system_top",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_m6f_system_top/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_m5_integrity_rules",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_m5_integrity_rules/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_m6d_ber_boundaries",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_m6d_ber_boundaries/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_m6d_p0_refresh_ber",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_m6d_p0_refresh_ber/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_m6f_active_business",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_m6f_active_business/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_m6f_realtime_joint",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_m6f_realtime_joint/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_m6_business_varlen",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_m6_business_varlen/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_m6_full_bag",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_m6_full_bag/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_m6_realtime",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_m6_realtime/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_snmp_multi_varbind",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_snmp_multi_varbind/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_udp_checksum_boundaries",
+      "suite": "legacy",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_udp_checksum_boundaries/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_contest_615a_control",
+      "suite": "contest",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_contest_615a_control/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_contest_basic_mac_top",
+      "suite": "contest",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_contest_basic_mac_top/result.log",
+      "audits": [
+        {
+          "script": "verify_service_wire.py",
+          "exit": 0,
+          "log": "tb_contest_basic_mac_top/verify_service_wire.log"
+        },
+        {
+          "script": "test_service_wire.py",
+          "exit": 0,
+          "log": "tb_contest_basic_mac_top/test_service_wire.log"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "tb_contest_configuration",
+      "suite": "contest",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_contest_configuration/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_contest_configured_rx",
+      "suite": "contest",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_contest_configured_rx/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_contest_ipv4_fragment",
+      "suite": "contest",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_contest_ipv4_fragment/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_contest_load_reject",
+      "suite": "contest",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_contest_load_reject/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_contest_load_rtc_joint",
+      "suite": "contest",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_contest_load_rtc_joint/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_contest_network_services",
+      "suite": "contest",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_contest_network_services/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_contest_rtc_convergence",
+      "suite": "contest",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_contest_rtc_convergence/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_contest_rtc_ntp",
+      "suite": "contest",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_contest_rtc_ntp/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_contest_rtc_timebase",
+      "suite": "contest",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_contest_rtc_timebase/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_contest_service_mac",
+      "suite": "contest",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_contest_service_mac/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_contest_snmp_pysnmp",
+      "suite": "contest",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_contest_snmp_pysnmp/result.log",
+      "audits": [
+        {
+          "script": "verify_snmp_interop.py",
+          "exit": 0,
+          "log": "tb_contest_snmp_pysnmp/verify_snmp_interop.log"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "tb_contest_tftp",
+      "suite": "contest",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_contest_tftp/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_contest_top",
+      "suite": "contest",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_contest_top/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_completion_package",
+      "suite": "completion",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_completion_package/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_completion_package_network",
+      "suite": "completion",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_completion_package_network/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_completion_snmp_extended",
+      "suite": "completion",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_completion_snmp_extended/result.log",
+      "audits": [
+        {
+          "script": "verify_snmp_extended.py",
+          "exit": 0,
+          "log": "tb_completion_snmp_extended/verify_snmp_extended.log"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "tb_foundation_rx_queue",
+      "suite": "foundation",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_foundation_rx_queue/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_foundation_shared_degraded",
+      "suite": "foundation",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_foundation_shared_degraded/result.log",
+      "audits": [
+        {
+          "script": "verify_shared.py",
+          "exit": 0,
+          "log": "tb_foundation_shared_degraded/verify_shared.log"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "tb_foundation_shared_joint",
+      "suite": "foundation",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_foundation_shared_joint/result.log",
+      "audits": [
+        {
+          "script": "verify_shared.py",
+          "exit": 0,
+          "log": "tb_foundation_shared_joint/verify_shared.log"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "tb_foundation_shared_stress",
+      "suite": "foundation",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_foundation_shared_stress/result.log",
+      "audits": [
+        {
+          "script": "verify_shared.py",
+          "exit": 0,
+          "log": "tb_foundation_shared_stress/verify_shared.log"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "tb_foundation_snmp_bulk",
+      "suite": "foundation",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_foundation_snmp_bulk/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_foundation_snmp_bulk_mac",
+      "suite": "foundation",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_foundation_snmp_bulk_mac/result.log",
+      "audits": [
+        {
+          "script": "verify_shared.py",
+          "exit": 0,
+          "log": "tb_foundation_snmp_bulk_mac/verify_shared.log"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "tb_foundation_snmp_mac",
+      "suite": "foundation",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_foundation_snmp_mac/result.log",
+      "audits": [
+        {
+          "script": "verify_shared.py",
+          "exit": 0,
+          "log": "tb_foundation_snmp_mac/verify_shared.log"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "tb_foundation_snmp_set_copy",
+      "suite": "foundation",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_foundation_snmp_set_copy/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_datagram_line_rate",
+      "suite": "datagram",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_datagram_line_rate/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_datagram_mac_joint",
+      "suite": "datagram",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_datagram_mac_joint/result.log",
+      "audits": [
+        {
+          "script": "verify_shared.py",
+          "exit": 0,
+          "log": "tb_datagram_mac_joint/verify_shared.log"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "tb_datagram_ports",
+      "suite": "datagram",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_datagram_ports/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_datagram_ports_top",
+      "suite": "datagram",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_datagram_ports_top/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_datagram_rx",
+      "suite": "datagram",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_datagram_rx/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_datagram_source_ids",
+      "suite": "datagram",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_datagram_source_ids/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_datagram_tx",
+      "suite": "datagram",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_datagram_tx/result.log",
+      "audits": [
+        {
+          "script": "verify_tx.py",
+          "exit": 0,
+          "log": "tb_datagram_tx/verify_tx.log"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "tb_integration_subvl_mac",
+      "suite": "integration",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_integration_subvl_mac/result.log",
+      "audits": [
+        {
+          "script": "verify_subvl_wire.py",
+          "exit": 0,
+          "log": "tb_integration_subvl_mac/verify_subvl_wire.log"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_service_domains",
+      "suite": "experimental",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_service_domains/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_615a_process",
+      "suite": "experimental",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_615a_process/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_665_formats",
+      "suite": "experimental",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_665_formats/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_standard_mib",
+      "suite": "experimental",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_standard_mib/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_snmp_wire_policy",
+      "suite": "experimental",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_snmp_wire_policy/result.log",
+      "audits": [
+        {
+          "script": "verify_snmp_wire_policy.py",
+          "exit": 0,
+          "log": "tb_afdx_snmp_wire_policy/verify_snmp_wire_policy.log"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "tb_integration_multi_services",
+      "suite": "integration",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_integration_multi_services/result.log",
+      "audits": [
+        {
+          "script": "verify_multi_service_wire.py",
+          "exit": 0,
+          "log": "tb_integration_multi_services/verify_multi_service_wire.log"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "tb_665_header_compat",
+      "suite": "completion",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_665_header_compat/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_615a_control_recovery",
+      "suite": "completion",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_615a_control_recovery/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_snmp_versions",
+      "suite": "extension",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_snmp_versions/result.log",
+      "audits": [
+        {
+          "script": "verify_snmp_versions.py",
+          "exit": 0,
+          "log": "tb_snmp_versions/verify_snmp_versions.log"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "tb_snmp_versions_mac",
+      "suite": "extension",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_snmp_versions_mac/result.log",
+      "audits": [
+        {
+          "script": "verify_snmp_versions.py",
+          "exit": 0,
+          "log": "tb_snmp_versions_mac/verify_snmp_versions.log"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "tb_665_grammar_0",
+      "suite": "extension",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_665_grammar_0/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_665_grammar_1",
+      "suite": "extension",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_665_grammar_1/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_service_scaling_1",
+      "suite": "extension",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_service_scaling_1/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_service_scaling_2",
+      "suite": "extension",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_service_scaling_2/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_service_scaling_4",
+      "suite": "extension",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_service_scaling_4/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_service_scaling_5",
+      "suite": "extension",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_service_scaling_5/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_service_scaling_8",
+      "suite": "extension",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_service_scaling_8/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_service_scaling_9",
+      "suite": "extension",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_service_scaling_9/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_service_runtime_1",
+      "suite": "extension",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_service_runtime_1/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_service_runtime_2",
+      "suite": "extension",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_service_runtime_2/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_service_runtime_5",
+      "suite": "extension",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_service_runtime_5/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_service_runtime_9",
+      "suite": "extension",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_service_runtime_9/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_665_package_support_3",
+      "suite": "extension",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_665_package_support_3/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_665_package_support_4",
+      "suite": "extension",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_665_package_support_4/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_tftp_wait_abort",
+      "suite": "extension",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_tftp_wait_abort/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_security_sha",
+      "suite": "security",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_security_sha/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_security_plugin",
+      "suite": "security",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_security_plugin/result.log",
+      "audits": [
+        {
+          "script": "verify_plugin_wire.py",
+          "exit": 0,
+          "log": "tb_security_plugin/verify_plugin_wire.log"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "tb_security_core_multi",
+      "suite": "security",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_security_core_multi/result.log",
+      "audits": [
+        {
+          "script": "verify_multi_service_wire.py",
+          "exit": 0,
+          "log": "tb_security_core_multi/verify_multi_service_wire.log"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "tb_security_bypass",
+      "suite": "security",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_security_bypass/result.log",
+      "audits": [
+        {
+          "script": "verify_shared.py",
+          "exit": 0,
+          "log": "tb_security_bypass/verify_shared.log"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "tb_mimic_quorum",
+      "suite": "mimic",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_mimic_quorum/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_afdx_8port_demo",
+      "suite": "completion",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_afdx_8port_demo/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_review_tftp_budget",
+      "suite": "completion",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_review_tftp_budget/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_review_control_budget",
+      "suite": "completion",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_review_control_budget/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_review_rtc_mac",
+      "suite": "completion",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_review_rtc_mac/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_review_8port",
+      "suite": "completion",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_review_8port/result.log",
+      "audits": [
+        {
+          "script": "verify_demo_wire.py",
+          "exit": 0,
+          "log": "tb_review_8port/verify_demo_wire.log"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "tb_review_security_8port",
+      "suite": "completion",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_review_security_8port/result.log",
+      "audits": [
+        {
+          "script": "verify_demo_wire.py",
+          "exit": 0,
+          "log": "tb_review_security_8port/verify_demo_wire.log"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "tb_defense_live",
+      "suite": "integration",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_defense_live/console.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_defense_boundary",
+      "suite": "security",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_defense_boundary/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_615a_roundtrip",
+      "suite": "review",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_615a_roundtrip/result.log",
+      "audits": [
+        {
+          "script": "verify_download_wire.py",
+          "exit": 0,
+          "log": "tb_615a_roundtrip/verify_download_wire.log"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "tb_615a_download_faults",
+      "suite": "review",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_615a_download_faults/result.log",
+      "audits": [],
+      "issues": []
+    },
+    {
+      "name": "tb_615a_download_security",
+      "suite": "review",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_615a_download_security/result.log",
+      "audits": [],
+      "issues": []
+    }
+  ],
+  "conformance_status": "INCOMPLETE",
+  "full_foundation_complete": false,
+  "formal_arinc_certification": false,
+  "delivery_status": "INCOMPLETE",
+  "started_at": "2026-11-04T00:18:13.440239+08:00",
+  "finished_at": "2026-11-04T00:28:17.169187+08:00",
+  "scope": "Integrated competition prototype within docs/competition_profile.json. Full selected-edition standard expansions are tracked separately and are not certified."
+}

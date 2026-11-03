@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "case_id": "boundary_suite",
+  "source": "synthetic_lab",
+  "policy": "policy.json",
+  "frames": [
+    {
+      "id": "normal_A",
+      "path": "normal_A.bin",
+      "channel": 0,
+      "capture_ticks": 0
+    },
+    {
+      "id": "normal_B",
+      "path": "normal_B.bin",
+      "channel": 1,
+      "capture_ticks": 10000
+    },
+    {
+      "id": "empty_payload",
+      "path": "empty_payload.bin",
+      "channel": 0,
+      "capture_ticks": 20000
+    },
+    {
+      "id": "max_frame",
+      "path": "max_frame.bin",
+      "channel": 0,
+      "capture_ticks": 30000
+    },
+    {
+      "id": "min_short",
+      "path": "min_short.bin",
+      "channel": 0,
+      "capture_ticks": 40000
+    },
+    {
+      "id": "max_exceeded",
+      "path": "max_exceeded.bin",
+      "channel": 0,
+      "capture_ticks": 50000
+    },
+    {
+      "id": "empty",
+      "path": "empty.bin",
+      "channel": 0,
+      "capture_ticks": 60000
+    },
+    {
+      "id": "preamble",
+      "path": "preamble.bin",
+      "channel": 0,
+      "capture_ticks": 70000
+    },
+    {
+      "id": "fcs",
+      "path": "fcs.bin",
+      "channel": 0,
+      "capture_ticks": 80000
+    },
+    {
+      "id": "ethertype",
+      "path": "ethertype.bin",
+      "channel": 0,
+      "capture_ticks": 90000
+    },
+    {
+      "id": "version",
+      "path": "version.bin",
+      "channel": 0,
+      "capture_ticks": 100000
+    },
+    {
+      "id": "ihl_short",
+      "path": "ihl_short.bin",
+      "channel": 0,
+      "capture_ticks": 110000
+    },
+    {
+      "id": "ip_total_large",
+      "path": "ip_total_large.bin",
+      "channel": 0,
+      "capture_ticks": 120000
+    },
+    {
+      "id": "options",
+      "path": "options.bin",
+      "channel": 0,
+      "capture_ticks": 130000
+    },
+    {
+      "id": "ip_checksum",
+      "path": "ip_checksum.bin",
+      "channel": 0,
+      "capture_ticks": 140000
+    },
+    {
+      "id": "fragment",
+      "path": "fragment.bin",
+      "channel": 0,
+      "capture_ticks": 150000
+    },
+    {
+      "id": "protocol",
+      "path": "protocol.bin",
+      "channel": 0,
+      "capture_ticks": 160000
+    },
+    {
+      "id": "ttl_zero",
+      "path": "ttl_zero.bin",
+      "channel": 0,
+      "capture_ticks": 170000
+    },
+    {
+      "id": "udp_length",
+      "path": "udp_length.bin",
+      "channel": 0,
+      "capture_ticks": 180000
+    },
+    {
+      "id": "udp_checksum",
+      "path": "udp_checksum.bin",
+      "channel": 0,
+      "capture_ticks": 190000
+    },
+    {
+      "id": "acl",
+      "path": "acl.bin",
+      "channel": 0,
+      "capture_ticks": 200000
+    },
+    {
+      "id": "udp_zero",
+      "path": "udp_zero.bin",
+      "channel": 0,
+      "capture_ticks": 210000
+    }
+  ]
+}

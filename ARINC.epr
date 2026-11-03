@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project Path="/ARINC.epr">
+  <Configuration>
+    <Option Name="ActiveSimSet" Val="sim_1" />
+    <Option Name="Project Type" Val="RTL" />
+    <Option Name="SimulationTopModule" Val="tb_foundation_shared_joint" />
+    <Option Name="Win_Version" Val="x86" />
+  </Configuration>
+  <FileSets>
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/rtl">
+      <File Path="/rtl/AFDX_basic_top.v" />
+      <File Path="/rtl/AFDX_competition_top.v" />
+      <File Path="/rtl/AFDX_defense_top.v" />
+      <File Path="/rtl/AFDX_legacy_top.v" />
+      <File Path="/rtl/AFDX_security_8port_top.v" />
+      <File Path="/rtl/AFDX_security_plugin_top.v" />
+      <File Path="/rtl/AFDX_top.v" />
+      <File Path="/rtl/afdx_615a_control_tftp.v" />
+      <File Path="/rtl/afdx_615a_download.v" />
+      <File Path="/rtl/afdx_615a_process_engine.v" />
+      <File Path="/rtl/afdx_615a_tftp_error.v" />
+      <File Path="/rtl/afdx_615a_upload_control.v" />
+      <File Path="/rtl/afdx_665_format_engine.v" />
+      <File Path="/rtl/afdx_665_header.v" />
+      <File Path="/rtl/afdx_665_package_loader.v" />
+      <File Path="/rtl/afdx_ber_oid_codec.v" />
+      <File Path="/rtl/afdx_ber_primitive_codec.v" />
+      <File Path="/rtl/afdx_business_tx_varlen.v" />
+      <File Path="/rtl/afdx_datagram_core.v" />
+      <File Path="/rtl/afdx_datagram_rx.v" />
+      <File Path="/rtl/afdx_datagram_tx.v" />
+      <File Path="/rtl/afdx_defense_ai_csr.v" />
+      <File Path="/rtl/afdx_defense_control.v" />
+      <File Path="/rtl/afdx_defense_gate.v" />
+      <File Path="/rtl/afdx_degraded_dual_gmii_tx_bridge.v" />
+      <File Path="/rtl/afdx_dual_gmii_tx_bridge.v" />
+      <File Path="/rtl/afdx_eth_ipv4_udp_parser.v" />
+      <File Path="/rtl/afdx_frame_builder.v" />
+      <File Path="/rtl/afdx_frame_builder_cfg.v" />
+      <File Path="/rtl/afdx_frame_builder_varlen_cfg.v" />
+      <File Path="/rtl/afdx_gmii_tx_top.v" />
+      <File Path="/rtl/afdx_load_rtc_services.v" />
+      <File Path="/rtl/afdx_m6a_integration.v" />
+      <File Path="/rtl/afdx_m6b_integration.v" />
+      <File Path="/rtl/afdx_m6c_integration.v" />
+      <File Path="/rtl/afdx_m6d_integration.v" />
+      <File Path="/rtl/afdx_m6e_02a_boundary.v" />
+      <File Path="/rtl/afdx_m6e_integration.v" />
+      <File Path="/rtl/afdx_m6e_management_rx.v" />
+      <File Path="/rtl/afdx_m6e_management_top.v" />
+      <File Path="/rtl/afdx_m6e_udp_rx_buffer.v" />
+      <File Path="/rtl/afdx_m6f_system_top.v" />
+      <File Path="/rtl/afdx_management_telemetry.v" />
+      <File Path="/rtl/afdx_mib_register_bank.v" />
+      <File Path="/rtl/afdx_mimic_quorum_gate.v" />
+      <File Path="/rtl/afdx_multi_loader_client_plane.v" />
+      <File Path="/rtl/afdx_network_services.v" />
+      <File Path="/rtl/afdx_package_network_services.v" />
+      <File Path="/rtl/afdx_payload_commit_buffer.v" />
+      <File Path="/rtl/afdx_port_config_bank.v" />
+      <File Path="/rtl/afdx_redundant_tx_fork.v" />
+      <File Path="/rtl/afdx_redundant_tx_fork_degraded.v" />
+      <File Path="/rtl/afdx_rtc_ntp.v" />
+      <File Path="/rtl/afdx_rx_config_bank.v" />
+      <File Path="/rtl/afdx_rx_dual_arbiter.v" />
+      <File Path="/rtl/afdx_rx_dual_frontend.v" />
+      <File Path="/rtl/afdx_rx_frame_parser.v" />
+      <File Path="/rtl/afdx_rx_frontend.v" />
+      <File Path="/rtl/afdx_rx_payload_frame_arbiter.v" />
+      <File Path="/rtl/afdx_rx_redundancy_decision_core.v" />
+      <File Path="/rtl/afdx_rx_redundancy_eliminator.v" />
+      <File Path="/rtl/afdx_sec_engine.v" />
+      <File Path="/rtl/afdx_sec_events.v" />
+      <File Path="/rtl/afdx_sec_frame_queue.v" />
+      <File Path="/rtl/afdx_sec_policy.v" />
+      <File Path="/rtl/afdx_sec_replay.v" />
+      <File Path="/rtl/afdx_sec_sha256.v" />
+      <File Path="/rtl/afdx_sec_time_monitor.v" />
+      <File Path="/rtl/afdx_security_plugin.v" />
+      <File Path="/rtl/afdx_sequence_integrity.v" />
+      <File Path="/rtl/afdx_service_domain_table.v" />
+      <File Path="/rtl/afdx_service_frame_builder.v" />
+      <File Path="/rtl/afdx_service_gmii.v" />
+      <File Path="/rtl/afdx_shared_rx_demux.v" />
+      <File Path="/rtl/afdx_shared_tx_mux.v" />
+      <File Path="/rtl/afdx_snmp_extended.v" />
+      <File Path="/rtl/afdx_snmp_mac.v" />
+      <File Path="/rtl/afdx_snmp_profile_decoder.v" />
+      <File Path="/rtl/afdx_snmp_request_decoder.v" />
+      <File Path="/rtl/afdx_snmp_response_builder.v" />
+      <File Path="/rtl/afdx_snmp_transaction.v" />
+      <File Path="/rtl/afdx_snmp_version_gate.v" />
+      <File Path="/rtl/afdx_snmp_wire.v" />
+      <File Path="/rtl/afdx_standard_mib_bank.v" />
+      <File Path="/rtl/afdx_tftp_client.v" />
+      <File Path="/rtl/afdx_timebase.v" />
+      <File Path="/rtl/afdx_tx_ctrl.v" />
+      <File Path="/rtl/afdx_tx_engine.v" />
+      <File Path="/rtl/afdx_tx_engine_cfg.v" />
+      <File Path="/rtl/afdx_tx_engine_m4.v" />
+      <File Path="/rtl/afdx_vl_identifier.v" />
+      <File Path="/rtl/bag_regulator.v" />
+      <File Path="/rtl/counter.v" />
+      <File Path="/rtl/gmii_fault_injector.v" />
+      <File Path="/rtl/gmii_rx_adapter.v" />
+      <File Path="/rtl/gmii_tx_adapter_60.v" />
+      <File Path="/rtl/gmii_tx_adapter_varlen.v" />
+      <File Path="/rtl/ipv4_checksum.v" />
+      <File Path="/rtl/m4_metrics_monitor.v" />
+      <File Path="/rtl/m4_payload_adapter.v" />
+      <File Path="/rtl/m4_vl_net_mapper.v" />
+      <File Path="/rtl/multi_vl_dual_gmii_tx_degraded.v" />
+      <File Path="/rtl/multi_vl_dual_gmii_tx_selectable.v" />
+      <File Path="/rtl/multi_vl_gmii_tx_rr.v" />
+      <File Path="/rtl/multi_vl_gmii_tx_selectable.v" />
+      <File Path="/rtl/multi_vl_tx_control.v" />
+      <File Path="/rtl/multi_vl_tx_control_selectable.v" />
+      <File Path="/rtl/per_vl_bag_regulator.v" />
+      <File Path="/rtl/per_vl_fifo.v" />
+      <File Path="/rtl/per_vl_seq_generator.v" />
+      <File Path="/rtl/redundancy_integrity_monitor.v" />
+      <File Path="/rtl/seq_generator.v" />
+      <File Path="/rtl/vl_bag_regulator.v" />
+      <File Path="/rtl/vl_config.v" />
+      <File Path="/rtl/vl_config_pkg.v" />
+      <File Path="/rtl/vl_fifo.v" />
+      <File Path="/rtl/vl_scheduler_bag_aware.v" />
+      <File Path="/rtl/vl_scheduler_fp.v" />
+      <File Path="/rtl/vl_scheduler_rr.v" />
+      <File Path="/rtl/vl_scheduler_selectable.v" />
+      <File Path="/aihw_plugin/rtl/afdx_ai_tcn_plugin.v" />
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/tb">
+      <File Path="/tb/model_foundation_peer.v" />
+      <File Path="/tb/model_foundation_system.v" />
+      <File Path="/tb/model_loader_ntp_peer.v" />
+      <File Path="/tb/model_reference_rx_filter.v" />
+      <File Path="/tb/model_security_baseline.v" />
+      <File Path="/tb/model_security_plugin.v" />
+      <File Path="/tb/model_security_rx_filter.v" />
+      <File Path="/tb/tb_foundation_shared_joint.v" />
+      <File Path="/tb/tb_integration_subvl_mac.v" />
+      <File Path="/tb/tb_integration_multi_services.v" />
+      <File Path="/tb/tb_mimic_quorum.v" />
+      <File Path="/tb/tb_review_tftp_budget.v" />
+      <File Path="/tb/tb_review_control_budget.v" />
+      <File Path="/tb/tb_review_rtc_mac.v" />
+      <File Path="/tb/tb_review_8port.v" />
+      <File Path="/tb/tb_defense_live.v" />
+      <File Path="/tb/tb_defense_boundary.v" />
+      <File Path="/tb/tb_security_bypass.v" />
+      <File Path="/tb/tb_security_core_multi.v" />
+      <File Path="/tb/tb_security_plugin.v" />
+      <File Path="/tb/tb_security_sha.v" />
+    </FileSet>
+  </FileSets>
+  <Runs>
+    <Run Id="synth_1" Type="Synthesis" SrcSet="sources_1" ConstrsSet="constrs_1" State="current" Parent="" Configuration="">
+      <Option Id="Compilation Flow">Classic Flow</Option>
+      <Option Id="Device">EQ6HL130</Option>
+      <Option Id="IPRepositories" />
+      <Option Id="LanguageVersion">VERILOG_2001</Option>
+      <Option Id="OutOfDate">1</Option>
+      <Option Id="Package">CSG484_H</Option>
+      <Option Id="Series">eHiChip6</Option>
+      <Option Id="TargetLanguage">VERILOG</Option>
+      <Option Id="TopModule">AFDX_defense_top</Option>
+    </Run>
+    <Run Id="imple_1" Type="Implementation" SrcSet="sources_1" ConstrsSet="constrs_1" State="current" Parent="" Configuration="" SynthRun="synth_1">
+      <Option Id="Manufacturer" />
+      <Option Id="ManufacturerSeries" />
+      <Option Id="OutOfDate">1</Option>
+    </Run>
+  </Runs>
+  <PRFlow>
+    <PartitionDefs />
+    <PRConfigurations />
+  </PRFlow>
+</Project>

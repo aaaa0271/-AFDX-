@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "source": "synthetic",
+  "window_id": "agent-ab_conflict",
+  "window_duration_s": 0.06010600409877021,
+  "scope": {
+    "clock_hz": 12500000,
+    "link_mbps": 100,
+    "security_mode": 2
+  },
+  "metrics": {
+    "observed_pps": 3194.3564187779434,
+    "mean_frame_bytes": 512.6770833333334,
+    "frame_size_cv": 0.12355705775633097,
+    "arrival_cv": 0.8324105011912464,
+    "ab_unpaired_ratio": 0.02099609375,
+    "ab_payload_mismatch_ratio": 0.107666015625,
+    "fcs_error_ratio": 0.001220703125,
+    "queue_overflow_ratio": 0.0,
+    "latency_p95_us": 124.81151023764977,
+    "ntp_rtt_ms": 2.4284497355753865,
+    "ntp_offset_abs_ms": 0.6702652031075914,
+    "clock_step_abs_ms": 0.024812056764048213,
+    "loader_progress_ratio": 0.119140625,
+    "loader_retry_ratio": 0.022216796875,
+    "fragment_orphan_ratio": 0.008056640625,
+    "management_fraction": 0.01513671875,
+    "active_context_ratio": 0.228759765625,
+    "sha_jobs_per_1k_frames": 0.0
+  }
+}

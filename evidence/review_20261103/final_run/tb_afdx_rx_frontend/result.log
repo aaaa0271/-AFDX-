@@ -1,0 +1,249 @@
+# do run.do
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Copying C:/modeltech64_2020.4/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:39:27 on Nov 03,2026
+# vlog -vlog01compat -work work "+incdir+C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb" "+incdir+C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/aihw_plugin/rtl" C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_615a_control_tftp.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_615a_download.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_615a_process_engine.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_615a_tftp_error.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_615a_upload_control.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_665_format_engine.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_665_header.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_665_package_loader.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/AFDX_basic_top.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_ber_oid_codec.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_ber_primitive_codec.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_business_tx_varlen.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/AFDX_competition_top.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_datagram_core.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_datagram_rx.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_datagram_tx.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_defense_ai_csr.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_defense_control.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_defense_gate.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/AFDX_defense_top.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_degraded_dual_gmii_tx_bridge.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_dual_gmii_tx_bridge.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_eth_ipv4_udp_parser.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_frame_builder.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_frame_builder_cfg.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_frame_builder_varlen_cfg.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_gmii_tx_top.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/AFDX_legacy_top.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_load_rtc_services.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_m6a_integration.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_m6b_integration.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_m6c_integration.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_m6d_integration.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_m6e_02a_boundary.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_m6e_integration.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_m6e_management_rx.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_m6e_management_top.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_m6e_udp_rx_buffer.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_m6f_system_top.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_management_telemetry.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_mib_register_bank.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_mimic_quorum_gate.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_multi_loader_client_plane.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_network_services.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_package_network_services.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_payload_commit_buffer.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_port_config_bank.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_redundant_tx_fork.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_redundant_tx_fork_degraded.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_rtc_ntp.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_rx_config_bank.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_rx_dual_arbiter.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_rx_dual_frontend.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_rx_frame_parser.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_rx_frontend.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_rx_payload_frame_arbiter.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_rx_redundancy_decision_core.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_rx_redundancy_eliminator.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_sec_engine.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_sec_events.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_sec_frame_queue.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_sec_policy.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_sec_replay.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_sec_sha256.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_sec_time_monitor.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/AFDX_security_8port_top.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_security_plugin.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/AFDX_security_plugin_top.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_sequence_integrity.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_service_domain_table.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_service_frame_builder.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_service_gmii.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_shared_rx_demux.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_shared_tx_mux.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_snmp_extended.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_snmp_mac.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_snmp_profile_decoder.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_snmp_request_decoder.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_snmp_response_builder.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_snmp_transaction.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_snmp_version_gate.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_snmp_wire.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_standard_mib_bank.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_tftp_client.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_timebase.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/AFDX_top.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_tx_ctrl.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_tx_engine.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_tx_engine_cfg.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_tx_engine_m4.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_vl_identifier.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/bag_regulator.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/counter.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/gmii_fault_injector.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/gmii_rx_adapter.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/gmii_tx_adapter_60.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/gmii_tx_adapter_varlen.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/ipv4_checksum.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/m4_metrics_monitor.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/m4_payload_adapter.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/m4_vl_net_mapper.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/multi_vl_dual_gmii_tx_degraded.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/multi_vl_dual_gmii_tx_selectable.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/multi_vl_gmii_tx_rr.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/multi_vl_gmii_tx_selectable.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/multi_vl_tx_control.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/multi_vl_tx_control_selectable.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/per_vl_bag_regulator.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/per_vl_fifo.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/per_vl_seq_generator.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/redundancy_integrity_monitor.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/seq_generator.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/vl_bag_regulator.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/vl_config.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/vl_config_pkg.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/vl_fifo.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/vl_scheduler_bag_aware.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/vl_scheduler_fp.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/vl_scheduler_rr.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/vl_scheduler_selectable.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/aihw_plugin/rtl/afdx_ai_tcn_plugin.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/model_foundation_peer.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/model_foundation_system.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/model_loader_ntp_peer.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/model_reference_rx_filter.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/model_security_baseline.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/model_security_plugin.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/model_security_rx_filter.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v 
+# -- Compiling module afdx_615a_control_tftp
+# -- Compiling module afdx_615a_download
+# -- Compiling module afdx_615a_process_engine
+# -- Compiling module afdx_615a_tftp_error
+# -- Compiling module afdx_615a_upload_control
+# -- Compiling module afdx_665_format_engine
+# -- Compiling module afdx_665_header
+# -- Compiling module afdx_665_package_loader
+# -- Compiling module AFDX_basic_top
+# -- Compiling module afdx_ber_oid_codec
+# -- Compiling module afdx_ber_primitive_codec
+# -- Compiling module afdx_business_tx_varlen
+# -- Compiling module AFDX_competition_top
+# -- Compiling module afdx_datagram_core
+# -- Compiling module afdx_datagram_rx
+# -- Compiling module afdx_datagram_tx
+# -- Compiling module afdx_defense_ai_csr
+# -- Compiling module afdx_defense_control
+# -- Compiling module afdx_defense_gate
+# -- Compiling module AFDX_defense_top
+# -- Compiling module afdx_degraded_dual_gmii_tx_bridge
+# -- Compiling module afdx_dual_gmii_tx_bridge
+# -- Compiling module afdx_eth_ipv4_udp_parser
+# -- Compiling module afdx_frame_builder
+# -- Compiling module afdx_frame_builder_cfg
+# -- Compiling module afdx_frame_builder_varlen_cfg
+# -- Compiling module afdx_gmii_tx_top
+# -- Compiling module AFDX_legacy_top
+# -- Compiling module afdx_load_rtc_services
+# -- Compiling module afdx_m6a_integration
+# -- Compiling module afdx_m6b_integration
+# -- Compiling module afdx_m6c_integration
+# -- Compiling module afdx_m6d_integration
+# -- Compiling module afdx_m6e_02a_boundary
+# -- Compiling module afdx_m6e_integration
+# -- Compiling module afdx_m6e_management_rx
+# -- Compiling module afdx_m6e_management_top
+# -- Compiling module afdx_m6e_udp_rx_buffer
+# -- Compiling module afdx_m6f_system_top
+# -- Compiling module afdx_management_telemetry
+# -- Compiling module afdx_mib_register_bank
+# -- Compiling module afdx_mimic_quorum_gate
+# -- Compiling module afdx_multi_loader_client_plane
+# -- Compiling module afdx_service_domain_tx_mux
+# -- Compiling module afdx_network_services
+# -- Compiling module afdx_package_network_services
+# -- Compiling module afdx_payload_commit_buffer
+# -- Compiling module afdx_port_config_bank
+# -- Compiling module afdx_redundant_tx_fork
+# -- Compiling module afdx_redundant_tx_fork_degraded
+# -- Compiling module afdx_rtc_ntp
+# -- Compiling module afdx_ntp_tx_timestamp
+# -- Compiling module afdx_rx_config_bank
+# -- Compiling module afdx_rx_dual_arbiter
+# -- Compiling module afdx_rx_dual_frontend
+# -- Compiling module afdx_rx_frame_parser
+# -- Compiling module afdx_rx_frontend
+# -- Compiling module afdx_rx_payload_frame_arbiter
+# -- Compiling module afdx_rx_redundancy_decision_core
+# -- Compiling module afdx_rx_redundancy_eliminator
+# -- Compiling module afdx_sec_engine
+# -- Compiling module afdx_sec_events
+# -- Compiling module afdx_sec_frame_queue
+# -- Compiling module afdx_sec_policy
+# -- Compiling module afdx_sec_replay
+# -- Compiling module afdx_sec_sha256
+# -- Compiling module afdx_sec_time_monitor
+# -- Compiling module AFDX_security_8port_top
+# -- Compiling module afdx_demo_controller
+# -- Compiling module afdx_security_plugin
+# -- Compiling module AFDX_security_plugin_top
+# -- Compiling module afdx_sequence_integrity
+# -- Compiling module afdx_service_domain_table
+# -- Compiling module afdx_service_domain_config
+# -- Compiling module afdx_service_frame_builder
+# -- Compiling module afdx_service_gmii
+# -- Compiling module afdx_shared_rx_demux
+# -- Compiling module afdx_shared_tx_mux
+# -- Compiling module afdx_snmp_extended
+# -- Compiling module afdx_snmp_mac
+# -- Compiling module afdx_snmp_profile_decoder
+# -- Compiling module afdx_snmp_request_decoder
+# -- Compiling module afdx_snmp_response_builder
+# -- Compiling module afdx_snmp_transaction
+# -- Compiling module afdx_snmp_version_gate
+# -- Compiling module afdx_snmp_wire
+# -- Compiling module afdx_standard_mib_bank
+# -- Compiling module afdx_tftp_client
+# -- Compiling module afdx_timebase
+# -- Compiling module AFDX_top
+# -- Compiling module afdx_tx_ctrl
+# -- Compiling module afdx_tx_engine
+# -- Compiling module afdx_tx_engine_cfg
+# -- Compiling module afdx_tx_engine_m4
+# -- Compiling module afdx_vl_identifier
+# -- Compiling module bag_regulator
+# -- Compiling module counter
+# -- Compiling module gmii_fault_injector
+# -- Compiling module gmii_rx_adapter
+# -- Compiling module gmii_tx_adapter_60
+# -- Compiling module gmii_tx_adapter_varlen
+# -- Compiling module ipv4_checksum
+# -- Compiling module m4_metrics_monitor
+# -- Compiling module m4_payload_adapter
+# -- Compiling module m4_vl_net_mapper
+# -- Compiling module multi_vl_dual_gmii_tx_degraded
+# -- Compiling module multi_vl_dual_gmii_tx_selectable
+# -- Compiling module multi_vl_gmii_tx_rr
+# -- Compiling module multi_vl_gmii_tx_selectable
+# -- Compiling module multi_vl_tx_control
+# -- Compiling module multi_vl_tx_control_selectable
+# -- Compiling module per_vl_bag_regulator
+# -- Compiling module per_vl_fifo
+# -- Compiling module per_vl_seq_generator
+# -- Compiling module redundancy_integrity_monitor
+# -- Compiling module seq_generator
+# -- Compiling module vl_bag_regulator
+# -- Compiling module vl_config
+# -- Compiling module vl_fifo
+# -- Compiling module vl_scheduler_bag_aware
+# -- Compiling module vl_scheduler_fp
+# -- Compiling module vl_scheduler_rr
+# -- Compiling module vl_scheduler_selectable
+# -- Compiling module afdx_ai_tcn_plugin
+# -- Compiling module model_foundation_peer
+# -- Compiling module model_foundation_system
+# -- Compiling module model_loader_ntp_peer
+# -- Compiling module model_reference_rx_filter
+# -- Compiling module model_security_baseline
+# -- Compiling module model_security_plugin
+# -- Compiling module model_reference_rx_filter
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/model_security_rx_filter.v(5): (vlog-2275) Existing module 'model_reference_rx_filter' at C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/model_reference_rx_filter.v(4) will be overwritten.
+# -- Compiling module tb_afdx_rx_frontend
+# 
+# Top level modules:
+# 	afdx_615a_process_engine
+# 	afdx_665_format_engine
+# 	AFDX_basic_top
+# 	AFDX_defense_top
+# 	afdx_gmii_tx_top
+# 	AFDX_legacy_top
+# 	afdx_network_services
+# 	AFDX_security_8port_top
+# 	afdx_service_domain_table
+# 	afdx_snmp_version_gate
+# 	afdx_standard_mib_bank
+# 	afdx_timebase
+# 	AFDX_top
+# 	afdx_tx_engine
+# 	counter
+# 	m4_metrics_monitor
+# 	multi_vl_dual_gmii_tx_degraded
+# 	multi_vl_dual_gmii_tx_selectable
+# 	multi_vl_gmii_tx_rr
+# 	multi_vl_gmii_tx_selectable
+# 	model_foundation_system
+# 	model_loader_ntp_peer
+# 	model_security_baseline
+# 	model_security_plugin
+# 	tb_afdx_rx_frontend
+# End time: 16:39:30 on Nov 03,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 1
+# vsim -c -voptargs="+acc" -onfinish stop -t 1ps -lib work tb_afdx_rx_frontend 
+# Start time: 16:39:30 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 69, found 44.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2718) [TFMPC] - Missing connection for port 'commit_overflow_error'.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2718) [TFMPC] - Missing connection for port 'seq_psn_after'.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2718) [TFMPC] - Missing connection for port 'seq_psn_before'.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2718) [TFMPC] - Missing connection for port 'seq_sequence_error'.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2718) [TFMPC] - Missing connection for port 'seq_duplicate_error'.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2718) [TFMPC] - Missing connection for port 'seq_single_loss'.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2718) [TFMPC] - Missing connection for port 'seq_reset_sequence'.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2718) [TFMPC] - Missing connection for port 'seq_first_frame'.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2718) [TFMPC] - Missing connection for port 'rx_error_code'.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2718) [TFMPC] - Missing connection for port 'rx_vl_id'.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2718) [TFMPC] - Missing connection for port 'rx_vl_index'.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2718) [TFMPC] - Missing connection for port 'rx_reject'.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2718) [TFMPC] - Missing connection for port 'rx_accept'.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2718) [TFMPC] - Missing connection for port 'rx_result_valid'.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2718) [TFMPC] - Missing connection for port 'length_whitelist_error'.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2718) [TFMPC] - Missing connection for port 'udp_whitelist_error'.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2718) [TFMPC] - Missing connection for port 'ip_whitelist_error'.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2718) [TFMPC] - Missing connection for port 'disabled_vl_error'.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2718) [TFMPC] - Missing connection for port 'unknown_vl_error'.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2718) [TFMPC] - Missing connection for port 'vl_lmax'.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2718) [TFMPC] - Missing connection for port 'vl_id'.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2718) [TFMPC] - Missing connection for port 'vl_index'.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2718) [TFMPC] - Missing connection for port 'vl_reject'.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2718) [TFMPC] - Missing connection for port 'vl_accept'.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(114): (vopt-2718) [TFMPC] - Missing connection for port 'vl_result_valid'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "gmii_rx_adapter(fast)".
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_rx_frontend.v(266): (vopt-2685) [TFMPC] - Too few port connections for 'u_gmii_rx_adapter'.  Expected 20, found 18.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_rx_frontend.v(266): (vopt-2718) [TFMPC] - Missing connection for port 'm_timestamp'.
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_rx_frontend.v(266): (vopt-2718) [TFMPC] - Missing connection for port 'gmii_timestamp'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "afdx_payload_commit_buffer(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=29.
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.tb_afdx_rx_frontend(fast)
+# Loading work.afdx_rx_frontend(fast)
+# Loading work.gmii_rx_adapter(fast)
+# Loading work.afdx_eth_ipv4_udp_parser(fast)
+# Loading work.afdx_vl_identifier(fast)
+# Loading work.afdx_payload_commit_buffer(fast)
+# Loading work.afdx_sequence_integrity(fast)
+# TEST 1 RAW GMII -> ETH/IP/UDP PASS
+# TEST 2 BAD FCS BLOCKED AT M3-A PASS
+# TEST 3 BAD IPV4 CHECKSUM BLOCKED AT M3-B PASS
+# TEST 4 COMMIT BUFFER BACKPRESSURE PASS
+# 
+# ==============================================
+# M3-A -> M3-B RX INTEGRATION TEST PASS
+# RAW GMII FRAME VERIFIED
+# M3-A FCS GATE VERIFIED
+# M3-B ETH/IP/UDP PARSE VERIFIED
+# UDP PAYLOAD VERIFIED
+# RAW AFDX SEQUENCE VERIFIED
+# BAD FCS BLOCKED AT M3-A
+# BAD IPV4 CHECKSUM BLOCKED AT M3-B
+# COMMIT BUFFER BACKPRESSURE VERIFIED
+# ==============================================
+# 
+# ** Note: $finish    : C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v(1510)
+#    Time: 6275 ns  Iteration: 1  Instance: /tb_afdx_rx_frontend
+# Break in Module tb_afdx_rx_frontend at C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v line 1510
+# Stopped at C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_rx_frontend.v line 1510
+# 0
+# End time: 16:39:32 on Nov 03,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 29

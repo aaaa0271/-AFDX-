@@ -1,0 +1,178 @@
+{
+  "schema": 1,
+  "agent_version": "1.0.0",
+  "agent_type": "model_guided_bounded_tool_agent",
+  "case_id": "live_defense",
+  "case_sha256": "e1afe233dabcafd7b4f279deaae26ce0e4122ea3c20479d34e4006f0926f4331",
+  "stop_reason": "complete",
+  "steps": 6,
+  "integrity_ok": true,
+  "trace_tail": "54efdba0216e7ba72e9d98be34f8d4dbc159b9f3564a80701373a4abb923d00b",
+  "current_focus": "link_degradation",
+  "model": {
+    "schema": 1,
+    "model_version": "afdx-synthetic-ml-1.0",
+    "source": "rtl_capture",
+    "window_id": "live_defense_28",
+    "status": "ok",
+    "confirmed_cause": null,
+    "candidates": [
+      {
+        "cause": "link_degradation",
+        "name": "链路质量下降",
+        "vote_share": 0.36020745753260125
+      },
+      {
+        "cause": "time_anomaly",
+        "name": "授时异常",
+        "vote_share": 0.25850711788211783
+      },
+      {
+        "cause": "normal",
+        "name": "正常",
+        "vote_share": 0.16544247505134194
+      }
+    ],
+    "vote_share_is_calibrated_probability": false,
+    "anomaly": {
+      "score": 0.5882233953423376,
+      "threshold": 0.5940978766120143,
+      "outside_normal_model": false
+    },
+    "out_of_support_features": [
+      "ab_unpaired_ratio",
+      "ntp_offset_abs_ms"
+    ],
+    "observed_evidence": [
+      {
+        "metric": "ab_unpaired_ratio",
+        "value": 1
+      },
+      {
+        "metric": "fcs_error_ratio",
+        "value": 0.0
+      },
+      {
+        "metric": "loader_retry_ratio",
+        "value": 0.0
+      }
+    ],
+    "suggested_tools": [
+      "check_measurement_coverage",
+      "summarize_events"
+    ],
+    "latency_forecast": {
+      "target": "next_window_latency_p95_us",
+      "estimate": 19.945945853182874,
+      "interval": [
+        9.033830257428924,
+        42.72534081485349
+      ],
+      "nominal_scenario_coverage": 0.9,
+      "calibration_unit": "scenario_max_of_10_windows",
+      "is_timing_guarantee": false,
+      "usable_within_training_support": true
+    },
+    "training_domain": "synthetic abstract_shared_inspector_v1",
+    "hardware_validation": false,
+    "conclusion": "信息不足、分布超界或模型意见不明确，需要补充证据。",
+    "status_model": "out_of_support"
+  },
+  "verified_local_findings": [],
+  "invalidated_findings": [],
+  "confirmed_physical_root_cause": null,
+  "experiments": [
+    {
+      "tool": "rtl_experiment",
+      "status": "unavailable",
+      "domain": "model_counterfactual",
+      "result_file": "tools/05_rtl_experiment.json"
+    }
+  ],
+  "policy": {
+    "status": "advice_only",
+    "advice": "核对链路、线缆与副本缺失；保持CRC及双网检查。",
+    "writes_applied": false,
+    "requires_trusted_configuration_flow": true,
+    "complete_policy_validation": false
+  },
+  "validation_status": "partial",
+  "tool_trace": [
+    {
+      "seq": 1,
+      "tool": "inventory",
+      "args": {},
+      "reason": "先固定证据清单、来源和测量覆盖。",
+      "status": "ok",
+      "result_file": "tools/01_inventory.json"
+    },
+    {
+      "seq": 2,
+      "tool": "diagnose",
+      "args": {},
+      "reason": "调用三个固定模型，建立候选与时延/异常参考。",
+      "status": "ok",
+      "result_file": "tools/02_diagnose.json"
+    },
+    {
+      "seq": 3,
+      "tool": "parse_frames",
+      "args": {
+        "artifact_id": "live_frame"
+      },
+      "reason": "按当前候选和可用证据选择独立检查：link_degradation",
+      "status": "ok",
+      "result_file": "tools/03_parse_frames.json"
+    },
+    {
+      "seq": 4,
+      "tool": "search_logs",
+      "args": {
+        "keywords": [
+          "queue",
+          "timeout",
+          "error"
+        ]
+      },
+      "reason": "定位日志原文、文件哈希和行号。",
+      "status": "ok",
+      "result_file": "tools/04_search_logs.json"
+    },
+    {
+      "seq": 5,
+      "tool": "rtl_experiment",
+      "args": {
+        "profile": "ab_integrity"
+      },
+      "reason": "针对当前焦点执行固定RTL机制实验及正常恢复对照。",
+      "status": "unavailable",
+      "result_file": "tools/05_rtl_experiment.json"
+    },
+    {
+      "seq": 6,
+      "tool": "propose_policy",
+      "args": {
+        "cause": "link_degradation"
+      },
+      "reason": "根据证据及实验生成可审查建议，并校验允许修改范围。",
+      "status": "advice_only",
+      "result_file": "tools/06_propose_policy.json"
+    }
+  ],
+  "unresolved": [
+    "本次未运行全部RTL实验；缺少工具或已关闭。",
+    "模型低把握或超出支持范围，保留候选。",
+    "真实设备根因仍需现场测量确认。",
+    "三个模型来自合成数据，异常召回及复合故障识别仍有限。"
+  ],
+  "errors": [],
+  "configuration_writes_applied": false,
+  "board_validation": false,
+  "source_files": {
+    "case.json": "bfcd05c53a5d55777d0529e2750d76fd93f52f8dbb6baca759b1fcba4642f726",
+    "capture.bin": "d05a7d956d5ee183fa037c4d95cc40d54cfea6196067f12209f9c5ba5ae04d7c",
+    "defense.log": "dacc63049f95eedeb1ac65e642e32f724048c01ecf0c5f4fca58c7155ccf8f36",
+    "observation.json": "f40459c06250e406486901d0ea3640da0548d9853ca62603fd8bf275fa680e5c"
+  },
+  "completion": "completed"
+}

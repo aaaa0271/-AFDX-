@@ -1,0 +1,15 @@
+{
+  "name": "tb_security_core_multi",
+  "suite": "security",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_security_core_multi/result.log",
+  "audits": [
+    {
+      "script": "verify_multi_service_wire.py",
+      "exit": 0,
+      "log": "tb_security_core_multi/verify_multi_service_wire.log"
+    }
+  ],
+  "issues": []
+}

@@ -1,0 +1,3 @@
+# Runtime and host tests; protocol-only packages are vendored.
+numpy>=1.26,<3
+cryptography>=43

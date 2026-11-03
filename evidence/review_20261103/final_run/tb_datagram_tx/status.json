@@ -1,0 +1,15 @@
+{
+  "name": "tb_datagram_tx",
+  "suite": "datagram",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_datagram_tx/result.log",
+  "audits": [
+    {
+      "script": "verify_tx.py",
+      "exit": 0,
+      "log": "tb_datagram_tx/verify_tx.log"
+    }
+  ],
+  "issues": []
+}

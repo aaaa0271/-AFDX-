@@ -1,0 +1,62 @@
+{
+  "document": "615A/665 process and format sidecar matrix",
+  "purpose": "Reproducible simulation evidence for the bounded project models; not an exhaustive normative clause certification.",
+  "selected_baseline": {
+    "615A": "ARINC615A-4",
+    "665": "ARINC665-5",
+    "source_status": "Edition identifiers selected for review. Normative full text is not retained in this project; clause closure remains OPEN."
+  },
+  "source_registry": [
+    {
+      "id": "SRC-615A-4-CATALOG",
+      "uri": "https://saemobilus.sae.org/standards/arinc615a-4-615a-4-software-data-loader-using-ethernet-interface",
+      "role": "Public catalog metadata only",
+      "normative": false
+    },
+    {
+      "id": "SRC-665-5-CATALOG",
+      "uri": "https://saemobilus.sae.org/standards/arinc665-5-665-5-loadable-software-standards",
+      "role": "Public catalog metadata only",
+      "normative": false
+    },
+    {
+      "id": "SRC-PROJECT-RTL",
+      "path": "rtl/afdx_615a_process_engine.v; rtl/afdx_615a_control_tftp.v; rtl/afdx_615a_upload_control.v; rtl/afdx_665_format_engine.v; rtl/afdx_665_header.v; rtl/afdx_665_package_loader.v",
+      "role": "Implementation under test",
+      "normative": false
+    }
+  ],
+  "status_vocabulary": {
+    "PASS_MODEL": "The stated bounded behavior was observed in ModelSim.",
+    "OPEN_NORMATIVE": "No complete controlled normative clause source and/or no full semantic implementation evidence.",
+    "NOT_CLAIMED": "Explicitly outside the sidecar claim boundary; no automatic pass."
+  },
+  "process_matrix": [
+    {"id":"615A-P-001","component":"rtl/afdx_615a_process_engine.v","behavior":"information accepted then completed","test_id":"process_information","model_status":"PASS_MODEL","normative_status":"OPEN_NORMATIVE","notes":"Abstract operation/status model; no complete wire codec."},
+    {"id":"615A-P-002","component":"rtl/afdx_615a_process_engine.v","behavior":"download accepted and completes on final data","test_id":"process_download_complete","model_status":"PASS_MODEL","normative_status":"OPEN_NORMATIVE","notes":"Data-valid/data-last contract only."},
+    {"id":"615A-P-003","component":"rtl/afdx_615a_process_engine.v","behavior":"deferred/wait then completion","test_id":"process_wait","model_status":"PASS_MODEL","normative_status":"OPEN_NORMATIVE","notes":"Single bounded wait transition; no standard timer/status report grammar."},
+    {"id":"615A-P-004","component":"rtl/afdx_615a_process_engine.v","behavior":"error response and reason propagation","test_id":"process_error","model_status":"PASS_MODEL","normative_status":"OPEN_NORMATIVE","notes":"Project error-code input, not a complete 615A error taxonomy."},
+    {"id":"615A-P-005","component":"rtl/afdx_615a_process_engine.v","behavior":"abort while busy","test_id":"process_abort","model_status":"PASS_MODEL","normative_status":"OPEN_NORMATIVE","notes":"Local abort input; remote wire abort is not proven here."},
+    {"id":"615A-P-006","component":"rtl/afdx_615a_process_engine.v","behavior":"multi-header/multi-target/multi-part count admission","test_id":"process_cardinality","model_status":"PASS_MODEL","normative_status":"OPEN_NORMATIVE","notes":"Counts and bounds are checked; semantic header/target/part contents are not decoded."},
+    {"id":"615A-P-007","component":"rtl/afdx_615a_control_tftp.v + rtl/afdx_615a_upload_control.v","behavior":"LUI/LUR/LUS control path and negative upload status","test_id":"existing_615a_control","model_status":"PASS_MODEL","normative_status":"OPEN_NORMATIVE","notes":"Existing project bench replayed by sidecar runner; A4 marker is not a complete revision claim."},
+    {"id":"615A-P-008","component":"rtl/afdx_665_package_loader.v","behavior":"real TFTP header/data transfer, CRC failure, atomic rollback","test_id":"existing_package_loader","model_status":"PASS_MODEL","normative_status":"OPEN_NORMATIVE","notes":"Existing standalone and network benches replayed; limited format profile."}
+  ],
+  "format_matrix": [
+    {"id":"665-F-001","component":"rtl/afdx_665_format_engine.v","behavior":"format 0x8002 accepted in abstract edition 4 profile","test_id":"format_8002_ed4","model_status":"PASS_MODEL","normative_status":"OPEN_NORMATIVE"},
+    {"id":"665-F-002","component":"rtl/afdx_665_format_engine.v","behavior":"format 0x8002 accepted in abstract edition 5 profile","test_id":"format_8002_ed5","model_status":"PASS_MODEL","normative_status":"OPEN_NORMATIVE"},
+    {"id":"665-F-003","component":"rtl/afdx_665_format_engine.v","behavior":"format 0x8004 with bounded support/UDD counts","test_id":"format_8004_ed5_features","model_status":"PASS_MODEL","normative_status":"OPEN_NORMATIVE","notes":"Feature count admission only; full support/UDD grammar is not implemented."},
+    {"id":"665-F-004","component":"rtl/afdx_665_format_engine.v","behavior":"edition and format identifier rejection","test_id":"format_revision_rejection","model_status":"PASS_MODEL","normative_status":"OPEN_NORMATIVE","notes":"Model accepts only abstract edition values 4 and 5 and IDs 0x8002/0x8004."},
+    {"id":"665-F-005","component":"rtl/afdx_665_format_engine.v","behavior":"header/target/part/support/UDD cardinality rejection","test_id":"format_cardinality_rejection","model_status":"PASS_MODEL","normative_status":"OPEN_NORMATIVE"},
+    {"id":"665-F-006","component":"rtl/afdx_665_format_engine.v","behavior":"CRC/reserved/name/duplicate rejection","test_id":"format_integrity_rejection","model_status":"PASS_MODEL","normative_status":"OPEN_NORMATIVE"},
+    {"id":"665-F-007","component":"rtl/afdx_665_header.v","behavior":"bounded 0x8002/0x8004 header parse, hardware match, per-file metadata","test_id":"existing_package_loader","model_status":"PASS_MODEL","normative_status":"OPEN_NORMATIVE","notes":"MAX_FILES=4, MAX_HEADER=2048, data metadata constraints; support/UDD are deliberately rejected in this profile."},
+    {"id":"665-F-008","component":"rtl/afdx_665_package_loader.v","behavior":"multi-file fetch, file CRC16, load CRC32, double-bank atomic commit","test_id":"existing_package_loader_network","model_status":"PASS_MODEL","normative_status":"OPEN_NORMATIVE","notes":"Known-answer A.LUP/B.LUP profile only; not all legal package combinations."}
+  ],
+  "uncovered_or_not_claimed": [
+    "Complete 615A information/download operation codecs and all status/report file grammars",
+    "Remote abort, wait, retry, timeout and recovery semantics across independent peers",
+    "Complete 665 support files, UDD, batch/list/media-set combinations and all legal field encodings",
+    "All normative clauses and cross-revision deltas for 615A/665",
+    "Official ARINC/SAE certification, hardware/electrical/PHY qualification",
+    "Any claim that public catalog metadata substitutes for the controlled standard text"
+  ]
+}

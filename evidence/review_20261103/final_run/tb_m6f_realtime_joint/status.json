@@ -1,0 +1,9 @@
+{
+  "name": "tb_m6f_realtime_joint",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_m6f_realtime_joint/result.log",
+  "audits": [],
+  "issues": []
+}

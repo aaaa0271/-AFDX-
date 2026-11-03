@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "source": "synthetic",
+  "window_id": "agent-fragment_pressure",
+  "window_duration_s": 0.20813672932636704,
+  "scope": {
+    "clock_hz": 12500000,
+    "link_mbps": 100,
+    "security_mode": 2
+  },
+  "metrics": {
+    "observed_pps": 922.4705347365002,
+    "mean_frame_bytes": 492.0520833333333,
+    "frame_size_cv": 0.10385630051246397,
+    "arrival_cv": 1.5386814366438575,
+    "ab_unpaired_ratio": 0.005615234375,
+    "ab_payload_mismatch_ratio": 0.000244140625,
+    "fcs_error_ratio": 0.0029296875,
+    "queue_overflow_ratio": 0.0,
+    "latency_p95_us": 110.27009440751047,
+    "ntp_rtt_ms": 0.9435400141957608,
+    "ntp_offset_abs_ms": 0.26357153137781303,
+    "clock_step_abs_ms": 0.016398750640525057,
+    "loader_progress_ratio": 0.734619140625,
+    "loader_retry_ratio": 0.044921875,
+    "fragment_orphan_ratio": 0.15087890625,
+    "management_fraction": 0.068115234375,
+    "active_context_ratio": 0.62744140625,
+    "sha_jobs_per_1k_frames": 0.0
+  }
+}

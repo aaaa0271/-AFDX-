@@ -1,0 +1,4 @@
+AFDX Agent Plugin 1.0.0
+Model-guided bounded tool agent, CPU + optional Icarus RTL experiments
+Frozen upstream: AFDX_Security_Plugin and AFDX_AI_Plugin
+No original architecture or model-weight modifications

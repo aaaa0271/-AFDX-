@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "maximum_array_differences": {
+    "K1": 0.0,
+    "b1": 0.0,
+    "K2": 0.0,
+    "b2": 0.0,
+    "W": 0.0,
+    "b": 0.0,
+    "mean": 0.0,
+    "scale": 0.0,
+    "reg_mean": 0.0,
+    "reg_scale": 0.0,
+    "thresholds": 0.0,
+    "radius": 0.0
+  },
+  "source_weights_overwritten": false,
+  "scope": "same NumPy/sklearn runtime; no cross-platform bit identity promise"
+}

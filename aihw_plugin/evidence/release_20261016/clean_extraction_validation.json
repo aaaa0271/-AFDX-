@@ -1,0 +1,42 @@
+{
+  "model_tag": "1a5cdc59",
+  "status": "PASS",
+  "stages": [
+    {
+      "name": "release_integrity",
+      "status": "PASS",
+      "seconds": 0.12140636099957192
+    },
+    {
+      "name": "host_tests",
+      "status": "PASS",
+      "seconds": 0.26582655100082775
+    },
+    {
+      "name": "export_reproduction",
+      "status": "PASS",
+      "seconds": 0.1656679699999586
+    },
+    {
+      "name": "holdout_freeze",
+      "status": "PASS",
+      "seconds": 0.11533944199982216
+    },
+    {
+      "name": "quantization",
+      "status": "PASS",
+      "seconds": 0.2155689600003825
+    },
+    {
+      "name": "rtl_validation",
+      "status": "PASS",
+      "seconds": 50.60602791099973
+    },
+    {
+      "name": "demo",
+      "status": "PASS",
+      "seconds": 0.36637401999996655
+    }
+  ],
+  "physical_board_validation": false
+}

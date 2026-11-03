@@ -1,0 +1,15 @@
+{
+  "name": "tb_datagram_mac_joint",
+  "suite": "datagram",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_datagram_mac_joint/result.log",
+  "audits": [
+    {
+      "script": "verify_shared.py",
+      "exit": 0,
+      "log": "tb_datagram_mac_joint/verify_shared.log"
+    }
+  ],
+  "issues": []
+}

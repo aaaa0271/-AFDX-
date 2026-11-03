@@ -1,0 +1,32 @@
+[
+  {
+    "name": "overview",
+    "exit": 0,
+    "pass_marker": true,
+    "script": "evidence/historical_20261030/overview/open_overview.do"
+  },
+  {
+    "name": "tcn",
+    "exit": 0,
+    "pass_marker": true,
+    "script": "evidence/historical_20261030/tcn/open_wave.do"
+  },
+  {
+    "name": "tb_datagram_mac_joint",
+    "exit": 0,
+    "pass_marker": true,
+    "script": "evidence/historical_20261030/captures/tb_datagram_mac_joint/open_wave.do"
+  },
+  {
+    "name": "tb_mimic_quorum",
+    "exit": 0,
+    "pass_marker": true,
+    "script": "evidence/historical_20261030/captures/tb_mimic_quorum/open_wave.do"
+  },
+  {
+    "name": "tb_security_plugin",
+    "exit": 0,
+    "pass_marker": true,
+    "script": "evidence/historical_20261030/captures/tb_security_plugin/open_wave.do"
+  }
+]

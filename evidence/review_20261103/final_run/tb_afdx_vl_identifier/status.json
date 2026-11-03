@@ -1,0 +1,9 @@
+{
+  "name": "tb_afdx_vl_identifier",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_afdx_vl_identifier/result.log",
+  "audits": [],
+  "issues": []
+}

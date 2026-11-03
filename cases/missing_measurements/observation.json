@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "source": "synthetic",
+  "window_id": "agent-missing_measurements",
+  "window_duration_s": 0.1122232010553786,
+  "scope": {
+    "clock_hz": 12500000,
+    "link_mbps": 100,
+    "security_mode": 2
+  },
+  "metrics": {
+    "observed_pps": 1710.8761663753833,
+    "queue_overflow_ratio": 0.0
+  }
+}

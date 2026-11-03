@@ -1,0 +1,9 @@
+{
+  "name": "tb_completion_package_network",
+  "suite": "completion",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_completion_package_network/result.log",
+  "audits": [],
+  "issues": []
+}

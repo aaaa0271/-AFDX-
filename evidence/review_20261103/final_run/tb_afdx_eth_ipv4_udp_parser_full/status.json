@@ -1,0 +1,9 @@
+{
+  "name": "tb_afdx_eth_ipv4_udp_parser_full",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_afdx_eth_ipv4_udp_parser_full/result.log",
+  "audits": [],
+  "issues": []
+}

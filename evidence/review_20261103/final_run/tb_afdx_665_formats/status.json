@@ -1,0 +1,9 @@
+{
+  "name": "tb_afdx_665_formats",
+  "suite": "experimental",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_afdx_665_formats/result.log",
+  "audits": [],
+  "issues": []
+}

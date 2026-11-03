@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "target": "SIM",
+  "hardware_id": "00000000000000000000000000000000000000000000000000000000004d4953",
+  "nonce": "abababababababababababababababababababababababababababababababab",
+  "version": 7,
+  "issued_at": 100,
+  "expires_at": 200,
+  "files": [
+    {
+      "name": "EMPTY.LUP",
+      "length": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "SMALL.LUP",
+      "length": 3,
+      "sha256": "a497359a7a01fd57ac3b4895f289bcfc496bd168996dc3b0351b4acf07c81f83"
+    },
+    {
+      "name": "EXACT.LUP",
+      "length": 512,
+      "sha256": "06bfb795792399bc1d51735b9fcc4c903d27975bfbad6a0aa7f879d1402d6fab"
+    },
+    {
+      "name": "MAX.LUP",
+      "length": 4096,
+      "sha256": "f1a9116e64d5ce92231de69558afad42a650a9ee7ad481813ef824d649784ded"
+    }
+  ]
+}

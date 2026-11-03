@@ -1,0 +1,9 @@
+{
+  "name": "tb_afdx_service_domains",
+  "suite": "experimental",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_afdx_service_domains/result.log",
+  "audits": [],
+  "issues": []
+}

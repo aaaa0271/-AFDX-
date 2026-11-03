@@ -1,0 +1,32 @@
+[
+  {
+    "file": "docs/screenshots/AI模块定点TCN计算周期与数值一致性验证.png",
+    "sha256": "5b59ec33bb36e0c11db148055e367975eb4f197b252facc989ba0b702df0d4de",
+    "source_version": "pre-review source supplied by team; exact generating run not established",
+    "status": "historical screenshot, not proof of the modified host runtime"
+  },
+  {
+    "file": "docs/screenshots/作品全貌.png",
+    "sha256": "80aa7d9bda41907e83a4e15c2c74505abc9526dbcff7eb9ef1cee4825420e58d",
+    "source_version": "pre-review source supplied by team; exact generating run not established",
+    "status": "historical screenshot, not proof of the modified host runtime"
+  },
+  {
+    "file": "docs/screenshots/拟态语义裁决与原安全拒绝优先.png",
+    "sha256": "46c91025f17eb824e2b1b4bb1334eb3c7a05420922506f037d0835fe519cbf75",
+    "source_version": "pre-review source supplied by team; exact generating run not established",
+    "status": "historical screenshot, not proof of the modified host runtime"
+  },
+  {
+    "file": "docs/screenshots/核心通信与基础服务.png",
+    "sha256": "9dd776452658f0a6d494757901163c8253410ae7485c84b17db089b789f62f13",
+    "source_version": "pre-review source supplied by team; exact generating run not established",
+    "status": "historical screenshot, not proof of the modified host runtime"
+  },
+  {
+    "file": "docs/screenshots/网安模块加载内容绑定与异常拒绝验证.png",
+    "sha256": "b348d2eb4ecd69dd8c8040af8e44a336bb68d86ab93928acea13e47c6ef3cc72",
+    "source_version": "pre-review source supplied by team; exact generating run not established",
+    "status": "historical screenshot, not proof of the modified host runtime"
+  }
+]

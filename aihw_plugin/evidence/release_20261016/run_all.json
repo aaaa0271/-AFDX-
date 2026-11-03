@@ -1,0 +1,42 @@
+{
+  "model_tag": "1a5cdc59",
+  "status": "PASS",
+  "stages": [
+    {
+      "name": "host_tests",
+      "status": "PASS",
+      "seconds": 0.32503950000045734
+    },
+    {
+      "name": "export_reproduction",
+      "status": "PASS",
+      "seconds": 0.16632003200084
+    },
+    {
+      "name": "holdout_freeze",
+      "status": "PASS",
+      "seconds": 0.16606191200025933
+    },
+    {
+      "name": "quantization",
+      "status": "PASS",
+      "seconds": 0.3183451969998714
+    },
+    {
+      "name": "rtl_validation",
+      "status": "PASS",
+      "seconds": 48.38598126799934
+    },
+    {
+      "name": "demo",
+      "status": "PASS",
+      "seconds": 0.36834275599994726
+    },
+    {
+      "name": "training_reproduction",
+      "status": "PASS",
+      "seconds": 9.30192950000037
+    }
+  ],
+  "physical_board_validation": false
+}

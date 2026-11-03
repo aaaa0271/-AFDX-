@@ -1,0 +1,468 @@
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Elaboration
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+    Info: Copyright (C) 1991-2013 Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, Altera MegaCore Function License 
+    Info: Agreement, or other applicable license agreement, including, 
+    Info: without limitation, that your use is for the sole purpose of 
+    Info: programming logic devices manufactured by Altera and sold by 
+    Info: Altera or its authorized distributors.  Please refer to the 
+    Info: applicable agreement for further details.
+    Info: Processing started: Sun Oct 25 11:51:38 2026
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off --analysis_and_elaboration ARINC
+Info (11104): Parallel Compilation has detected 20 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 14 of the 14 physical processors detected instead.
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_615a_control_tftp.v
+    Info (12023): Found entity 1: afdx_615a_control_tftp
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_615a_process_engine.v
+    Info (12023): Found entity 1: afdx_615a_process_engine
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_615a_tftp_error.v
+    Info (12023): Found entity 1: afdx_615a_tftp_error
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_615a_upload_control.v
+    Info (12023): Found entity 1: afdx_615a_upload_control
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_665_format_engine.v
+    Info (12023): Found entity 1: afdx_665_format_engine
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_665_header.v
+    Info (12023): Found entity 1: afdx_665_header
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_665_package_loader.v
+    Info (12023): Found entity 1: afdx_665_package_loader
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_basic_top.v
+    Info (12023): Found entity 1: AFDX_basic_top
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_ber_oid_codec.v
+    Info (12023): Found entity 1: afdx_ber_oid_codec
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_ber_primitive_codec.v
+    Info (12023): Found entity 1: afdx_ber_primitive_codec
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_business_tx_varlen.v
+    Info (12023): Found entity 1: afdx_business_tx_varlen
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_competition_top.v
+    Info (12023): Found entity 1: AFDX_competition_top
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_datagram_core.v
+    Info (12023): Found entity 1: afdx_datagram_core
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_datagram_rx.v
+    Info (12023): Found entity 1: afdx_datagram_rx
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_datagram_tx.v
+    Info (12023): Found entity 1: afdx_datagram_tx
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_defense_ai_csr.v
+    Info (12023): Found entity 1: afdx_defense_ai_csr
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_defense_control.v
+    Info (12023): Found entity 1: afdx_defense_control
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_defense_gate.v
+    Info (12023): Found entity 1: afdx_defense_gate
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_defense_top.v
+    Info (12023): Found entity 1: AFDX_defense_top
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_degraded_dual_gmii_tx_bridge.v
+    Info (12023): Found entity 1: afdx_degraded_dual_gmii_tx_bridge
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_dual_gmii_tx_bridge.v
+    Info (12023): Found entity 1: afdx_dual_gmii_tx_bridge
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_eth_ipv4_udp_parser.v
+    Info (12023): Found entity 1: afdx_eth_ipv4_udp_parser
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_frame_builder.v
+    Info (12023): Found entity 1: afdx_frame_builder
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_frame_builder_cfg.v
+    Info (12023): Found entity 1: afdx_frame_builder_cfg
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_frame_builder_varlen_cfg.v
+    Info (12023): Found entity 1: afdx_frame_builder_varlen_cfg
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_gmii_tx_top.v
+    Info (12023): Found entity 1: afdx_gmii_tx_top
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_legacy_top.v
+    Info (12023): Found entity 1: AFDX_legacy_top
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_load_rtc_services.v
+    Info (12023): Found entity 1: afdx_load_rtc_services
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_m6a_integration.v
+    Info (12023): Found entity 1: afdx_m6a_integration
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_m6b_integration.v
+    Info (12023): Found entity 1: afdx_m6b_integration
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_m6c_integration.v
+    Info (12023): Found entity 1: afdx_m6c_integration
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_m6d_integration.v
+    Info (12023): Found entity 1: afdx_m6d_integration
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_m6e_02a_boundary.v
+    Info (12023): Found entity 1: afdx_m6e_02a_boundary
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_m6e_integration.v
+    Info (12023): Found entity 1: afdx_m6e_integration
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_m6e_management_rx.v
+    Info (12023): Found entity 1: afdx_m6e_management_rx
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_m6e_management_top.v
+    Info (12023): Found entity 1: afdx_m6e_management_top
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_m6e_udp_rx_buffer.v
+    Info (12023): Found entity 1: afdx_m6e_udp_rx_buffer
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_m6f_system_top.v
+    Info (12023): Found entity 1: afdx_m6f_system_top
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_management_telemetry.v
+    Info (12023): Found entity 1: afdx_management_telemetry
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_mib_register_bank.v
+    Info (12023): Found entity 1: afdx_mib_register_bank
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_mimic_quorum_gate.v
+    Info (12023): Found entity 1: afdx_mimic_quorum_gate
+Info (12021): Found 2 design units, including 2 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_multi_loader_client_plane.v
+    Info (12023): Found entity 1: afdx_multi_loader_client_plane
+    Info (12023): Found entity 2: afdx_service_domain_tx_mux
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_network_services.v
+    Info (12023): Found entity 1: afdx_network_services
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_package_network_services.v
+    Info (12023): Found entity 1: afdx_package_network_services
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_payload_commit_buffer.v
+    Info (12023): Found entity 1: afdx_payload_commit_buffer
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_port_config_bank.v
+    Info (12023): Found entity 1: afdx_port_config_bank
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_redundant_tx_fork.v
+    Info (12023): Found entity 1: afdx_redundant_tx_fork
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_redundant_tx_fork_degraded.v
+    Info (12023): Found entity 1: afdx_redundant_tx_fork_degraded
+Info (12021): Found 2 design units, including 2 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_rtc_ntp.v
+    Info (12023): Found entity 1: afdx_rtc_ntp
+    Info (12023): Found entity 2: afdx_ntp_tx_timestamp
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_rx_config_bank.v
+    Info (12023): Found entity 1: afdx_rx_config_bank
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_rx_dual_arbiter.v
+    Info (12023): Found entity 1: afdx_rx_dual_arbiter
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_rx_dual_frontend.v
+    Info (12023): Found entity 1: afdx_rx_dual_frontend
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_rx_frame_parser.v
+    Info (12023): Found entity 1: afdx_rx_frame_parser
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_rx_frontend.v
+    Info (12023): Found entity 1: afdx_rx_frontend
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_rx_payload_frame_arbiter.v
+    Info (12023): Found entity 1: afdx_rx_payload_frame_arbiter
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_rx_redundancy_decision_core.v
+    Info (12023): Found entity 1: afdx_rx_redundancy_decision_core
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_rx_redundancy_eliminator.v
+    Info (12023): Found entity 1: afdx_rx_redundancy_eliminator
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_sec_engine.v
+    Info (12023): Found entity 1: afdx_sec_engine
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_sec_events.v
+    Info (12023): Found entity 1: afdx_sec_events
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_sec_frame_queue.v
+    Info (12023): Found entity 1: afdx_sec_frame_queue
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_sec_policy.v
+    Info (12023): Found entity 1: afdx_sec_policy
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_sec_replay.v
+    Info (12023): Found entity 1: afdx_sec_replay
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_sec_sha256.v
+    Info (12023): Found entity 1: afdx_sec_sha256
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_sec_time_monitor.v
+    Info (12023): Found entity 1: afdx_sec_time_monitor
+Info (12021): Found 2 design units, including 2 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_security_8port_top.v
+    Info (12023): Found entity 1: AFDX_security_8port_top
+    Info (12023): Found entity 2: afdx_demo_controller
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_security_plugin.v
+    Info (12023): Found entity 1: afdx_security_plugin
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_security_plugin_top.v
+    Info (12023): Found entity 1: AFDX_security_plugin_top
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_sequence_integrity.v
+    Info (12023): Found entity 1: afdx_sequence_integrity
+Info (12021): Found 2 design units, including 2 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_service_domain_table.v
+    Info (12023): Found entity 1: afdx_service_domain_table
+    Info (12023): Found entity 2: afdx_service_domain_config
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_service_frame_builder.v
+    Info (12023): Found entity 1: afdx_service_frame_builder
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_service_gmii.v
+    Info (12023): Found entity 1: afdx_service_gmii
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_shared_rx_demux.v
+    Info (12023): Found entity 1: afdx_shared_rx_demux
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_shared_tx_mux.v
+    Info (12023): Found entity 1: afdx_shared_tx_mux
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_snmp_extended.v
+    Info (12023): Found entity 1: afdx_snmp_extended
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_snmp_mac.v
+    Info (12023): Found entity 1: afdx_snmp_mac
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_snmp_profile_decoder.v
+    Info (12023): Found entity 1: afdx_snmp_profile_decoder
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_snmp_request_decoder.v
+    Info (12023): Found entity 1: afdx_snmp_request_decoder
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_snmp_response_builder.v
+    Info (12023): Found entity 1: afdx_snmp_response_builder
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_snmp_transaction.v
+    Info (12023): Found entity 1: afdx_snmp_transaction
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_snmp_version_gate.v
+    Info (12023): Found entity 1: afdx_snmp_version_gate
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_snmp_wire.v
+    Info (12023): Found entity 1: afdx_snmp_wire
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_standard_mib_bank.v
+    Info (12023): Found entity 1: afdx_standard_mib_bank
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_tftp_client.v
+    Info (12023): Found entity 1: afdx_tftp_client
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_timebase.v
+    Info (12023): Found entity 1: afdx_timebase
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_top.v
+    Info (12023): Found entity 1: AFDX_top
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_tx_ctrl.v
+    Info (12023): Found entity 1: afdx_tx_ctrl
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_tx_engine.v
+    Info (12023): Found entity 1: afdx_tx_engine
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_tx_engine_cfg.v
+    Info (12023): Found entity 1: afdx_tx_engine_cfg
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_tx_engine_m4.v
+    Info (12023): Found entity 1: afdx_tx_engine_m4
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/afdx_vl_identifier.v
+    Info (12023): Found entity 1: afdx_vl_identifier
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/bag_regulator.v
+    Info (12023): Found entity 1: bag_regulator
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/counter.v
+    Info (12023): Found entity 1: counter
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/gmii_fault_injector.v
+    Info (12023): Found entity 1: gmii_fault_injector
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/gmii_rx_adapter.v
+    Info (12023): Found entity 1: gmii_rx_adapter
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/gmii_tx_adapter_60.v
+    Info (12023): Found entity 1: gmii_tx_adapter_60
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/gmii_tx_adapter_varlen.v
+    Info (12023): Found entity 1: gmii_tx_adapter_varlen
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/ipv4_checksum.v
+    Info (12023): Found entity 1: ipv4_checksum
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/m4_metrics_monitor.v
+    Info (12023): Found entity 1: m4_metrics_monitor
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/m4_payload_adapter.v
+    Info (12023): Found entity 1: m4_payload_adapter
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/m4_vl_net_mapper.v
+    Info (12023): Found entity 1: m4_vl_net_mapper
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/multi_vl_dual_gmii_tx_degraded.v
+    Info (12023): Found entity 1: multi_vl_dual_gmii_tx_degraded
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/multi_vl_dual_gmii_tx_selectable.v
+    Info (12023): Found entity 1: multi_vl_dual_gmii_tx_selectable
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/multi_vl_gmii_tx_rr.v
+    Info (12023): Found entity 1: multi_vl_gmii_tx_rr
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/multi_vl_gmii_tx_selectable.v
+    Info (12023): Found entity 1: multi_vl_gmii_tx_selectable
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/multi_vl_tx_control.v
+    Info (12023): Found entity 1: multi_vl_tx_control
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/multi_vl_tx_control_selectable.v
+    Info (12023): Found entity 1: multi_vl_tx_control_selectable
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/per_vl_bag_regulator.v
+    Info (12023): Found entity 1: per_vl_bag_regulator
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/per_vl_fifo.v
+    Info (12023): Found entity 1: per_vl_fifo
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/per_vl_seq_generator.v
+    Info (12023): Found entity 1: per_vl_seq_generator
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/redundancy_integrity_monitor.v
+    Info (12023): Found entity 1: redundancy_integrity_monitor
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/seq_generator.v
+    Info (12023): Found entity 1: seq_generator
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/vl_bag_regulator.v
+    Info (12023): Found entity 1: vl_bag_regulator
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/vl_config.v
+    Info (12023): Found entity 1: vl_config
+Info (12021): Found 0 design units, including 0 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/vl_config_pkg.v
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/vl_fifo.v
+    Info (12023): Found entity 1: vl_fifo
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/vl_scheduler_bag_aware.v
+    Info (12023): Found entity 1: vl_scheduler_bag_aware
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/vl_scheduler_fp.v
+    Info (12023): Found entity 1: vl_scheduler_fp
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/vl_scheduler_rr.v
+    Info (12023): Found entity 1: vl_scheduler_rr
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/rtl/vl_scheduler_selectable.v
+    Info (12023): Found entity 1: vl_scheduler_selectable
+Warning (10259): Verilog HDL error at afdx_ai_tcn_plugin.v(89): constant value overflow
+Info (12021): Found 1 design units, including 1 entities, in source file /users/lenovo/desktop/fpga/afdx_competition_final/aihw_plugin/rtl/afdx_ai_tcn_plugin.v
+    Info (12023): Found entity 1: afdx_ai_tcn_plugin
+Info (12127): Elaborating entity "AFDX_top" for the top level hierarchy
+Info (12128): Elaborating entity "AFDX_competition_top" for hierarchy "AFDX_competition_top:u_end_system"
+Warning (10036): Verilog HDL or VHDL warning at AFDX_competition_top.v(134): object "service_tx_done" assigned a value but never read
+Warning (10230): Verilog HDL assignment warning at AFDX_competition_top.v(98): truncated value with size 32 to match size of target (4)
+Warning (10240): Verilog HDL Always Construct warning at AFDX_competition_top.v(97): inferring latch(es) for variable "sap_i", which holds its previous value in one or more paths through the always construct
+Info (12128): Elaborating entity "afdx_port_config_bank" for hierarchy "AFDX_competition_top:u_end_system|afdx_port_config_bank:u_port_configuration"
+Info (12128): Elaborating entity "afdx_rx_config_bank" for hierarchy "AFDX_competition_top:u_end_system|afdx_rx_config_bank:u_rx_configuration"
+Info (12128): Elaborating entity "afdx_datagram_core" for hierarchy "AFDX_competition_top:u_end_system|afdx_datagram_core:u_core"
+Info (12128): Elaborating entity "afdx_datagram_tx" for hierarchy "AFDX_competition_top:u_end_system|afdx_datagram_core:u_core|afdx_datagram_tx:tx"
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_tx.v(22): truncated value with size 32 to match size of target (16)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_tx.v(57): truncated value with size 32 to match size of target (2)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_tx.v(59): truncated value with size 32 to match size of target (2)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_tx.v(69): truncated value with size 32 to match size of target (16)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_tx.v(70): truncated value with size 32 to match size of target (6)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_tx.v(71): truncated value with size 32 to match size of target (16)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_tx.v(75): truncated value with size 32 to match size of target (2)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_tx.v(79): truncated value with size 32 to match size of target (16)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_tx.v(89): truncated value with size 32 to match size of target (16)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_tx.v(95): truncated value with size 32 to match size of target (16)
+Info (10264): Verilog HDL Case Statement information at afdx_datagram_tx.v(130): all case item expressions in this case statement are onehot
+Info (12128): Elaborating entity "gmii_tx_adapter_varlen" for hierarchy "AFDX_competition_top:u_end_system|afdx_datagram_core:u_core|afdx_datagram_tx:tx|gmii_tx_adapter_varlen:a"
+Info (12128): Elaborating entity "gmii_fault_injector" for hierarchy "AFDX_competition_top:u_end_system|afdx_datagram_core:u_core|gmii_fault_injector:fault"
+Info (12128): Elaborating entity "afdx_datagram_rx" for hierarchy "AFDX_competition_top:u_end_system|afdx_datagram_core:u_core|afdx_datagram_rx:rx"
+Warning (10036): Verilog HDL or VHDL warning at afdx_datagram_rx.v(44): object "ip_total" assigned a value but never read
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(39): truncated value with size 32 to match size of target (2)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(55): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(67): truncated value with size 32 to match size of target (2)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(92): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(94): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(95): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(123): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(125): truncated value with size 32 to match size of target (4)
+Info (10264): Verilog HDL Case Statement information at afdx_datagram_rx.v(156): all case item expressions in this case statement are onehot
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(159): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(161): truncated value with size 32 to match size of target (16)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(26): truncated value with size 32 to match size of target (16)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(170): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(171): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(173): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(174): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(175): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(176): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(178): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(118): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(182): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(183): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(113): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(193): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(199): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(206): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(213): truncated value with size 32 to match size of target (16)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(213): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(214): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at afdx_datagram_rx.v(216): truncated value with size 32 to match size of target (4)
+Info (10264): Verilog HDL Case Statement information at afdx_datagram_rx.v(231): all case item expressions in this case statement are onehot
+Info (12128): Elaborating entity "afdx_rx_redundancy_eliminator" for hierarchy "AFDX_competition_top:u_end_system|afdx_datagram_core:u_core|afdx_datagram_rx:rx|afdx_rx_redundancy_eliminator:integrity"
+Warning (10036): Verilog HDL or VHDL warning at afdx_rx_redundancy_eliminator.v(155): object "stale" assigned a value but never read
+Info (12128): Elaborating entity "redundancy_integrity_monitor" for hierarchy "AFDX_competition_top:u_end_system|afdx_datagram_core:u_core|redundancy_integrity_monitor:monitor"
+Info (12128): Elaborating entity "afdx_multi_loader_client_plane" for hierarchy "AFDX_competition_top:u_end_system|afdx_multi_loader_client_plane:MULTI_SERVICES.plane"
+Info (12128): Elaborating entity "afdx_service_domain_config" for hierarchy "AFDX_competition_top:u_end_system|afdx_multi_loader_client_plane:MULTI_SERVICES.plane|afdx_service_domain_config:configuration"
+Info (12128): Elaborating entity "afdx_ntp_tx_timestamp" for hierarchy "AFDX_competition_top:u_end_system|afdx_multi_loader_client_plane:MULTI_SERVICES.plane|afdx_ntp_tx_timestamp:LANES[0].ACTIVE.departure"
+Info (12128): Elaborating entity "afdx_shared_rx_demux" for hierarchy "AFDX_competition_top:u_end_system|afdx_multi_loader_client_plane:MULTI_SERVICES.plane|afdx_shared_rx_demux:LANES[0].ACTIVE.rx"
+Warning (10230): Verilog HDL assignment warning at afdx_shared_rx_demux.v(27): truncated value with size 32 to match size of target (11)
+Info (10264): Verilog HDL Case Statement information at afdx_shared_rx_demux.v(93): all case item expressions in this case statement are onehot
+Info (12128): Elaborating entity "afdx_eth_ipv4_udp_parser" for hierarchy "AFDX_competition_top:u_end_system|afdx_multi_loader_client_plane:MULTI_SERVICES.plane|afdx_shared_rx_demux:LANES[0].ACTIVE.rx|afdx_eth_ipv4_udp_parser:parser"
+Warning (10230): Verilog HDL assignment warning at afdx_eth_ipv4_udp_parser.v(949): truncated value with size 16 to match size of target (11)
+Info (12128): Elaborating entity "afdx_service_gmii" for hierarchy "AFDX_competition_top:u_end_system|afdx_multi_loader_client_plane:MULTI_SERVICES.plane|afdx_service_gmii:LANES[0].ACTIVE.mac"
+Info (12128): Elaborating entity "gmii_rx_adapter" for hierarchy "AFDX_competition_top:u_end_system|afdx_multi_loader_client_plane:MULTI_SERVICES.plane|afdx_service_gmii:LANES[0].ACTIVE.mac|gmii_rx_adapter:u_l2"
+Info (12128): Elaborating entity "afdx_service_frame_builder" for hierarchy "AFDX_competition_top:u_end_system|afdx_multi_loader_client_plane:MULTI_SERVICES.plane|afdx_service_gmii:LANES[0].ACTIVE.mac|afdx_service_frame_builder:u_builder"
+Info (12128): Elaborating entity "ipv4_checksum" for hierarchy "AFDX_competition_top:u_end_system|afdx_multi_loader_client_plane:MULTI_SERVICES.plane|afdx_service_gmii:LANES[0].ACTIVE.mac|afdx_service_frame_builder:u_builder|ipv4_checksum:u_ipv4_checksum"
+Info (12128): Elaborating entity "afdx_package_network_services" for hierarchy "AFDX_competition_top:u_end_system|afdx_multi_loader_client_plane:MULTI_SERVICES.plane|afdx_package_network_services:LANES[0].ACTIVE.client"
+Warning (10230): Verilog HDL assignment warning at afdx_package_network_services.v(61): truncated value with size 32 to match size of target (3)
+Info (12128): Elaborating entity "afdx_615a_control_tftp" for hierarchy "AFDX_competition_top:u_end_system|afdx_multi_loader_client_plane:MULTI_SERVICES.plane|afdx_package_network_services:LANES[0].ACTIVE.client|afdx_615a_control_tftp:control"
+Warning (10230): Verilog HDL assignment warning at afdx_615a_control_tftp.v(78): truncated value with size 32 to match size of target (16)
+Info (12128): Elaborating entity "afdx_615a_tftp_error" for hierarchy "AFDX_competition_top:u_end_system|afdx_multi_loader_client_plane:MULTI_SERVICES.plane|afdx_package_network_services:LANES[0].ACTIVE.client|afdx_615a_control_tftp:control|afdx_615a_tftp_error:error_decode"
+Warning (10230): Verilog HDL assignment warning at afdx_615a_tftp_error.v(18): truncated value with size 32 to match size of target (16)
+Warning (10230): Verilog HDL assignment warning at afdx_615a_tftp_error.v(30): truncated value with size 32 to match size of target (16)
+Warning (10240): Verilog HDL Always Construct warning at afdx_615a_tftp_error.v(11): inferring latch(es) for variable "i", which holds its previous value in one or more paths through the always construct
+Info (12128): Elaborating entity "afdx_615a_upload_control" for hierarchy "AFDX_competition_top:u_end_system|afdx_multi_loader_client_plane:MULTI_SERVICES.plane|afdx_package_network_services:LANES[0].ACTIVE.client|afdx_615a_upload_control:upload"
+Warning (10036): Verilog HDL or VHDL warning at afdx_615a_upload_control.v(25): object "part_length" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at afdx_615a_upload_control.v(25): object "part_number" assigned a value but never read
+Warning (10230): Verilog HDL assignment warning at afdx_615a_upload_control.v(50): truncated value with size 32 to match size of target (6)
+Warning (10230): Verilog HDL assignment warning at afdx_615a_upload_control.v(56): truncated value with size 32 to match size of target (6)
+Warning (10230): Verilog HDL assignment warning at afdx_615a_upload_control.v(70): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_615a_upload_control.v(73): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_615a_upload_control.v(75): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_615a_upload_control.v(83): truncated value with size 32 to match size of target (8)
+Warning (10240): Verilog HDL Always Construct warning at afdx_615a_upload_control.v(65): inferring latch(es) for variable "q", which holds its previous value in one or more paths through the always construct
+Warning (10230): Verilog HDL assignment warning at afdx_615a_upload_control.v(109): truncated value with size 32 to match size of target (3)
+Info (12128): Elaborating entity "afdx_665_package_loader" for hierarchy "AFDX_competition_top:u_end_system|afdx_multi_loader_client_plane:MULTI_SERVICES.plane|afdx_package_network_services:LANES[0].ACTIVE.client|afdx_665_package_loader:package_loader"
+Warning (10776): Verilog HDL warning at afdx_665_package_loader.v(51): variable ch in static task or function safe_name may have unintended latch behavior
+Info (12128): Elaborating entity "afdx_tftp_client" for hierarchy "AFDX_competition_top:u_end_system|afdx_multi_loader_client_plane:MULTI_SERVICES.plane|afdx_package_network_services:LANES[0].ACTIVE.client|afdx_665_package_loader:package_loader|afdx_tftp_client:tftp"
+Warning (10230): Verilog HDL assignment warning at afdx_tftp_client.v(81): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_tftp_client.v(84): truncated value with size 32 to match size of target (11)
+Warning (10230): Verilog HDL assignment warning at afdx_tftp_client.v(120): truncated value with size 32 to match size of target (11)
+Warning (10230): Verilog HDL assignment warning at afdx_tftp_client.v(121): truncated value with size 16 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at afdx_tftp_client.v(147): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at afdx_tftp_client.v(158): truncated value with size 16 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_tftp_client.v(159): truncated value with size 16 to match size of target (8)
+Info (12128): Elaborating entity "afdx_665_header" for hierarchy "AFDX_competition_top:u_end_system|afdx_multi_loader_client_plane:MULTI_SERVICES.plane|afdx_package_network_services:LANES[0].ACTIVE.client|afdx_665_package_loader:package_loader|afdx_665_header:header"
+Warning (10036): Verilog HDL or VHDL warning at afdx_665_header.v(40): object "scan_index" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at afdx_665_header.v(41): object "entry_start" assigned a value but never read
+Warning (10240): Verilog HDL Always Construct warning at afdx_665_header.v(61): inferring latch(es) for variable "j", which holds its previous value in one or more paths through the always construct
+Warning (10230): Verilog HDL assignment warning at afdx_665_header.v(95): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_665_header.v(140): truncated value with size 32 to match size of target (16)
+Warning (10230): Verilog HDL assignment warning at afdx_665_header.v(148): truncated value with size 32 to match size of target (16)
+Warning (10762): Verilog HDL Case Statement warning at afdx_665_header.v(133): can't check case statement for completeness because the case expression has too many possible states
+Warning (10230): Verilog HDL assignment warning at afdx_665_header.v(197): truncated value with size 32 to match size of target (6)
+Warning (10230): Verilog HDL assignment warning at afdx_665_header.v(214): truncated value with size 16 to match size of target (3)
+Warning (10230): Verilog HDL assignment warning at afdx_665_header.v(237): truncated value with size 32 to match size of target (16)
+Warning (10230): Verilog HDL assignment warning at afdx_665_header.v(239): truncated value with size 32 to match size of target (3)
+Info (12128): Elaborating entity "afdx_tftp_client" for hierarchy "AFDX_competition_top:u_end_system|afdx_multi_loader_client_plane:MULTI_SERVICES.plane|afdx_package_network_services:LANES[0].ACTIVE.client|afdx_tftp_client:reports"
+Warning (10230): Verilog HDL assignment warning at afdx_tftp_client.v(81): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_tftp_client.v(84): truncated value with size 32 to match size of target (11)
+Warning (10230): Verilog HDL assignment warning at afdx_tftp_client.v(120): truncated value with size 32 to match size of target (11)
+Warning (10230): Verilog HDL assignment warning at afdx_tftp_client.v(121): truncated value with size 16 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at afdx_tftp_client.v(147): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at afdx_tftp_client.v(158): truncated value with size 16 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_tftp_client.v(159): truncated value with size 16 to match size of target (8)
+Info (12128): Elaborating entity "afdx_rtc_ntp" for hierarchy "AFDX_competition_top:u_end_system|afdx_multi_loader_client_plane:MULTI_SERVICES.plane|afdx_package_network_services:LANES[0].ACTIVE.client|afdx_rtc_ntp:ntp"
+Warning (10230): Verilog HDL assignment warning at afdx_rtc_ntp.v(43): truncated value with size 65 to match size of target (64)
+Info (12128): Elaborating entity "afdx_service_domain_tx_mux" for hierarchy "AFDX_competition_top:u_end_system|afdx_multi_loader_client_plane:MULTI_SERVICES.plane|afdx_service_domain_tx_mux:merge"
+Warning (10230): Verilog HDL assignment warning at afdx_multi_loader_client_plane.v(164): truncated value with size 32 to match size of target (1)
+Warning (10230): Verilog HDL assignment warning at afdx_multi_loader_client_plane.v(169): truncated value with size 32 to match size of target (1)
+Info (12128): Elaborating entity "afdx_snmp_mac" for hierarchy "AFDX_competition_top:u_end_system|afdx_snmp_mac:u_management"
+Info (12128): Elaborating entity "afdx_service_gmii" for hierarchy "AFDX_competition_top:u_end_system|afdx_snmp_mac:u_management|afdx_service_gmii:mac"
+Info (12128): Elaborating entity "afdx_snmp_wire" for hierarchy "AFDX_competition_top:u_end_system|afdx_snmp_mac:u_management|afdx_snmp_wire:agent"
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_wire.v(55): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_wire.v(61): truncated value with size 32 to match size of target (8)
+Warning (10764): Verilog HDL warning at afdx_snmp_wire.v(63): converting signed shift amount to unsigned
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_wire.v(63): truncated value with size 32 to match size of target (8)
+Warning (10762): Verilog HDL Case Statement warning at afdx_snmp_wire.v(100): can't check case statement for completeness because the case expression has too many possible states
+Warning (10270): Verilog HDL Case Statement warning at afdx_snmp_wire.v(100): incomplete case statement has no default case item
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_wire.v(108): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_wire.v(113): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_wire.v(115): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_wire.v(119): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_wire.v(128): truncated value with size 32 to match size of target (5)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_wire.v(176): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_wire.v(204): truncated value with size 32 to match size of target (11)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_wire.v(228): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_wire.v(230): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_wire.v(231): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_wire.v(235): truncated value with size 32 to match size of target (8)
+Warning (10764): Verilog HDL warning at afdx_snmp_wire.v(236): converting signed shift amount to unsigned
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_wire.v(236): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_wire.v(253): truncated value with size 32 to match size of target (11)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_wire.v(261): truncated value with size 32 to match size of target (8)
+Info (12128): Elaborating entity "afdx_snmp_extended" for hierarchy "AFDX_competition_top:u_end_system|afdx_snmp_mac:u_management|afdx_snmp_wire:agent|afdx_snmp_extended:core"
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(42): truncated value with size 11 to match size of target (9)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(42): truncated value with size 32 to match size of target (9)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(43): truncated value with size 11 to match size of target (9)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(44): truncated value with size 8 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(45): truncated value with size 8 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(45): truncated value with size 5 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(46): truncated value with size 32 to match size of target (6)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(47): truncated value with size 11 to match size of target (5)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(47): truncated value with size 32 to match size of target (5)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(48): truncated value with size 32 to match size of target (2)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(49): truncated value with size 32 to match size of target (3)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(63): truncated value with size 32 to match size of target (3)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(77): truncated value with size 32 to match size of target (11)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(78): truncated value with size 32 to match size of target (11)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(79): truncated value with size 32 to match size of target (11)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(82): truncated value with size 32 to match size of target (11)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(85): truncated value with size 32 to match size of target (11)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(87): truncated value with size 32 to match size of target (11)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(103): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(120): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(129): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(137): truncated value with size 40 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(162): truncated value with size 8 to match size of target (2)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(168): truncated value with size 11 to match size of target (3)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(171): truncated value with size 11 to match size of target (3)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(175): truncated value with size 11 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(238): truncated value with size 32 to match size of target (11)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(247): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(261): truncated value with size 32 to match size of target (11)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(266): truncated value with size 32 to match size of target (11)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(267): truncated value with size 32 to match size of target (11)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(283): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(298): truncated value with size 32 to match size of target (11)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(299): truncated value with size 32 to match size of target (11)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(300): truncated value with size 32 to match size of target (11)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(303): truncated value with size 32 to match size of target (11)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(304): truncated value with size 32 to match size of target (11)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(305): truncated value with size 32 to match size of target (11)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(306): truncated value with size 32 to match size of target (11)
+Warning (10230): Verilog HDL assignment warning at afdx_snmp_extended.v(307): truncated value with size 32 to match size of target (11)
+Info (12128): Elaborating entity "afdx_shared_rx_demux" for hierarchy "AFDX_competition_top:u_end_system|afdx_shared_rx_demux:u_shared_rx"
+Warning (10230): Verilog HDL assignment warning at afdx_shared_rx_demux.v(27): truncated value with size 32 to match size of target (11)
+Info (10264): Verilog HDL Case Statement information at afdx_shared_rx_demux.v(93): all case item expressions in this case statement are onehot
+Info (12128): Elaborating entity "afdx_shared_tx_mux" for hierarchy "AFDX_competition_top:u_end_system|afdx_shared_tx_mux:u_shared_tx"
+Warning (10230): Verilog HDL assignment warning at afdx_shared_tx_mux.v(19): truncated value with size 32 to match size of target (2)
+Warning (10230): Verilog HDL assignment warning at afdx_shared_tx_mux.v(27): truncated value with size 32 to match size of target (2)
+Warning (10270): Verilog HDL Case Statement warning at afdx_shared_tx_mux.v(39): incomplete case statement has no default case item
+Warning (10230): Verilog HDL assignment warning at afdx_shared_tx_mux.v(47): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at afdx_shared_tx_mux.v(48): truncated value with size 32 to match size of target (8)
+Warning (12241): 4 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (144001): Generated suppressed messages file C:/Users/lenovo/Desktop/FPGA/AFDX_Competition_Final/report_20261020/evidence/elinx_8port/output/ARINC.map.smsg
+Info: Quartus II 64-Bit Analysis & Elaboration was successful. 0 errors, 159 warnings
+    Info: Peak virtual memory: 17232 megabytes
+    Info: Processing ended: Sun Oct 25 12:10:34 2026
+    Info: Elapsed time: 00:18:56
+    Info: Total CPU time (on all processors): 00:22:55

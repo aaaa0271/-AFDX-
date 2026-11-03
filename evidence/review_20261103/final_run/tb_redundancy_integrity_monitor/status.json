@@ -1,0 +1,9 @@
+{
+  "name": "tb_redundancy_integrity_monitor",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_redundancy_integrity_monitor/result.log",
+  "audits": [],
+  "issues": []
+}

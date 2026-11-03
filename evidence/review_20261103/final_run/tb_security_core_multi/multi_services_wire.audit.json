@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "a_frames": 36,
+  "b_frames": 36,
+  "independent_sequence_domains_per_network": 4,
+  "loaders": 2,
+  "clock_servers": 2,
+  "audited": [
+    "FCS",
+    "IP checksum",
+    "UDP lengths",
+    "MAC/IP/UDP routes",
+    "A/B equality",
+    "per-VL sequence",
+    "shared BAG",
+    "package RRQs",
+    "final LUS",
+    "NTP requests"
+  ]
+}

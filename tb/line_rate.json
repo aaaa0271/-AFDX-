@@ -1,0 +1,16 @@
+[
+  {
+    "case": 0,
+    "start": 0,
+    "count": 1200,
+    "frame_bytes": 72,
+    "ifg_bytes": 12
+  },
+  {
+    "case": 1,
+    "start": 172800,
+    "count": 32,
+    "frame_bytes": 1526,
+    "ifg_bytes": 12
+  }
+]

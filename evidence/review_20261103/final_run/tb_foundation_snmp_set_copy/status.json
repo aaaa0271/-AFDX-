@@ -1,0 +1,9 @@
+{
+  "name": "tb_foundation_snmp_set_copy",
+  "suite": "foundation",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_foundation_snmp_set_copy/result.log",
+  "audits": [],
+  "issues": []
+}

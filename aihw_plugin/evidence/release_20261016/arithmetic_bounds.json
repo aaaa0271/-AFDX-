@@ -1,0 +1,23 @@
+{
+  "accumulator_bits": 48,
+  "product_bits": 32,
+  "layers": {
+    "K1": {
+      "maximum_absolute_accumulator": 16099546062,
+      "minimum_signed_bits": 35
+    },
+    "K2": {
+      "maximum_absolute_accumulator": 21248164796,
+      "minimum_signed_bits": 36
+    },
+    "W": {
+      "maximum_absolute_accumulator": 11357811572,
+      "minimum_signed_bits": 35
+    }
+  },
+  "arbitrary_int16_inputs_supported_numerically": true,
+  "arbitrary_inputs_valid_for_diagnosis": false,
+  "pooling_maximum_sum": 262136,
+  "parameter_payload_bytes": 4004,
+  "formula_compute_cycles": 14035
+}

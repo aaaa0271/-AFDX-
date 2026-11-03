@@ -1,0 +1,230 @@
+{
+  "scope": "admission policy only; not a wire implementation claim",
+  "cases": [
+    {
+      "name": "v1_get",
+      "observed": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "v1_set",
+      "observed": [
+        0,
+        3,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "v1_bad_community",
+      "observed": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "v1_bad_pdu",
+      "observed": [
+        0,
+        4,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "v2c_get",
+      "observed": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "v2c_bulk",
+      "observed": [
+        1,
+        5,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "v2c_bad_community",
+      "observed": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        2
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "v2c_bad_pdu",
+      "observed": [
+        1,
+        6,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        2
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "v3_auth_priv",
+      "observed": [
+        3,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        3,
+        3
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "v3_auth_priv_bulk",
+      "observed": [
+        3,
+        5,
+        0,
+        1,
+        1,
+        1,
+        0,
+        3,
+        3
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "v3_no_auth",
+      "observed": [
+        3,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3,
+        3,
+        3
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "v3_no_priv",
+      "observed": [
+        3,
+        0,
+        0,
+        1,
+        0,
+        0,
+        3,
+        3,
+        3
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "v3_bad_pdu",
+      "observed": [
+        3,
+        6,
+        0,
+        1,
+        1,
+        0,
+        3,
+        3,
+        3
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "unknown_v2",
+      "observed": [
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "unknown_255",
+      "observed": [
+        255,
+        0,
+        1,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      "status": "PASS"
+    }
+  ]
+}

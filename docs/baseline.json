@@ -1,0 +1,159 @@
+{
+  "id": "AFDX-ES-SIM-BASELINE-20261009",
+  "version": 1,
+  "date": "2026-10-09",
+  "selection_authority": "User authorized selection of recognized formal AFDX standards; no competition-specific edition is required.",
+  "claim_target": "Applicable digital end-system requirements verified in eLinx/ModelSim, not issuance of an official certificate",
+  "core_standard": "ARINC664P7-1",
+  "standards": [
+    {
+      "id": "ARINC664P7-1",
+      "role": "Deterministic AFDX end-system core",
+      "publisher": "SAE ITC / ARINC",
+      "full_text_available": false,
+      "full_text_path": null,
+      "full_text_sha256": null,
+      "selection_date": "2026-10-09",
+      "source_access_status": "Selected edition identifier. Normative full text not retained/reviewed in this delivery."
+    },
+    {
+      "id": "ARINC664P2-3",
+      "role": "Ethernet physical/data-link companion; digital MAC provisions in scope",
+      "publisher": "SAE ITC / ARINC",
+      "full_text_available": false,
+      "full_text_path": null,
+      "full_text_sha256": null,
+      "selection_date": "2026-10-09",
+      "source_access_status": "Selected edition identifier. Normative full text not retained/reviewed in this delivery."
+    },
+    {
+      "id": "ARINC664P3-2",
+      "role": "Internet-based protocols and services",
+      "publisher": "SAE ITC / ARINC",
+      "full_text_available": false,
+      "full_text_path": null,
+      "full_text_sha256": null,
+      "selection_date": "2026-10-09",
+      "source_access_status": "Selected edition identifier. Normative full text not retained/reviewed in this delivery."
+    },
+    {
+      "id": "ARINC664P4-2",
+      "role": "Internet addressing structure",
+      "publisher": "SAE ITC / ARINC",
+      "full_text_available": false,
+      "full_text_path": null,
+      "full_text_sha256": null,
+      "selection_date": "2026-10-09",
+      "source_access_status": "Selected edition identifier. Normative full text not retained/reviewed in this delivery."
+    },
+    {
+      "id": "ARINC615A-4",
+      "role": "Ethernet data loading; target end-system role",
+      "publisher": "SAE ITC / ARINC",
+      "full_text_available": false,
+      "full_text_path": null,
+      "full_text_sha256": null,
+      "selection_date": "2026-10-09",
+      "source_access_status": "Selected edition identifier. Normative full text not retained/reviewed in this delivery."
+    },
+    {
+      "id": "ARINC665-5",
+      "role": "Loadable software package formats",
+      "publisher": "SAE ITC / ARINC",
+      "full_text_available": false,
+      "full_text_path": null,
+      "full_text_sha256": null,
+      "selection_date": "2026-10-09",
+      "source_access_status": "Selected edition identifier. Normative full text not retained/reviewed in this delivery."
+    }
+  ],
+  "supplementary_reference_ids": [
+    "RFC1122",
+    "RFC1157",
+    "RFC1213",
+    "RFC1350",
+    "RFC1901",
+    "RFC2863",
+    "RFC3416",
+    "RFC3417",
+    "RFC3418",
+    "RFC4022",
+    "RFC4113",
+    "RFC4293",
+    "RFC5905",
+    "RFC768",
+    "RFC791",
+    "RFC792"
+  ],
+  "precedence": "Part7 and its normative references prevail for deterministic AFDX. Separate companion editions require a documented compatibility review. General RFC behavior must not silently override the ARINC profile.",
+  "implementation_target": "AFDX_competition_top",
+  "tools": [
+    "eLinx",
+    "ModelSim"
+  ],
+  "dut_role": "AFDX end system and 615A target",
+  "scope": {
+    "included": [
+      "Digital MAC framing",
+      "Transmit scheduling and timing",
+      "Redundant A/B integrity",
+      "IP/UDP ports and large messages",
+      "SNMP management",
+      "615A target loading and665 package formats",
+      "RTC synchronization",
+      "Code/design/test/metrics deliverables"
+    ],
+    "excluded_by_user": [
+      "Physical board and electrical/PHY qualification",
+      "AI defense",
+      "Additional network-security hardening",
+      "Military qualification"
+    ],
+    "switch_role": "Reference network model for end-system timing and failure tests; no switch product certification claim"
+  },
+  "normative_inventory_complete": false,
+  "inventory_review": {
+    "status": "OPEN",
+    "reviewer": null,
+    "evidence": null
+  },
+  "cross_revision_review": {
+    "status": "OPEN",
+    "reviewer": null,
+    "evidence": null
+  },
+  "current_functional_acceptance": null,
+  "current_functional_test_count": 89,
+  "standard_limits_policy": "All capacities in competition_profile.json are project implementation bounds, not universal ARINC limits. Four primary ports retain 8192-byte payloads; twelve added Sub-VL ports default to configurable 2048-byte payload capacity. Sampling is unfragmented within LMAX.",
+  "format_revision_caution": "A4 wire marker and665 format0x8004 are not proof of615A-4 or665-5 conformance.",
+  "rtc_policy": "Bounded single-server NTPv4 on-wire response profile; not full RFC5905 peer selection/clock-discipline suite. RFC5905 has subsequent updates; applicability review remains OPEN.",
+  "formal_certificate_issued": false,
+  "catalog_scope_note": "Edition identifiers express the selected project baseline, not a latest-edition or full-compliance claim. Public catalog metadata is not normative clause evidence.",
+  "requirements_inventory_kind": "33 work-package families, NOT an exhaustive normative clause inventory",
+  "supporting_documents": [
+    {
+      "id": "ARINC664P7-2005-PUBLIC-REFERENCE",
+      "title": "Aircraft Data Network Part7 AFDX Network",
+      "publication_date": "2005-06-27",
+      "publisher_on_cover": "Aeronautical Radio Inc.",
+      "distribution": "Public university-hosted teaching/reference copy; not an SAE subscription download",
+      "local_path": "docs/ARINC664P7_2005_public_reference.pdf",
+      "sha256": "63ef56b2e0061bdb8a8554fc9cdb522d2ba7c4a0dc52003856d7022eb9889f71",
+      "pdf_pages": 145,
+      "selected_supplement": "ARINC664P7-1",
+      "selected_supplement_text_available": false,
+      "scope": "Supporting historical reference only; no automatic2009 Supplement1 equivalence"
+    }
+  ],
+  "implementation_progress_note": "Native port config bank and TX/RX support are integrated: four VLs, four Sub-VLs per VL, 16 port/SAP bindings, frame-based round-robin, shared VL BAG/SN. Full selected-standard coverage remains OPEN.",
+  "supplementary_reference_status": {
+    "RFC1157": "Candidate reference identified; applicability and object/operation mapping remain OPEN until the selected ARINC management profile is reviewed.",
+    "RFC1213": "Candidate reference identified; applicability and object/operation mapping remain OPEN until the selected ARINC management profile is reviewed.",
+    "RFC4293": "Candidate reference identified; applicability and object/operation mapping remain OPEN until the selected ARINC management profile is reviewed.",
+    "RFC4113": "Candidate reference identified; applicability and object/operation mapping remain OPEN until the selected ARINC management profile is reviewed.",
+    "RFC4022": "Candidate reference identified; applicability and object/operation mapping remain OPEN until the selected ARINC management profile is reviewed."
+  },
+  "mib_policy": "Existing MAC management path is bounded SNMPv2c with a project-private 25-object MIB. No full MIB-II/IF-MIB/IP-MIB/UDP-MIB object inventory or SNMPv1/v3 end-to-end implementation is verified.",
+  "competition_profile": "docs/competition_profile.json",
+  "supplemental_model_test_count": 5
+}

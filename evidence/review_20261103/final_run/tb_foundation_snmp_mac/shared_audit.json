@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "mode": 0,
+  "business_messages": [],
+  "measurements": {
+    "link_mbps": 100,
+    "cycle_ns": 80,
+    "tx": [],
+    "rx": []
+  },
+  "snmp_cases": [
+    {
+      "case": "single",
+      "status": "PASS",
+      "response_bytes": 52
+    },
+    {
+      "case": "16varbind-longBER",
+      "status": "PASS",
+      "response_bytes": 330
+    },
+    {
+      "case": "empty-list",
+      "status": "PASS",
+      "response_bytes": 31
+    },
+    {
+      "case": "unknown-before-subtree",
+      "status": "PASS",
+      "response_bytes": 58
+    },
+    {
+      "case": "getnext-arbitrary",
+      "status": "PASS",
+      "response_bytes": 157
+    },
+    {
+      "case": "large-base128-arcs",
+      "status": "PASS",
+      "response_bytes": 85
+    },
+    {
+      "case": "too-many-varbinds",
+      "status": "PASS",
+      "response_bytes": 31
+    },
+    {
+      "case": "readonly-set",
+      "status": "PASS",
+      "response_bytes": 49
+    },
+    {
+      "case": "wrong-community",
+      "status": "REJECT_AS_EXPECTED"
+    },
+    {
+      "case": "truncated",
+      "status": "REJECT_AS_EXPECTED"
+    },
+    {
+      "case": "indefinite",
+      "status": "REJECT_AS_EXPECTED"
+    }
+  ],
+  "physical_a_frames": 8,
+  "physical_b_frames": 8,
+  "service": null
+}

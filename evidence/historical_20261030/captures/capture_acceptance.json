@@ -1,0 +1,44 @@
+{
+  "scope": "Three screenshot targets recorded using original test verdicts and independent auditors",
+  "tests": [
+    {
+      "name": "tb_datagram_mac_joint",
+      "suite": "datagram",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_datagram_mac_joint/result.log",
+      "audits": [
+        {
+          "script": "verify_shared.py",
+          "exit": 0,
+          "log": "tb_datagram_mac_joint/verify_shared.log"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "tb_security_plugin",
+      "suite": "security",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_security_plugin/result.log",
+      "audits": [
+        {
+          "script": "verify_plugin_wire.py",
+          "exit": 0,
+          "log": "tb_security_plugin/verify_plugin_wire.log"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "tb_mimic_quorum",
+      "suite": "mimic",
+      "status": "PASS",
+      "exit": 0,
+      "log": "tb_mimic_quorum/result.log",
+      "audits": [],
+      "issues": []
+    }
+  ]
+}

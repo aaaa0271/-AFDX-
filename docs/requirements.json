@@ -1,0 +1,742 @@
+[
+  {
+    "id": "AFDX-001",
+    "requirement": "Frame layout and source/destination MAC and VL addressing",
+    "source_ids": [
+      "ARINC664P7-1",
+      "ARINC664P2-3",
+      "ARINC664P4-2"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "TESTED",
+    "implementation_state": "SOURCE_INTERFACE_ID_AND_FCS_ISOLATION_TESTED_ADDRESS_MODEL_BOUNDED",
+    "existing_test_ids": [
+      "tb_datagram_mac_joint",
+      "tb_datagram_source_ids",
+      "tb_foundation_rx_queue",
+      "tb_foundation_shared_joint"
+    ],
+    "priority": "P0",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null,
+    "supporting_reference_note": "2005 reference section3.2.5.2; printed page19 / PDF27",
+    "normative_closure_warning": "This is implementation/test progress, not a verified selected-edition normative clause."
+  },
+  {
+    "id": "AFDX-002",
+    "requirement": "Wire rate and frame limits and preamble IFG FCS",
+    "source_ids": [
+      "ARINC664P7-1",
+      "ARINC664P2-3"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "OPEN",
+    "implementation_state": "TESTED_BOUNDARIES",
+    "existing_test_ids": [
+      "tb_afdx_eth_ipv4_udp_parser_full",
+      "tb_gmii_tx_adapter_varlen"
+    ],
+    "priority": "P1",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null
+  },
+  {
+    "id": "AFDX-003",
+    "requirement": "BAG value constraints shaping and wire-side measurement",
+    "source_ids": [
+      "ARINC664P7-1"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "TESTED",
+    "implementation_state": "BAG_POWER_OF_TWO_AND_SEAL_CHECKS_PLUS_WIRE_BAG_TESTED",
+    "existing_test_ids": [
+      "tb_datagram_mac_joint",
+      "tb_datagram_ports_top",
+      "tb_datagram_tx",
+      "tb_foundation_shared_stress",
+      "tb_m6_full_bag"
+    ],
+    "priority": "P0",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null,
+    "supporting_reference_note": "2005 reference section3.2.3; printed page13 / PDF21",
+    "normative_closure_warning": "This is implementation/test progress, not a verified selected-edition normative clause."
+  },
+  {
+    "id": "AFDX-004",
+    "requirement": "Transmit jitter bounds under load and contention",
+    "source_ids": [
+      "ARINC664P7-1"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "OPEN",
+    "implementation_state": "PARTIAL_METRICS",
+    "existing_test_ids": [
+      "tb_foundation_shared_stress"
+    ],
+    "priority": "P0",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null
+  },
+  {
+    "id": "AFDX-005",
+    "requirement": "Transmit and receive latency with normative observation points",
+    "source_ids": [
+      "ARINC664P7-1"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "OPEN",
+    "implementation_state": "PARTIAL_METRICS",
+    "existing_test_ids": [
+      "tb_foundation_shared_joint"
+    ],
+    "priority": "P0",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null
+  },
+  {
+    "id": "AFDX-006",
+    "requirement": "A/B sequence reset wrap and per-network integrity",
+    "source_ids": [
+      "ARINC664P7-1"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "OPEN",
+    "implementation_state": "TESTED_CASES",
+    "existing_test_ids": [
+      "tb_afdx_sequence_integrity",
+      "tb_m5_integrity_rules",
+      "tb_foundation_rx_queue"
+    ],
+    "priority": "P1",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null
+  },
+  {
+    "id": "AFDX-007",
+    "requirement": "Dedup skew disorder loss and recovery",
+    "source_ids": [
+      "ARINC664P7-1"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "OPEN",
+    "implementation_state": "TESTED_CASES",
+    "existing_test_ids": [
+      "tb_afdx_rx_redundancy_eliminator",
+      "tb_foundation_shared_degraded"
+    ],
+    "priority": "P1",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null
+  },
+  {
+    "id": "AFDX-008",
+    "requirement": "VL isolation configuration validity and supported population",
+    "source_ids": [
+      "ARINC664P7-1",
+      "ARINC664P4-2"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "OPEN",
+    "implementation_state": "BOUNDED_FOUR_VL",
+    "existing_test_ids": [
+      "tb_contest_configuration",
+      "tb_contest_configured_rx"
+    ],
+    "priority": "P0",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null
+  },
+  {
+    "id": "AFDX-009",
+    "requirement": "Sampling queuing SAP and sub-VL port model",
+    "source_ids": [
+      "ARINC664P7-1",
+      "ARINC664P3-2"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "TESTED",
+    "implementation_state": "NATIVE_16_PORT_4_SUBVL_MAC_INTEGRATION_TESTED_WITH_DECLARED_CAPACITIES_NOT_FULL_STANDARD_CLOSURE",
+    "existing_test_ids": [
+      "tb_datagram_ports",
+      "tb_datagram_ports_top",
+      "tb_datagram_tx",
+      "tb_integration_subvl_mac"
+    ],
+    "priority": "P0",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null,
+    "supporting_reference_note": "2005 historical Part 7 section 3.3.1.3 supports frame-granularity Sub-VL round-robin; not selected P7-1 edition proof.",
+    "normative_closure_warning": "This is implementation/test progress, not a verified selected-edition normative clause."
+  },
+  {
+    "id": "AFDX-010",
+    "requirement": "IPv4 UDP headers and checksum checks",
+    "source_ids": [
+      "ARINC664P7-1",
+      "ARINC664P3-2",
+      "RFC768",
+      "RFC791"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "TESTED",
+    "implementation_state": "IP_HEADERS_AND_OPTIONAL_WHOLE_DATAGRAM_UDP_CHECK_TESTED",
+    "existing_test_ids": [
+      "tb_afdx_eth_ipv4_udp_parser_full",
+      "tb_datagram_mac_joint",
+      "tb_datagram_rx",
+      "tb_datagram_tx",
+      "tb_udp_checksum_boundaries"
+    ],
+    "priority": "P1",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null,
+    "supporting_reference_note": "Profile applicability for checksum policy remains under review",
+    "normative_closure_warning": "This is implementation/test progress, not a verified selected-edition normative clause."
+  },
+  {
+    "id": "AFDX-011",
+    "requirement": "Large-message transmit fragmentation and message-level limits",
+    "source_ids": [
+      "ARINC664P7-1",
+      "ARINC664P3-2",
+      "RFC791"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "TESTED",
+    "implementation_state": "8192_BYTE_TX_FRAGMENTATION_INTEGRATED_AND_INDEPENDENTLY_DECODED",
+    "existing_test_ids": [
+      "tb_datagram_mac_joint",
+      "tb_datagram_tx"
+    ],
+    "priority": "P0",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null,
+    "supporting_reference_note": "2005 reference section3.3.1.1.2.1; printed page30 / PDF38",
+    "normative_closure_warning": "This is implementation/test progress, not a verified selected-edition normative clause."
+  },
+  {
+    "id": "AFDX-012",
+    "requirement": "Receive reassembly keys ordering duplicates timeout and invalid fragments",
+    "source_ids": [
+      "ARINC664P7-1",
+      "ARINC664P3-2",
+      "RFC791"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "TESTED",
+    "implementation_state": "8192_BYTE_RX_REASSEMBLY_PER_VL_WITH_NEGATIVE_CASES_TESTED",
+    "existing_test_ids": [
+      "tb_contest_ipv4_fragment",
+      "tb_datagram_mac_joint",
+      "tb_datagram_rx"
+    ],
+    "priority": "P0",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null,
+    "supporting_reference_note": "2005 reference section3.3.1.1.2.2; printed page31 / PDF39",
+    "normative_closure_warning": "This is implementation/test progress, not a verified selected-edition normative clause."
+  },
+  {
+    "id": "AFDX-013",
+    "requirement": "Reassembled UDP integrity and fragmented-message latency",
+    "source_ids": [
+      "ARINC664P7-1",
+      "ARINC664P3-2",
+      "RFC768"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "TESTED",
+    "implementation_state": "WHOLE_DATAGRAM_CHECKSUM_OPTION_TESTED_NORMATIVE_TIMING_STILL_OPEN",
+    "existing_test_ids": [
+      "tb_datagram_mac_joint",
+      "tb_datagram_rx"
+    ],
+    "priority": "P0",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null,
+    "supporting_reference_note": "UDP checksum checking is a configurable implementation policy; historical Part7 profile is not identical to generic RFC defaults",
+    "normative_closure_warning": "This is implementation/test progress, not a verified selected-edition normative clause."
+  },
+  {
+    "id": "AFDX-014",
+    "requirement": "Queue capacity overflow isolation backpressure and recovery",
+    "source_ids": [
+      "ARINC664P7-1"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "TESTED",
+    "implementation_state": "QUEUE_AND_SAMPLING_ATOMIC_STORAGE_RECOVERY_TESTED_FULL_RATE_PROOF_OPEN",
+    "existing_test_ids": [
+      "tb_afdx_payload_commit_buffer",
+      "tb_datagram_ports_top",
+      "tb_datagram_rx",
+      "tb_datagram_tx",
+      "tb_foundation_rx_queue"
+    ],
+    "priority": "P1",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null,
+    "supporting_reference_note": "Finite declared buffers and test workloads only",
+    "normative_closure_warning": "This is implementation/test progress, not a verified selected-edition normative clause."
+  },
+  {
+    "id": "AFDX-015",
+    "requirement": "Separate manager loader time-server VL and sequence contexts",
+    "source_ids": [
+      "ARINC664P7-1",
+      "ARINC664P4-2"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "OPEN",
+    "implementation_state": "ONE_COMBINED_PEER_TESTED",
+    "existing_test_ids": [
+      "tb_foundation_shared_joint"
+    ],
+    "priority": "P0",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null
+  },
+  {
+    "id": "AFDX-016",
+    "requirement": "ICMP ARP and other host-service applicability and dispositions",
+    "source_ids": [
+      "ARINC664P3-2",
+      "RFC792",
+      "RFC1122"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "OPEN",
+    "implementation_state": "APPLICABILITY_UNRESOLVED",
+    "existing_test_ids": [],
+    "priority": "P1",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null
+  },
+  {
+    "id": "AFDX-017",
+    "requirement": "Reference network topology and worst-case end-system load",
+    "source_ids": [
+      "ARINC664P7-1"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "OPEN",
+    "implementation_state": "LOOPBACK_AND_ONE_REFERENCE_PEER",
+    "existing_test_ids": [
+      "tb_foundation_shared_stress"
+    ],
+    "priority": "P0",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null
+  },
+  {
+    "id": "SNMP-001",
+    "requirement": "Required version transport BER and operations",
+    "source_ids": [
+      "ARINC664P7-1",
+      "ARINC664P3-2",
+      "RFC1901",
+      "RFC3416",
+      "RFC3417"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "OPEN",
+    "implementation_state": "V2C_GET_GETNEXT_READONLY_SET_ERRORS",
+    "existing_test_ids": [
+      "tb_completion_snmp_extended",
+      "tb_foundation_snmp_mac"
+    ],
+    "priority": "P1",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null
+  },
+  {
+    "id": "SNMP-002",
+    "requirement": "GETBULK non-repeaters repetitions end-of-MIB and sizes",
+    "source_ids": [
+      "RFC3416"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "TESTED",
+    "implementation_state": "GETBULK_IMPLEMENTED_AND_MAC_VALIDATED_14_PYSNMP_CASES",
+    "existing_test_ids": [
+      "tb_foundation_snmp_bulk",
+      "tb_foundation_snmp_bulk_mac"
+    ],
+    "priority": "P0",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null,
+    "supporting_reference_note": "RFC3416 section4.2.3; online original protocol document; local bulk text download did not complete",
+    "normative_closure_warning": "This is implementation/test progress, not a verified selected-edition normative clause."
+  },
+  {
+    "id": "SNMP-003",
+    "requirement": "Required MIB objects types and counters",
+    "source_ids": [
+      "ARINC664P7-1",
+      "ARINC664P3-2",
+      "RFC3418",
+      "RFC2863"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "OPEN",
+    "implementation_state": "PROJECT_PRIVATE_25_OBJECTS",
+    "existing_test_ids": [
+      "tb_afdx_mib_register_bank",
+      "tb_foundation_snmp_mac"
+    ],
+    "priority": "P0",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null
+  },
+  {
+    "id": "SNMP-004",
+    "requirement": "Request correlation atomic snapshots bounds and errors",
+    "source_ids": [
+      "RFC1901",
+      "RFC3416",
+      "RFC3417"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "OPEN",
+    "implementation_state": "BOUNDED_TESTED",
+    "existing_test_ids": [
+      "tb_foundation_snmp_set_copy",
+      "tb_completion_snmp_extended"
+    ],
+    "priority": "P1",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null
+  },
+  {
+    "id": "LOAD-001",
+    "requirement": "615A edition target-role and operation applicability",
+    "source_ids": [
+      "ARINC615A-4"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "OPEN",
+    "implementation_state": "A4_MARKER_NOT_EDITION_PROOF",
+    "existing_test_ids": [],
+    "priority": "P0",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null
+  },
+  {
+    "id": "LOAD-002",
+    "requirement": "Initialization upload progress completion and final ACK",
+    "source_ids": [
+      "ARINC615A-4"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "OPEN",
+    "implementation_state": "SINGLE_HEADER_UPLOAD_TESTED",
+    "existing_test_ids": [
+      "tb_contest_615a_control",
+      "tb_foundation_shared_joint"
+    ],
+    "priority": "P1",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null
+  },
+  {
+    "id": "LOAD-003",
+    "requirement": "Information discovery and applicable status formats",
+    "source_ids": [
+      "ARINC615A-4"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "OPEN",
+    "implementation_state": "NOT_CLOSED",
+    "existing_test_ids": [],
+    "priority": "P0",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null
+  },
+  {
+    "id": "LOAD-004",
+    "requirement": "Download and applicable request status file sequences",
+    "source_ids": [
+      "ARINC615A-4"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "OPEN",
+    "implementation_state": "NOT_CLOSED",
+    "existing_test_ids": [],
+    "priority": "P0",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null
+  },
+  {
+    "id": "LOAD-005",
+    "requirement": "Abort wait error statuses timeouts and recovery",
+    "source_ids": [
+      "ARINC615A-4",
+      "RFC1350"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "OPEN",
+    "implementation_state": "PARTIAL_RETRY_ROLLBACK",
+    "existing_test_ids": [
+      "tb_contest_tftp",
+      "tb_completion_package_network"
+    ],
+    "priority": "P0",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null
+  },
+  {
+    "id": "LOAD-006",
+    "requirement": "Multi-header and file/directory combinations",
+    "source_ids": [
+      "ARINC615A-4",
+      "ARINC665-5"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "OPEN",
+    "implementation_state": "SINGLE_HEADER_MULTIPLE_DATA_FILES",
+    "existing_test_ids": [
+      "tb_completion_package"
+    ],
+    "priority": "P0",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null
+  },
+  {
+    "id": "LOAD-007",
+    "requirement": "Software package formats identity compatibility integrity",
+    "source_ids": [
+      "ARINC665-5"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "OPEN",
+    "implementation_state": "BOUNDED_0X8004_FIXTURE",
+    "existing_test_ids": [
+      "tb_completion_package",
+      "tb_completion_package_network"
+    ],
+    "priority": "P1",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null
+  },
+  {
+    "id": "LOAD-008",
+    "requirement": "Atomic publish failed-update preservation restart",
+    "source_ids": [
+      "ARINC615A-4",
+      "ARINC665-5"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "OPEN",
+    "implementation_state": "DUAL_BANK_RECOVERY_TESTED",
+    "existing_test_ids": [
+      "tb_completion_package_network",
+      "tb_foundation_shared_joint"
+    ],
+    "priority": "P1",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null
+  },
+  {
+    "id": "RTC-001",
+    "requirement": "Selected NTPv4 timestamps and client/server validation",
+    "source_ids": [
+      "RFC5905"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "OPEN",
+    "implementation_state": "BOUNDED_SINGLE_SERVER",
+    "existing_test_ids": [
+      "tb_contest_rtc_ntp",
+      "tb_foundation_shared_joint"
+    ],
+    "priority": "P1",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null
+  },
+  {
+    "id": "RTC-002",
+    "requirement": "Precision target independent drift holdover recovery",
+    "source_ids": [
+      "RFC5905"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "OPEN",
+    "implementation_state": "PROJECT_TEST_CONDITIONS_ONLY",
+    "existing_test_ids": [
+      "tb_contest_rtc_convergence",
+      "tb_contest_rtc_timebase"
+    ],
+    "priority": "P0",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null
+  },
+  {
+    "id": "DEL-001",
+    "requirement": "Normative inventory and cross-edition compatibility review",
+    "source_ids": [
+      "ARINC664P7-1",
+      "ARINC664P2-3",
+      "ARINC664P3-2",
+      "ARINC664P4-2",
+      "ARINC615A-4",
+      "ARINC665-5"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "OPEN",
+    "implementation_state": "NOT_COMPLETE",
+    "existing_test_ids": [],
+    "priority": "P0",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null
+  },
+  {
+    "id": "DEL-002",
+    "requirement": "Executable project design test report and technical metrics",
+    "source_ids": [
+      "ARINC664P7-1",
+      "ARINC615A-4"
+    ],
+    "source_locator": null,
+    "locator_verified": false,
+    "status": "OPEN",
+    "implementation_state": "INDEPENDENT_ARINC_PROJECT_COMPETITION_PROTOTYPE_CANDIDATE",
+    "existing_test_ids": [
+      "tb_foundation_shared_joint"
+    ],
+    "priority": "P1",
+    "review_evidence": [],
+    "reviewer": null,
+    "not_applicable_reason": null,
+    "test_evidence": [],
+    "applicability_review": null
+  }
+]

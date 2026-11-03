@@ -1,0 +1,9 @@
+{
+  "name": "tb_defense_boundary",
+  "suite": "security",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_defense_boundary/result.log",
+  "audits": [],
+  "issues": []
+}

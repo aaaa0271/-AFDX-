@@ -1,0 +1,36 @@
+#  source {C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/evidence/historical_20261030/overview/open_overview.do}
+# C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/evidence/historical_20261030/overview
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0 ps
+# 24551688 ns
+# RECORDED OVERVIEW: ModelSim + native host integration; not a board test.
+# C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/evidence/historical_20261030/overview/overview_summary.txt
+# AFDX_defense_top / recorded host-assisted integration
+# Evidence: summary.json and capture_end_state.txt in this same directory
+# CAPTURE ACCEPTANCE: PASS
+# Original integration result: PASS
+# Loading: PASS
+# AFDX A/B delivery: PASS
+# Fragment reassembly: PASS
+# Security: PASS
+# Native-worker mimic: PASS
+# Host absence handling: PASS
+# Hardware TCN: PASS
+# Agent live evidence: PASS
+# Frame transactions: 28
+# Native startup checks: 88
+# End state: errors=0  payload_frames=9  locked=1  package_generation=1  ai_results=2
+# Recorded functional simulation. No board, fitting, or timing-closure claim.
+# Timeout/block counters include deliberately injected negative cases.
+# 
+#  puts REPLAY_SOURCE_PASS
+# REPLAY_SOURCE_PASS
+#  quit -code 0 -f

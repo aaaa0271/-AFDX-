@@ -1,0 +1,9 @@
+{
+  "name": "tb_contest_615a_control",
+  "suite": "contest",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_contest_615a_control/result.log",
+  "audits": [],
+  "issues": []
+}

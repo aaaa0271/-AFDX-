@@ -1,0 +1,9 @@
+{
+  "name": "tb_contest_rtc_timebase",
+  "suite": "contest",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_contest_rtc_timebase/result.log",
+  "audits": [],
+  "issues": []
+}

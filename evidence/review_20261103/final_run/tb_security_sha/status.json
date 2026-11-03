@@ -1,0 +1,9 @@
+{
+  "name": "tb_security_sha",
+  "suite": "security",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_security_sha/result.log",
+  "audits": [],
+  "issues": []
+}

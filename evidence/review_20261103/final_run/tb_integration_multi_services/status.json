@@ -1,0 +1,15 @@
+{
+  "name": "tb_integration_multi_services",
+  "suite": "integration",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_integration_multi_services/result.log",
+  "audits": [
+    {
+      "script": "verify_multi_service_wire.py",
+      "exit": 0,
+      "log": "tb_integration_multi_services/verify_multi_service_wire.log"
+    }
+  ],
+  "issues": []
+}

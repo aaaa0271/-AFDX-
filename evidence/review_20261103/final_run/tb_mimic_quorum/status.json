@@ -1,0 +1,9 @@
+{
+  "name": "tb_mimic_quorum",
+  "suite": "mimic",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_mimic_quorum/result.log",
+  "audits": [],
+  "issues": []
+}

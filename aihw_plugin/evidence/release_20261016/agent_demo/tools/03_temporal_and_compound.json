@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "status": "candidate",
+  "job_id": 1,
+  "model_tag": "1a5cdc59",
+  "source": "rtl_simulation",
+  "errors": [],
+  "unknown_error_bits": 0,
+  "raw_logits_q": [
+    -2070,
+    -4431,
+    -1942,
+    1506,
+    -3342,
+    -1504,
+    -3494,
+    -110,
+    210
+  ],
+  "cause_scores": {
+    "congestion": 0.0003077430764601415,
+    "link_degradation": 3.04069760233558e-08,
+    "replica_divergence": 0.000507281282699237,
+    "time_anomaly": 0.9972208094414864,
+    "loader_stall": 2.1400322904809113e-06,
+    "fragment_pressure": 0.0028009269671209736,
+    "management_burst": 1.1818392082775557e-06
+  },
+  "compound_candidates": [
+    {
+      "cause": "time_anomaly",
+      "score": 0.9972208094414864
+    }
+  ],
+  "warning": false,
+  "candidate_mask": 8,
+  "future_queue_risk_score": 0.3942009561511044,
+  "scores_are_calibrated_probabilities": false,
+  "future_latency_max_p95_us": 867.2513486645405,
+  "history_windows": 8,
+  "horizon_windows": 3,
+  "compute_cycles": 14035,
+  "confirmed_physical_causes": [],
+  "afdx_configuration_write": false,
+  "hardware_timing_proof": false,
+  "saturation_layers": 0,
+  "rtl_log": "RESULT 1 1a5cdc59 0 0 14035 8 -2070 -4431 -1942 1506 -3342 -1504 -3494 -110 210",
+  "measurement_source_declaration": "synthetic",
+  "outside_features": [],
+  "preprocessing_on_host": true
+}

@@ -1,0 +1,94 @@
+{
+  "status": "INCOMPLETE",
+  "competition_prototype_complete": false,
+  "profile": "docs/competition_profile.json",
+  "requirements": [
+    {
+      "id": "COMP-F01",
+      "name": "AFDX MAC communication and configured VL scheduling",
+      "status": "PASS",
+      "missing_or_failed_tests": [],
+      "tests": [
+        "tb_contest_configuration",
+        "tb_contest_configured_rx",
+        "tb_datagram_tx",
+        "tb_datagram_rx",
+        "tb_datagram_mac_joint",
+        "tb_datagram_line_rate",
+        "tb_integration_subvl_mac"
+      ]
+    },
+    {
+      "id": "COMP-F02",
+      "name": "High-integrity communication",
+      "status": "PASS",
+      "missing_or_failed_tests": [],
+      "tests": [
+        "tb_afdx_udp_checksum",
+        "tb_m5_integrity_rules",
+        "tb_foundation_shared_degraded",
+        "tb_foundation_rx_queue",
+        "tb_datagram_source_ids",
+        "tb_contest_load_reject",
+        "tb_datagram_rx"
+      ]
+    },
+    {
+      "id": "COMP-F03",
+      "name": "SNMP network management",
+      "status": "PASS",
+      "missing_or_failed_tests": [],
+      "tests": [
+        "tb_contest_snmp_pysnmp",
+        "tb_completion_snmp_extended",
+        "tb_foundation_snmp_bulk_mac",
+        "tb_foundation_snmp_set_copy",
+        "tb_datagram_mac_joint"
+      ]
+    },
+    {
+      "id": "COMP-F04",
+      "name": "615A data loading",
+      "status": "PASS",
+      "missing_or_failed_tests": [],
+      "tests": [
+        "tb_contest_basic_mac_top",
+        "tb_contest_tftp",
+        "tb_contest_load_reject",
+        "tb_completion_package",
+        "tb_completion_package_network",
+        "tb_datagram_mac_joint",
+        "tb_integration_multi_services",
+        "tb_665_header_compat",
+        "tb_615a_control_recovery",
+        "tb_615a_roundtrip",
+        "tb_615a_download_faults",
+        "tb_615a_download_security"
+      ]
+    },
+    {
+      "id": "COMP-F05",
+      "name": "RTC clock synchronization",
+      "status": "PASS",
+      "missing_or_failed_tests": [],
+      "tests": [
+        "tb_contest_rtc_ntp",
+        "tb_contest_rtc_timebase",
+        "tb_contest_rtc_convergence",
+        "tb_contest_load_rtc_joint",
+        "tb_contest_basic_mac_top",
+        "tb_datagram_mac_joint",
+        "tb_integration_multi_services"
+      ]
+    }
+  ],
+  "issues": [
+    "Not a complete current functional regression",
+    "Current AFDX_defense_top eLinx evidence missing",
+    "Dual-domain elaboration not passed",
+    "Independent baseline elaboration missing"
+  ],
+  "scope": "Project acceptance against the five functional contest goals using the explicitly declared prototype profile. NOT a claim of full ARINC clauses or organizer certification.",
+  "full_selected_standard_scope_complete": false,
+  "formal_arinc_certification": false
+}

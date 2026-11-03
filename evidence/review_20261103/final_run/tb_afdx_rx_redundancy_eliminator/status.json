@@ -1,0 +1,9 @@
+{
+  "name": "tb_afdx_rx_redundancy_eliminator",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_afdx_rx_redundancy_eliminator/result.log",
+  "audits": [],
+  "issues": []
+}

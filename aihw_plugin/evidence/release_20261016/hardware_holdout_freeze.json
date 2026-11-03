@@ -1,0 +1,12 @@
+{
+  "frozen_model_manifest_sha256": "5801f70be6f0a0ee6467d75e5e34c8d263d5fe40fc5c5b0956e2a54673c79ff8",
+  "model_tag": "1a5cdc59",
+  "generated_after_precision_selection": true,
+  "input_to_training_or_quantization": false,
+  "seed_start": 910000,
+  "reused_generator": true,
+  "domain": "new synthetic scenarios, not real-board data",
+  "data_sha256": "200772fc5ae750a9eccb3cd16fddb06e2bf4c68722ed23e9d8eb0c4f6039816b",
+  "scenario_groups": 128,
+  "windows": 1792
+}

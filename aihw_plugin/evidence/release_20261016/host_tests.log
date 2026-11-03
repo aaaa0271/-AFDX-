@@ -1,0 +1,39 @@
+test_invalid_uint32 (test_csr_driver.CsrDriverTests.test_invalid_uint32) ... ok
+test_normal_driver (test_csr_driver.CsrDriverTests.test_normal_driver) ... ok
+test_poll_timeout (test_csr_driver.CsrDriverTests.test_poll_timeout) ... ok
+test_transport_failure (test_csr_driver.CsrDriverTests.test_transport_failure) ... ok
+test_wrong_job (test_csr_driver.CsrDriverTests.test_wrong_job) ... ok
+test_wrong_mask (test_csr_driver.CsrDriverTests.test_wrong_mask) ... ok
+test_wrong_model (test_csr_driver.CsrDriverTests.test_wrong_model) ... ok
+test_bad_backend (test_host.HostTests.test_bad_backend) ... ok
+test_bad_job_id (test_host.HostTests.test_bad_job_id) ... ok
+test_bad_source (test_host.HostTests.test_bad_source) ... ok
+test_boolean (test_host.HostTests.test_boolean) ... ok
+test_complete_history (test_host.HostTests.test_complete_history) ... ok
+test_csr_operations (test_host.HostTests.test_csr_operations) ... ok
+test_duplicate_json (test_host.HostTests.test_duplicate_json) ... ok
+test_error_suppresses_decisions (test_host.HostTests.test_error_suppresses_decisions) ... ok
+test_float32_overflow (test_host.HostTests.test_float32_overflow) ... ok
+test_half_away_float (test_host.HostTests.test_half_away_float) ... ok
+test_infinity (test_host.HostTests.test_infinity) ... ok
+test_integer_rounding_exhaustive (test_host.HostTests.test_integer_rounding_exhaustive) ... ok
+test_missing_feature (test_host.HostTests.test_missing_feature) ... ok
+test_missing_history (test_host.HostTests.test_missing_history) ... ok
+test_nan (test_host.HostTests.test_nan) ... ok
+test_negative (test_host.HostTests.test_negative) ... ok
+test_nonfinite_json (test_host.HostTests.test_nonfinite_json) ... ok
+test_out_of_support_flag (test_host.HostTests.test_out_of_support_flag) ... ok
+test_profile_limits (test_host.HostTests.test_profile_limits) ... ok
+test_quantized_extremes (test_host.HostTests.test_quantized_extremes) ... ok
+test_quantized_float_rejected (test_host.HostTests.test_quantized_float_rejected) ... ok
+test_quantized_range_rejected (test_host.HostTests.test_quantized_range_rejected) ... ok
+test_ratio_limits (test_host.HostTests.test_ratio_limits) ... ok
+test_reference_provenance (test_host.HostTests.test_reference_provenance) ... ok
+test_strings (test_host.HostTests.test_strings) ... ok
+test_threshold_boundary (test_host.HostTests.test_threshold_boundary) ... ok
+test_transposed (test_host.HostTests.test_transposed) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 0.130s
+
+OK

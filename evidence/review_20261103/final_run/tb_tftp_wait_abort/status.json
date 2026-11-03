@@ -1,0 +1,9 @@
+{
+  "name": "tb_tftp_wait_abort",
+  "suite": "extension",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_tftp_wait_abort/result.log",
+  "audits": [],
+  "issues": []
+}

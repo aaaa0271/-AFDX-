@@ -1,0 +1,130 @@
+{
+  "date": "2026-10-10",
+  "full_foundation_complete": false,
+  "formal_arinc_certification": false,
+  "areas": [
+    {
+      "id": 1,
+      "name": "Sub-VL/SAP/multiport",
+      "status": "OPEN",
+      "existing_integrated_tests": [
+        "tb_datagram_mac_joint",
+        "tb_datagram_ports_top",
+        "tb_integration_subvl_mac"
+      ],
+      "experimental_tests": [],
+      "missing": [
+        "Wire-integrated Sub-VL/SAP configuration",
+        "Per-VL rather than per-port BAG and sequence context",
+        "TX sample replacement under stall",
+        "Concurrent enqueue/dequeue accounting",
+        "Multi-consumer partition semantics"
+      ],
+      "closure": "Reviewed port requirements + wire-integrated implementation + negative and concurrent tests",
+      "progress": "Native RX/TX integration and dedicated wire audit now passed for the declared 16-port/four-Sub-VL profile; this does not close every normative clause."
+    },
+    {
+      "id": 2,
+      "name": "Independent Loader/time-server domains",
+      "status": "OPEN",
+      "existing_integrated_tests": [
+        "tb_contest_basic_mac_top"
+      ],
+      "experimental_tests": [],
+      "missing": [
+        "Endpoint table connected to service RX/TX routing",
+        "Independent RX and TX VL/SN domains across peers",
+        "Concurrent TID ownership",
+        "Multi-peer timeout/switch/recovery"
+      ],
+      "closure": "Two or more real MAC peer models, isolated VL sequence history and end-to-end transfer/time recovery evidence"
+    },
+    {
+      "id": 3,
+      "name": "Applicable standard MIB/SNMP",
+      "status": "OPEN",
+      "existing_integrated_tests": [
+        "tb_foundation_snmp_bulk_mac",
+        "tb_contest_snmp_pysnmp"
+      ],
+      "experimental_tests": [],
+      "missing": [
+        "Standard OID/type/access/instance inventory",
+        "Real scalar/table values instead of placeholder aliases",
+        "Applicable protocol version review",
+        "End-to-end v1/v3 if required"
+      ],
+      "closure": "Reviewed normative MIB inventory + exact wire syntax/semantics + independent manager cross-checks"
+    },
+    {
+      "id": 4,
+      "name": "615A information/download/abort/wait/error/multi-header",
+      "status": "OPEN",
+      "existing_integrated_tests": [
+        "tb_contest_basic_mac_top",
+        "tb_completion_package_network"
+      ],
+      "experimental_tests": [],
+      "missing": [
+        "Complete control/status file codecs",
+        "Information and download on actual TFTP/MAC path",
+        "Remote abort and wait/error sequences",
+        "Multi-header package commit semantics"
+      ],
+      "closure": "Controlled 615A edition process mapping + real wire positive/negative traces"
+    },
+    {
+      "id": 5,
+      "name": "665 formats/cross-revision",
+      "status": "OPEN",
+      "existing_integrated_tests": [
+        "tb_completion_package",
+        "tb_completion_package_network"
+      ],
+      "experimental_tests": [],
+      "missing": [
+        "Controlled binary layout grammar for each edition",
+        "Real support/UDD/batch/list combinations",
+        "Multi-target/part/header compatibility",
+        "Version-specific checks/reserved fields"
+      ],
+      "closure": "Reviewed format grammar and known-answer files from independent implementation, including rejection and rollback"
+    },
+    {
+      "id": 6,
+      "name": "Worst-load/jitter/latency/capacity",
+      "status": "OPEN",
+      "existing_integrated_tests": [
+        "tb_datagram_line_rate",
+        "tb_foundation_shared_stress",
+        "tb_datagram_mac_joint"
+      ],
+      "experimental_tests": [],
+      "missing": [
+        "All legal VL/Sub-VL/LMAX/BAG configurations",
+        "Phase/drift/traffic-mix envelope",
+        "Per-VL measurement endpoints",
+        "Analytical latency/backlog proof",
+        "Finite hardware capacity admissibility"
+      ],
+      "closure": "Explicit admitted operating envelope + phase/load sweeps + measured histograms + independently checked analytical bounds"
+    },
+    {
+      "id": 7,
+      "name": "Full clause/applicability/revision review",
+      "status": "OPEN",
+      "existing_integrated_tests": [],
+      "experimental_tests": [],
+      "missing": [
+        "Controlled selected-edition full text",
+        "Complete shall/should/optional clause inventory",
+        "Applicability and normative references",
+        "Cross-revision delta",
+        "Each applicable clause linked to matching hashed proof"
+      ],
+      "closure": "All applicable reviewed clauses VERIFIED; exclusions justified and reviewed; no unknown clauses treated as passed"
+    }
+  ],
+  "competition_prototype_status": "PASS",
+  "competition_profile": "docs/competition_profile.json"
+}

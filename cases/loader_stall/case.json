@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "case_id": "loader_stall",
+  "observation": "observation.json",
+  "artifacts": [
+    {
+      "id": "loader",
+      "type": "loader_trace",
+      "paths": [
+        "loader.json"
+      ],
+      "source": "synthetic_lab",
+      "binding": "same_window",
+      "window_id": "agent-loader_stall"
+    },
+    {
+      "id": "run_log",
+      "type": "log",
+      "paths": [
+        "run.log"
+      ],
+      "source": "synthetic_lab",
+      "binding": "same_window",
+      "window_id": "agent-loader_stall"
+    }
+  ],
+  "expected_flow": {
+    "peer_ip": 167772161,
+    "local_ip": 167772176,
+    "rx_mac": 3298534883344,
+    "peer_mac": 2199023255554,
+    "tx_mac": 3298534883346,
+    "source_port": 100,
+    "destination_port": 200
+  }
+}

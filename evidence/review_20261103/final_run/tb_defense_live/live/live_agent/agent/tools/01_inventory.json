@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "case_id": "live_defense",
+  "case_sha256": "89dc09913d481132e89bf20e736735f142795d7b61a072b4610ef63a7b1223bf",
+  "artifacts": [
+    {
+      "id": "live_frame",
+      "type": "frame",
+      "paths": [
+        "capture.bin"
+      ],
+      "binding": "same_window",
+      "source": "rtl_fixture",
+      "window_id": "live_defense_49"
+    },
+    {
+      "id": "defense_log",
+      "type": "log",
+      "paths": [
+        "defense.log"
+      ],
+      "binding": "same_window",
+      "source": "rtl_fixture",
+      "window_id": "live_defense_49"
+    }
+  ],
+  "files": {
+    "case.json": "46ae5d88e45187a1ddea336e1ed47ca6697b948764d156c3c18bfd22cdd66389",
+    "capture.bin": "d05a7d956d5ee183fa037c4d95cc40d54cfea6196067f12209f9c5ba5ae04d7c",
+    "defense.log": "899b672115bd618c353151feb25ed75c78fee4425ba9da7d3807cb58df295b00",
+    "observation.json": "2a35df298dc1fbf1817dca8499a79bbe0e826a058714d838a20a405415c42c1d"
+  },
+  "missing_metrics": [],
+  "model_input_available": true
+}

@@ -1,0 +1,9 @@
+{
+  "name": "tb_afdx_snmp_response_builder",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_afdx_snmp_response_builder/result.log",
+  "audits": [],
+  "issues": []
+}

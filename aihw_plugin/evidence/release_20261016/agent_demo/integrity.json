@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "files": {
+    "report.md": "6c7d8a52d92760b507046462a103632a23214b68da0641fa3ba303bc38149b65",
+    "report.json": "86a71c55cab9c8ba8c518883938f02dc22b50e75727292f0d137c27e85ea098d",
+    "trace.jsonl": "03d390ffbc3e11c5de232bd3b0a48a61a5b41bbcc4a4e17d523289d99f738b5b",
+    "tools/03_temporal_and_compound.json": "c84578af066efe57ac1f28f0a867193842745fb80b67c10257e4044e95cf2882",
+    "tools/02_retrieve_local_sources.json": "9334c5c19ab6fa700adddffef8cb19ee7b8f14f7562043ae2b2dd278137359f9",
+    "tools/01_language_plan.json": "46aea0e13357e60ee600aa62f5c5522154325cc806944be5d8d6514ad2028e68"
+  },
+  "authenticated_signature": false
+}

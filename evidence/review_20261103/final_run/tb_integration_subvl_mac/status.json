@@ -1,0 +1,15 @@
+{
+  "name": "tb_integration_subvl_mac",
+  "suite": "integration",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_integration_subvl_mac/result.log",
+  "audits": [
+    {
+      "script": "verify_subvl_wire.py",
+      "exit": 0,
+      "log": "tb_integration_subvl_mac/verify_subvl_wire.log"
+    }
+  ],
+  "issues": []
+}

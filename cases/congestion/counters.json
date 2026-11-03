@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "start": {
+    "boot_id": "synthetic-congestion-boot",
+    "epoch": 3,
+    "mode": 2,
+    "counters": {
+      "accepted": 0,
+      "blocked": 0,
+      "queue_overflows": 0,
+      "event_overflows": 0,
+      "ab_conflicts": 0,
+      "hash_failures": 0,
+      "time_alarms": 0,
+      "context_timeouts": 0,
+      "observed": 0
+    }
+  },
+  "end": {
+    "boot_id": "synthetic-congestion-boot",
+    "epoch": 3,
+    "mode": 2,
+    "counters": {
+      "accepted": 45,
+      "blocked": 0,
+      "queue_overflows": 101,
+      "event_overflows": 0,
+      "ab_conflicts": 0,
+      "hash_failures": 0,
+      "time_alarms": 0,
+      "context_timeouts": 0,
+      "observed": 91
+    }
+  },
+  "duration_s": 0.005439290581246428
+}

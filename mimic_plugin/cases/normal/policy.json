@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "epoch": 3,
+  "rules": [
+    {
+      "id": 3,
+      "peer_ip": 167772161,
+      "local_ip": 167772176,
+      "rx_mac": 3298534883344,
+      "peer_mac": 2199023255554,
+      "source_port": 100,
+      "destination_port": 200,
+      "max_mac": 1518,
+      "require_udp_checksum": true
+    }
+  ]
+}

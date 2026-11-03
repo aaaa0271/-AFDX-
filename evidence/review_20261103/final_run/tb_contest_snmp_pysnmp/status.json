@@ -1,0 +1,15 @@
+{
+  "name": "tb_contest_snmp_pysnmp",
+  "suite": "contest",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_contest_snmp_pysnmp/result.log",
+  "audits": [
+    {
+      "script": "verify_snmp_interop.py",
+      "exit": 0,
+      "log": "tb_contest_snmp_pysnmp/verify_snmp_interop.log"
+    }
+  ],
+  "issues": []
+}

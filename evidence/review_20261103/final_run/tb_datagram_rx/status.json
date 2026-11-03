@@ -1,0 +1,9 @@
+{
+  "name": "tb_datagram_rx",
+  "suite": "datagram",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_datagram_rx/result.log",
+  "audits": [],
+  "issues": []
+}

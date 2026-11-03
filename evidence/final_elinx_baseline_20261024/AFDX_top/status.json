@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "exit": 0,
+  "tool": "D:\\Program Files (x86)\\eLinx3.0\\bin\\Passkey\\bin\\quartus_map.exe",
+  "top": "AFDX_top",
+  "service_domains": 1,
+  "errors": 0,
+  "warnings": 159,
+  "seconds": 1137.0,
+  "sources": 120,
+  "scope": "AFDX_top analysis/elaboration only; no fitting, routed timing or hardware claim"
+}

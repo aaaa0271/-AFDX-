@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "events": [
+    {
+      "time_ms": 0,
+      "kind": "request",
+      "tid": 42000,
+      "block": 0,
+      "data_hex": ""
+    },
+    {
+      "time_ms": 1000,
+      "kind": "timeout",
+      "tid": 42000,
+      "block": 1,
+      "data_hex": ""
+    },
+    {
+      "time_ms": 2000,
+      "kind": "timeout",
+      "tid": 42000,
+      "block": 1,
+      "data_hex": ""
+    },
+    {
+      "time_ms": 3000,
+      "kind": "timeout",
+      "tid": 42000,
+      "block": 1,
+      "data_hex": ""
+    },
+    {
+      "time_ms": 4000,
+      "kind": "timeout",
+      "tid": 42000,
+      "block": 1,
+      "data_hex": ""
+    }
+  ]
+}

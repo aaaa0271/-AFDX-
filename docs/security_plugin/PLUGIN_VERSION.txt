@@ -1,0 +1,4 @@
+AFDX Security Plugin 1.0
+Baseline: AFDX_Competition_Final (2).zip
+Validation date: 2026-10-15 UTC
+Scope: external RTL plugin + trusted host authorization tools + simulation evidence

@@ -1,0 +1,938 @@
+[
+  {
+    "seed": 510000,
+    "split": "validation",
+    "scenario_id": "validation-0",
+    "family": "batched",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 510001,
+    "split": "validation",
+    "scenario_id": "validation-1",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 510002,
+    "split": "validation",
+    "scenario_id": "validation-2",
+    "family": "batched",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 510003,
+    "split": "validation",
+    "scenario_id": "validation-3",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 510004,
+    "split": "validation",
+    "scenario_id": "validation-4",
+    "family": "batched",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 510005,
+    "split": "validation",
+    "scenario_id": "validation-5",
+    "family": "batched",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 510006,
+    "split": "validation",
+    "scenario_id": "validation-6",
+    "family": "batched",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 510007,
+    "split": "validation",
+    "scenario_id": "validation-7",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 510008,
+    "split": "validation",
+    "scenario_id": "validation-8",
+    "family": "batched",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 510009,
+    "split": "validation",
+    "scenario_id": "validation-9",
+    "family": "batched",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 510010,
+    "split": "validation",
+    "scenario_id": "validation-10",
+    "family": "batched",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 510011,
+    "split": "validation",
+    "scenario_id": "validation-11",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 510012,
+    "split": "validation",
+    "scenario_id": "validation-12",
+    "family": "batched",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 510013,
+    "split": "validation",
+    "scenario_id": "validation-13",
+    "family": "batched",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 510014,
+    "split": "validation",
+    "scenario_id": "validation-14",
+    "family": "batched",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 510015,
+    "split": "validation",
+    "scenario_id": "validation-15",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 510016,
+    "split": "validation",
+    "scenario_id": "validation-16",
+    "family": "batched",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 510017,
+    "split": "validation",
+    "scenario_id": "validation-17",
+    "family": "batched",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 510018,
+    "split": "validation",
+    "scenario_id": "validation-18",
+    "family": "batched",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 510019,
+    "split": "validation",
+    "scenario_id": "validation-19",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 510020,
+    "split": "validation",
+    "scenario_id": "validation-20",
+    "family": "batched",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 510021,
+    "split": "validation",
+    "scenario_id": "validation-21",
+    "family": "batched",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 510022,
+    "split": "validation",
+    "scenario_id": "validation-22",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 510023,
+    "split": "validation",
+    "scenario_id": "validation-23",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 510024,
+    "split": "validation",
+    "scenario_id": "validation-24",
+    "family": "batched",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 510025,
+    "split": "validation",
+    "scenario_id": "validation-25",
+    "family": "batched",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 510026,
+    "split": "validation",
+    "scenario_id": "validation-26",
+    "family": "batched",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 510027,
+    "split": "validation",
+    "scenario_id": "validation-27",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 510028,
+    "split": "validation",
+    "scenario_id": "validation-28",
+    "family": "batched",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 510029,
+    "split": "validation",
+    "scenario_id": "validation-29",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 510030,
+    "split": "validation",
+    "scenario_id": "validation-30",
+    "family": "batched",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 510031,
+    "split": "validation",
+    "scenario_id": "validation-31",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 510032,
+    "split": "validation",
+    "scenario_id": "validation-32",
+    "family": "batched",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 510033,
+    "split": "validation",
+    "scenario_id": "validation-33",
+    "family": "batched",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 510034,
+    "split": "validation",
+    "scenario_id": "validation-34",
+    "family": "batched",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 510035,
+    "split": "validation",
+    "scenario_id": "validation-35",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 510036,
+    "split": "validation",
+    "scenario_id": "validation-36",
+    "family": "batched",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 510037,
+    "split": "validation",
+    "scenario_id": "validation-37",
+    "family": "batched",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 510038,
+    "split": "validation",
+    "scenario_id": "validation-38",
+    "family": "batched",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 510039,
+    "split": "validation",
+    "scenario_id": "validation-39",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 510040,
+    "split": "validation",
+    "scenario_id": "validation-40",
+    "family": "batched",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 510041,
+    "split": "validation",
+    "scenario_id": "validation-41",
+    "family": "batched",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 510042,
+    "split": "validation",
+    "scenario_id": "validation-42",
+    "family": "batched",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 510043,
+    "split": "validation",
+    "scenario_id": "validation-43",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 510044,
+    "split": "validation",
+    "scenario_id": "validation-44",
+    "family": "batched",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 510045,
+    "split": "validation",
+    "scenario_id": "validation-45",
+    "family": "batched",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 510046,
+    "split": "validation",
+    "scenario_id": "validation-46",
+    "family": "batched",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 510047,
+    "split": "validation",
+    "scenario_id": "validation-47",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 510048,
+    "split": "validation",
+    "scenario_id": "validation-48",
+    "family": "batched",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 510049,
+    "split": "validation",
+    "scenario_id": "validation-49",
+    "family": "batched",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 510050,
+    "split": "validation",
+    "scenario_id": "validation-50",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 510051,
+    "split": "validation",
+    "scenario_id": "validation-51",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 510052,
+    "split": "validation",
+    "scenario_id": "validation-52",
+    "family": "batched",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 510053,
+    "split": "validation",
+    "scenario_id": "validation-53",
+    "family": "batched",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 510054,
+    "split": "validation",
+    "scenario_id": "validation-54",
+    "family": "batched",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 510055,
+    "split": "validation",
+    "scenario_id": "validation-55",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 510056,
+    "split": "validation",
+    "scenario_id": "validation-56",
+    "family": "batched",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 510057,
+    "split": "validation",
+    "scenario_id": "validation-57",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 510058,
+    "split": "validation",
+    "scenario_id": "validation-58",
+    "family": "batched",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 510059,
+    "split": "validation",
+    "scenario_id": "validation-59",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 510060,
+    "split": "validation",
+    "scenario_id": "validation-60",
+    "family": "batched",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 510061,
+    "split": "validation",
+    "scenario_id": "validation-61",
+    "family": "batched",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 510062,
+    "split": "validation",
+    "scenario_id": "validation-62",
+    "family": "batched",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 510063,
+    "split": "validation",
+    "scenario_id": "validation-63",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 510064,
+    "split": "validation",
+    "scenario_id": "validation-64",
+    "family": "batched",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 510065,
+    "split": "validation",
+    "scenario_id": "validation-65",
+    "family": "batched",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 510066,
+    "split": "validation",
+    "scenario_id": "validation-66",
+    "family": "batched",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 510067,
+    "split": "validation",
+    "scenario_id": "validation-67",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 510068,
+    "split": "validation",
+    "scenario_id": "validation-68",
+    "family": "batched",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 510069,
+    "split": "validation",
+    "scenario_id": "validation-69",
+    "family": "batched",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 510070,
+    "split": "validation",
+    "scenario_id": "validation-70",
+    "family": "batched",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 510071,
+    "split": "validation",
+    "scenario_id": "validation-71",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 510072,
+    "split": "validation",
+    "scenario_id": "validation-72",
+    "family": "batched",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 510073,
+    "split": "validation",
+    "scenario_id": "validation-73",
+    "family": "batched",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 510074,
+    "split": "validation",
+    "scenario_id": "validation-74",
+    "family": "batched",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 510075,
+    "split": "validation",
+    "scenario_id": "validation-75",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 510076,
+    "split": "validation",
+    "scenario_id": "validation-76",
+    "family": "batched",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 510077,
+    "split": "validation",
+    "scenario_id": "validation-77",
+    "family": "batched",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 510078,
+    "split": "validation",
+    "scenario_id": "validation-78",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 510079,
+    "split": "validation",
+    "scenario_id": "validation-79",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 510080,
+    "split": "validation",
+    "scenario_id": "validation-80",
+    "family": "batched",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 510081,
+    "split": "validation",
+    "scenario_id": "validation-81",
+    "family": "batched",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 510082,
+    "split": "validation",
+    "scenario_id": "validation-82",
+    "family": "batched",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 510083,
+    "split": "validation",
+    "scenario_id": "validation-83",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 510084,
+    "split": "validation",
+    "scenario_id": "validation-84",
+    "family": "batched",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 510085,
+    "split": "validation",
+    "scenario_id": "validation-85",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 510086,
+    "split": "validation",
+    "scenario_id": "validation-86",
+    "family": "batched",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 510087,
+    "split": "validation",
+    "scenario_id": "validation-87",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 510088,
+    "split": "validation",
+    "scenario_id": "validation-88",
+    "family": "batched",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 510089,
+    "split": "validation",
+    "scenario_id": "validation-89",
+    "family": "batched",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 510090,
+    "split": "validation",
+    "scenario_id": "validation-90",
+    "family": "batched",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 510091,
+    "split": "validation",
+    "scenario_id": "validation-91",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 510092,
+    "split": "validation",
+    "scenario_id": "validation-92",
+    "family": "batched",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 510093,
+    "split": "validation",
+    "scenario_id": "validation-93",
+    "family": "batched",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 510094,
+    "split": "validation",
+    "scenario_id": "validation-94",
+    "family": "batched",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 510095,
+    "split": "validation",
+    "scenario_id": "validation-95",
+    "family": "batched",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  }
+]

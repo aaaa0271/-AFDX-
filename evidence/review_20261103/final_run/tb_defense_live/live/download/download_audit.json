@@ -1,0 +1,91 @@
+{
+  "files": {
+    "TARGET.LNS": {
+      "length": 40,
+      "sha256": "819ad09f9b15f825386d3ac982378a8b71756e76de913f3ff56999472ae3245e"
+    },
+    "TARGET.LNL": {
+      "length": 24,
+      "sha256": "6600d4620426a90a338289076be62d911d9054e25b6af15a3567473cdf5c5de6"
+    },
+    "A.LUP": {
+      "length": 700,
+      "sha256": "54e4fb4f9ba1bb6d7ae442025ad12b8a2491217b2508d03a1aa09323cb5297cf"
+    },
+    "B.LUP": {
+      "length": 1024,
+      "sha256": "2bd8709c5f474f35ecae639ee9ab00e74fc985df5ff0e88cb115d37d9ec9b3a9"
+    }
+  },
+  "statuses": [
+    {
+      "code": 1,
+      "description": "",
+      "counter": 0,
+      "exception_timer": 0,
+      "estimated_time": 0,
+      "ratio": 0,
+      "files": []
+    },
+    {
+      "code": 2,
+      "description": "",
+      "counter": 1,
+      "exception_timer": 0,
+      "estimated_time": 0,
+      "ratio": 0,
+      "files": [
+        {
+          "name": "A.LUP",
+          "code": 2,
+          "description": ""
+        },
+        {
+          "name": "B.LUP",
+          "code": 2,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "code": 2,
+      "description": "",
+      "counter": 2,
+      "exception_timer": 0,
+      "estimated_time": 0,
+      "ratio": 0,
+      "files": [
+        {
+          "name": "A.LUP",
+          "code": 3,
+          "description": ""
+        },
+        {
+          "name": "B.LUP",
+          "code": 2,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "code": 3,
+      "description": "",
+      "counter": 3,
+      "exception_timer": 0,
+      "estimated_time": 0,
+      "ratio": 100,
+      "files": [
+        {
+          "name": "A.LUP",
+          "code": 3,
+          "description": ""
+        },
+        {
+          "name": "B.LUP",
+          "code": 3,
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

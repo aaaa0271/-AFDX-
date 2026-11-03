@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "features": [
+    "observed_pps",
+    "mean_frame_bytes",
+    "frame_size_cv",
+    "arrival_cv",
+    "ab_unpaired_ratio",
+    "ab_payload_mismatch_ratio",
+    "fcs_error_ratio",
+    "queue_overflow_ratio",
+    "latency_p95_us",
+    "ntp_rtt_ms",
+    "ntp_offset_abs_ms",
+    "clock_step_abs_ms",
+    "loader_progress_ratio",
+    "loader_retry_ratio",
+    "fragment_orphan_ratio",
+    "management_fraction",
+    "active_context_ratio",
+    "sha_jobs_per_1k_frames"
+  ],
+  "causes": [
+    "congestion",
+    "link_degradation",
+    "replica_divergence",
+    "time_anomaly",
+    "loader_stall",
+    "fragment_pressure",
+    "management_burst"
+  ],
+  "history": 8,
+  "horizon": 3,
+  "splits": {
+    "train": {
+      "groups": 320,
+      "samples": 4480,
+      "sha256": "f6f1380caa7da78ed9eedb87001eef78458618fd8b16701d3ba19bd87240b002",
+      "metadata_sha256": "5083cd17760ce53bbad5825bab10473c1743a1dc0b637fd1f109c00a1d91f44f"
+    },
+    "validation": {
+      "groups": 96,
+      "samples": 1344,
+      "sha256": "668f48ed64ad62e8b9d284fb71127c265a622bcb9ef72e27ca2f724d7bb7877e",
+      "metadata_sha256": "7fadfd9c59d12e02990ea680bd1b2a964a34ba3b4f2c722a0d126c31625c924e"
+    },
+    "test": {
+      "groups": 128,
+      "samples": 1792,
+      "sha256": "6993add3677a6007b4bac79db5cfd991473703c011faa71d7c3449ff6ce3e686",
+      "metadata_sha256": "e25cc6ff73258e251b4f7f84f11dfe695b6e00d0d598471e4d4d4b5c780d5c90"
+    },
+    "ood": {
+      "groups": 64,
+      "samples": 896,
+      "sha256": "8bcf77d9cd1b80e529005051ef74a9a36889da04ebf58e43a5b49c5cccde90ac",
+      "metadata_sha256": "1e6cb7d2502c86016adfc1de04efce4b6add3cedf9e5be7338c8b6ef0535f25b"
+    }
+  },
+  "reason_flags_used": false,
+  "future_fields_used_as_inputs": false,
+  "group_disjoint": true,
+  "domain": "continuous abstract packet-service simulation; not measured board data",
+  "seconds": 8.427255242000228
+}

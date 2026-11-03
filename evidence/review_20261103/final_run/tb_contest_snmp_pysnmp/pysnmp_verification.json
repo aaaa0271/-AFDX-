@@ -1,0 +1,41 @@
+{
+  "library": "pysnmp7.1.22/pyasn1 0.6.1",
+  "results": [
+    {
+      "case": "get_one",
+      "rid": 1,
+      "status": "PASS",
+      "response_bytes": 46
+    },
+    {
+      "case": "multi",
+      "rid": 128,
+      "status": "PASS",
+      "response_bytes": 63
+    },
+    {
+      "case": "root",
+      "rid": -129,
+      "status": "PASS",
+      "response_bytes": 47
+    },
+    {
+      "case": "next",
+      "rid": 8388608,
+      "status": "PASS",
+      "response_bytes": 47
+    },
+    {
+      "case": "missing",
+      "rid": 127,
+      "status": "PASS",
+      "response_bytes": 43
+    },
+    {
+      "case": "end",
+      "rid": -1,
+      "status": "PASS",
+      "response_bytes": 43
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "tb_615a_control_recovery",
+  "suite": "completion",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_615a_control_recovery/result.log",
+  "audits": [],
+  "issues": []
+}

@@ -1,0 +1,20 @@
+{
+  "status": "FAIL",
+  "exit": 3,
+  "tool": "D:\\eLinx3.0\\bin\\Passkey\\bin\\quartus_map.exe",
+  "top": "AFDX_defense_top",
+  "elaborated_top": "AFDX_defense_top",
+  "service_domains": 1,
+  "errors": null,
+  "warnings": null,
+  "sources": 121,
+  "stages": {
+    "analysis_elaboration": "FAIL",
+    "target_synthesis": "NOT_RUN",
+    "place_route": "NOT_RUN",
+    "timing": "NOT_RUN"
+  },
+  "analysis_part": "EP1S80F1508C6",
+  "target_part": "EQ6HL130",
+  "scope": "Quartus-compatible analysis/elaboration only; not EQ6HL130 synthesis, fitting, timing closure or board evidence"
+}

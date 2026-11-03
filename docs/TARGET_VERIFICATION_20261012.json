@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-12",
+  "requested_scope": "target-device timing and physical board interoperability",
+  "project_device_setting": "EP1S80F1508C6",
+  "actual_target_confirmed": false,
+  "nominal_clock_ns": 80,
+  "clock_constraint": "AFDX_12p5MHz.sdc",
+  "pin_constraints_available": false,
+  "io_timing_constraints_available": false,
+  "board_schematic_available": false,
+  "jtag_discovery_result": "No JTAG hardware available",
+  "fitter_executed": false,
+  "post_route_sta_executed": false,
+  "board_interoperability_executed": false,
+  "hardware_verdict": "NOT_RUN_MISSING_TARGET_AND_HARDWARE",
+  "required_inputs": [
+    "Actual FPGA part/package/speed grade and board model",
+    "Pin map, I/O standards, clocks, resets, PHY interface and setup/hold budgets",
+    "Accessible powered board and programming/debug interface",
+    "Connected independent AFDX peer(s), capture timestamps and calibrated traffic source"
+  ],
+  "acceptance_conditions": [
+    "Target-specific synthesis and place/route succeeds with resource headroom",
+    "All setup/hold, recovery/removal paths meet reviewed constraints at required corners",
+    "No unexplained unconstrained endpoints or unjustified timing exceptions",
+    "Independent A/B wire captures validate traffic, failures, recovery and time synchronization"
+  ],
+  "formal_arinc_certification": false
+}

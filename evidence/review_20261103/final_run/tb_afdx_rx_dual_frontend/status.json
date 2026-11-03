@@ -1,0 +1,9 @@
+{
+  "name": "tb_afdx_rx_dual_frontend",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_afdx_rx_dual_frontend/result.log",
+  "audits": [],
+  "issues": []
+}

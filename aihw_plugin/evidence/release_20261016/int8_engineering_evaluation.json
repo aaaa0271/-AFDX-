@@ -1,0 +1,146 @@
+{
+  "domain": "held-out synthetic abstract packet-service traces",
+  "source_weights_unchanged": true,
+  "model_tag": "a7a189b8",
+  "quantization": "post-training INT8 weights / INT16 activations / INT48 accumulators",
+  "quantization_scales_source": "training maxima only; no test-label optimization",
+  "test_used_in_initial_numeric_debugging": true,
+  "splits": {
+    "validation": {
+      "windows": 1344,
+      "scenario_groups": 96,
+      "float": {
+        "multilabel_macro_f1": 0.982359926775503,
+        "warning_f1": 0.8155737704918032,
+        "warning_recall": 0.8155737704918032,
+        "warning_false_positive_rate": 0.04090909090909091,
+        "latency_mae_us": 97.45655822753906
+      },
+      "integer_raw_all_windows": {
+        "multilabel_macro_f1": 0.9812865815161113,
+        "warning_f1": 0.8140495867768595,
+        "warning_recall": 0.8073770491803278,
+        "warning_false_positive_rate": 0.03909090909090909,
+        "latency_mae_us": 99.28963043664407
+      },
+      "input_saturated_windows": 0,
+      "arithmetic_saturated_windows": 0,
+      "out_of_support_windows": 137,
+      "valid_windows": 1207,
+      "decision_agreement": 0.9993489583333334,
+      "entire_window_decision_agreement": 0.9947916666666666,
+      "mean_abs_logit_error": 0.0649448199075691,
+      "max_abs_logit_error": 0.3684549331665039,
+      "integer_valid_windows_only": {
+        "multilabel_macro_f1": 0.9756236734713468,
+        "warning_f1": 0.8097560975609757,
+        "warning_recall": 0.7942583732057417,
+        "warning_false_positive_rate": 0.03507014028056112,
+        "latency_mae_us": 95.14538697685043
+      },
+      "early_warning_before_any_loss": {
+        "windows": 44,
+        "raw_integer_recall": 0.5227272727272727,
+        "accepted_warning_recall": 0.45454545454545453
+      },
+      "early_warning_below_4pct_loss": {
+        "windows": 106,
+        "raw_integer_recall": 0.6320754716981132,
+        "accepted_warning_recall": 0.5566037735849056
+      }
+    },
+    "test": {
+      "windows": 1792,
+      "scenario_groups": 128,
+      "float": {
+        "multilabel_macro_f1": 0.872236505202162,
+        "warning_f1": 0.8672985781990521,
+        "warning_recall": 0.8605015673981191,
+        "warning_false_positive_rate": 0.0684575389948007,
+        "latency_mae_us": 164.5550994873047
+      },
+      "integer_raw_all_windows": {
+        "multilabel_macro_f1": 0.8724639049509078,
+        "warning_f1": 0.8692913385826772,
+        "warning_recall": 0.8652037617554859,
+        "warning_false_positive_rate": 0.06932409012131716,
+        "latency_mae_us": 165.8048196959826
+      },
+      "input_saturated_windows": 0,
+      "arithmetic_saturated_windows": 0,
+      "out_of_support_windows": 247,
+      "valid_windows": 1545,
+      "decision_agreement": 0.9995814732142857,
+      "entire_window_decision_agreement": 0.9966517857142857,
+      "mean_abs_logit_error": 0.06482567049452984,
+      "max_abs_logit_error": 0.4041767120361328,
+      "integer_valid_windows_only": {
+        "multilabel_macro_f1": 0.8828745135544154,
+        "warning_f1": 0.8517412935323383,
+        "warning_recall": 0.84251968503937,
+        "warning_false_positive_rate": 0.0665380906460945,
+        "latency_mae_us": 161.44994540552324
+      },
+      "early_warning_before_any_loss": {
+        "windows": 67,
+        "raw_integer_recall": 0.23880597014925373,
+        "accepted_warning_recall": 0.1791044776119403
+      },
+      "early_warning_below_4pct_loss": {
+        "windows": 175,
+        "raw_integer_recall": 0.56,
+        "accepted_warning_recall": 0.45714285714285713
+      }
+    },
+    "ood": {
+      "windows": 896,
+      "scenario_groups": 64,
+      "float": {
+        "multilabel_macro_f1": 0.6146154447231703,
+        "warning_f1": 0.8961038961038961,
+        "warning_recall": 0.8607068607068608,
+        "warning_false_positive_rate": 0.06987951807228916,
+        "latency_mae_us": 420.87652587890625
+      },
+      "integer_raw_all_windows": {
+        "multilabel_macro_f1": 0.6156334735411829,
+        "warning_f1": 0.894907908992416,
+        "warning_recall": 0.8586278586278586,
+        "warning_false_positive_rate": 0.06987951807228916,
+        "latency_mae_us": 445.2093293790632
+      },
+      "input_saturated_windows": 0,
+      "arithmetic_saturated_windows": 0,
+      "out_of_support_windows": 210,
+      "valid_windows": 686,
+      "decision_agreement": 0.9993024553571429,
+      "entire_window_decision_agreement": 0.9944196428571429,
+      "mean_abs_logit_error": 0.06791239830924915,
+      "max_abs_logit_error": 0.5620441436767578,
+      "integer_valid_windows_only": {
+        "multilabel_macro_f1": 0.6375152596663811,
+        "warning_f1": 0.9013254786450663,
+        "warning_recall": 0.8693181818181818,
+        "warning_false_positive_rate": 0.06287425149700598,
+        "latency_mae_us": 343.25188494474577
+      },
+      "early_warning_before_any_loss": {
+        "windows": 35,
+        "raw_integer_recall": 0.22857142857142856,
+        "accepted_warning_recall": 0.22857142857142856
+      },
+      "early_warning_below_4pct_loss": {
+        "windows": 102,
+        "raw_integer_recall": 0.5294117647058824,
+        "accepted_warning_recall": 0.43137254901960786
+      }
+    }
+  },
+  "acceptance": {
+    "minimum_all_bit_agreement": 0.98,
+    "maximum_macro_f1_loss": 0.02,
+    "maximum_warning_f1_loss": 0.02,
+    "maximum_mae_relative_increase": 0.05,
+    "passed": false
+  }
+}

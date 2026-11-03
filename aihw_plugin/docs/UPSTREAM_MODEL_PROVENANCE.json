@@ -1,0 +1,7 @@
+{
+  "AFDX_AI_Extensions_R2/afdx_ext/nn.py": "a5d9b08b541dfe8e240e358ea4c546622e3c6c51c942b036280e63c1bd5750c2",
+  "AFDX_AI_Extensions_R2/afdx_ext/common.py": "c243a363d4d77ff25e9df19e64df698827771097f2e4c8153eae2761aa3b278d",
+  "AFDX_AI_Extensions_R2/afdx_ext/telemetry.py": "89fcdce70eee973f88d11f36bfe446e9802f045f9ea1edd5c5d84e497848fb84",
+  "AFDX_AI_Extensions_R2/scripts/train_temporal.py": "c34623f6799ab9d5b09c260a55d0fec400eb666f6c7d55c000f39c9920cb5442",
+  "AFDX_AI_Extensions_R2/models/temporal.npz": "844180c84ddfa2f27292257c99c4bb054289730ef68b4b0bb4b51fb766ad4a63"
+}

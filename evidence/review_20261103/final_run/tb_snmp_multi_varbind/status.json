@@ -1,0 +1,9 @@
+{
+  "name": "tb_snmp_multi_varbind",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_snmp_multi_varbind/result.log",
+  "audits": [],
+  "issues": []
+}

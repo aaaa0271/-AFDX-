@@ -1,0 +1,9 @@
+{
+  "name": "tb_afdx_standard_mib",
+  "suite": "experimental",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_afdx_standard_mib/result.log",
+  "audits": [],
+  "issues": []
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "files_checked": 617,
+  "mismatches": [],
+  "original_framework_and_security_files_unchanged": true,
+  "original_ml_runtime_and_weights_unchanged": true,
+  "reference": "UPSTREAM_HASHES.json",
+  "note": "Pins refer to prior delivered packages, not all copied into this plugin."
+}

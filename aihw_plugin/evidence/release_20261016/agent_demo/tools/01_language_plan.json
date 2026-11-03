@@ -1,0 +1,29 @@
+{
+  "status": "candidate",
+  "plan": {
+    "task": "compound",
+    "tool": "diagnose_compound",
+    "write": false
+  },
+  "generated_tokens": [
+    "{",
+    "\"task\"",
+    ":",
+    "\"compound\"",
+    ",",
+    "\"tool\"",
+    ":",
+    "\"diagnose_compound\"",
+    ",",
+    "\"write\"",
+    ":",
+    "false",
+    "}",
+    "<eos>"
+  ],
+  "decoder": "conditional autoregressive tanh RNN with finite grammar",
+  "selection_reason": "trained_sequence_decoder",
+  "sequence_share": 0.9955563154332939,
+  "sequence_share_is_calibrated_probability": false,
+  "general_chat_model": false
+}

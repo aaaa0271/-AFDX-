@@ -1,0 +1,29 @@
+{
+  "source": "previous actual security RTL regression, not training data",
+  "event_log": "AFDX_Security_Plugin/results/release_final_20261015/plugin/security_events.txt",
+  "cases": {
+    "AB_reference": {
+      "id": 5,
+      "name": "AB_reference",
+      "frame": 4,
+      "channel": 0,
+      "expected_flags": 0,
+      "expected_allow": true,
+      "mode": 2
+    },
+    "AB_valid_checksums_content_conflict": {
+      "id": 6,
+      "name": "AB_valid_checksums_content_conflict",
+      "frame": 5,
+      "channel": 1,
+      "expected_flags": 4,
+      "expected_allow": false,
+      "mode": 2
+    }
+  },
+  "files": {
+    "ab_second_wire.bin": "bbd329c396acc86499ef1d8f78111f997472899fceb7f7d57f73eb906cf7747a",
+    "security_events.txt": "5a221429f53e443850858c7587930cc4e6f8dbcbd0a84d5024383e4b0e848ac5",
+    "ab_first_wire.bin": "fdb73023aeec222bacbde3a5a5c5f3695fcfa00cfcfcc5adf292816ffbbdda2c"
+  }
+}

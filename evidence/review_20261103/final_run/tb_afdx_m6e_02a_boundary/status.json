@@ -1,0 +1,9 @@
+{
+  "name": "tb_afdx_m6e_02a_boundary",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_afdx_m6e_02a_boundary/result.log",
+  "audits": [],
+  "issues": []
+}

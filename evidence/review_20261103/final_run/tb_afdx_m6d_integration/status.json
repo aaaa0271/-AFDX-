@@ -1,0 +1,9 @@
+{
+  "name": "tb_afdx_m6d_integration",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_afdx_m6d_integration/result.log",
+  "audits": [],
+  "issues": []
+}

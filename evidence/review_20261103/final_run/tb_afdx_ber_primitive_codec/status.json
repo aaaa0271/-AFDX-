@@ -1,0 +1,9 @@
+{
+  "name": "tb_afdx_ber_primitive_codec",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_afdx_ber_primitive_codec/result.log",
+  "audits": [],
+  "issues": []
+}

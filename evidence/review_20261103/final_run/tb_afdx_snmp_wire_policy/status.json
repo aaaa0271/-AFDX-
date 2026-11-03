@@ -1,0 +1,15 @@
+{
+  "name": "tb_afdx_snmp_wire_policy",
+  "suite": "experimental",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_afdx_snmp_wire_policy/result.log",
+  "audits": [
+    {
+      "script": "verify_snmp_wire_policy.py",
+      "exit": 0,
+      "log": "tb_afdx_snmp_wire_policy/verify_snmp_wire_policy.log"
+    }
+  ],
+  "issues": []
+}

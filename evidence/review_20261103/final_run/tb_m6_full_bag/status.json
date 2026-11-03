@@ -1,0 +1,9 @@
+{
+  "name": "tb_m6_full_bag",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_m6_full_bag/result.log",
+  "audits": [],
+  "issues": []
+}

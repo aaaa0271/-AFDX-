@@ -1,0 +1,9 @@
+{
+  "name": "tb_gmii_tx_adapter_varlen",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_gmii_tx_adapter_varlen/result.log",
+  "audits": [],
+  "issues": []
+}

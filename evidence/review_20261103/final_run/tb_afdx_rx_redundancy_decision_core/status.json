@@ -1,0 +1,9 @@
+{
+  "name": "tb_afdx_rx_redundancy_decision_core",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_afdx_rx_redundancy_decision_core/result.log",
+  "audits": [],
+  "issues": []
+}

@@ -1,0 +1,1250 @@
+[
+  {
+    "seed": 610000,
+    "split": "test",
+    "scenario_id": "test-0",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 610001,
+    "split": "test",
+    "scenario_id": "test-1",
+    "family": "alternating",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610002,
+    "split": "test",
+    "scenario_id": "test-2",
+    "family": "chirp",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610003,
+    "split": "test",
+    "scenario_id": "test-3",
+    "family": "alternating",
+    "injected_causes": [
+      "replica_divergence",
+      "time_anomaly"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610004,
+    "split": "test",
+    "scenario_id": "test-4",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 610005,
+    "split": "test",
+    "scenario_id": "test-5",
+    "family": "alternating",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610006,
+    "split": "test",
+    "scenario_id": "test-6",
+    "family": "chirp",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610007,
+    "split": "test",
+    "scenario_id": "test-7",
+    "family": "alternating",
+    "injected_causes": [
+      "link_degradation",
+      "loader_stall"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610008,
+    "split": "test",
+    "scenario_id": "test-8",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 610009,
+    "split": "test",
+    "scenario_id": "test-9",
+    "family": "alternating",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610010,
+    "split": "test",
+    "scenario_id": "test-10",
+    "family": "chirp",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610011,
+    "split": "test",
+    "scenario_id": "test-11",
+    "family": "alternating",
+    "injected_causes": [
+      "link_degradation",
+      "time_anomaly"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610012,
+    "split": "test",
+    "scenario_id": "test-12",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 610013,
+    "split": "test",
+    "scenario_id": "test-13",
+    "family": "alternating",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610014,
+    "split": "test",
+    "scenario_id": "test-14",
+    "family": "chirp",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610015,
+    "split": "test",
+    "scenario_id": "test-15",
+    "family": "alternating",
+    "injected_causes": [
+      "congestion",
+      "management_burst"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610016,
+    "split": "test",
+    "scenario_id": "test-16",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 610017,
+    "split": "test",
+    "scenario_id": "test-17",
+    "family": "alternating",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610018,
+    "split": "test",
+    "scenario_id": "test-18",
+    "family": "chirp",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610019,
+    "split": "test",
+    "scenario_id": "test-19",
+    "family": "alternating",
+    "injected_causes": [
+      "congestion",
+      "fragment_pressure"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610020,
+    "split": "test",
+    "scenario_id": "test-20",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 610021,
+    "split": "test",
+    "scenario_id": "test-21",
+    "family": "alternating",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610022,
+    "split": "test",
+    "scenario_id": "test-22",
+    "family": "chirp",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610023,
+    "split": "test",
+    "scenario_id": "test-23",
+    "family": "alternating",
+    "injected_causes": [
+      "replica_divergence",
+      "time_anomaly"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610024,
+    "split": "test",
+    "scenario_id": "test-24",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 610025,
+    "split": "test",
+    "scenario_id": "test-25",
+    "family": "alternating",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610026,
+    "split": "test",
+    "scenario_id": "test-26",
+    "family": "chirp",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610027,
+    "split": "test",
+    "scenario_id": "test-27",
+    "family": "alternating",
+    "injected_causes": [
+      "link_degradation",
+      "loader_stall"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610028,
+    "split": "test",
+    "scenario_id": "test-28",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 610029,
+    "split": "test",
+    "scenario_id": "test-29",
+    "family": "alternating",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610030,
+    "split": "test",
+    "scenario_id": "test-30",
+    "family": "chirp",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610031,
+    "split": "test",
+    "scenario_id": "test-31",
+    "family": "alternating",
+    "injected_causes": [
+      "link_degradation",
+      "time_anomaly"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610032,
+    "split": "test",
+    "scenario_id": "test-32",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 610033,
+    "split": "test",
+    "scenario_id": "test-33",
+    "family": "alternating",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610034,
+    "split": "test",
+    "scenario_id": "test-34",
+    "family": "chirp",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610035,
+    "split": "test",
+    "scenario_id": "test-35",
+    "family": "alternating",
+    "injected_causes": [
+      "congestion",
+      "management_burst"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610036,
+    "split": "test",
+    "scenario_id": "test-36",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 610037,
+    "split": "test",
+    "scenario_id": "test-37",
+    "family": "alternating",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610038,
+    "split": "test",
+    "scenario_id": "test-38",
+    "family": "chirp",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610039,
+    "split": "test",
+    "scenario_id": "test-39",
+    "family": "alternating",
+    "injected_causes": [
+      "congestion",
+      "fragment_pressure"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610040,
+    "split": "test",
+    "scenario_id": "test-40",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 610041,
+    "split": "test",
+    "scenario_id": "test-41",
+    "family": "alternating",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610042,
+    "split": "test",
+    "scenario_id": "test-42",
+    "family": "chirp",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610043,
+    "split": "test",
+    "scenario_id": "test-43",
+    "family": "alternating",
+    "injected_causes": [
+      "replica_divergence",
+      "time_anomaly"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610044,
+    "split": "test",
+    "scenario_id": "test-44",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 610045,
+    "split": "test",
+    "scenario_id": "test-45",
+    "family": "alternating",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610046,
+    "split": "test",
+    "scenario_id": "test-46",
+    "family": "chirp",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610047,
+    "split": "test",
+    "scenario_id": "test-47",
+    "family": "alternating",
+    "injected_causes": [
+      "link_degradation",
+      "loader_stall"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610048,
+    "split": "test",
+    "scenario_id": "test-48",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 610049,
+    "split": "test",
+    "scenario_id": "test-49",
+    "family": "alternating",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610050,
+    "split": "test",
+    "scenario_id": "test-50",
+    "family": "chirp",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610051,
+    "split": "test",
+    "scenario_id": "test-51",
+    "family": "alternating",
+    "injected_causes": [
+      "link_degradation",
+      "time_anomaly"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610052,
+    "split": "test",
+    "scenario_id": "test-52",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 610053,
+    "split": "test",
+    "scenario_id": "test-53",
+    "family": "alternating",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610054,
+    "split": "test",
+    "scenario_id": "test-54",
+    "family": "chirp",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610055,
+    "split": "test",
+    "scenario_id": "test-55",
+    "family": "alternating",
+    "injected_causes": [
+      "congestion",
+      "management_burst"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610056,
+    "split": "test",
+    "scenario_id": "test-56",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 610057,
+    "split": "test",
+    "scenario_id": "test-57",
+    "family": "alternating",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610058,
+    "split": "test",
+    "scenario_id": "test-58",
+    "family": "chirp",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610059,
+    "split": "test",
+    "scenario_id": "test-59",
+    "family": "alternating",
+    "injected_causes": [
+      "congestion",
+      "fragment_pressure"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610060,
+    "split": "test",
+    "scenario_id": "test-60",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 610061,
+    "split": "test",
+    "scenario_id": "test-61",
+    "family": "alternating",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610062,
+    "split": "test",
+    "scenario_id": "test-62",
+    "family": "chirp",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610063,
+    "split": "test",
+    "scenario_id": "test-63",
+    "family": "alternating",
+    "injected_causes": [
+      "replica_divergence",
+      "time_anomaly"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610064,
+    "split": "test",
+    "scenario_id": "test-64",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 610065,
+    "split": "test",
+    "scenario_id": "test-65",
+    "family": "alternating",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610066,
+    "split": "test",
+    "scenario_id": "test-66",
+    "family": "chirp",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610067,
+    "split": "test",
+    "scenario_id": "test-67",
+    "family": "alternating",
+    "injected_causes": [
+      "link_degradation",
+      "loader_stall"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610068,
+    "split": "test",
+    "scenario_id": "test-68",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 610069,
+    "split": "test",
+    "scenario_id": "test-69",
+    "family": "alternating",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610070,
+    "split": "test",
+    "scenario_id": "test-70",
+    "family": "chirp",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610071,
+    "split": "test",
+    "scenario_id": "test-71",
+    "family": "alternating",
+    "injected_causes": [
+      "link_degradation",
+      "time_anomaly"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610072,
+    "split": "test",
+    "scenario_id": "test-72",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 610073,
+    "split": "test",
+    "scenario_id": "test-73",
+    "family": "alternating",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610074,
+    "split": "test",
+    "scenario_id": "test-74",
+    "family": "chirp",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610075,
+    "split": "test",
+    "scenario_id": "test-75",
+    "family": "alternating",
+    "injected_causes": [
+      "congestion",
+      "management_burst"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610076,
+    "split": "test",
+    "scenario_id": "test-76",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 610077,
+    "split": "test",
+    "scenario_id": "test-77",
+    "family": "alternating",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610078,
+    "split": "test",
+    "scenario_id": "test-78",
+    "family": "chirp",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610079,
+    "split": "test",
+    "scenario_id": "test-79",
+    "family": "alternating",
+    "injected_causes": [
+      "congestion",
+      "fragment_pressure"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610080,
+    "split": "test",
+    "scenario_id": "test-80",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 610081,
+    "split": "test",
+    "scenario_id": "test-81",
+    "family": "alternating",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610082,
+    "split": "test",
+    "scenario_id": "test-82",
+    "family": "chirp",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610083,
+    "split": "test",
+    "scenario_id": "test-83",
+    "family": "alternating",
+    "injected_causes": [
+      "replica_divergence",
+      "time_anomaly"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610084,
+    "split": "test",
+    "scenario_id": "test-84",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 610085,
+    "split": "test",
+    "scenario_id": "test-85",
+    "family": "alternating",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610086,
+    "split": "test",
+    "scenario_id": "test-86",
+    "family": "chirp",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610087,
+    "split": "test",
+    "scenario_id": "test-87",
+    "family": "alternating",
+    "injected_causes": [
+      "link_degradation",
+      "loader_stall"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610088,
+    "split": "test",
+    "scenario_id": "test-88",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 610089,
+    "split": "test",
+    "scenario_id": "test-89",
+    "family": "alternating",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610090,
+    "split": "test",
+    "scenario_id": "test-90",
+    "family": "chirp",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610091,
+    "split": "test",
+    "scenario_id": "test-91",
+    "family": "alternating",
+    "injected_causes": [
+      "link_degradation",
+      "time_anomaly"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610092,
+    "split": "test",
+    "scenario_id": "test-92",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 610093,
+    "split": "test",
+    "scenario_id": "test-93",
+    "family": "alternating",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610094,
+    "split": "test",
+    "scenario_id": "test-94",
+    "family": "chirp",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610095,
+    "split": "test",
+    "scenario_id": "test-95",
+    "family": "alternating",
+    "injected_causes": [
+      "congestion",
+      "management_burst"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610096,
+    "split": "test",
+    "scenario_id": "test-96",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 610097,
+    "split": "test",
+    "scenario_id": "test-97",
+    "family": "alternating",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610098,
+    "split": "test",
+    "scenario_id": "test-98",
+    "family": "chirp",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610099,
+    "split": "test",
+    "scenario_id": "test-99",
+    "family": "alternating",
+    "injected_causes": [
+      "congestion",
+      "fragment_pressure"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610100,
+    "split": "test",
+    "scenario_id": "test-100",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 610101,
+    "split": "test",
+    "scenario_id": "test-101",
+    "family": "alternating",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610102,
+    "split": "test",
+    "scenario_id": "test-102",
+    "family": "chirp",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610103,
+    "split": "test",
+    "scenario_id": "test-103",
+    "family": "alternating",
+    "injected_causes": [
+      "replica_divergence",
+      "time_anomaly"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610104,
+    "split": "test",
+    "scenario_id": "test-104",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 610105,
+    "split": "test",
+    "scenario_id": "test-105",
+    "family": "alternating",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610106,
+    "split": "test",
+    "scenario_id": "test-106",
+    "family": "chirp",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610107,
+    "split": "test",
+    "scenario_id": "test-107",
+    "family": "alternating",
+    "injected_causes": [
+      "link_degradation",
+      "loader_stall"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610108,
+    "split": "test",
+    "scenario_id": "test-108",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 610109,
+    "split": "test",
+    "scenario_id": "test-109",
+    "family": "alternating",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610110,
+    "split": "test",
+    "scenario_id": "test-110",
+    "family": "chirp",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610111,
+    "split": "test",
+    "scenario_id": "test-111",
+    "family": "alternating",
+    "injected_causes": [
+      "link_degradation",
+      "time_anomaly"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610112,
+    "split": "test",
+    "scenario_id": "test-112",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 610113,
+    "split": "test",
+    "scenario_id": "test-113",
+    "family": "alternating",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610114,
+    "split": "test",
+    "scenario_id": "test-114",
+    "family": "chirp",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610115,
+    "split": "test",
+    "scenario_id": "test-115",
+    "family": "alternating",
+    "injected_causes": [
+      "congestion",
+      "management_burst"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610116,
+    "split": "test",
+    "scenario_id": "test-116",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 610117,
+    "split": "test",
+    "scenario_id": "test-117",
+    "family": "alternating",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610118,
+    "split": "test",
+    "scenario_id": "test-118",
+    "family": "chirp",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610119,
+    "split": "test",
+    "scenario_id": "test-119",
+    "family": "alternating",
+    "injected_causes": [
+      "congestion",
+      "fragment_pressure"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610120,
+    "split": "test",
+    "scenario_id": "test-120",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 610121,
+    "split": "test",
+    "scenario_id": "test-121",
+    "family": "alternating",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 610122,
+    "split": "test",
+    "scenario_id": "test-122",
+    "family": "chirp",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610123,
+    "split": "test",
+    "scenario_id": "test-123",
+    "family": "alternating",
+    "injected_causes": [
+      "replica_divergence",
+      "time_anomaly"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610124,
+    "split": "test",
+    "scenario_id": "test-124",
+    "family": "chirp",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 610125,
+    "split": "test",
+    "scenario_id": "test-125",
+    "family": "alternating",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 610126,
+    "split": "test",
+    "scenario_id": "test-126",
+    "family": "chirp",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 610127,
+    "split": "test",
+    "scenario_id": "test-127",
+    "family": "alternating",
+    "injected_causes": [
+      "link_degradation",
+      "loader_stall"
+    ],
+    "pattern": 1
+  }
+]

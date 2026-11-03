@@ -1,0 +1,6 @@
+epoch 0 validation_loss 0.30459
+epoch 10 validation_loss 0.08078
+epoch 20 validation_loss 0.07641
+epoch 30 validation_loss 0.07137
+epoch 40 validation_loss 0.07177
+TEMPORAL_TRAINING_PASS {'tcn': {'multilabel_macro_f1': 0.872236505202162, 'compound_exact_match': 0.86328125, 'warning_f1': 0.8672985781990521, 'warning_average_precision': 0.9509015953897408, 'warning_recall': 0.8605015673981191, 'warning_false_positive_rate': 0.0684575389948007, 'latency_mae_us': 164.5550994873047}, 'current_window_forest': {'multilabel_macro_f1': 0.8778927733130083, 'compound_exact_match': 0.86328125, 'warning_f1': 0.8437956204379562, 'warning_average_precision': 0.9353378922318076, 'warning_recall': 0.9059561128526645, 'warning_false_positive_rate': 0.13344887348353554, 'latency_mae_us': 170.8227823556515}, 'early_warning_recall_before_any_loss': 0.22388059701492538, 'zero_current_loss_risk_windows': 67, 'warning_recall_before_4pct_loss_threshold': 0.5485714285714286, 'below_4pct_risk_windows': 175, 'interval_window_coverage': 0.9771205357142857, 'interval_whole_group_coverage': 0.921875}

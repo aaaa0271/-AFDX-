@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "files_checked": 698,
+  "mismatches": [],
+  "original_framework_security_agent_and_models_unchanged": true,
+  "reference": "UPSTREAM_HASHES.json",
+  "note": "Pins refer to existing upstream packages, not all copied into this independent plugin."
+}

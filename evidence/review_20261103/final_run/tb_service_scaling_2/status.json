@@ -1,0 +1,9 @@
+{
+  "name": "tb_service_scaling_2",
+  "suite": "extension",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_service_scaling_2/result.log",
+  "audits": [],
+  "issues": []
+}

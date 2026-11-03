@@ -1,0 +1,824 @@
+{
+  "schema": 1,
+  "bus": "independent trusted local AI CSR",
+  "afdx_configuration_write": false,
+  "model_tag": "1a5cdc59",
+  "outside_features": [],
+  "operations": [
+    {
+      "op": "wait_bits",
+      "addr": 8,
+      "mask": 1,
+      "value": 1
+    },
+    {
+      "op": "write32",
+      "addr": 12,
+      "value": 42
+    },
+    {
+      "op": "write32",
+      "addr": 16,
+      "value": 442293337
+    },
+    {
+      "op": "write32",
+      "addr": 20,
+      "value": 262143
+    },
+    {
+      "op": "write32",
+      "addr": 24,
+      "value": 0
+    },
+    {
+      "op": "write32",
+      "addr": 28,
+      "value": 1
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 1461
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 882
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 64617
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 437
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65085
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65088
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65344
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 3314
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 1678
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65187
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65344
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65323
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 487
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65089
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65334
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 2486
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65297
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65389
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 1595
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 894
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 64544
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 1559
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65096
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65075
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65344
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 4726
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 1680
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65022
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65342
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65328
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 638
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65057
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65325
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 3077
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65284
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65372
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 1701
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 907
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 64463
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65388
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65085
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65100
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65344
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 4040
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 1660
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65322
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65289
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65320
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 369
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65057
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65317
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 3557
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65413
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65458
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 1557
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 924
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 64404
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 1725
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65075
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65100
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65344
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 4524
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 1655
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65456
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65322
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65313
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 506
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65015
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65343
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 4148
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65422
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65312
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 1666
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 898
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 64534
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 1452
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65075
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65088
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65344
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 4726
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 1753
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65061
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65288
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65319
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 549
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 64994
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65351
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 4679
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65417
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65382
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 1849
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 918
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 64440
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 1024
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65085
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65088
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65344
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 4659
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 1709
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65131
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65333
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65350
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 610
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65068
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65334
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 5125
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65355
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65477
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 2182
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 919
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 64578
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65078
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65085
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65113
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65361
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 5056
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 1723
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 41
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65327
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65330
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 525
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65036
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65343
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 5299
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65355
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65348
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 2226
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 921
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 64441
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 64574
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65085
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65100
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65361
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 6117
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 1853
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65429
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65338
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65326
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 454
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 64972
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65334
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 5544
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 65306
+    },
+    {
+      "op": "write32",
+      "addr": 32,
+      "value": 130869
+    },
+    {
+      "op": "wait_bits",
+      "addr": 8,
+      "mask": 4,
+      "value": 4
+    },
+    {
+      "op": "read32",
+      "addr": 4
+    },
+    {
+      "op": "read32",
+      "addr": 40
+    },
+    {
+      "op": "read32",
+      "addr": 44
+    },
+    {
+      "op": "read32",
+      "addr": 48
+    },
+    {
+      "op": "read32",
+      "addr": 52
+    },
+    {
+      "op": "read32",
+      "addr": 56
+    },
+    {
+      "op": "read32",
+      "addr": 60
+    },
+    {
+      "op": "read32",
+      "addr": 64
+    },
+    {
+      "op": "read32",
+      "addr": 68
+    },
+    {
+      "op": "read32",
+      "addr": 72
+    },
+    {
+      "op": "read32",
+      "addr": 76
+    },
+    {
+      "op": "read32",
+      "addr": 80
+    },
+    {
+      "op": "read32",
+      "addr": 84
+    },
+    {
+      "op": "write32",
+      "addr": 36,
+      "value": 1
+    }
+  ],
+  "polling_must_have_transport_deadline": true
+}

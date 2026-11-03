@@ -1,0 +1,14 @@
+errors=0
+payload_frames=9
+payload_bytes=160
+sec_allow=29
+sec_block=1
+forwarded=27
+blocked=2
+timeouts=1
+overflow=0
+locked=1
+package_generation=1
+ai_results=2
+ai_actions=1
+ai_block=0

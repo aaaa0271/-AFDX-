@@ -1,0 +1,9 @@
+{
+  "name": "tb_afdx_rx_frontend_m3d",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_afdx_rx_frontend_m3d/result.log",
+  "audits": [],
+  "issues": []
+}

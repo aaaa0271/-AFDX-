@@ -1,0 +1,147 @@
+{
+  "id": "AFDX-COMPETITION-FINAL-20261012",
+  "version": 5,
+  "top": "AFDX_defense_top",
+  "baseline_top": "AFDX_competition_top",
+  "defense_integration": {
+    "security_mode": "ENFORCE by default",
+    "mimic": "host-assisted heterogeneous native/Python workers, whole-frame queue, RTL semantic quorum, fail closed",
+    "ai": "actual raw telemetry, host preprocessing, TCN RTL, alarm and explicitly enabled bounded RX block",
+    "agent": "same-window live evidence investigation; recommendations do not automatically rewrite policy",
+    "host_required": true,
+    "line_rate_or_board_validation": false,
+    "elaboration_this_iteration": "attempted; actual license/result logs required"
+  },
+  "tools": [
+    "ModelSim",
+    "eLinx analysis/elaboration"
+  ],
+  "clock_hz": 12500000,
+  "mac_byte_ns": 80,
+  "wire_bit_rate_per_network": 100000000,
+  "redundant_networks": 2,
+  "vl_count": 4,
+  "subvl_per_vl": 4,
+  "communication_ports": 16,
+  "default_message_limits": {
+    "ports_0_to_3": 8192,
+    "ports_4_to_15": 2048,
+    "sampling": "unfragmented and within configured LMAX-47"
+  },
+  "queuing_depth_messages": 2,
+  "sampling": "latest pending value; active read/frame storage held separately; three storage slots per port",
+  "bag_cycles": {
+    "legal_at_default_clock": [
+      12500,
+      25000,
+      50000,
+      100000,
+      200000,
+      400000,
+      800000,
+      1600000
+    ],
+    "unit": "clock cycles",
+    "shared_per_vl": true
+  },
+  "lmax": {
+    "min": 64,
+    "max": 1518,
+    "unit": "MAC bytes including FCS, excluding preamble/IFG"
+  },
+  "sap_profile": "Sealed local SAP-ID to communication-port/UDP binding; serialized stream interfaces; 8-bit partition access mask",
+  "snmp": {
+    "version": "SNMPv1/v2c plus SNMPv3 USM noAuthNoPriv",
+    "operations": [
+      "GET",
+      "GETNEXT",
+      "GETBULK",
+      "read-only SET error response"
+    ],
+    "mib": "25 project-private telemetry objects",
+    "max_request_varbinds": 16,
+    "max_message_bytes": 512,
+    "community_configurable": true,
+    "standard_mib_complete": false,
+    "v1_implemented": true,
+    "v3_implemented": true,
+    "v3_security_scope": "USM noAuthNoPriv; authNoPriv/authPriv and encrypted scoped PDU are rejected"
+  },
+  "loading": {
+    "role": "615A target, bounded A4 upload profile",
+    "wire_sequence": [
+      "LUI",
+      "LUR",
+      "LUH",
+      "LUP files",
+      "final LUS and ACK"
+    ],
+    "max_files": 4,
+    "max_file_bytes": 4096,
+    "max_header_bytes": 2048,
+    "crc": [
+      "Ethernet FCS",
+      "header/file CRC16",
+      "load CRC32"
+    ],
+    "commit": "two-bank, final status ACK before atomic publication",
+    "full_615a_665_process_and_format_coverage": false,
+    "implemented_extensions": [
+      "TFTP WAIT/ABORT/retry/recovery",
+      "production LUR admits exactly one LUH (MAX_HEADERS=1); multiple files per LUH",
+      "665 0x8003/0x8004 support/UDD parser"
+    ]
+  },
+  "rtc": {
+    "profile": "NTPv4 packet-exchange client; one server per lane, tested with two independent lanes; no NTP peer election",
+    "timestamps": "immutable origin token; actual final-MAC T1 and original-MAC T4 retained across RX queues; outer security replay delay compensated per clock lane",
+    "independent_monotonic_counter": true,
+    "timeout_holdover_recovery": true,
+    "full_rfc5905_algorithm_suite": false
+  },
+  "simulation_only": true,
+  "excluded_by_user": [
+    "physical board/PHY electrical qualification",
+    "AI defense",
+    "additional cybersecurity enhancement",
+    "military qualification"
+  ],
+  "known_boundaries": [
+    "New multi-port mode discards ambiguous non-first orphan fragments before a first fragment establishes the port; no cross-port delivery. Legacy single-port-per-VL reverse-order cases remain tested.",
+    "Analysis/elaboration is not device fitting, routed timing closure, hardware interoperability or electrical qualification.",
+    "Formal selected-edition clause conformance and previously requested full-standard expansions remain incomplete.",
+    "Two loader/clock pairs share the real A/B MAC in the tested extension. Arbitrary numbers and complete 615A/665 operations are not claimed."
+  ],
+  "service_domains": {
+    "default": 1,
+    "tested_extension": 2,
+    "runtime_verified": [
+      1,
+      2,
+      5,
+      9
+    ],
+    "config": "SERVICE_DOMAINS elaboration parameter with runtime shadow IP/clock/enable bank and atomic idle commit",
+    "arbitrary_domain_count_verified": true
+  },
+  "download": {
+    "profile": "A4 bounded operator-defined and media-defined committed-file download",
+    "wire": [
+      "LNO",
+      "LNL",
+      "LNA",
+      "LND",
+      "LNR",
+      "LNS",
+      "file WRQ/DATA/ACK"
+    ],
+    "max_files": 4,
+    "max_file_bytes": 4096,
+    "control_tid": 44000,
+    "client_tid": 44001,
+    "serialized_with_upload": true,
+    "destructive_uninstall": false,
+    "all_standard_clauses_certified": false,
+    "documentation": "docs/DOWNLOAD_615A.md"
+  }
+}

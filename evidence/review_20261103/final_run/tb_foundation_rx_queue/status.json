@@ -1,0 +1,9 @@
+{
+  "name": "tb_foundation_rx_queue",
+  "suite": "foundation",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_foundation_rx_queue/result.log",
+  "audits": [],
+  "issues": []
+}

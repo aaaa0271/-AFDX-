@@ -1,0 +1,7 @@
+{
+  "status": "advice_only",
+  "advice": "核对链路、线缆与副本缺失；保持CRC及双网检查。",
+  "writes_applied": false,
+  "requires_trusted_configuration_flow": true,
+  "complete_policy_validation": false
+}

@@ -1,0 +1,9 @@
+{
+  "name": "tb_afdx_sequence_integrity",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_afdx_sequence_integrity/result.log",
+  "audits": [],
+  "issues": []
+}

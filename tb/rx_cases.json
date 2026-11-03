@@ -1,0 +1,21 @@
+{
+  "generator": "independent Python struct/binascii",
+  "wire_bytes": 64127,
+  "cases": [
+    "unfragmented-boundaries-and-odd-checksums",
+    "8192-inorder-dual-network",
+    "8191-final-first-outoforder",
+    "identical-overlap-not-delivered-twice",
+    "conflicting-overlap-aborts-and-next-message-recovers",
+    "whole-message-checksum-reject-and-recover",
+    "unrelated-id-middle-fragment-does-not-poison-context",
+    "missing-fragment-timeout-no-partial-delivery",
+    "incorrect-final-endpoint",
+    "invalid-alignment-ip-source-mac-and-ports-before-integrity",
+    "queue-full-backpressure-stable-output",
+    "two-VL-interleaved-reassembly",
+    "bad-A-fcs-good-B-copy",
+    "maximum-size-check",
+    "mid-reassembly-reset"
+  ]
+}

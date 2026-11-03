@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "source": "synthetic",
+  "window_id": "agent-compound",
+  "window_duration_s": 0.32972263061692264,
+  "scope": {
+    "clock_hz": 12500000,
+    "link_mbps": 100,
+    "security_mode": 2
+  },
+  "metrics": {
+    "observed_pps": 582.3076191062811,
+    "mean_frame_bytes": 533.421875,
+    "frame_size_cv": 0.4167612154446967,
+    "arrival_cv": 2.1325041474549504,
+    "ab_unpaired_ratio": 0.015625,
+    "ab_payload_mismatch_ratio": 0.00048828125,
+    "fcs_error_ratio": 0.0,
+    "queue_overflow_ratio": 0.0,
+    "latency_p95_us": 156.46779313342088,
+    "ntp_rtt_ms": 4.314209711654341,
+    "ntp_offset_abs_ms": 13.531936079553526,
+    "clock_step_abs_ms": 2.491513535998839,
+    "loader_progress_ratio": 0.218505859375,
+    "loader_retry_ratio": 0.0048828125,
+    "fragment_orphan_ratio": 0.010986328125,
+    "management_fraction": 0.058837890625,
+    "active_context_ratio": 0.32568359375,
+    "sha_jobs_per_1k_frames": 0.9361563860597801
+  }
+}

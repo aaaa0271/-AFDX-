@@ -1,0 +1,3 @@
+占位文件：保留 reports/ 运行时暂存目录。
+tests/test_mimic.py 与 scripts/validate.py --out 会以 reports/ 作为父目录创建临时构建目录，
+故该目录必须存在。原始交付包内 reports/release_20261016/ 的冻结证据不随本工程携带。

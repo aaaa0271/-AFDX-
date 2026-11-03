@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "ethernet_frames": 32,
+  "ntp_packets": 2,
+  "ntp_origin_matched": true,
+  "lui": 1,
+  "lus": [
+    {
+      "status": 2,
+      "counter": 0,
+      "ratio": 0,
+      "files": [
+        {
+          "name": "APP.LUH",
+          "part": "PN-1",
+          "ratio": 0,
+          "status": 2,
+          "description": ""
+        }
+      ],
+      "description": ""
+    },
+    {
+      "status": 3,
+      "counter": 1,
+      "ratio": 100,
+      "files": [
+        {
+          "name": "APP.LUH",
+          "part": "PN-1",
+          "ratio": 100,
+          "status": 3,
+          "description": ""
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "final_lus_acked": true,
+  "header_bytes": 126,
+  "files": [
+    {
+      "name": "A.LUP",
+      "bytes": 700,
+      "crc16": "279a"
+    },
+    {
+      "name": "B.LUP",
+      "bytes": 1024,
+      "crc16": "3c5f"
+    }
+  ],
+  "loaded_bytes": 1724,
+  "application_bytes": 700,
+  "package_crc32": "ce05f473",
+  "packet_capture": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-10-30\\w\\outputs\\afdx_review_20261103\\submission_regression\\run_20261103_163913_985694\\tb_foundation_shared_degraded\\service_wire.pcap"
+}

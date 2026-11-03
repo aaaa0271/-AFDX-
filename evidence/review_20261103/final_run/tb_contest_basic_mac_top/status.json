@@ -1,0 +1,20 @@
+{
+  "name": "tb_contest_basic_mac_top",
+  "suite": "contest",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_contest_basic_mac_top/result.log",
+  "audits": [
+    {
+      "script": "verify_service_wire.py",
+      "exit": 0,
+      "log": "tb_contest_basic_mac_top/verify_service_wire.log"
+    },
+    {
+      "script": "test_service_wire.py",
+      "exit": 0,
+      "log": "tb_contest_basic_mac_top/test_service_wire.log"
+    }
+  ],
+  "issues": []
+}

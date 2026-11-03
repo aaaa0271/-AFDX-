@@ -1,0 +1,143 @@
+{
+  "schema": 1,
+  "verified_at": "2026-11-03T16:54:12.347410+08:00",
+  "run": "run_20261103_163913_985694",
+  "source_hashes": "final_run/source_hashes.json",
+  "hdl": {
+    "total": 127,
+    "passed": 127,
+    "failed": 0,
+    "status": "PASS"
+  },
+  "host": {
+    "total": 102,
+    "passed": 100,
+    "skipped": 2,
+    "failed": 0
+  },
+  "ai_host": {
+    "total": 34,
+    "passed": 34,
+    "skipped": 0,
+    "failed": 0
+  },
+  "mimic_host": {
+    "total": 57,
+    "passed": 56,
+    "skipped": 1,
+    "failed": 0
+  },
+  "live_integration": {
+    "status": "PASS",
+    "source": "actual_ModelSim_and_native_processes",
+    "frames": 49,
+    "loading_and_download_verified": true,
+    "downloaded_files": [
+      "A.LUP",
+      "B.LUP"
+    ]
+  },
+  "elinx": {
+    "status": "FAIL",
+    "exit": 3,
+    "tool": "D:\\eLinx3.0\\bin\\Passkey\\bin\\quartus_map.exe",
+    "top": "AFDX_defense_top",
+    "elaborated_top": "AFDX_defense_top",
+    "service_domains": 1,
+    "errors": null,
+    "warnings": null,
+    "sources": 121,
+    "stages": {
+      "analysis_elaboration": "FAIL",
+      "target_synthesis": "NOT_RUN",
+      "place_route": "NOT_RUN",
+      "timing": "NOT_RUN"
+    },
+    "analysis_part": "EP1S80F1508C6",
+    "target_part": "EQ6HL130",
+    "scope": "Quartus-compatible analysis/elaboration only; not EQ6HL130 synthesis, fitting, timing closure or board evidence",
+    "multi_domain": {
+      "status": "FAIL",
+      "exit": 3,
+      "tool": "D:\\eLinx3.0\\bin\\Passkey\\bin\\quartus_map.exe",
+      "top": "AFDX_defense_top",
+      "elaborated_top": "AFDX_defense_multi_elab_top",
+      "service_domains": 2,
+      "errors": null,
+      "warnings": null,
+      "sources": 122,
+      "stages": {
+        "analysis_elaboration": "FAIL",
+        "target_synthesis": "NOT_RUN",
+        "place_route": "NOT_RUN",
+        "timing": "NOT_RUN"
+      },
+      "analysis_part": "EP1S80F1508C6",
+      "target_part": "EQ6HL130",
+      "scope": "Quartus-compatible analysis/elaboration only; not EQ6HL130 synthesis, fitting, timing closure or board evidence"
+    },
+    "baseline": {
+      "status": "FAIL",
+      "exit": 3,
+      "tool": "D:\\eLinx3.0\\bin\\Passkey\\bin\\quartus_map.exe",
+      "top": "AFDX_competition_top",
+      "elaborated_top": "AFDX_competition_top",
+      "service_domains": 1,
+      "errors": null,
+      "warnings": null,
+      "sources": 121,
+      "stages": {
+        "analysis_elaboration": "FAIL",
+        "target_synthesis": "NOT_RUN",
+        "place_route": "NOT_RUN",
+        "timing": "NOT_RUN"
+      },
+      "analysis_part": "EP1S80F1508C6",
+      "target_part": "EQ6HL130",
+      "scope": "Quartus-compatible analysis/elaboration only; not EQ6HL130 synthesis, fitting, timing closure or board evidence",
+      "multi_domain": {
+        "status": "FAIL",
+        "exit": 3,
+        "tool": "D:\\eLinx3.0\\bin\\Passkey\\bin\\quartus_map.exe",
+        "top": "AFDX_competition_top",
+        "elaborated_top": "AFDX_baseline_multi_elab_top",
+        "service_domains": 2,
+        "errors": null,
+        "warnings": null,
+        "sources": 122,
+        "stages": {
+          "analysis_elaboration": "FAIL",
+          "target_synthesis": "NOT_RUN",
+          "place_route": "NOT_RUN",
+          "timing": "NOT_RUN"
+        },
+        "analysis_part": "EP1S80F1508C6",
+        "target_part": "EQ6HL130",
+        "scope": "Quartus-compatible analysis/elaboration only; not EQ6HL130 synthesis, fitting, timing closure or board evidence"
+      }
+    }
+  },
+  "overall_toolchain_status": "FAIL",
+  "overall_toolchain_explanation": "All 127 HDL tests pass; eLinx analysis cannot acquire a license valid for this machine. Original acceptance verdict is preserved.",
+  "target_synthesis": "NOT_RUN",
+  "place_route": "NOT_RUN",
+  "timing": "NOT_RUN",
+  "board_required_for_contest": false,
+  "post_run_explanatory_document_edits": [
+    {
+      "path": "docs/DOWNLOAD_615A.md",
+      "before": "d695d8279c5c14babc921715224c76666960eb71a2c41e97472a12c29981397b",
+      "after": "26b95b240e089bebe364a39eafd03b69e40003777d5a39385a94faf27a473a8a",
+      "kind": "explanatory text newline formatting only"
+    },
+    {
+      "path": "docs/REVIEW_20261103.md",
+      "before": "7393acbc3983f44d64bac55c2f3aed384b9e2638ad20bd87a0ead787b7af7208",
+      "after": "720db375befce63d22ca5b1a5fc5d9b56a1894fc37824195fb8fd5c7a049ace1",
+      "kind": "explanatory text newline formatting only"
+    }
+  ],
+  "production_source_identical_to_tested_inputs": true,
+  "artifacts_copied": 650,
+  "formal_standard_certification": false
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "keywords": [
+    "queue",
+    "timeout",
+    "error"
+  ],
+  "matches": [
+    {
+      "artifact_id": "defense_log",
+      "line": 1,
+      "text": "{\"hardware_ai\": {\"schema\": 1, \"status\": \"invalid_measurement\", \"job_id\": 1, \"model_tag\": \"1a5cdc59\", \"source\": \"rtl_simulation\", \"errors\": [\"out_of_support\"], \"unknown_error_bits\": 0, \"raw_logits_q\": [-5687, 2418, 1073, -5666, -11961, -11532, -10423, -5650, -1044], \"cause_scores\": {\"congestion\": 2.250173174536973e-10, ",
+      "matched": [
+        "queue",
+        "error"
+      ]
+    }
+  ],
+  "searched": [
+    {
+      "artifact_id": "defense_log",
+      "binding": "same_window",
+      "source": "rtl_fixture",
+      "window_id": "live_defense_28",
+      "files": [
+        {
+          "path": "defense.log",
+          "sha256": "dacc63049f95eedeb1ac65e642e32f724048c01ecf0c5f4fca58c7155ccf8f36"
+        }
+      ]
+    }
+  ],
+  "literal_search": true,
+  "log_text_executed": false
+}

@@ -1,0 +1,9 @@
+{
+  "name": "tb_afdx_udp_checksum",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_afdx_udp_checksum/result.log",
+  "audits": [],
+  "issues": []
+}

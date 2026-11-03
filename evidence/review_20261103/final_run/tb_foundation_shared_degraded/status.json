@@ -1,0 +1,15 @@
+{
+  "name": "tb_foundation_shared_degraded",
+  "suite": "foundation",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_foundation_shared_degraded/result.log",
+  "audits": [
+    {
+      "script": "verify_shared.py",
+      "exit": 0,
+      "log": "tb_foundation_shared_degraded/verify_shared.log"
+    }
+  ],
+  "issues": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "tb_contest_load_rtc_joint",
+  "suite": "contest",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_contest_load_rtc_joint/result.log",
+  "audits": [],
+  "issues": []
+}

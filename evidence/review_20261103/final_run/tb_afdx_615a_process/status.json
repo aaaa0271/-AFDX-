@@ -1,0 +1,9 @@
+{
+  "name": "tb_afdx_615a_process",
+  "suite": "experimental",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_afdx_615a_process/result.log",
+  "audits": [],
+  "issues": []
+}

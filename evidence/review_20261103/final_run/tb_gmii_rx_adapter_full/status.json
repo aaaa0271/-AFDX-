@@ -1,0 +1,9 @@
+{
+  "name": "tb_gmii_rx_adapter_full",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_gmii_rx_adapter_full/result.log",
+  "audits": [],
+  "issues": []
+}

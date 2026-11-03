@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "case_id": "udp_length",
+  "source": "synthetic_lab",
+  "policy": "policy.json",
+  "frames": [
+    {
+      "id": "udp_length",
+      "path": "udp_length.bin",
+      "channel": 0,
+      "capture_ticks": 0
+    },
+    {
+      "id": "normal_A",
+      "path": "normal_A.bin",
+      "channel": 0,
+      "capture_ticks": 10000
+    }
+  ]
+}

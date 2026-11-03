@@ -1,0 +1,9 @@
+{
+  "name": "tb_afdx_frame_builder_varlen_cfg",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_afdx_frame_builder_varlen_cfg/result.log",
+  "audits": [],
+  "issues": []
+}

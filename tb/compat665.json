@@ -1,0 +1,90 @@
+{
+  "scope": "SDK-based 8003/8004 bounded LUH; 8002 rejected by default",
+  "bytes": 1742,
+  "cases": [
+    {
+      "id": 0,
+      "name": "8004_original",
+      "length": 126,
+      "expected_error": 0
+    },
+    {
+      "id": 1,
+      "name": "8003_supplement2",
+      "length": 94,
+      "expected_error": 0
+    },
+    {
+      "id": 2,
+      "name": "8004_multi_hardware",
+      "length": 134,
+      "expected_error": 0
+    },
+    {
+      "id": 3,
+      "name": "hardware_mismatch",
+      "length": 128,
+      "expected_error": 8
+    },
+    {
+      "id": 4,
+      "name": "duplicate_name",
+      "length": 126,
+      "expected_error": 12
+    },
+    {
+      "id": 5,
+      "name": "unsupported_8002_legacy_prefix",
+      "length": 126,
+      "expected_error": 2
+    },
+    {
+      "id": 6,
+      "name": "unknown_format",
+      "length": 126,
+      "expected_error": 2
+    },
+    {
+      "id": 7,
+      "name": "part_pointer_overlap",
+      "length": 126,
+      "expected_error": 4
+    },
+    {
+      "id": 8,
+      "name": "part_pointer_overflow",
+      "length": 126,
+      "expected_error": 4
+    },
+    {
+      "id": 9,
+      "name": "hardware_pointer_overflow",
+      "length": 126,
+      "expected_error": 4
+    },
+    {
+      "id": 10,
+      "name": "support_pointer_inside_prefix",
+      "length": 126,
+      "expected_error": 4
+    },
+    {
+      "id": 11,
+      "name": "udd_pointer_inside_prefix",
+      "length": 126,
+      "expected_error": 4
+    },
+    {
+      "id": 12,
+      "name": "reserved_nonzero",
+      "length": 126,
+      "expected_error": 2
+    },
+    {
+      "id": 13,
+      "name": "bad_header_crc",
+      "length": 126,
+      "expected_error": 3
+    }
+  ]
+}

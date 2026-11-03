@@ -1,0 +1,233 @@
+{
+  "schema": 1,
+  "domain": "synthetic held-out traffic families; not board/RTL performance",
+  "test_windows": 1920,
+  "test_scenarios": 192,
+  "ood_windows": 400,
+  "classifier": {
+    "accuracy": 0.9682291666666667,
+    "macro_f1": 0.9681892651807171,
+    "macro_f1_group_bootstrap_95_interval": [
+      0.9421857494348602,
+      0.9877994879148018
+    ],
+    "acceptance_coverage": 0.9729166666666667,
+    "accepted_accuracy": 0.984475374732334,
+    "class_report": {
+      "normal": {
+        "precision": 0.9013452914798207,
+        "recall": 0.8375,
+        "f1-score": 0.8682505399568035,
+        "support": 240.0
+      },
+      "congestion": {
+        "precision": 0.8482490272373541,
+        "recall": 0.9083333333333333,
+        "f1-score": 0.8772635814889336,
+        "support": 240.0
+      },
+      "link_degradation": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 240.0
+      },
+      "replica_divergence": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 240.0
+      },
+      "time_anomaly": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 240.0
+      },
+      "loader_stall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 240.0
+      },
+      "fragment_pressure": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 240.0
+      },
+      "management_burst": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 240.0
+      },
+      "accuracy": 0.9682291666666667,
+      "macro avg": {
+        "precision": 0.9686992898396468,
+        "recall": 0.9682291666666667,
+        "f1-score": 0.9681892651807171,
+        "support": 1920.0
+      },
+      "weighted avg": {
+        "precision": 0.9686992898396468,
+        "recall": 0.9682291666666667,
+        "f1-score": 0.9681892651807171,
+        "support": 1920.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        201,
+        39,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        22,
+        218,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        240,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        240,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        240,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        240,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        240,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        240
+      ]
+    ],
+    "class_order": [
+      "normal",
+      "congestion",
+      "link_degradation",
+      "replica_divergence",
+      "time_anomaly",
+      "loader_stall",
+      "fragment_pressure",
+      "management_burst"
+    ],
+    "linear_baseline_macro_f1": 0.9520252336035563,
+    "majority_baseline_accuracy": 0.125,
+    "shuffled_label_control_accuracy": 0.12135416666666667
+  },
+  "anomaly": {
+    "roc_auc": 0.8870362103174604,
+    "normal_false_alarm_rate": 0.04583333333333333,
+    "injected_fault_recall": 0.19285714285714287,
+    "per_class_alarm_rate": {
+      "normal": 0.04583333333333333,
+      "congestion": 0.37916666666666665,
+      "link_degradation": 0.19583333333333333,
+      "replica_divergence": 0.09166666666666666,
+      "time_anomaly": 0.058333333333333334,
+      "loader_stall": 0.0125,
+      "fragment_pressure": 0.3625,
+      "management_burst": 0.25
+    }
+  },
+  "latency": {
+    "mae_us": 92.24311823307033,
+    "mae_group_bootstrap_95_interval_us": [
+      72.4168661294989,
+      114.2980754835776
+    ],
+    "r2": 0.7583502871713181,
+    "p90_absolute_error_us": 351.21201868559143,
+    "interval_window_coverage": 0.9578125,
+    "interval_whole_scenario_coverage": 0.7708333333333334,
+    "mean_interval_width_us": 465.2682867655812,
+    "constant_train_median_mae_us": 258.16445762293154
+  },
+  "unknown_compounds": {
+    "uncertain_or_out_of_support_rate": 0.2025,
+    "confident_single_cause_assignment_rate": 0.7975,
+    "anomaly_alarm_rate": 0.7175,
+    "note": "复合故障未用于训练。候选单原因可能遗漏其他故障；拒答不是完整开放集识别保证。"
+  },
+  "inference": {
+    "cpu_three_models_p50_ms": 27.46661200001199,
+    "cpu_three_models_p95_ms": 31.706154949915796,
+    "includes_python_numpy_tree_traversal": true,
+    "hardware_mac_timing": false
+  },
+  "model_files": {
+    "anomaly.json": {
+      "bytes": 251275,
+      "sha256": "cd64e4aaea9e2773f607a213488490c14cd2ad99e256d9b21301ae6cbada2adc"
+    },
+    "diagnosis.json": {
+      "bytes": 277172,
+      "sha256": "181a7771fd8338deab7ca68f1168bc3c5fa32f98ebc0ce49f6ef1d70b38ebda9"
+    },
+    "latency.json": {
+      "bytes": 1331735,
+      "sha256": "a9913507247421717960c5fce2c0529dc8400c89d98b57327c6d0a5fc259ceee"
+    },
+    "registry.json": {
+      "bytes": 3825,
+      "sha256": "b6a5f5c4eaa4a4d26fd0535be7eba2393ac7263f9395e273741e5f7b68bc4a81"
+    }
+  }
+}

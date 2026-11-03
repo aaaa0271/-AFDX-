@@ -1,0 +1,9 @@
+{
+  "name": "tb_m6_business_varlen",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_m6_business_varlen/result.log",
+  "audits": [],
+  "issues": []
+}

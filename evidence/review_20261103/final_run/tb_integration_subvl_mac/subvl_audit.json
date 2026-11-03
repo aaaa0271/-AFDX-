@@ -1,0 +1,347 @@
+{
+  "status": "PASS",
+  "physical_frames": 58,
+  "wire_messages": 42,
+  "ports": 16,
+  "subvls_per_vl": 4,
+  "minimum_same_vl_start_gap_ps": 1000080000,
+  "details": [
+    {
+      "network": "A",
+      "vl": 0,
+      "port": 4,
+      "ordinal": 0,
+      "bytes": 44,
+      "seed": 24
+    },
+    {
+      "network": "B",
+      "vl": 0,
+      "port": 4,
+      "ordinal": 0,
+      "bytes": 44,
+      "seed": 24
+    },
+    {
+      "network": "A",
+      "vl": 1,
+      "port": 5,
+      "ordinal": 0,
+      "bytes": 45,
+      "seed": 25
+    },
+    {
+      "network": "B",
+      "vl": 1,
+      "port": 5,
+      "ordinal": 0,
+      "bytes": 45,
+      "seed": 25
+    },
+    {
+      "network": "A",
+      "vl": 2,
+      "port": 6,
+      "ordinal": 0,
+      "bytes": 46,
+      "seed": 26
+    },
+    {
+      "network": "B",
+      "vl": 2,
+      "port": 6,
+      "ordinal": 0,
+      "bytes": 46,
+      "seed": 26
+    },
+    {
+      "network": "A",
+      "vl": 3,
+      "port": 7,
+      "ordinal": 0,
+      "bytes": 47,
+      "seed": 27
+    },
+    {
+      "network": "B",
+      "vl": 3,
+      "port": 7,
+      "ordinal": 0,
+      "bytes": 47,
+      "seed": 27
+    },
+    {
+      "network": "A",
+      "vl": 0,
+      "port": 12,
+      "ordinal": 0,
+      "bytes": 52,
+      "seed": 32
+    },
+    {
+      "network": "B",
+      "vl": 0,
+      "port": 12,
+      "ordinal": 0,
+      "bytes": 52,
+      "seed": 32
+    },
+    {
+      "network": "A",
+      "vl": 1,
+      "port": 13,
+      "ordinal": 0,
+      "bytes": 53,
+      "seed": 33
+    },
+    {
+      "network": "B",
+      "vl": 1,
+      "port": 13,
+      "ordinal": 0,
+      "bytes": 53,
+      "seed": 33
+    },
+    {
+      "network": "A",
+      "vl": 2,
+      "port": 14,
+      "ordinal": 0,
+      "bytes": 54,
+      "seed": 34
+    },
+    {
+      "network": "B",
+      "vl": 2,
+      "port": 14,
+      "ordinal": 0,
+      "bytes": 54,
+      "seed": 34
+    },
+    {
+      "network": "A",
+      "vl": 3,
+      "port": 15,
+      "ordinal": 0,
+      "bytes": 55,
+      "seed": 35
+    },
+    {
+      "network": "B",
+      "vl": 3,
+      "port": 15,
+      "ordinal": 0,
+      "bytes": 55,
+      "seed": 35
+    },
+    {
+      "network": "A",
+      "vl": 0,
+      "port": 0,
+      "ordinal": 0,
+      "bytes": 1800,
+      "seed": 20
+    },
+    {
+      "network": "B",
+      "vl": 0,
+      "port": 0,
+      "ordinal": 0,
+      "bytes": 1800,
+      "seed": 20
+    },
+    {
+      "network": "A",
+      "vl": 1,
+      "port": 1,
+      "ordinal": 0,
+      "bytes": 1801,
+      "seed": 21
+    },
+    {
+      "network": "B",
+      "vl": 1,
+      "port": 1,
+      "ordinal": 0,
+      "bytes": 1801,
+      "seed": 21
+    },
+    {
+      "network": "A",
+      "vl": 2,
+      "port": 2,
+      "ordinal": 0,
+      "bytes": 1802,
+      "seed": 22
+    },
+    {
+      "network": "B",
+      "vl": 2,
+      "port": 2,
+      "ordinal": 0,
+      "bytes": 1802,
+      "seed": 22
+    },
+    {
+      "network": "A",
+      "vl": 3,
+      "port": 3,
+      "ordinal": 0,
+      "bytes": 1803,
+      "seed": 23
+    },
+    {
+      "network": "B",
+      "vl": 3,
+      "port": 3,
+      "ordinal": 0,
+      "bytes": 1803,
+      "seed": 23
+    },
+    {
+      "network": "A",
+      "vl": 0,
+      "port": 8,
+      "ordinal": 0,
+      "bytes": 1700,
+      "seed": 28
+    },
+    {
+      "network": "B",
+      "vl": 0,
+      "port": 8,
+      "ordinal": 0,
+      "bytes": 1700,
+      "seed": 28
+    },
+    {
+      "network": "A",
+      "vl": 1,
+      "port": 9,
+      "ordinal": 0,
+      "bytes": 1701,
+      "seed": 29
+    },
+    {
+      "network": "B",
+      "vl": 1,
+      "port": 9,
+      "ordinal": 0,
+      "bytes": 1701,
+      "seed": 29
+    },
+    {
+      "network": "A",
+      "vl": 2,
+      "port": 10,
+      "ordinal": 0,
+      "bytes": 1702,
+      "seed": 30
+    },
+    {
+      "network": "B",
+      "vl": 2,
+      "port": 10,
+      "ordinal": 0,
+      "bytes": 1702,
+      "seed": 30
+    },
+    {
+      "network": "A",
+      "vl": 3,
+      "port": 11,
+      "ordinal": 0,
+      "bytes": 1703,
+      "seed": 31
+    },
+    {
+      "network": "B",
+      "vl": 3,
+      "port": 11,
+      "ordinal": 0,
+      "bytes": 1703,
+      "seed": 31
+    },
+    {
+      "network": "A",
+      "vl": 0,
+      "port": 12,
+      "ordinal": 1,
+      "bytes": 21,
+      "seed": 200
+    },
+    {
+      "network": "B",
+      "vl": 0,
+      "port": 12,
+      "ordinal": 1,
+      "bytes": 21,
+      "seed": 200
+    },
+    {
+      "network": "A",
+      "vl": 3,
+      "port": 15,
+      "ordinal": 1,
+      "bytes": 1,
+      "seed": 210
+    },
+    {
+      "network": "B",
+      "vl": 3,
+      "port": 15,
+      "ordinal": 1,
+      "bytes": 1,
+      "seed": 210
+    },
+    {
+      "network": "A",
+      "vl": 3,
+      "port": 15,
+      "ordinal": 2,
+      "bytes": 1,
+      "seed": 211
+    },
+    {
+      "network": "B",
+      "vl": 3,
+      "port": 15,
+      "ordinal": 2,
+      "bytes": 1,
+      "seed": 211
+    },
+    {
+      "network": "A",
+      "vl": 0,
+      "port": 4,
+      "ordinal": 1,
+      "bytes": 27,
+      "seed": 55
+    },
+    {
+      "network": "B",
+      "vl": 0,
+      "port": 4,
+      "ordinal": 1,
+      "bytes": 27,
+      "seed": 55
+    },
+    {
+      "network": "A",
+      "vl": 0,
+      "port": 4,
+      "ordinal": 2,
+      "bytes": 28,
+      "seed": 66
+    },
+    {
+      "network": "B",
+      "vl": 0,
+      "port": 4,
+      "ordinal": 2,
+      "bytes": 28,
+      "seed": 66
+    }
+  ],
+  "scope": "Actual redundant MAC bytes; this bounded fixture is not a whole-standard worst-case proof"
+}

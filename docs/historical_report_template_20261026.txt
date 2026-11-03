@@ -1,0 +1,484 @@
+"""Build the technical report .docx from the competition template.
+
+Usage (from project root):
+    python report_tools/build_report_docx.py
+Template : C:\\Users\\lenovo\\Desktop\\FPGA\\2658aa94-81d0-454c-b2ac-fc040ff2c01a.docx (read-only)
+Output   : report_20261020/AFDX_TECH_REPORT_20261020.docx
+"""
+import json
+import sys
+from pathlib import Path
+
+from docx import Document
+from docx.enum.table import WD_TABLE_ALIGNMENT
+from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.oxml import OxmlElement
+from docx.oxml.ns import qn
+from docx.shared import Cm, Pt, RGBColor
+
+ROOT = Path(__file__).resolve().parents[1]
+RPT = ROOT / "results/report"
+TPL = Path(r"C:\Users\lenovo\Desktop\FPGA\2658aa94-81d0-454c-b2ac-fc040ff2c01a.docx")
+OUT = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else RPT / "AFDX_TECH_REPORT_20261020.docx"
+
+doc = Document(str(TPL))
+# the template header is a full-width banner; start body below it
+doc.sections[0].top_margin = Cm(3.0)
+
+
+def style(name):
+    for n in (name, name.title(), name.replace(' ', '')):
+        try:
+            return doc.styles[n]
+        except KeyError:
+            continue
+    return None
+
+
+def clear_body():
+    body = doc.element.body
+    for child in list(body):
+        if child.tag == qn('w:sectPr'):
+            continue
+        body.remove(child)
+
+
+def clean(text):
+    return str(text).replace('`', '')
+
+
+def font(run, size=12, bold=False, cjk='宋体', ascii_font='Times New Roman', color=None, italic=False):
+    run.font.name = ascii_font
+    run.font.size = Pt(size)
+    run.font.bold = bold
+    run.font.italic = italic
+    if color is not None:
+        run.font.color.rgb = color
+    rPr = run._element.get_or_add_rPr()
+    rFonts = rPr.find(qn('w:rFonts'))
+    if rFonts is None:
+        rFonts = OxmlElement('w:rFonts')
+        rPr.append(rFonts)
+    rFonts.set(qn('w:eastAsia'), cjk)
+    rFonts.set(qn('w:ascii'), ascii_font)
+    rFonts.set(qn('w:hAnsi'), ascii_font)
+
+
+def para(text='', indent=True, size=12, bold=False, align=None, color=None, space_before=0, space_after=0,
+         line=None, left=0):
+    p = doc.add_paragraph()
+    pf = p.paragraph_format
+    pf.line_spacing = Pt(size * 1.5)
+    pf.space_before = Pt(space_before)
+    pf.space_after = Pt(space_after)
+    pf.left_indent = Pt(left)
+    pf.first_line_indent = Pt(size * 2) if indent else Pt(0)
+    if align is not None:
+        p.alignment = align
+    if text:
+        r = p.add_run(clean(text))
+        font(r, size, bold, color=color)
+    return p
+
+
+def heading(text, level):
+    st = style('heading %d' % level) or style('Heading %d' % level)
+    p = doc.add_paragraph(style=st) if st is not None else doc.add_paragraph()
+    pf = p.paragraph_format
+    pf.first_line_indent = Pt(0)
+    pf.space_before = Pt(12 if level == 1 else 8)
+    pf.space_after = Pt(6 if level == 1 else 4)
+    r = p.add_run(text)
+    font(r, {1: 16, 2: 14, 3: 12}[level], True, cjk='黑体')
+    return p
+
+
+def sub(text):
+    p = doc.add_paragraph()
+    pf = p.paragraph_format
+    pf.first_line_indent = Pt(0)
+    pf.space_before = Pt(6)
+    pf.space_after = Pt(2)
+    r = p.add_run(text)
+    font(r, 12, True)
+    return p
+
+
+def bullet(text, size=12, marker='•'):
+    p = doc.add_paragraph()
+    pf = p.paragraph_format
+    pf.left_indent = Pt(24)
+    pf.first_line_indent = Pt(-12)
+    pf.line_spacing = Pt(size * 1.5)
+    pf.space_after = Pt(0)
+    r = p.add_run(marker + ' ' + clean(text))
+    font(r, size)
+    return p
+
+
+def mono(text):
+    p = doc.add_paragraph()
+    pf = p.paragraph_format
+    pf.first_line_indent = Pt(0)
+    pf.left_indent = Pt(12)
+    pf.line_spacing = Pt(11)
+    pf.space_after = Pt(6)
+    r = p.add_run(text)
+    font(r, 8.5, cjk='Consolas', ascii_font='Consolas')
+    return p
+
+
+def cell_font(cell, text, size=10.5, bold=False, align=WD_ALIGN_PARAGRAPH.LEFT):
+    cell.text = ''
+    p = cell.paragraphs[0]
+    p.alignment = align
+    p.paragraph_format.space_after = Pt(0)
+    p.paragraph_format.line_spacing = Pt(size + 3)
+    r = p.add_run(clean(text))
+    font(r, size, bold)
+
+
+def table(headers, rows, widths=None, size=10.5):
+    t = doc.add_table(rows=1, cols=len(headers))
+    t.alignment = WD_TABLE_ALIGNMENT.CENTER
+    t.autofit = False
+    tblPr = t._tbl.tblPr
+    borders = OxmlElement('w:tblBorders')
+    for edge in ('top', 'left', 'bottom', 'right', 'insideH', 'insideV'):
+        el = OxmlElement('w:' + edge)
+        el.set(qn('w:val'), 'single')
+        el.set(qn('w:sz'), '4')
+        el.set(qn('w:space'), '0')
+        el.set(qn('w:color'), '808080')
+        borders.append(el)
+    tblPr.append(borders)
+    layout = OxmlElement('w:tblLayout')
+    layout.set(qn('w:type'), 'fixed')
+    tblPr.append(layout)
+    if widths:
+        tblW = OxmlElement('w:tblW')
+        tblW.set(qn('w:type'), 'dxa')
+        tblW.set(qn('w:w'), str(int(sum(widths) * 567)))
+        tblPr.append(tblW)
+    # header row repeats on each page
+    trPr = t.rows[0]._tr.get_or_add_trPr()
+    trPr.append(OxmlElement('w:tblHeader'))
+    trPr.append(OxmlElement('w:cantSplit'))
+    for i, h in enumerate(headers):
+        cell_font(t.rows[0].cells[i], h, size, True, WD_ALIGN_PARAGRAPH.CENTER)
+        shd = OxmlElement('w:shd')
+        shd.set(qn('w:fill'), 'EDF2F7')
+        t.rows[0].cells[i]._tc.get_or_add_tcPr().append(shd)
+    for row in rows:
+        row_obj = t.add_row()
+        row_obj._tr.get_or_add_trPr().append(OxmlElement('w:cantSplit'))
+        cells = row_obj.cells
+        for i, v in enumerate(row):
+            cell_font(cells[i], str(v), size)
+    if widths:
+        for i, w in enumerate(widths):
+            for row in t.rows:
+                row.cells[i].width = Cm(w)
+    p = doc.add_paragraph()
+    p.paragraph_format.space_after = Pt(4)
+    return t
+
+
+def figure(path, width_cm=14.5, caption=''):
+    p = doc.add_paragraph()
+    p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    p.paragraph_format.first_line_indent = Pt(0)
+    p.paragraph_format.space_before = Pt(12)
+    p.paragraph_format.space_after = Pt(2)
+    p.add_run().add_picture(str(path), width=Cm(width_cm))
+    if caption:
+        c = doc.add_paragraph()
+        c.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        c.paragraph_format.first_line_indent = Pt(0)
+        c.paragraph_format.line_spacing = Pt(15)
+        c.paragraph_format.space_after = Pt(6)
+        r = c.add_run(clean(caption))
+        font(r, 10.5, color=RGBColor(0x59, 0x59, 0x59))
+
+
+def ref(text):
+    p = doc.add_paragraph()
+    pf = p.paragraph_format
+    pf.left_indent = Pt(24)
+    pf.first_line_indent = Pt(-24)
+    pf.line_spacing = Pt(15)
+    pf.space_after = Pt(0)
+    r = p.add_run(clean(text))
+    font(r, 10.5)
+
+
+def elinx_line():
+    parts = []
+    core = RPT / "evidence/elinx_core3/status.json"
+    if core.is_file():
+        d = json.loads(core.read_text(encoding="utf-8"))
+        if d.get("status") == "PASS":
+            parts.append(f"核心顶层 AFDX_competition_top：{d.get('errors')} error / {d.get('warnings')} warning（{d.get('seconds') / 60:.1f} 分钟）")
+    m = RPT / "evidence/elinx_mimic/status.json"
+    if m.is_file():
+        d = json.loads(m.read_text(encoding="utf-8"))
+        if d.get("status") == "PASS":
+            parts.append(f"拟态裁决器 afdx_mimic_quorum_gate：{d.get('errors')} error / {d.get('warnings')} warning")
+    ai = RPT / "evidence/elinx_ai/status.json"
+    if ai.is_file():
+        d = json.loads(ai.read_text(encoding="utf-8"))
+        if d.get("status") == "PASS":
+            parts.append(f"AI 推理核 afdx_defense_ai_csr+TCN：{d.get('errors')} error / {d.get('warnings')} warning")
+    p8 = RPT / "evidence/elinx_8port/status.json"
+    if p8.is_file():
+        d = json.loads(p8.read_text(encoding="utf-8"))
+        if d.get("status") == "PASS":
+            parts.append(f"8 端口 AFDX_top：{d.get('errors')} error / {d.get('warnings')} warning（{d.get('seconds') / 60:.1f} 分钟）")
+    sec_leaves = []
+    for name in ("afdx_sec_sha256", "afdx_sec_policy", "afdx_sec_time_monitor", "afdx_sec_events",
+                 "afdx_sec_frame_queue", "afdx_sec_replay"):
+        d = RPT / f"evidence/elinx_sec_{name.replace('afdx_sec_', '')}/status.json"
+        if d.is_file():
+            j = json.loads(d.read_text(encoding="utf-8"))
+            if j.get("status") == "PASS":
+                sec_leaves.append(name)
+    if sec_leaves:
+        parts.append(f"安全插件 6 个子模块（{'、'.join(n.replace('afdx_sec_', 'sec_') for n in sec_leaves)}）：均 0 error")
+    st = RPT / "evidence/elinx_security/status.json"
+    if st.is_file():
+        d = json.loads(st.read_text(encoding="utf-8"))
+        log = RPT / "evidence/elinx_security/elaboration.log"
+        if d.get("status") == "PASS":
+            parts.append(f"AFDX_security_plugin_top：{d.get('errors')} error / {d.get('warnings')} warning")
+        elif log.is_file() and "Out of memory" in log.read_text(encoding="utf-8", errors="replace"):
+            import re as _re
+            mm = _re.search(r"Out of memory in module quartus_map\.exe \((\d+) megabytes used\)",
+                            log.read_text(encoding="utf-8", errors="replace"))
+            mb = mm.group(1) if mm else "?"
+            parts.append(f"AFDX_security_plugin_top 与 AFDX_defense_top 全参数展开实测需 >{int(mb) // 1000} GB 内存"
+                         f"（{mb} MB 处内存耗尽，日志见 evidence/elinx_security/ 与 evidence/elinx_defense_48g/）")
+    if not parts:
+        return "eLinx 分析综合按 2.2.1 的环境要求执行（原始日志见 evidence/elinx_*）。"
+    return "；".join(parts) + "。以上均为 analysis/elaboration，非布局布线或时序收敛。"
+
+
+# ------------------------------------------------------------------ content
+clear_body()
+
+# cover
+p = doc.add_paragraph()
+p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+p.paragraph_format.space_before = Pt(110)
+r = p.add_run('2026 年 FPGA 创新设计竞赛 · 中科亿海微赛题')
+font(r, 14, True, cjk='黑体')
+
+p = doc.add_paragraph()
+p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+p.paragraph_format.space_before = Pt(28)
+r = p.add_run('AFDX 端系统与安全 / AI / 拟态防御扩展')
+font(r, 22, True, cjk='黑体')
+
+p = doc.add_paragraph()
+p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+p.paragraph_format.space_before = Pt(8)
+r = p.add_run('技  术  报  告')
+font(r, 18, True, cjk='黑体')
+
+for _ in range(4):
+    doc.add_paragraph()
+p = doc.add_paragraph()
+p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+r = p.add_run('作品名称：天穹幻盾——拟态防御与 AI 智能体护航的 AFDX 航电网络安全端系统')
+font(r, 12)
+p = doc.add_paragraph()
+p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+r = p.add_run('（仿真赛道）')
+font(r, 12)
+p = doc.add_paragraph()
+p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+p.paragraph_format.space_before = Pt(6)
+r = p.add_run('2026 年 10 月')
+font(r, 12)
+doc.add_page_break()
+
+# abstract
+heading('摘  要', 1)
+para('本作品面向航空电子 AFDX（ARINC 664 Part 7）端系统，以机载网络安全为主线：在 eHiChip EQ6HL130（eLinx 3.0 仿真环境）上实现业务通信、高完整性校验、SNMP 网络管理、ARINC 615A 数据加载与 RTC 时钟同步五项基础功能，并以“不修改原核心”的插件方式叠加三层纵深防御（帧级准入、内容与身份、AI 异常闭环）与拟态 2-of-3 语义裁决，由统一顶层 AFDX_defense_top 把安全准入、拟态裁决、指标测量与 TCN 硬件推理接入同一条数据路径。')
+para('工程包含 119 个可综合 RTL 文件（约 2.5 万行）、121 个 testbench（约 4.1 万行）与 124 项注册回归用例；每个用例独立编译全部生产 RTL，回归判定要求“编译 0 错误 + 精确 PASS 标记 + 仿真器内错误计数为 0”，并由独立 Python 审计脚本对抓包字节重算 FCS/IP/UDP 校验和、用 pysnmp 独立解 BER。本机 Windows 环境完成全部 124/124 项并全部通过；eLinx 分析展开按 2.2.1 的环境要求执行。验证同时覆盖了第三方复核提出的五类缺陷（8 端口封装、RTC 时间戳观测点、TFTP 终态冲突、重复 DATA 预算、未知 TID 计时），并将其转化为回归断言。')
+para('作品明确区分“配置上限、仿真实测、数学包络”三类指标口径，未做综合时序、板级与标准全条款认证，相关边界在报告中逐条声明。')
+
+# part 1
+heading('第一部分  作品概述', 1)
+
+heading('1.1  功能与特性', 2)
+bullet('AFDX 业务通信：4 VL × 4 Sub-VL 共 16 端口；BAG 1–128 ms 调度、8 位序号（255→1 回绕）、消息分片/重组、A/B 双网冗余与“先到先收”。')
+bullet('高完整性：FCS/IP/UDP 校验、长度/端口/源 IP 过滤、序号完整性（psn+1 / psn+2）、坏帧不提交。')
+bullet('SNMP v1/v2c/v3 遥测管理；615A：TFTP 加载、双 bank 原子提交与回滚；RTC：NTPv4 时钟同步。')
+bullet('安全扩展（本作主线）：三层纵深防御——L1 帧级准入（策略/配额/授权 + SHA-256 逐字节校验）、L2 内容与身份（Ed25519 验签 + A/B 一致性 + 防重放回滚）、L3 AI 异常闭环（TCN 硬件推理、7 类故障候选）。')
+bullet('拟态扩展：四异构执行器 2-of-3 语义裁决，原引擎拒绝不可被多数覆盖。')
+
+heading('1.2  应用领域', 2)
+para('AFDX 是空客 A380/B787 等民机采用的航空电子全双工交换以太网，用于飞控、航电显示、发动机监控等分区之间的确定性数据交换。本作品的端系统模型可直接用于：① 航电端系统/交换机的协议栈原型与回归平台；② AFDX 网络配置（VL/BAG/Lmax/端口表）的仿真验证；③ 机载网络的安全加固研究（A/B 内容一致性、加载授权、重放/回滚防护）；④ 机载网络异常检测与故障诊断的算法—硬件协同验证（TCN 推理核 + 智能体诊断）；⑤ 高校/研究所的 AFDX 教学与竞赛平台。由于采用纯 RTL + 仿真验证，不依赖开发板，适合作为协议实现与验证方法的参考基线。')
+
+heading('1.3  主要技术特点', 2)
+bullet('安全为主线的插件化架构：不改原核心，网安/拟态/AI 以独立 RTL 与主机插件接入 AFDX_defense_top，安全准入、拟态裁决、AI 推理共守同一条数据路径。')
+bullet('真实哈希与签名边界：Ed25519 在可信主机验签，RTL 对实际收到的字节做 SHA-256；版本/租约/目标/文件名校验，失配扣住最后一个 DATA 块。')
+bullet('协议语义完整：BAG 精确到周期、序号 0 保留与 255→1 回绕、IC 接受集、A/B“先到先收”、分片 offset/MF 与 Lmax，均按 ARINC 664 P7 语义实现。')
+bullet('可审计的验证：独立编译/日志、审计脚本重算 FCS/CRC/IP/UDP、pysnmp 解 BER、源码哈希比对，旧日志不能冒充新结果。')
+bullet('明确的指标口径：配置上限、仿真实测、数学包络三者分离，避免把局部测量写成全负载保证。')
+
+heading('1.4  主要性能指标', 2)
+para('指标按“配置上限 / 仿真实测 / 数学包络”三类口径分别给出，实测值来自 2026-10-26 全量回归日志与独立审计。', size=12)
+table(
+    ['类别', '指标', '数值', '来源/条件'],
+    [
+        ['配置上限', 'VL/端口', '4 VL × 4 Sub-VL = 16 端口', 'competition_profile.json'],
+        ['配置上限', 'BAG', '1–128 ms（12.5 MHz 下 12500–1600000 周期）', '同上'],
+        ['配置上限', 'LMAX', '64–1518 字节（含 FCS）', '同上'],
+        ['配置上限', '消息长度', '基础端口 8192 B，扩展端口 2048 B', '同上'],
+        ['配置上限', 'SNMP', '16 varbind / 512 B', '同上'],
+        ['配置上限', '615A', '4 文件 / 4096 B/文件', '同上'],
+        ['链路', '字节时钟/线速', '12.5 MHz / 100 Mbit/s（每网）', 'AFDX_12p5MHz.sdc'],
+        ['仿真实测', '全量回归', '124/124 在本机 Windows 环境通过', '本次运行 results.csv'],
+        ['仿真实测', '线速收包', '1200 帧/网，72B 帧 + 12B IFG，80 ns/字节', 'tb_datagram_line_rate'],
+        ['仿真实测', '队列→线上 / 线上→应用', '122.08 µs（4×8192B 共享 MAC）/ 724.16 µs', 'tb_datagram_mac_joint 审计'],
+        ['仿真实测', '双域服务', '2 loader + 2 时钟，A/B 各 36 帧', 'tb_integration_multi_services'],
+        ['创新', '安全 BYPASS 等价', '39 信号 × 203351 周期一致（0 error）', 'tb_security_bypass'],
+        ['创新', 'TCN 推理', '14035 周期 @12.5 MHz ≈ 1122.8 µs（不含采集/回压）', 'aihw_plugin 证据'],
+        ['数学包络', '六类线速 offered load', '73.824%（有前提，非实测吞吐）', 'prove_worst_case_envelope.py'],
+    ],
+    widths=[2.0, 4.2, 6.4, 4.0], size=9.5)
+
+heading('1.5  主要创新点', 2)
+para('1. 不改核心的网安插件：A/B 一致性+证据冻结、615A 授权、配额、策略切换、Ed25519+SHA-256 加载授权、NTP 可信度监测。', indent=False)
+para('2. 语义级拟态裁决：四异构执行器按语义哈希 2-of-3 裁决，原引擎拒绝不可被多数覆盖。', indent=False)
+para('3. 指标到 TCN 硬件推理闭环：事件/计数→定点 TCN→7 类故障+风险+p95 时延。', indent=False)
+para('4. 统一防御入口：安全准入、拟态裁决、AI 告警与限时阻断同路径。', indent=False)
+
+heading('1.6  设计流程', 2)
+para('需求（五大功能 + 创新方向）→ 协议/架构设计 → 119 个 RTL 逐层集成（AFDX_competition_top → AFDX_defense_top）→ 逐模块 testbench 与独立审计 → ModelSim 全量回归（124 项，124/124 通过）→ eLinx 分模块分析展开 → 指标提取与文档归档。')
+
+# part 2
+heading('第二部分  系统组成及功能说明', 1)
+heading('2.1  整体介绍', 2)
+para('系统顶层为 AFDX_defense_top（148 个端口），内部由四部分构成：AFDX_competition_top（原核心：datagram TX/RX、共享 TX/RX、SNMP、加载/RTC、端口与配置 bank）、afdx_security_plugin（网安 ENFORCE：帧队列/策略/重放/SHA-256/事件）、afdx_defense_gate（拟态裁决：mimic_quorum_gate + 帧队列 + 重放）、afdx_defense_control（AI 控制与推理：afdx_defense_ai_csr → TCN）。')
+para('数据流：外部 A/B 字节流 → 安全插件（FCS/长度/速率/授权/A/B 比对）→ 拟态裁决 / 原核心 → 业务交付或管理响应；同时计数/事件送入 afdx_defense_control，由 TCN 推理产生故障候选与风险，供宿主机智能体诊断（只提建议，不写设备）。')
+mono('AFDX_defense_top\n'
+     '├── AFDX_competition_top        原核心（109 端口）\n'
+     '│   ├── afdx_datagram_core      TX/RX、BAG、序号、分片、A/B\n'
+     '│   ├── afdx_multi_loader_client_plane  加载/RTC 多域\n'
+     '│   ├── afdx_shared_tx_mux / afdx_shared_rx_demux\n'
+     '│   ├── afdx_snmp_mac           SNMP\n'
+     '│   └── afdx_port_config_bank / afdx_rx_config_bank\n'
+     '├── afdx_security_plugin        网安 ENFORCE\n'
+     '├── afdx_defense_gate           拟态裁决\n'
+     '└── afdx_defense_control        AI 控制与推理（→ TCN）')
+figure(RPT / "figures/fig1_architecture.png", 14.4, '图 1  系统整体框图（RTL 统一防御顶层与主机侧）')
+
+heading('2.2  硬件系统介绍（仿真赛道适配）', 2)
+sub('2.2.1  运行环境与目标器件')
+para('本作品按模块使用两套运行环境，均无需开发板：', indent=True)
+table(
+    ['范围', '环境', '说明'],
+    [
+        ['RTL 编译/仿真/回归（全部 124 项）', 'Windows 10/11 + ModelSim SE-64 2020.4', '112 个 testbench、独立审计脚本、Python 3.12+'],
+        ['统一防御联动（tb_defense_live，含拟态原生执行器）', 'Windows + MinGW-w64 GCC（C11/C++17）', '四异构执行器全链参与 2-of-3 裁决（实测 28 帧通过）'],
+        ['eLinx 分析综合', 'eLinx 3.0（Quartus 兼容后端）', '目标器件 eHiChip EQ6HL130；统一防御顶层完整展开实测需 >110 GB 内存'],
+        ['AI 硬件插件 RTL 回放', 'Linux/WSL + Icarus Verilog 11', '插件交付包内的冻结证据'],
+        ['主机侧（智能体/拟态编排/授权）', 'Python 3.12+（NumPy、cryptography）', '无 GPU/云 API'],
+    ],
+    widths=[5.2, 5.4, 5.8], size=9.5)
+para('系统时钟 12.5 MHz（80 ns），每网 100 Mbit/s。' + elinx_line())
+
+sub('2.2.2  机械设计')
+para('不适用：本作品为纯仿真赛道，无机械结构。')
+
+sub('2.2.3  电路与接口')
+para('无 PCB；对外接口为 GMII 风格字节口（8 位数据 + valid/ready）与配置/事件寄存器接口。赛题规定 8 端口 AFDX_top（clk/reset/tx_data/rx_data/tx_valid/rx_valid/tx_ready/rx_ready）作为最小演示壳，内置合法启动配置与演示源；可配置产品入口为 AFDX_defense_top。')
+
+heading('2.3  软件系统介绍（主机侧）', 2)
+sub('2.3.1  软件整体')
+para('主机侧由四个 Python 子系统组成：afdx_ai（模型推理）+ afdx_agent（有界工具智能体）、mimic_plugin（四异构执行器与 DHR 编排）、host（Ed25519 授权/控制/证据）、security_lab（受控注入与 RTL 重放）。全部纯 NumPy/标准库，无 GPU/云 API。')
+sub('2.3.2  各模块说明')
+bullet('afdx_agent：诊断→选工具→查证据→主动实验→复核→策略建议→报告；独立重算 FCS/IP/UDP/事件/计数器；只产出 window/max_frames 候选，writes_applied=False。')
+bullet('mimic_plugin：Python 结构 / C 固定偏移 / C++ 游标 / Python 声明式布局四执行器，2-of-3 语义裁决、隔离/轮换/恢复、证据链。')
+bullet('host：Ed25519 验签、nonce/防回退、规则冲突预检、证据导出。')
+bullet('aihw_plugin：训练（NumPy）→量化（INT16/INT32/INT48）→Verilog ROM 导出→Icarus/ModelSim 回放。')
+
+# part 3
+heading('第三部分  完成情况及性能参数', 1)
+heading('3.1  整体介绍', 2)
+para('本作品无实物，为纯仿真赛道；以 eLinx/ModelSim 工程界面、全量回归日志、波形与抓包文件作为完成证据。证据根目录：results/run_<时间戳>/ 与 report_20261020/。')
+
+heading('3.2  工程成果', 2)
+sub('3.2.1  机械成果')
+para('不适用。')
+sub('3.2.2  电路成果')
+para('RTL 层次图（report_20261020/figures/）、模块清单（119 个 RTL，见 data/inventory.json）、eLinx 分析综合日志。')
+sub('3.2.3  软件成果')
+para('主机侧模块与报告（docs/*/VALIDATION.md、插件 reports/）。')
+
+heading('3.3  特性成果（逐功能量化）', 2)
+para('全量回归（2026-10-26，run_20261026_204600_343345）：本机 Windows 环境完成 124 项，全部通过。', indent=True)
+table(
+    ['套件', '本机 Windows（通过/执行）', '套件', '本机 Windows（通过/执行）'],
+    [
+        ['legacy', '52/52', 'extension', '17/17'],
+        ['contest', '15/15', 'security', '5/5'],
+        ['completion', '11/11', 'experimental', '5/5'],
+        ['foundation', '8/8', 'integration', '3/3'],
+        ['datagram', '7/7', 'mimic', '1/1'],
+    ],
+    widths=[3.4, 4.4, 3.4, 4.4], size=10)
+para('注：tb_defense_live（统一防御联动）在本机 Windows 环境实测通过：四个异构执行器（Python 结构解析 / C 固定偏移 / C++ 游标 / 声明式布局）全链参与 2-of-3 裁决，28 帧业务实测，security / mimic / AI 三条路径均连通。', indent=False, size=10.5)
+table(
+    ['功能', '关键结果（本次实测）', '证据'],
+    [
+        ['664 通信', '4×8192B 消息（4 VL）共享 MAC：A/B 各 49 帧、丢包 0、溢出 0、errors=0', 'tb_datagram_mac_joint + shared_audit.json'],
+        ['完整性', '降级模式 drops=6、溢出 0、errors=0；序号/UDP 校验边界用例全过', 'tb_foundation_shared_degraded'],
+        ['SNMP', '11 个案例（8 个有效响应 31–330B；3 个按预期拒绝）', 'shared_audit.json'],
+        ['615A', '126B 头、A.LUP 700B/CRC 279a、B.LUP 1024B/CRC 3c5f、装载 1724B、最终 LUS ACK、包 CRC32 ce05f473', 'shared_audit.json'],
+        ['RTC', 'NTP 2 包、origin 匹配、加载/RTC 联动通过', 'tb_datagram_mac_joint service 段'],
+        ['安全插件', '114 帧 / 158 事件；violations=0、queue_overflows=0、hash_failures=0；BYPASS 39 信号×203351 周期一致', 'tb_security_*'],
+        ['拟态', '13 场景（含“原引擎拒绝不可被多数覆盖”）', 'tb_mimic_quorum'],
+        ['AI 硬件', '388 向量 / 3492 logits / 111744 中间值 / 12 协议场景（插件证据）', 'aihw_plugin/evidence/'],
+        ['8 端口演示', '32 帧、遥测 4、接收 16；BYPASS/ENFORCE 两配置均通过', 'tb_afdx_8port_demo / tb_review_8port'],
+        ['防御联动', '本机 Windows 实测 PASS：28 帧、四执行器全链、88 项启动检查、security/mimic/AI 三路径 connected', 'tb_defense_live + live/native_startup.json'],
+    ],
+    widths=[2.2, 9.6, 4.6], size=9.5)
+para('审计强度：124 项中 20 项（16%）配有独立 Python 审计（重算 FCS/CRC/IP/UDP、pysnmp 解 BER 或重放抓包），其余依赖 testbench 内 error counter 与精确 marker；两类判据均为 fail-closed（rc + marker + 计数器 + 编译 0 错）。', indent=False, size=10.5)
+figure(RPT / "figures/fig2_suite_results.png", 14.0, '图 2  全量回归结果（按套件）')
+
+# part 4
+heading('第四部分  总结', 1)
+heading('4.1  可扩展之处', 2)
+para('标准扩展（SNMPv3 认证加密、标准 MIB、615A 完整流程、665 全语法）、硬件扩展（综合/布局布线/时序、PHY、CDC）、安全扩展（ENFORCE 时延与吞吐准入分析、密钥管理与撤销、持久防回滚）、AI 扩展（特征全硬件化、模型更新与漂移、OOD 检测）、验证扩展（覆盖率度量、SVA/形式化、独立黄金模型、长时随机压力）。完整清单见 report_20261020/data/known_limits.md。')
+heading('4.2  心得体会', 2)
+para('（此处待团队补写，建议按“需求拆解 → 协议细节踩坑（SN=0/回绕/BAG）→ 验证方法反思（全绿≠功能完整、第三方复核的价值）→ 插件化与集成取舍 → 下一步”组织，1000 字内。）', indent=True)
+
+# part 5
+heading('第五部分  参考文献', 1)
+refs = [
+    'ARINC Specification 664 Part 7, Aircraft Data Network, Part 7: Avionics Full-Duplex Switched Ethernet Network.',
+    'RFC 1350, The TFTP Protocol (Revision 2).',
+    'RFC 5905, Network Time Protocol Version 4: Protocol and Algorithms Specification.',
+    'RFC 3414, User-based Security Model (USM) for SNMPv3.',
+    'RFC 3416, Version 2 of the Protocol Operations for SNMP.',
+    'ARINC Specification 615A, Software Data Loader Using Ethernet Interface.',
+    'eHiChip EQ6HL130 / eLinx 3.0 用户手册与仿真教程.',
+    'ModelSim SE User\'s Manual (2020.4).',
+    'IEEE 802.3, Ethernet.',
+    '（补充：AFDX 网络技术、机载网络等教材）',
+]
+for i, r in enumerate(refs, 1):
+    ref(f'[{i}] {r}')
+
+# core properties
+cp = doc.core_properties
+cp.title = 'AFDX 端系统与安全 / AI / 拟态防御扩展 技术报告'
+cp.subject = '2026 年 FPGA 创新设计竞赛（中科亿海微赛题，仿真赛道）'
+cp.author = ''
+cp.comments = ''
+
+doc.save(str(OUT))
+print('wrote', OUT, OUT.stat().st_size, 'bytes')

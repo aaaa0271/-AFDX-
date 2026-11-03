@@ -1,0 +1,17 @@
+{
+  "format": "0x8004",
+  "header_bytes": 126,
+  "files": [
+    {
+      "name": "A.LUP",
+      "bytes": 700,
+      "crc16": 10138
+    },
+    {
+      "name": "B.LUP",
+      "bytes": 1024,
+      "crc16": 15455
+    }
+  ],
+  "load_crc32": 3456496755
+}

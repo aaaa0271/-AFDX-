@@ -1,0 +1,250 @@
+{
+  "fragment_pressure": {
+    "schema": 1,
+    "source": "synthetic",
+    "window_id": "test-06-0000-0",
+    "window_duration_s": 0.20813672932636704,
+    "scope": {
+      "clock_hz": 12500000,
+      "link_mbps": 100,
+      "security_mode": 2
+    },
+    "metrics": {
+      "observed_pps": 922.4705347365002,
+      "mean_frame_bytes": 492.0520833333333,
+      "frame_size_cv": 0.10385630051246397,
+      "arrival_cv": 1.5386814366438575,
+      "ab_unpaired_ratio": 0.005615234375,
+      "ab_payload_mismatch_ratio": 0.000244140625,
+      "fcs_error_ratio": 0.0029296875,
+      "queue_overflow_ratio": 0.0,
+      "latency_p95_us": 110.27009440751047,
+      "ntp_rtt_ms": 0.9435400141957608,
+      "ntp_offset_abs_ms": 0.26357153137781303,
+      "clock_step_abs_ms": 0.016398750640525057,
+      "loader_progress_ratio": 0.734619140625,
+      "loader_retry_ratio": 0.044921875,
+      "fragment_orphan_ratio": 0.15087890625,
+      "management_fraction": 0.068115234375,
+      "active_context_ratio": 0.62744140625,
+      "sha_jobs_per_1k_frames": 0.0
+    }
+  },
+  "normal": {
+    "schema": 1,
+    "source": "synthetic",
+    "window_id": "test-00-0000-0",
+    "window_duration_s": 0.1122232010553786,
+    "scope": {
+      "clock_hz": 12500000,
+      "link_mbps": 100,
+      "security_mode": 2
+    },
+    "metrics": {
+      "observed_pps": 1710.8761663753833,
+      "mean_frame_bytes": 777.5260416666666,
+      "frame_size_cv": 0.32580449056463096,
+      "arrival_cv": 0.8752212431871929,
+      "ab_unpaired_ratio": 0.006103515625,
+      "ab_payload_mismatch_ratio": 0.0,
+      "fcs_error_ratio": 0.00048828125,
+      "queue_overflow_ratio": 0.0,
+      "latency_p95_us": 222.04,
+      "ntp_rtt_ms": 1.5619757711999247,
+      "ntp_offset_abs_ms": 0.13129587572916734,
+      "clock_step_abs_ms": 0.01907355285211948,
+      "loader_progress_ratio": 0.39306640625,
+      "loader_retry_ratio": 0.0078125,
+      "fragment_orphan_ratio": 0.0068359375,
+      "management_fraction": 0.0478515625,
+      "active_context_ratio": 0.364990234375,
+      "sha_jobs_per_1k_frames": 0.8730720173761911
+    }
+  },
+  "management_burst": {
+    "schema": 1,
+    "source": "synthetic",
+    "window_id": "test-07-0000-0",
+    "window_duration_s": 0.021890113202196144,
+    "scope": {
+      "clock_hz": 12500000,
+      "link_mbps": 100,
+      "security_mode": 2
+    },
+    "metrics": {
+      "observed_pps": 8771.08301023941,
+      "mean_frame_bytes": 1229.1145833333333,
+      "frame_size_cv": 0.24424335467357633,
+      "arrival_cv": 0.9365663726610627,
+      "ab_unpaired_ratio": 0.010986328125,
+      "ab_payload_mismatch_ratio": 0.000244140625,
+      "fcs_error_ratio": 0.001708984375,
+      "queue_overflow_ratio": 0.057291666666666664,
+      "latency_p95_us": 1384.9472534934787,
+      "ntp_rtt_ms": 2.730661835290787,
+      "ntp_offset_abs_ms": 0.8323010110641756,
+      "clock_step_abs_ms": 0.02479796434621356,
+      "loader_progress_ratio": 0.527587890625,
+      "loader_retry_ratio": 0.01611328125,
+      "fragment_orphan_ratio": 0.01318359375,
+      "management_fraction": 0.903564453125,
+      "active_context_ratio": 0.033203125,
+      "sha_jobs_per_1k_frames": 0.0
+    }
+  },
+  "link_degradation": {
+    "schema": 1,
+    "source": "synthetic",
+    "window_id": "test-02-0000-0",
+    "window_duration_s": 0.15909980737414814,
+    "scope": {
+      "clock_hz": 12500000,
+      "link_mbps": 100,
+      "security_mode": 2
+    },
+    "metrics": {
+      "observed_pps": 1206.7896446190025,
+      "mean_frame_bytes": 1160.6458333333333,
+      "frame_size_cv": 0.21504694014109205,
+      "arrival_cv": 1.1514874394186945,
+      "ab_unpaired_ratio": 0.486328125,
+      "ab_payload_mismatch_ratio": 0.000244140625,
+      "fcs_error_ratio": 0.047607421875,
+      "queue_overflow_ratio": 0.0,
+      "latency_p95_us": 303.52,
+      "ntp_rtt_ms": 1.3692697602358819,
+      "ntp_offset_abs_ms": 0.21699557726152896,
+      "clock_step_abs_ms": 0.06668892028667919,
+      "loader_progress_ratio": 0.8671875,
+      "loader_retry_ratio": 0.08984375,
+      "fragment_orphan_ratio": 0.00390625,
+      "management_fraction": 0.0390625,
+      "active_context_ratio": 0.055419921875,
+      "sha_jobs_per_1k_frames": 1.1201379111140681
+    }
+  },
+  "loader_stall": {
+    "schema": 1,
+    "source": "synthetic",
+    "window_id": "test-05-0000-0",
+    "window_duration_s": 0.016846193993486674,
+    "scope": {
+      "clock_hz": 12500000,
+      "link_mbps": 100,
+      "security_mode": 2
+    },
+    "metrics": {
+      "observed_pps": 11397.233112371488,
+      "mean_frame_bytes": 180.06770833333334,
+      "frame_size_cv": 0.3191059680785169,
+      "arrival_cv": 1.0013104299683235,
+      "ab_unpaired_ratio": 0.00341796875,
+      "ab_payload_mismatch_ratio": 0.00048828125,
+      "fcs_error_ratio": 0.0,
+      "queue_overflow_ratio": 0.0,
+      "latency_p95_us": 53.56431266539497,
+      "ntp_rtt_ms": 3.4333547108610065,
+      "ntp_offset_abs_ms": 0.7539506333651332,
+      "clock_step_abs_ms": 0.06133043829664885,
+      "loader_progress_ratio": 0.001708984375,
+      "loader_retry_ratio": 0.48974609375,
+      "fragment_orphan_ratio": 0.00341796875,
+      "management_fraction": 0.057861328125,
+      "active_context_ratio": 0.968505859375,
+      "sha_jobs_per_1k_frames": 0.0
+    }
+  },
+  "time_anomaly": {
+    "schema": 1,
+    "source": "synthetic",
+    "window_id": "test-04-0000-0",
+    "window_duration_s": 0.32972263061692264,
+    "scope": {
+      "clock_hz": 12500000,
+      "link_mbps": 100,
+      "security_mode": 2
+    },
+    "metrics": {
+      "observed_pps": 582.3076191062811,
+      "mean_frame_bytes": 533.421875,
+      "frame_size_cv": 0.4167612154446967,
+      "arrival_cv": 2.1325041474549504,
+      "ab_unpaired_ratio": 0.015625,
+      "ab_payload_mismatch_ratio": 0.00048828125,
+      "fcs_error_ratio": 0.0,
+      "queue_overflow_ratio": 0.0,
+      "latency_p95_us": 156.46779313342088,
+      "ntp_rtt_ms": 4.314209711654341,
+      "ntp_offset_abs_ms": 13.531936079553526,
+      "clock_step_abs_ms": 2.491513535998839,
+      "loader_progress_ratio": 0.218505859375,
+      "loader_retry_ratio": 0.0048828125,
+      "fragment_orphan_ratio": 0.010986328125,
+      "management_fraction": 0.058837890625,
+      "active_context_ratio": 0.32568359375,
+      "sha_jobs_per_1k_frames": 0.9361563860597801
+    }
+  },
+  "replica_divergence": {
+    "schema": 1,
+    "source": "synthetic",
+    "window_id": "test-03-0000-0",
+    "window_duration_s": 0.06010600409877021,
+    "scope": {
+      "clock_hz": 12500000,
+      "link_mbps": 100,
+      "security_mode": 2
+    },
+    "metrics": {
+      "observed_pps": 3194.3564187779434,
+      "mean_frame_bytes": 512.6770833333334,
+      "frame_size_cv": 0.12355705775633097,
+      "arrival_cv": 0.8324105011912464,
+      "ab_unpaired_ratio": 0.02099609375,
+      "ab_payload_mismatch_ratio": 0.107666015625,
+      "fcs_error_ratio": 0.001220703125,
+      "queue_overflow_ratio": 0.0,
+      "latency_p95_us": 124.81151023764977,
+      "ntp_rtt_ms": 2.4284497355753865,
+      "ntp_offset_abs_ms": 0.6702652031075914,
+      "clock_step_abs_ms": 0.024812056764048213,
+      "loader_progress_ratio": 0.119140625,
+      "loader_retry_ratio": 0.022216796875,
+      "fragment_orphan_ratio": 0.008056640625,
+      "management_fraction": 0.01513671875,
+      "active_context_ratio": 0.228759765625,
+      "sha_jobs_per_1k_frames": 0.0
+    }
+  },
+  "congestion": {
+    "schema": 1,
+    "source": "synthetic",
+    "window_id": "test-01-0000-0",
+    "window_duration_s": 0.048898333887969006,
+    "scope": {
+      "clock_hz": 12500000,
+      "link_mbps": 100,
+      "security_mode": 2
+    },
+    "metrics": {
+      "observed_pps": 3926.5141515842092,
+      "mean_frame_bytes": 325.3489583333333,
+      "frame_size_cv": 0.3426335386133566,
+      "arrival_cv": 1.2554662025133265,
+      "ab_unpaired_ratio": 0.001708984375,
+      "ab_payload_mismatch_ratio": 0.00048828125,
+      "fcs_error_ratio": 0.000244140625,
+      "queue_overflow_ratio": 0.0,
+      "latency_p95_us": 105.61801287281564,
+      "ntp_rtt_ms": 3.3405441875048765,
+      "ntp_offset_abs_ms": 0.5772044389787335,
+      "clock_step_abs_ms": 0.03299461320810778,
+      "loader_progress_ratio": 0.691650390625,
+      "loader_retry_ratio": 0.025390625,
+      "fragment_orphan_ratio": 0.00341796875,
+      "management_fraction": 0.046875,
+      "active_context_ratio": 0.41845703125,
+      "sha_jobs_per_1k_frames": 8.277272984442368
+    }
+  }
+}

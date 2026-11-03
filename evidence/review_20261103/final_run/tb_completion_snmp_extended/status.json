@@ -1,0 +1,15 @@
+{
+  "name": "tb_completion_snmp_extended",
+  "suite": "completion",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_completion_snmp_extended/result.log",
+  "audits": [
+    {
+      "script": "verify_snmp_extended.py",
+      "exit": 0,
+      "log": "tb_completion_snmp_extended/verify_snmp_extended.log"
+    }
+  ],
+  "issues": []
+}

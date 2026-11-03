@@ -1,0 +1,24 @@
+{
+  "run": "A_20261104_core_minus_download_stub",
+  "status": "PASS",
+  "exit": 0,
+  "tool": "D:\\Program Files (x86)\\eLinx3.0\\bin\\Passkey\\bin\\quartus_map.exe",
+  "top": "AFDX_competition_top",
+  "elaborated_top": "AFDX_competition_top",
+  "service_domains": 1,
+  "errors": 0,
+  "warnings": 161,
+  "seconds": 1295,
+  "peak_virtual_mb": 17252,
+  "sources": 120,
+  "download_instance": "stubbed out (temp copy only, production RTL untouched)",
+  "stages": {
+    "analysis_elaboration": "PASS",
+    "target_synthesis": "NOT_RUN",
+    "place_route": "NOT_RUN",
+    "timing": "NOT_RUN"
+  },
+  "analysis_part": "EP1S80F1508C6",
+  "target_part": "EQ6HL130",
+  "scope": "Latest 2026-11-03 core WITHOUT the afdx_615a_download instance; Quartus-compatible analysis/elaboration only; not EQ6HL130 synthesis, fitting, timing closure or board evidence"
+}

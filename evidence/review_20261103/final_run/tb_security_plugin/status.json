@@ -1,0 +1,15 @@
+{
+  "name": "tb_security_plugin",
+  "suite": "security",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_security_plugin/result.log",
+  "audits": [
+    {
+      "script": "verify_plugin_wire.py",
+      "exit": 0,
+      "log": "tb_security_plugin/verify_plugin_wire.log"
+    }
+  ],
+  "issues": []
+}

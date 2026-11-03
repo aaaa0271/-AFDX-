@@ -1,0 +1,8 @@
+RTL_PROGRESS vectors=64
+RTL_PROGRESS vectors=128
+RTL_PROGRESS vectors=192
+RTL_PROGRESS vectors=256
+RTL_PROGRESS vectors=320
+RTL_PROGRESS vectors=384
+RTL_VECTOR_PASS vectors=388 intermediate_values=111744 fixed_compute_cycles=14035
+RTL_ALL_PASS protocol_cases=12

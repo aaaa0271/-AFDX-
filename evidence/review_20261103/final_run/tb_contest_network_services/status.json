@@ -1,0 +1,9 @@
+{
+  "name": "tb_contest_network_services",
+  "suite": "contest",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_contest_network_services/result.log",
+  "audits": [],
+  "issues": []
+}

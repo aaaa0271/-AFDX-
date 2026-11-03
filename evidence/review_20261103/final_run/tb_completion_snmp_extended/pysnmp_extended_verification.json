@@ -1,0 +1,54 @@
+[
+  {
+    "case": "single",
+    "result": "PASS",
+    "response_bytes": 52
+  },
+  {
+    "case": "16varbind-longBER",
+    "result": "PASS",
+    "response_bytes": 334
+  },
+  {
+    "case": "empty-list",
+    "result": "PASS",
+    "response_bytes": 31
+  },
+  {
+    "case": "unknown-before-subtree",
+    "result": "PASS",
+    "response_bytes": 58
+  },
+  {
+    "case": "getnext-arbitrary",
+    "result": "PASS",
+    "response_bytes": 157
+  },
+  {
+    "case": "large-base128-arcs",
+    "result": "PASS",
+    "response_bytes": 85
+  },
+  {
+    "case": "too-many-varbinds",
+    "result": "PASS",
+    "response_bytes": 31
+  },
+  {
+    "case": "readonly-set",
+    "result": "PASS",
+    "response_bytes": 49
+  },
+  {
+    "case": "wrong-community",
+    "result": "REJECT_AS_EXPECTED"
+  },
+  {
+    "case": "truncated",
+    "result": "REJECT_AS_EXPECTED"
+  },
+  {
+    "case": "indefinite",
+    "result": "REJECT_AS_EXPECTED"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "name": "tb_m6d_p0_refresh_ber",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_m6d_p0_refresh_ber/result.log",
+  "audits": [],
+  "issues": []
+}

@@ -1,0 +1,678 @@
+{
+  "status": "PASS",
+  "packet_scenarios": 111,
+  "scenarios": [
+    {
+      "id": 1,
+      "name": "whitelist_valid_A",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 2,
+      "name": "AB_interface_id_difference_legal",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 3,
+      "name": "unknown_source_ip",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 4,
+      "name": "bad_fcs",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 5,
+      "name": "AB_reference",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 6,
+      "name": "AB_valid_checksums_content_conflict",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 7,
+      "name": "additional_conflict_reference",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 8,
+      "name": "additional_conflict_evidence_overrun",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 9,
+      "name": "shadow_does_not_block_unknown_source",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 10,
+      "name": "bypass_preserves_invalid_crc",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 11,
+      "name": "denied_A",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 12,
+      "name": "denied_B",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 13,
+      "name": "reserve_fragment_context",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 14,
+      "name": "second_unfinished_message_quota",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 15,
+      "name": "orphan_fragment",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 16,
+      "name": "wrong_fragment_offset",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 17,
+      "name": "finish_fragment_context",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 18,
+      "name": "quota_released_after_completion",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 19,
+      "name": "orphan_after_reservation_timeout",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 20,
+      "name": "first_flow_reservation",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 21,
+      "name": "other_flow_has_independent_quota",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 22,
+      "name": "tiny_final_fragment_uses_original_rule",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 23,
+      "name": "original_flow_context_unchanged",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 24,
+      "name": "default_boot_denies_unconfigured_peer",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 25,
+      "name": "one_budgeted_message",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 26,
+      "name": "duplicate_not_charged_twice",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 27,
+      "name": "window_budget_denies_extra",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 28,
+      "name": "budget_recovers",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 29,
+      "name": "LUR_before_LUI",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 30,
+      "name": "initialize_stage",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 31,
+      "name": "LUI_ack",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 32,
+      "name": "LUR_stage",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 33,
+      "name": "wrong_control_tid",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 34,
+      "name": "legal_control_data",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 35,
+      "name": "local_file_request",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 36,
+      "name": "out_of_order_file_block",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 37,
+      "name": "file_data",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 38,
+      "name": "legal_retransmission",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 39,
+      "name": "same_block_changed_data",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 40,
+      "name": "file_wrong_tid",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 41,
+      "name": "final_report_open",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 42,
+      "name": "report_tid_negotiation",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 43,
+      "name": "success_status",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 44,
+      "name": "final_status_ack",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 45,
+      "name": "next_session_initialization",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 46,
+      "name": "policy_wait_session",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 47,
+      "name": "NTP_poll",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 48,
+      "name": "NTP_wrong_origin",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 49,
+      "name": "NTP_unsynchronized_stratum",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 50,
+      "name": "NTP_jump_above_limit",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 51,
+      "name": "NTP_valid_recovery",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 52,
+      "name": "NTP_unsolicited_replay",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 53,
+      "name": "delayed_NTP_poll",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 54,
+      "name": "NTP_excess_round_trip",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 55,
+      "name": "cold_NTP_poll",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 56,
+      "name": "cold_NTP_acquisition_reanchors",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 57,
+      "name": "established_NTP_poll",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 58,
+      "name": "established_NTP_jump_rejected",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 59,
+      "name": "signed_initialize",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 60,
+      "name": "signed_LUR",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 61,
+      "name": "unsigned_filename_request",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 62,
+      "name": "unauthorized_data_denied",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 63,
+      "name": "authorized_RRQ_EMPTY.LUP",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 64,
+      "name": "authorized_DATA_EMPTY.LUP_1",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 65,
+      "name": "authorized_final_duplicate_EMPTY.LUP",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 66,
+      "name": "authorized_RRQ_SMALL.LUP",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 67,
+      "name": "authorized_DATA_SMALL.LUP_1",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 68,
+      "name": "authorized_final_duplicate_SMALL.LUP",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 69,
+      "name": "authorized_RRQ_EXACT.LUP",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 70,
+      "name": "authorized_DATA_EXACT.LUP_1",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 71,
+      "name": "authorized_DATA_EXACT.LUP_2",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 72,
+      "name": "authorized_final_duplicate_EXACT.LUP",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 73,
+      "name": "authorized_RRQ_MAX.LUP",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 74,
+      "name": "authorized_DATA_MAX.LUP_1",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 75,
+      "name": "authorized_DATA_MAX.LUP_2",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 76,
+      "name": "authorized_DATA_MAX.LUP_3",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 77,
+      "name": "authorized_DATA_MAX.LUP_4",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 78,
+      "name": "authorized_DATA_MAX.LUP_5",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 79,
+      "name": "authorized_DATA_MAX.LUP_6",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 80,
+      "name": "authorized_DATA_MAX.LUP_7",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 81,
+      "name": "authorized_DATA_MAX.LUP_8",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 82,
+      "name": "authorized_DATA_MAX.LUP_9",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 83,
+      "name": "authorized_final_duplicate_MAX.LUP",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 84,
+      "name": "completed_contexts_still_charge_rule_quota",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 85,
+      "name": "no_receive_context_after_cache_quota",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 86,
+      "name": "signed_initialize",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 87,
+      "name": "signed_LUR",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 88,
+      "name": "tamper_RRQ",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 89,
+      "name": "valid_crc_but_sha_mismatch",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 90,
+      "name": "signed_initialize",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 91,
+      "name": "signed_LUR",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 92,
+      "name": "short_length_RRQ",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 93,
+      "name": "signed_length_mismatch",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 94,
+      "name": "signed_initialize",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 95,
+      "name": "signed_LUR",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 96,
+      "name": "floor_RRQ",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 97,
+      "name": "floor_raised_during_transfer",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 98,
+      "name": "signed_initialize",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 99,
+      "name": "signed_LUR",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 100,
+      "name": "identity_RRQ",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 101,
+      "name": "identity_changed_during_transfer",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 102,
+      "name": "event_overflow_recovery",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 103,
+      "name": "queue_pressure_reference",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 104,
+      "name": "queue_overflow_recovery",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 105,
+      "name": "lease_live_initialize",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 106,
+      "name": "lease_live_lur",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 107,
+      "name": "lease_live_rrq",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 108,
+      "name": "lease_expired_during_transfer",
+      "status": "PASS",
+      "forwarded": 0
+    },
+    {
+      "id": 109,
+      "name": "expired_grant_init",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 110,
+      "name": "expired_grant_lur",
+      "status": "PASS",
+      "forwarded": 1
+    },
+    {
+      "id": 111,
+      "name": "expired_grant_RRQ",
+      "status": "PASS",
+      "forwarded": 0
+    }
+  ],
+  "checks": [
+    "raw frame byte equality",
+    "no output for rejected enforce frames",
+    "transparent shadow/bypass",
+    "actual event flags/mode/channel/verdict"
+  ]
+}

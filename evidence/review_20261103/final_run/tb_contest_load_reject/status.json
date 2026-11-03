@@ -1,0 +1,9 @@
+{
+  "name": "tb_contest_load_reject",
+  "suite": "contest",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_contest_load_reject/result.log",
+  "audits": [],
+  "issues": []
+}

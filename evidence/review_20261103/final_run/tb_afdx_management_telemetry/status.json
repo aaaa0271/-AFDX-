@@ -1,0 +1,9 @@
+{
+  "name": "tb_afdx_management_telemetry",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_afdx_management_telemetry/result.log",
+  "audits": [],
+  "issues": []
+}

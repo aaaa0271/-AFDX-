@@ -1,0 +1,187 @@
+{
+  "status": "PASS",
+  "mode": 1,
+  "business_messages": [
+    {
+      "vl": 0,
+      "bytes": 8192,
+      "ip_id": 0
+    },
+    {
+      "vl": 1,
+      "bytes": 8192,
+      "ip_id": 0
+    },
+    {
+      "vl": 2,
+      "bytes": 8192,
+      "ip_id": 0
+    },
+    {
+      "vl": 3,
+      "bytes": 8192,
+      "ip_id": 0
+    }
+  ],
+  "measurements": {
+    "link_mbps": 100,
+    "cycle_ns": 80,
+    "tx": [
+      {
+        "ordinal": 0,
+        "vl": 0,
+        "queue_to_wire_start_ns": 122080,
+        "queue_to_wire_end_ns": 243600
+      },
+      {
+        "ordinal": 1,
+        "vl": 1,
+        "queue_to_wire_start_ns": 122080,
+        "queue_to_wire_end_ns": 243600
+      },
+      {
+        "ordinal": 2,
+        "vl": 2,
+        "queue_to_wire_start_ns": 122080,
+        "queue_to_wire_end_ns": 243600
+      },
+      {
+        "ordinal": 3,
+        "vl": 3,
+        "queue_to_wire_start_ns": 122080,
+        "queue_to_wire_end_ns": 243600
+      }
+    ],
+    "rx": [
+      {
+        "ordinal": 0,
+        "wire_end_to_application_end_ns": 724160
+      },
+      {
+        "ordinal": 1,
+        "wire_end_to_application_end_ns": 724160
+      },
+      {
+        "ordinal": 2,
+        "wire_end_to_application_end_ns": 724160
+      },
+      {
+        "ordinal": 3,
+        "wire_end_to_application_end_ns": 724160
+      }
+    ]
+  },
+  "snmp_cases": [
+    {
+      "case": "single",
+      "status": "PASS",
+      "response_bytes": 52
+    },
+    {
+      "case": "16varbind-longBER",
+      "status": "PASS",
+      "response_bytes": 330
+    },
+    {
+      "case": "empty-list",
+      "status": "PASS",
+      "response_bytes": 31
+    },
+    {
+      "case": "unknown-before-subtree",
+      "status": "PASS",
+      "response_bytes": 58
+    },
+    {
+      "case": "getnext-arbitrary",
+      "status": "PASS",
+      "response_bytes": 157
+    },
+    {
+      "case": "large-base128-arcs",
+      "status": "PASS",
+      "response_bytes": 85
+    },
+    {
+      "case": "too-many-varbinds",
+      "status": "PASS",
+      "response_bytes": 31
+    },
+    {
+      "case": "readonly-set",
+      "status": "PASS",
+      "response_bytes": 49
+    },
+    {
+      "case": "wrong-community",
+      "status": "REJECT_AS_EXPECTED"
+    },
+    {
+      "case": "truncated",
+      "status": "REJECT_AS_EXPECTED"
+    },
+    {
+      "case": "indefinite",
+      "status": "REJECT_AS_EXPECTED"
+    }
+  ],
+  "physical_a_frames": 49,
+  "physical_b_frames": 49,
+  "service": {
+    "status": "PASS",
+    "ethernet_frames": 32,
+    "ntp_packets": 2,
+    "ntp_origin_matched": true,
+    "lui": 1,
+    "lus": [
+      {
+        "status": 2,
+        "counter": 0,
+        "ratio": 0,
+        "files": [
+          {
+            "name": "APP.LUH",
+            "part": "PN-1",
+            "ratio": 0,
+            "status": 2,
+            "description": ""
+          }
+        ],
+        "description": ""
+      },
+      {
+        "status": 3,
+        "counter": 1,
+        "ratio": 100,
+        "files": [
+          {
+            "name": "APP.LUH",
+            "part": "PN-1",
+            "ratio": 100,
+            "status": 3,
+            "description": ""
+          }
+        ],
+        "description": ""
+      }
+    ],
+    "final_lus_acked": true,
+    "header_bytes": 126,
+    "files": [
+      {
+        "name": "A.LUP",
+        "bytes": 700,
+        "crc16": "279a"
+      },
+      {
+        "name": "B.LUP",
+        "bytes": 1024,
+        "crc16": "3c5f"
+      }
+    ],
+    "loaded_bytes": 1724,
+    "application_bytes": 700,
+    "package_crc32": "ce05f473",
+    "packet_capture": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-10-30\\w\\outputs\\afdx_review_20261103\\submission_regression\\run_20261103_163913_985694\\tb_datagram_mac_joint\\service_wire.pcap"
+  }
+}

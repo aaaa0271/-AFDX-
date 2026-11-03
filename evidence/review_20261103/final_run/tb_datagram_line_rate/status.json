@@ -1,0 +1,9 @@
+{
+  "name": "tb_datagram_line_rate",
+  "suite": "datagram",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_datagram_line_rate/result.log",
+  "audits": [],
+  "issues": []
+}

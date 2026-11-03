@@ -1,0 +1,9 @@
+{
+  "name": "tb_afdx_mib_register_bank",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_afdx_mib_register_bank/result.log",
+  "audits": [],
+  "issues": []
+}

@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "epoch": 3,
+  "rule_id": 0,
+  "rule": {
+    "peer_ip": 167772161,
+    "local_ip": 167772176,
+    "rx_mac": 3298534883344,
+    "peer_mac": 2199023255554,
+    "kind": 0,
+    "source_port": 100,
+    "destination_port": 200,
+    "tx_mac": 3298534883346,
+    "fragments": false,
+    "signed_loading": false,
+    "strict_initial_time": false,
+    "min_gap": 0,
+    "max_mac": 1518,
+    "max_contexts": 4,
+    "timeout": 30000,
+    "window": 0,
+    "max_frames": 0
+  },
+  "requirements": {
+    "max_normal_logical_pps": 1000,
+    "burst_frames": 4
+  }
+}

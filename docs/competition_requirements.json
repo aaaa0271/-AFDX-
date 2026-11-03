@@ -1,0 +1,86 @@
+{
+  "scope": "Project acceptance against the five functional contest goals using the explicitly declared prototype profile. NOT a claim of full ARINC clauses or organizer certification.",
+  "profile": "docs/competition_profile.json",
+  "requirements": [
+    {
+      "id": "COMP-F01",
+      "name": "AFDX MAC communication and configured VL scheduling",
+      "tests": [
+        "tb_contest_configuration",
+        "tb_contest_configured_rx",
+        "tb_datagram_tx",
+        "tb_datagram_rx",
+        "tb_datagram_mac_joint",
+        "tb_datagram_line_rate",
+        "tb_integration_subvl_mac"
+      ]
+    },
+    {
+      "id": "COMP-F02",
+      "name": "High-integrity communication",
+      "tests": [
+        "tb_afdx_udp_checksum",
+        "tb_m5_integrity_rules",
+        "tb_foundation_shared_degraded",
+        "tb_foundation_rx_queue",
+        "tb_datagram_source_ids",
+        "tb_contest_load_reject",
+        "tb_datagram_rx"
+      ]
+    },
+    {
+      "id": "COMP-F03",
+      "name": "SNMP network management",
+      "tests": [
+        "tb_contest_snmp_pysnmp",
+        "tb_completion_snmp_extended",
+        "tb_foundation_snmp_bulk_mac",
+        "tb_foundation_snmp_set_copy",
+        "tb_datagram_mac_joint"
+      ]
+    },
+    {
+      "id": "COMP-F04",
+      "name": "615A data loading",
+      "tests": [
+        "tb_contest_basic_mac_top",
+        "tb_contest_tftp",
+        "tb_contest_load_reject",
+        "tb_completion_package",
+        "tb_completion_package_network",
+        "tb_datagram_mac_joint",
+        "tb_integration_multi_services",
+        "tb_665_header_compat",
+        "tb_615a_control_recovery",
+        "tb_615a_roundtrip",
+        "tb_615a_download_faults",
+        "tb_615a_download_security"
+      ]
+    },
+    {
+      "id": "COMP-F05",
+      "name": "RTC clock synchronization",
+      "tests": [
+        "tb_contest_rtc_ntp",
+        "tb_contest_rtc_timebase",
+        "tb_contest_rtc_convergence",
+        "tb_contest_load_rtc_joint",
+        "tb_contest_basic_mac_top",
+        "tb_datagram_mac_joint",
+        "tb_integration_multi_services"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "docs/contest_requirements.jpg",
+      "sha256": "f831fc677efd7b425a91dcea29d4fccb60fd2110a7933dd9dbb9247dd3c72833"
+    },
+    {
+      "path": "docs/simulation_only.jpg",
+      "sha256": "9f08008402ee1bbd195068df3cf4baa829aeda73465a032e70c6d5c8f5d472c7"
+    }
+  ],
+  "release": "AFDX-COMPETITION-FINAL-20261012",
+  "required_service_domains": 2
+}

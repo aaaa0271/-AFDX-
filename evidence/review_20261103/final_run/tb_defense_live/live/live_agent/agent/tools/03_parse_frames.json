@@ -1,0 +1,36 @@
+{
+  "status": "ok",
+  "frames": [
+    {
+      "wire_length": 72,
+      "issues": [],
+      "fcs_valid": true,
+      "destination_mac": "030000000040",
+      "source_mac": "020000000022",
+      "sequence": 7,
+      "ip_checksum_valid": true,
+      "source_ip": 167772192,
+      "destination_ip": 167772176,
+      "ip_id": 7,
+      "fragment_offset": 0,
+      "more_fragments": false,
+      "protocol": 17,
+      "source_port": 10000,
+      "destination_port": 20000,
+      "udp_length": 24,
+      "udp_checksum_valid": true
+    }
+  ],
+  "provenance": {
+    "artifact_id": "live_frame",
+    "binding": "same_window",
+    "source": "rtl_fixture",
+    "window_id": "live_defense_49",
+    "files": [
+      {
+        "path": "capture.bin",
+        "sha256": "d05a7d956d5ee183fa037c4d95cc40d54cfea6196067f12209f9c5ba5ae04d7c"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "run": "B_20261104_download_refactor_standalone",
+  "status": "PASS",
+  "exit": 0,
+  "tool": "D:\\Program Files (x86)\\eLinx3.0\\bin\\Passkey\\bin\\quartus_map.exe",
+  "top": "elab_615a_download_top",
+  "elaborated_top": "elab_615a_download_top",
+  "service_domains": 1,
+  "errors": 0,
+  "warnings": 23,
+  "seconds": 276,
+  "peak_virtual_mb": 10836,
+  "sources": 4,
+  "refactor": "memory-based packet/name storage; runtime-variable part-selects on wide vectors replaced by indexed memory accesses",
+  "stages": {
+    "analysis_elaboration": "PASS",
+    "target_synthesis": "NOT_RUN",
+    "place_route": "NOT_RUN",
+    "timing": "NOT_RUN"
+  },
+  "analysis_part": "EP1S80F1508C6",
+  "target_part": "EQ6HL130",
+  "scope": "Standalone afdx_615a_download (refactored) analysis/elaboration only; not EQ6HL130 synthesis, fitting, timing closure or board evidence"
+}

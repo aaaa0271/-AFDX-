@@ -1,0 +1,9 @@
+{
+  "name": "tb_review_rtc_mac",
+  "suite": "completion",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_review_rtc_mac/result.log",
+  "audits": [],
+  "issues": []
+}

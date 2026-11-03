@@ -1,0 +1,9 @@
+{
+  "name": "tb_665_package_support_3",
+  "suite": "extension",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_665_package_support_3/result.log",
+  "audits": [],
+  "issues": []
+}

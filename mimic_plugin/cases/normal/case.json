@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "case_id": "normal",
+  "source": "synthetic_lab",
+  "policy": "policy.json",
+  "frames": [
+    {
+      "id": "normal_A",
+      "path": "normal_A.bin",
+      "channel": 0,
+      "capture_ticks": 0
+    },
+    {
+      "id": "normal_B",
+      "path": "normal_B.bin",
+      "channel": 1,
+      "capture_ticks": 10000
+    },
+    {
+      "id": "empty_payload",
+      "path": "empty_payload.bin",
+      "channel": 0,
+      "capture_ticks": 20000
+    }
+  ]
+}

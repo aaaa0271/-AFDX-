@@ -1,0 +1,603 @@
+# do run.do
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Copying C:/modeltech64_2020.4/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:40:21 on Nov 03,2026
+# vlog -vlog01compat -work work "+incdir+C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb" "+incdir+C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/aihw_plugin/rtl" C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_615a_control_tftp.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_615a_download.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_615a_process_engine.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_615a_tftp_error.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_615a_upload_control.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_665_format_engine.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_665_header.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_665_package_loader.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/AFDX_basic_top.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_ber_oid_codec.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_ber_primitive_codec.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_business_tx_varlen.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/AFDX_competition_top.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_datagram_core.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_datagram_rx.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_datagram_tx.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_defense_ai_csr.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_defense_control.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_defense_gate.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/AFDX_defense_top.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_degraded_dual_gmii_tx_bridge.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_dual_gmii_tx_bridge.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_eth_ipv4_udp_parser.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_frame_builder.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_frame_builder_cfg.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_frame_builder_varlen_cfg.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_gmii_tx_top.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/AFDX_legacy_top.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_load_rtc_services.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_m6a_integration.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_m6b_integration.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_m6c_integration.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_m6d_integration.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_m6e_02a_boundary.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_m6e_integration.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_m6e_management_rx.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_m6e_management_top.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_m6e_udp_rx_buffer.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_m6f_system_top.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_management_telemetry.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_mib_register_bank.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_mimic_quorum_gate.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_multi_loader_client_plane.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_network_services.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_package_network_services.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_payload_commit_buffer.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_port_config_bank.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_redundant_tx_fork.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_redundant_tx_fork_degraded.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_rtc_ntp.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_rx_config_bank.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_rx_dual_arbiter.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_rx_dual_frontend.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_rx_frame_parser.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_rx_frontend.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_rx_payload_frame_arbiter.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_rx_redundancy_decision_core.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_rx_redundancy_eliminator.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_sec_engine.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_sec_events.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_sec_frame_queue.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_sec_policy.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_sec_replay.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_sec_sha256.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_sec_time_monitor.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/AFDX_security_8port_top.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_security_plugin.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/AFDX_security_plugin_top.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_sequence_integrity.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_service_domain_table.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_service_frame_builder.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_service_gmii.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_shared_rx_demux.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_shared_tx_mux.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_snmp_extended.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_snmp_mac.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_snmp_profile_decoder.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_snmp_request_decoder.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_snmp_response_builder.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_snmp_transaction.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_snmp_version_gate.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_snmp_wire.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_standard_mib_bank.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_tftp_client.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_timebase.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/AFDX_top.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_tx_ctrl.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_tx_engine.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_tx_engine_cfg.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_tx_engine_m4.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/afdx_vl_identifier.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/bag_regulator.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/counter.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/gmii_fault_injector.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/gmii_rx_adapter.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/gmii_tx_adapter_60.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/gmii_tx_adapter_varlen.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/ipv4_checksum.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/m4_metrics_monitor.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/m4_payload_adapter.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/m4_vl_net_mapper.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/multi_vl_dual_gmii_tx_degraded.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/multi_vl_dual_gmii_tx_selectable.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/multi_vl_gmii_tx_rr.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/multi_vl_gmii_tx_selectable.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/multi_vl_tx_control.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/multi_vl_tx_control_selectable.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/per_vl_bag_regulator.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/per_vl_fifo.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/per_vl_seq_generator.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/redundancy_integrity_monitor.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/seq_generator.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/vl_bag_regulator.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/vl_config.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/vl_config_pkg.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/vl_fifo.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/vl_scheduler_bag_aware.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/vl_scheduler_fp.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/vl_scheduler_rr.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/rtl/vl_scheduler_selectable.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/aihw_plugin/rtl/afdx_ai_tcn_plugin.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/model_foundation_peer.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/model_foundation_system.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/model_loader_ntp_peer.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/model_reference_rx_filter.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/model_security_baseline.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/model_security_plugin.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/model_security_rx_filter.v C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_m6d_integration.v 
+# -- Compiling module afdx_615a_control_tftp
+# -- Compiling module afdx_615a_download
+# -- Compiling module afdx_615a_process_engine
+# -- Compiling module afdx_615a_tftp_error
+# -- Compiling module afdx_615a_upload_control
+# -- Compiling module afdx_665_format_engine
+# -- Compiling module afdx_665_header
+# -- Compiling module afdx_665_package_loader
+# -- Compiling module AFDX_basic_top
+# -- Compiling module afdx_ber_oid_codec
+# -- Compiling module afdx_ber_primitive_codec
+# -- Compiling module afdx_business_tx_varlen
+# -- Compiling module AFDX_competition_top
+# -- Compiling module afdx_datagram_core
+# -- Compiling module afdx_datagram_rx
+# -- Compiling module afdx_datagram_tx
+# -- Compiling module afdx_defense_ai_csr
+# -- Compiling module afdx_defense_control
+# -- Compiling module afdx_defense_gate
+# -- Compiling module AFDX_defense_top
+# -- Compiling module afdx_degraded_dual_gmii_tx_bridge
+# -- Compiling module afdx_dual_gmii_tx_bridge
+# -- Compiling module afdx_eth_ipv4_udp_parser
+# -- Compiling module afdx_frame_builder
+# -- Compiling module afdx_frame_builder_cfg
+# -- Compiling module afdx_frame_builder_varlen_cfg
+# -- Compiling module afdx_gmii_tx_top
+# -- Compiling module AFDX_legacy_top
+# -- Compiling module afdx_load_rtc_services
+# -- Compiling module afdx_m6a_integration
+# -- Compiling module afdx_m6b_integration
+# -- Compiling module afdx_m6c_integration
+# -- Compiling module afdx_m6d_integration
+# -- Compiling module afdx_m6e_02a_boundary
+# -- Compiling module afdx_m6e_integration
+# -- Compiling module afdx_m6e_management_rx
+# -- Compiling module afdx_m6e_management_top
+# -- Compiling module afdx_m6e_udp_rx_buffer
+# -- Compiling module afdx_m6f_system_top
+# -- Compiling module afdx_management_telemetry
+# -- Compiling module afdx_mib_register_bank
+# -- Compiling module afdx_mimic_quorum_gate
+# -- Compiling module afdx_multi_loader_client_plane
+# -- Compiling module afdx_service_domain_tx_mux
+# -- Compiling module afdx_network_services
+# -- Compiling module afdx_package_network_services
+# -- Compiling module afdx_payload_commit_buffer
+# -- Compiling module afdx_port_config_bank
+# -- Compiling module afdx_redundant_tx_fork
+# -- Compiling module afdx_redundant_tx_fork_degraded
+# -- Compiling module afdx_rtc_ntp
+# -- Compiling module afdx_ntp_tx_timestamp
+# -- Compiling module afdx_rx_config_bank
+# -- Compiling module afdx_rx_dual_arbiter
+# -- Compiling module afdx_rx_dual_frontend
+# -- Compiling module afdx_rx_frame_parser
+# -- Compiling module afdx_rx_frontend
+# -- Compiling module afdx_rx_payload_frame_arbiter
+# -- Compiling module afdx_rx_redundancy_decision_core
+# -- Compiling module afdx_rx_redundancy_eliminator
+# -- Compiling module afdx_sec_engine
+# -- Compiling module afdx_sec_events
+# -- Compiling module afdx_sec_frame_queue
+# -- Compiling module afdx_sec_policy
+# -- Compiling module afdx_sec_replay
+# -- Compiling module afdx_sec_sha256
+# -- Compiling module afdx_sec_time_monitor
+# -- Compiling module AFDX_security_8port_top
+# -- Compiling module afdx_demo_controller
+# -- Compiling module afdx_security_plugin
+# -- Compiling module AFDX_security_plugin_top
+# -- Compiling module afdx_sequence_integrity
+# -- Compiling module afdx_service_domain_table
+# -- Compiling module afdx_service_domain_config
+# -- Compiling module afdx_service_frame_builder
+# -- Compiling module afdx_service_gmii
+# -- Compiling module afdx_shared_rx_demux
+# -- Compiling module afdx_shared_tx_mux
+# -- Compiling module afdx_snmp_extended
+# -- Compiling module afdx_snmp_mac
+# -- Compiling module afdx_snmp_profile_decoder
+# -- Compiling module afdx_snmp_request_decoder
+# -- Compiling module afdx_snmp_response_builder
+# -- Compiling module afdx_snmp_transaction
+# -- Compiling module afdx_snmp_version_gate
+# -- Compiling module afdx_snmp_wire
+# -- Compiling module afdx_standard_mib_bank
+# -- Compiling module afdx_tftp_client
+# -- Compiling module afdx_timebase
+# -- Compiling module AFDX_top
+# -- Compiling module afdx_tx_ctrl
+# -- Compiling module afdx_tx_engine
+# -- Compiling module afdx_tx_engine_cfg
+# -- Compiling module afdx_tx_engine_m4
+# -- Compiling module afdx_vl_identifier
+# -- Compiling module bag_regulator
+# -- Compiling module counter
+# -- Compiling module gmii_fault_injector
+# -- Compiling module gmii_rx_adapter
+# -- Compiling module gmii_tx_adapter_60
+# -- Compiling module gmii_tx_adapter_varlen
+# -- Compiling module ipv4_checksum
+# -- Compiling module m4_metrics_monitor
+# -- Compiling module m4_payload_adapter
+# -- Compiling module m4_vl_net_mapper
+# -- Compiling module multi_vl_dual_gmii_tx_degraded
+# -- Compiling module multi_vl_dual_gmii_tx_selectable
+# -- Compiling module multi_vl_gmii_tx_rr
+# -- Compiling module multi_vl_gmii_tx_selectable
+# -- Compiling module multi_vl_tx_control
+# -- Compiling module multi_vl_tx_control_selectable
+# -- Compiling module per_vl_bag_regulator
+# -- Compiling module per_vl_fifo
+# -- Compiling module per_vl_seq_generator
+# -- Compiling module redundancy_integrity_monitor
+# -- Compiling module seq_generator
+# -- Compiling module vl_bag_regulator
+# -- Compiling module vl_config
+# -- Compiling module vl_fifo
+# -- Compiling module vl_scheduler_bag_aware
+# -- Compiling module vl_scheduler_fp
+# -- Compiling module vl_scheduler_rr
+# -- Compiling module vl_scheduler_selectable
+# -- Compiling module afdx_ai_tcn_plugin
+# -- Compiling module model_foundation_peer
+# -- Compiling module model_foundation_system
+# -- Compiling module model_loader_ntp_peer
+# -- Compiling module model_reference_rx_filter
+# -- Compiling module model_security_baseline
+# -- Compiling module model_security_plugin
+# -- Compiling module model_reference_rx_filter
+# ** Warning: C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/model_security_rx_filter.v(5): (vlog-2275) Existing module 'model_reference_rx_filter' at C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/model_reference_rx_filter.v(4) will be overwritten.
+# -- Compiling module tb_afdx_m6d_integration
+# 
+# Top level modules:
+# 	afdx_615a_process_engine
+# 	afdx_665_format_engine
+# 	AFDX_basic_top
+# 	AFDX_defense_top
+# 	afdx_gmii_tx_top
+# 	AFDX_legacy_top
+# 	afdx_network_services
+# 	afdx_rx_frontend
+# 	AFDX_security_8port_top
+# 	afdx_service_domain_table
+# 	afdx_snmp_version_gate
+# 	afdx_standard_mib_bank
+# 	afdx_timebase
+# 	AFDX_top
+# 	afdx_tx_engine
+# 	counter
+# 	m4_metrics_monitor
+# 	multi_vl_dual_gmii_tx_degraded
+# 	multi_vl_dual_gmii_tx_selectable
+# 	multi_vl_gmii_tx_rr
+# 	multi_vl_gmii_tx_selectable
+# 	model_foundation_system
+# 	model_loader_ntp_peer
+# 	model_security_baseline
+# 	model_security_plugin
+# 	tb_afdx_m6d_integration
+# End time: 16:40:22 on Nov 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vsim -c -voptargs="+acc" -onfinish stop -t 1ps -lib work tb_afdx_m6d_integration 
+# Start time: 16:40:22 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "afdx_m6d_integration(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "afdx_snmp_profile_decoder(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "afdx_ber_oid_codec(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "afdx_m6c_integration(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "afdx_snmp_transaction(fast)".
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.tb_afdx_m6d_integration(fast)
+# Loading work.afdx_m6d_integration(fast)
+# Loading work.afdx_snmp_profile_decoder(fast)
+# Loading work.afdx_snmp_request_decoder(fast)
+# Loading work.afdx_m6b_integration(fast)
+# Loading work.afdx_m6a_integration(fast)
+# Loading work.afdx_management_telemetry(fast)
+# Loading work.afdx_mib_register_bank(fast)
+# Loading work.afdx_snmp_transaction(fast)
+# Loading work.afdx_m6c_integration(fast)
+# Loading work.afdx_ber_oid_codec(fast)
+# Loading work.afdx_ber_primitive_codec(fast)
+# Loading work.afdx_snmp_response_builder(fast)
+# M6D-13 serial final A->B->C->D; one initial reset; no extra physical request
+# Formal Batch A M6D-01~03; three GET requests; quiet window=200 cycles
+# M6D-01 v2c GET canonical object1 RID=12345678
+# REQUEST len=46 hex=302c02010104067075626c6963a01f0204123456780201000201003011300f060b2b0601040181fd590101010500
+# RESPONSE done=1 valid=1 error=0 code=00 len=49 timeout=0 cycles=90
+# RESPONSE hex=302f02010104067075626c6963a22202041234567802010002010030143012060b2b0601040181fd590101010203060a01
+# PARSED format=1 version=1 rid=12345678 status=0 index=0
+# PARSED rid_length=4 rid_raw=12345678
+# PARSED oid[11]=2b0601040181fd59010101 value tag=02 len=3 hex=060a01
+# M6D-01 CHECK functional=1 valid_rises=1 done_pulses=1 quiet_cycles=200 quiet_ok=1 monitor_errors=0 latency=90 (informational)
+# M6D-01 STARTS physical=1 txn=1 builder=1
+# M6D-01 PASS
+# M6D-02 v2c GET canonical object1 RID=89abcdef
+# REQUEST len=46 hex=302c02010104067075626c6963a01f020489abcdef0201000201003011300f060b2b0601040181fd590101010500
+# RESPONSE done=1 valid=1 error=0 code=00 len=49 timeout=0 cycles=90
+# RESPONSE hex=302f02010104067075626c6963a222020489abcdef02010002010030143012060b2b0601040181fd590101010203060a01
+# PARSED format=1 version=1 rid=89abcdef status=0 index=0
+# PARSED rid_length=4 rid_raw=89abcdef
+# PARSED oid[11]=2b0601040181fd59010101 value tag=02 len=3 hex=060a01
+# M6D-02 CHECK functional=1 valid_rises=1 done_pulses=1 quiet_cycles=200 quiet_ok=1 monitor_errors=0 latency=90 (informational)
+# M6D-02 STARTS physical=1 txn=1 builder=1
+# M6D-02 PASS
+# M6D-03 v2c GET canonical object6 RID=23456789
+# REQUEST len=46 hex=302c02010104067075626c6963a01f0204234567890201000201003011300f060b2b0601040181fd590101060500
+# RESPONSE done=1 valid=1 error=0 code=00 len=47 timeout=0 cycles=90
+# RESPONSE hex=302d02010104067075626c6963a22002042345678902010002010030123010060b2b0601040181fd59010106410100
+# PARSED format=1 version=1 rid=23456789 status=0 index=0
+# PARSED rid_length=4 rid_raw=23456789
+# PARSED oid[11]=2b0601040181fd59010106 value tag=41 len=1 hex=00
+# M6D-03 CHECK functional=1 valid_rises=1 done_pulses=1 quiet_cycles=200 quiet_ok=1 monitor_errors=0 latency=90 (informational)
+# M6D-03 STARTS physical=1 txn=1 builder=1
+# M6D-03 PASS
+# TOTAL physical_requests_issued=3 responses=3 done=3 monitor_errors=0 failed_cases=0
+# Formal Batch A M6D-01~03 PASS
+# Formal Batch B M6D-04~07; continuing after Batch A without reset; quiet window=200 cycles
+# M6D-04 v2c GETNEXT canonical object5 RID=3456789a
+# REQUEST len=46 hex=302c02010104067075626c6963a11f02043456789a0201000201003011300f060b2b0601040181fd590101050500
+# RESPONSE done=1 valid=1 error=0 code=00 len=47 timeout=0 cycles=90
+# RESPONSE hex=302d02010104067075626c6963a22002043456789a02010002010030123010060b2b0601040181fd59010106410100
+# PARSED format=1 version=1 rid=3456789a status=0 index=0
+# PARSED rid_length=4 rid_raw=3456789a
+# PARSED oid[11]=2b0601040181fd59010106 value tag=41 len=1 hex=00
+# M6D-04 STARTS txn=1 builder=1
+# M6D-04 CHECK functional=1 valid_rises=1 done_pulses=1 physical_requests=1 quiet_cycles=200 quiet_ok=1 monitor_errors=0 latency=90 (informational)
+# M6D-04 PASS
+# M6D-05 CHECK same physical request as 04; complete final BER canonical object6 OID match=1
+# M6D-05 PASS
+# M6D-06 v2c GETNEXT canonical object0 RID=456789ab
+# REQUEST len=46 hex=302c02010104067075626c6963a11f0204456789ab0201000201003011300f060b2b0601040181fd590101000500
+# RESPONSE done=1 valid=1 error=0 code=00 len=49 timeout=0 cycles=90
+# RESPONSE hex=302f02010104067075626c6963a2220204456789ab02010002010030143012060b2b0601040181fd590101010203060a01
+# PARSED format=1 version=1 rid=456789ab status=0 index=0
+# PARSED rid_length=4 rid_raw=456789ab
+# PARSED oid[11]=2b0601040181fd59010101 value tag=02 len=3 hex=060a01
+# M6D-06 STARTS txn=1 builder=1
+# M6D-06 CHECK functional=1 valid_rises=1 done_pulses=1 physical_requests=1 quiet_cycles=200 quiet_ok=1 monitor_errors=0 latency=90 (informational)
+# M6D-06 PASS
+# M6D-07 v2c GETNEXT canonical object25 RID=56789abc
+# REQUEST len=46 hex=302c02010104067075626c6963a11f020456789abc0201000201003011300f060b2b0601040181fd590101190500
+# RESPONSE done=1 valid=1 error=0 code=00 len=46 timeout=0 cycles=67
+# RESPONSE hex=302c02010104067075626c6963a21f020456789abc0201000201003011300f060b2b0601040181fd590101198200
+# PARSED format=1 version=1 rid=56789abc status=0 index=0
+# PARSED rid_length=4 rid_raw=56789abc
+# PARSED oid[11]=2b0601040181fd59010119 value tag=82 len=0 hex=
+# M6D-07 STARTS txn=1 builder=1
+# M6D-07 CHECK functional=1 valid_rises=1 done_pulses=1 physical_requests=1 quiet_cycles=200 quiet_ok=1 monitor_errors=0 latency=67 (informational)
+# M6D-07 PASS
+# TOTAL physical_requests_issued=6 responses=6 done=6 monitor_errors=0 failed_cases=0
+# Formal Batch B M6D-04~07 PASS; Batch A preserved
+# Formal Batch C M6D-08~11; continuing after Batch B without reset; quiet window=200 cycles
+# M6D- 8 rejection canonical object1 RID=6789abcd mutation_index=12 before=63 after=78 differences=1 isolated=1 expected_code=2
+# REQUEST len=46 hex=302c02010104067075626c6978a01f02046789abcd0201000201003011300f060b2b0601040181fd590101010500
+# RESPONSE done=1 valid=0 error=1 code=02 len=0 timeout=0 cycles=50
+# RESPONSE hex=
+# M6D- 8 STARTS transaction_before=6 after=6 delta=0 builder_before=6 after=6 delta=0
+# M6D- 8 CHECK functional=1 transport=1 physical_requests=1 done=1 valid_rises=0 valid_high_samples=0 expected_code=2 actual_code=2 quiet_cycles=200 quiet_ok=1 monitor_errors=0 timeout=0
+# M6D- 8 PASS
+# M6D- 9 rejection canonical object1 RID=789abcde mutation_index=1 before=2c after=2d differences=1 isolated=1 expected_code=1
+# REQUEST len=46 hex=302d02010104067075626c6963a01f0204789abcde0201000201003011300f060b2b0601040181fd590101010500
+# RESPONSE done=1 valid=0 error=1 code=01 len=0 timeout=0 cycles=6
+# RESPONSE hex=
+# M6D- 9 STARTS transaction_before=6 after=6 delta=0 builder_before=6 after=6 delta=0
+# M6D- 9 CHECK functional=1 transport=1 physical_requests=1 done=1 valid_rises=0 valid_high_samples=0 expected_code=1 actual_code=1 quiet_cycles=200 quiet_ok=1 monitor_errors=0 timeout=0
+# M6D- 9 PASS
+# M6D-10 rejection canonical object1 RID=1234abcd mutation_index=13 before=a0 after=a5 differences=1 isolated=1 expected_code=3
+# REQUEST len=46 hex=302c02010104067075626c6963a51f02041234abcd0201000201003011300f060b2b0601040181fd590101010500
+# RESPONSE done=1 valid=0 error=1 code=03 len=0 timeout=0 cycles=50
+# RESPONSE hex=
+# M6D-10 STARTS transaction_before=6 after=6 delta=0 builder_before=6 after=6 delta=0
+# M6D-10 CHECK functional=1 transport=1 physical_requests=1 done=1 valid_rises=0 valid_high_samples=0 expected_code=3 actual_code=3 quiet_cycles=200 quiet_ok=1 monitor_errors=0 timeout=0
+# M6D-10 PASS
+# M6D-11 rejection canonical object1 RID=2345bcde mutation_index=13 before=a0 after=a3 differences=1 isolated=1 expected_code=4
+# REQUEST len=46 hex=302c02010104067075626c6963a31f02042345bcde0201000201003011300f060b2b0601040181fd590101010500
+# RESPONSE done=1 valid=0 error=1 code=04 len=0 timeout=0 cycles=50
+# RESPONSE hex=
+# M6D-11 STARTS transaction_before=6 after=6 delta=0 builder_before=6 after=6 delta=0
+# M6D-11 CHECK functional=1 transport=1 physical_requests=1 done=1 valid_rises=0 valid_high_samples=0 expected_code=4 actual_code=4 quiet_cycles=200 quiet_ok=1 monitor_errors=0 timeout=0
+# M6D-11 PASS
+# TOTAL physical_requests=10 done=10 valid_edges=6 transaction_starts=6 builder_starts=6 valid_high_samples=1212 monitor_errors=0 failed_cases=0
+# Formal Batch C M6D-08~11 PASS; A/B preserved; each rejection valid_high_samples delta=0
+# Formal Batch D M6D-12; continuing after Batch C without reset; 26 chained GETNEXT requests; quiet=200
+# Read-only scope: GETNEXT wire requests and existing pulse/output monitors; M6D has no M5 write port; full M5 isolation NOT proven here
+# M6D-12 STEP 1 GETNEXT RID=60000001
+# REQUEST len=46 hex=302c02010104067075626c6963a11f0204600000010201000201003011300f060b2b0601040181fd590101000500
+# RESPONSE done=1 valid=1 error=0 code=00 len=49 timeout=0 cycles=90
+# RESPONSE hex=302f02010104067075626c6963a22202046000000102010002010030143012060b2b0601040181fd590101010203060a01
+# PARSED format=1 version=1 rid=60000001 status=0 index=0
+# PARSED rid_length=4 rid_raw=60000001
+# PARSED oid[11]=2b0601040181fd59010101 value tag=02 len=3 hex=060a01
+# M6D-12 STEP 1 STARTS transaction_before=6 after=7 delta=1 builder_before=6 after=7 delta=1
+# M6D-12 STEP 1 CHECK oid=1 tag=02 len=3 value=0000060a01 functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=90 (informational)
+# M6D-12 STEP 1 PASS
+# M6D-12 STEP 2 GETNEXT RID=60000002
+# REQUEST len=46 hex=302c02010104067075626c6963a11f0204600000020201000201003011300f060b2b0601040181fd590101010500
+# RESPONSE done=1 valid=1 error=0 code=00 len=47 timeout=0 cycles=90
+# RESPONSE hex=302d02010104067075626c6963a22002046000000202010002010030123010060b2b0601040181fd59010102410108
+# PARSED format=1 version=1 rid=60000002 status=0 index=0
+# PARSED rid_length=4 rid_raw=60000002
+# PARSED oid[11]=2b0601040181fd59010102 value tag=41 len=1 hex=08
+# M6D-12 STEP 2 STARTS transaction_before=7 after=8 delta=1 builder_before=7 after=8 delta=1
+# M6D-12 STEP 2 CHECK oid=2 tag=41 len=1 value=0000000008 functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=90 (informational)
+# M6D-12 STEP 2 PASS
+# M6D-12 STEP 3 GETNEXT RID=60000003
+# REQUEST len=46 hex=302c02010104067075626c6963a11f0204600000030201000201003011300f060b2b0601040181fd590101020500
+# RESPONSE done=1 valid=1 error=0 code=00 len=48 timeout=0 cycles=90
+# RESPONSE hex=302e02010104067075626c6963a22102046000000302010002010030133011060b2b0601040181fd590101034302014c
+# PARSED format=1 version=1 rid=60000003 status=0 index=0
+# PARSED rid_length=4 rid_raw=60000003
+# PARSED oid[11]=2b0601040181fd59010103 value tag=43 len=2 hex=014c
+# M6D-12 STEP 3 STARTS transaction_before=8 after=9 delta=1 builder_before=8 after=9 delta=1
+# M6D-12 STEP 3 CHECK oid=3 tag=43 len=2 value=000000014c functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=90 (informational)
+# M6D-12 STEP 3 PASS
+# M6D-12 STEP 4 GETNEXT RID=60000004
+# REQUEST len=46 hex=302c02010104067075626c6963a11f0204600000040201000201003011300f060b2b0601040181fd590101030500
+# RESPONSE done=1 valid=1 error=0 code=00 len=47 timeout=0 cycles=90
+# RESPONSE hex=302d02010104067075626c6963a22002046000000402010002010030123010060b2b0601040181fd59010104020100
+# PARSED format=1 version=1 rid=60000004 status=0 index=0
+# PARSED rid_length=4 rid_raw=60000004
+# PARSED oid[11]=2b0601040181fd59010104 value tag=02 len=1 hex=00
+# M6D-12 STEP 4 STARTS transaction_before=9 after=10 delta=1 builder_before=9 after=10 delta=1
+# M6D-12 STEP 4 CHECK oid=4 tag=02 len=1 value=0000000000 functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=90 (informational)
+# M6D-12 STEP 4 PASS
+# M6D-12 STEP 5 GETNEXT RID=60000005
+# REQUEST len=46 hex=302c02010104067075626c6963a11f0204600000050201000201003011300f060b2b0601040181fd590101040500
+# RESPONSE done=1 valid=1 error=0 code=00 len=47 timeout=0 cycles=90
+# RESPONSE hex=302d02010104067075626c6963a22002046000000502010002010030123010060b2b0601040181fd59010105020100
+# PARSED format=1 version=1 rid=60000005 status=0 index=0
+# PARSED rid_length=4 rid_raw=60000005
+# PARSED oid[11]=2b0601040181fd59010105 value tag=02 len=1 hex=00
+# M6D-12 STEP 5 STARTS transaction_before=10 after=11 delta=1 builder_before=10 after=11 delta=1
+# M6D-12 STEP 5 CHECK oid=5 tag=02 len=1 value=0000000000 functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=90 (informational)
+# M6D-12 STEP 5 PASS
+# M6D-12 STEP 6 GETNEXT RID=60000006
+# REQUEST len=46 hex=302c02010104067075626c6963a11f0204600000060201000201003011300f060b2b0601040181fd590101050500
+# RESPONSE done=1 valid=1 error=0 code=00 len=47 timeout=0 cycles=90
+# RESPONSE hex=302d02010104067075626c6963a22002046000000602010002010030123010060b2b0601040181fd59010106410100
+# PARSED format=1 version=1 rid=60000006 status=0 index=0
+# PARSED rid_length=4 rid_raw=60000006
+# PARSED oid[11]=2b0601040181fd59010106 value tag=41 len=1 hex=00
+# M6D-12 STEP 6 STARTS transaction_before=11 after=12 delta=1 builder_before=11 after=12 delta=1
+# M6D-12 STEP 6 CHECK oid=6 tag=41 len=1 value=0000000000 functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=90 (informational)
+# M6D-12 STEP 6 PASS
+# M6D-12 STEP 7 GETNEXT RID=60000007
+# REQUEST len=46 hex=302c02010104067075626c6963a11f0204600000070201000201003011300f060b2b0601040181fd590101060500
+# RESPONSE done=1 valid=1 error=0 code=00 len=47 timeout=0 cycles=90
+# RESPONSE hex=302d02010104067075626c6963a22002046000000702010002010030123010060b2b0601040181fd59010107410100
+# PARSED format=1 version=1 rid=60000007 status=0 index=0
+# PARSED rid_length=4 rid_raw=60000007
+# PARSED oid[11]=2b0601040181fd59010107 value tag=41 len=1 hex=00
+# M6D-12 STEP 7 STARTS transaction_before=12 after=13 delta=1 builder_before=12 after=13 delta=1
+# M6D-12 STEP 7 CHECK oid=7 tag=41 len=1 value=0000000000 functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=90 (informational)
+# M6D-12 STEP 7 PASS
+# M6D-12 STEP 8 GETNEXT RID=60000008
+# REQUEST len=46 hex=302c02010104067075626c6963a11f0204600000080201000201003011300f060b2b0601040181fd590101070500
+# RESPONSE done=1 valid=1 error=0 code=00 len=47 timeout=0 cycles=90
+# RESPONSE hex=302d02010104067075626c6963a22002046000000802010002010030123010060b2b0601040181fd59010108410100
+# PARSED format=1 version=1 rid=60000008 status=0 index=0
+# PARSED rid_length=4 rid_raw=60000008
+# PARSED oid[11]=2b0601040181fd59010108 value tag=41 len=1 hex=00
+# M6D-12 STEP 8 STARTS transaction_before=13 after=14 delta=1 builder_before=13 after=14 delta=1
+# M6D-12 STEP 8 CHECK oid=8 tag=41 len=1 value=0000000000 functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=90 (informational)
+# M6D-12 STEP 8 PASS
+# M6D-12 STEP 9 GETNEXT RID=60000009
+# REQUEST len=46 hex=302c02010104067075626c6963a11f0204600000090201000201003011300f060b2b0601040181fd590101080500
+# RESPONSE done=1 valid=1 error=0 code=00 len=47 timeout=0 cycles=90
+# RESPONSE hex=302d02010104067075626c6963a22002046000000902010002010030123010060b2b0601040181fd59010109410100
+# PARSED format=1 version=1 rid=60000009 status=0 index=0
+# PARSED rid_length=4 rid_raw=60000009
+# PARSED oid[11]=2b0601040181fd59010109 value tag=41 len=1 hex=00
+# M6D-12 STEP 9 STARTS transaction_before=14 after=15 delta=1 builder_before=14 after=15 delta=1
+# M6D-12 STEP 9 CHECK oid=9 tag=41 len=1 value=0000000000 functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=90 (informational)
+# M6D-12 STEP 9 PASS
+# M6D-12 STEP 10 GETNEXT RID=6000000a
+# REQUEST len=46 hex=302c02010104067075626c6963a11f02046000000a0201000201003011300f060b2b0601040181fd590101090500
+# RESPONSE done=1 valid=1 error=0 code=00 len=47 timeout=0 cycles=90
+# RESPONSE hex=302d02010104067075626c6963a22002046000000a02010002010030123010060b2b0601040181fd5901010a410100
+# PARSED format=1 version=1 rid=6000000a status=0 index=0
+# PARSED rid_length=4 rid_raw=6000000a
+# PARSED oid[11]=2b0601040181fd5901010a value tag=41 len=1 hex=00
+# M6D-12 STEP 10 STARTS transaction_before=15 after=16 delta=1 builder_before=15 after=16 delta=1
+# M6D-12 STEP 10 CHECK oid=10 tag=41 len=1 value=0000000000 functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=90 (informational)
+# M6D-12 STEP 10 PASS
+# M6D-12 STEP 11 GETNEXT RID=6000000b
+# REQUEST len=46 hex=302c02010104067075626c6963a11f02046000000b0201000201003011300f060b2b0601040181fd5901010a0500
+# RESPONSE done=1 valid=1 error=0 code=00 len=47 timeout=0 cycles=90
+# RESPONSE hex=302d02010104067075626c6963a22002046000000b02010002010030123010060b2b0601040181fd5901010b410100
+# PARSED format=1 version=1 rid=6000000b status=0 index=0
+# PARSED rid_length=4 rid_raw=6000000b
+# PARSED oid[11]=2b0601040181fd5901010b value tag=41 len=1 hex=00
+# M6D-12 STEP 11 STARTS transaction_before=16 after=17 delta=1 builder_before=16 after=17 delta=1
+# M6D-12 STEP 11 CHECK oid=11 tag=41 len=1 value=0000000000 functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=90 (informational)
+# M6D-12 STEP 11 PASS
+# M6D-12 STEP 12 GETNEXT RID=6000000c
+# REQUEST len=46 hex=302c02010104067075626c6963a11f02046000000c0201000201003011300f060b2b0601040181fd5901010b0500
+# RESPONSE done=1 valid=1 error=0 code=00 len=47 timeout=0 cycles=90
+# RESPONSE hex=302d02010104067075626c6963a22002046000000c02010002010030123010060b2b0601040181fd5901010c410100
+# PARSED format=1 version=1 rid=6000000c status=0 index=0
+# PARSED rid_length=4 rid_raw=6000000c
+# PARSED oid[11]=2b0601040181fd5901010c value tag=41 len=1 hex=00
+# M6D-12 STEP 12 STARTS transaction_before=17 after=18 delta=1 builder_before=17 after=18 delta=1
+# M6D-12 STEP 12 CHECK oid=12 tag=41 len=1 value=0000000000 functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=90 (informational)
+# M6D-12 STEP 12 PASS
+# M6D-12 STEP 13 GETNEXT RID=6000000d
+# REQUEST len=46 hex=302c02010104067075626c6963a11f02046000000d0201000201003011300f060b2b0601040181fd5901010c0500
+# RESPONSE done=1 valid=1 error=0 code=00 len=47 timeout=0 cycles=90
+# RESPONSE hex=302d02010104067075626c6963a22002046000000d02010002010030123010060b2b0601040181fd5901010d410100
+# PARSED format=1 version=1 rid=6000000d status=0 index=0
+# PARSED rid_length=4 rid_raw=6000000d
+# PARSED oid[11]=2b0601040181fd5901010d value tag=41 len=1 hex=00
+# M6D-12 STEP 13 STARTS transaction_before=18 after=19 delta=1 builder_before=18 after=19 delta=1
+# M6D-12 STEP 13 CHECK oid=13 tag=41 len=1 value=0000000000 functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=90 (informational)
+# M6D-12 STEP 13 PASS
+# M6D-12 STEP 14 GETNEXT RID=6000000e
+# REQUEST len=46 hex=302c02010104067075626c6963a11f02046000000e0201000201003011300f060b2b0601040181fd5901010d0500
+# RESPONSE done=1 valid=1 error=0 code=00 len=47 timeout=0 cycles=90
+# RESPONSE hex=302d02010104067075626c6963a22002046000000e02010002010030123010060b2b0601040181fd5901010e410100
+# PARSED format=1 version=1 rid=6000000e status=0 index=0
+# PARSED rid_length=4 rid_raw=6000000e
+# PARSED oid[11]=2b0601040181fd5901010e value tag=41 len=1 hex=00
+# M6D-12 STEP 14 STARTS transaction_before=19 after=20 delta=1 builder_before=19 after=20 delta=1
+# M6D-12 STEP 14 CHECK oid=14 tag=41 len=1 value=0000000000 functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=90 (informational)
+# M6D-12 STEP 14 PASS
+# M6D-12 STEP 15 GETNEXT RID=6000000f
+# REQUEST len=46 hex=302c02010104067075626c6963a11f02046000000f0201000201003011300f060b2b0601040181fd5901010e0500
+# RESPONSE done=1 valid=1 error=0 code=00 len=47 timeout=0 cycles=90
+# RESPONSE hex=302d02010104067075626c6963a22002046000000f02010002010030123010060b2b0601040181fd5901010f410100
+# PARSED format=1 version=1 rid=6000000f status=0 index=0
+# PARSED rid_length=4 rid_raw=6000000f
+# PARSED oid[11]=2b0601040181fd5901010f value tag=41 len=1 hex=00
+# M6D-12 STEP 15 STARTS transaction_before=20 after=21 delta=1 builder_before=20 after=21 delta=1
+# M6D-12 STEP 15 CHECK oid=15 tag=41 len=1 value=0000000000 functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=90 (informational)
+# M6D-12 STEP 15 PASS
+# M6D-12 STEP 16 GETNEXT RID=60000010
+# REQUEST len=46 hex=302c02010104067075626c6963a11f0204600000100201000201003011300f060b2b0601040181fd5901010f0500
+# RESPONSE done=1 valid=1 error=0 code=00 len=47 timeout=0 cycles=90
+# RESPONSE hex=302d02010104067075626c6963a22002046000001002010002010030123010060b2b0601040181fd59010110410100
+# PARSED format=1 version=1 rid=60000010 status=0 index=0
+# PARSED rid_length=4 rid_raw=60000010
+# PARSED oid[11]=2b0601040181fd59010110 value tag=41 len=1 hex=00
+# M6D-12 STEP 16 STARTS transaction_before=21 after=22 delta=1 builder_before=21 after=22 delta=1
+# M6D-12 STEP 16 CHECK oid=16 tag=41 len=1 value=0000000000 functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=90 (informational)
+# M6D-12 STEP 16 PASS
+# M6D-12 STEP 17 GETNEXT RID=60000011
+# REQUEST len=46 hex=302c02010104067075626c6963a11f0204600000110201000201003011300f060b2b0601040181fd590101100500
+# RESPONSE done=1 valid=1 error=0 code=00 len=47 timeout=0 cycles=90
+# RESPONSE hex=302d02010104067075626c6963a22002046000001102010002010030123010060b2b0601040181fd59010111410100
+# PARSED format=1 version=1 rid=60000011 status=0 index=0
+# PARSED rid_length=4 rid_raw=60000011
+# PARSED oid[11]=2b0601040181fd59010111 value tag=41 len=1 hex=00
+# M6D-12 STEP 17 STARTS transaction_before=22 after=23 delta=1 builder_before=22 after=23 delta=1
+# M6D-12 STEP 17 CHECK oid=17 tag=41 len=1 value=0000000000 functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=90 (informational)
+# M6D-12 STEP 17 PASS
+# M6D-12 STEP 18 GETNEXT RID=60000012
+# REQUEST len=46 hex=302c02010104067075626c6963a11f0204600000120201000201003011300f060b2b0601040181fd590101110500
+# RESPONSE done=1 valid=1 error=0 code=00 len=47 timeout=0 cycles=90
+# RESPONSE hex=302d02010104067075626c6963a22002046000001202010002010030123010060b2b0601040181fd59010112410100
+# PARSED format=1 version=1 rid=60000012 status=0 index=0
+# PARSED rid_length=4 rid_raw=60000012
+# PARSED oid[11]=2b0601040181fd59010112 value tag=41 len=1 hex=00
+# M6D-12 STEP 18 STARTS transaction_before=23 after=24 delta=1 builder_before=23 after=24 delta=1
+# M6D-12 STEP 18 CHECK oid=18 tag=41 len=1 value=0000000000 functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=90 (informational)
+# M6D-12 STEP 18 PASS
+# M6D-12 STEP 19 GETNEXT RID=60000013
+# REQUEST len=46 hex=302c02010104067075626c6963a11f0204600000130201000201003011300f060b2b0601040181fd590101120500
+# RESPONSE done=1 valid=1 error=0 code=00 len=47 timeout=0 cycles=90
+# RESPONSE hex=302d02010104067075626c6963a22002046000001302010002010030123010060b2b0601040181fd59010113410100
+# PARSED format=1 version=1 rid=60000013 status=0 index=0
+# PARSED rid_length=4 rid_raw=60000013
+# PARSED oid[11]=2b0601040181fd59010113 value tag=41 len=1 hex=00
+# M6D-12 STEP 19 STARTS transaction_before=24 after=25 delta=1 builder_before=24 after=25 delta=1
+# M6D-12 STEP 19 CHECK oid=19 tag=41 len=1 value=0000000000 functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=90 (informational)
+# M6D-12 STEP 19 PASS
+# M6D-12 STEP 20 GETNEXT RID=60000014
+# REQUEST len=46 hex=302c02010104067075626c6963a11f0204600000140201000201003011300f060b2b0601040181fd590101130500
+# RESPONSE done=1 valid=1 error=0 code=00 len=47 timeout=0 cycles=90
+# RESPONSE hex=302d02010104067075626c6963a22002046000001402010002010030123010060b2b0601040181fd59010114410100
+# PARSED format=1 version=1 rid=60000014 status=0 index=0
+# PARSED rid_length=4 rid_raw=60000014
+# PARSED oid[11]=2b0601040181fd59010114 value tag=41 len=1 hex=00
+# M6D-12 STEP 20 STARTS transaction_before=25 after=26 delta=1 builder_before=25 after=26 delta=1
+# M6D-12 STEP 20 CHECK oid=20 tag=41 len=1 value=0000000000 functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=90 (informational)
+# M6D-12 STEP 20 PASS
+# M6D-12 STEP 21 GETNEXT RID=60000015
+# REQUEST len=46 hex=302c02010104067075626c6963a11f0204600000150201000201003011300f060b2b0601040181fd590101140500
+# RESPONSE done=1 valid=1 error=0 code=00 len=47 timeout=0 cycles=90
+# RESPONSE hex=302d02010104067075626c6963a22002046000001502010002010030123010060b2b0601040181fd59010115410100
+# PARSED format=1 version=1 rid=60000015 status=0 index=0
+# PARSED rid_length=4 rid_raw=60000015
+# PARSED oid[11]=2b0601040181fd59010115 value tag=41 len=1 hex=00
+# M6D-12 STEP 21 STARTS transaction_before=26 after=27 delta=1 builder_before=26 after=27 delta=1
+# M6D-12 STEP 21 CHECK oid=21 tag=41 len=1 value=0000000000 functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=90 (informational)
+# M6D-12 STEP 21 PASS
+# M6D-12 STEP 22 GETNEXT RID=60000016
+# REQUEST len=46 hex=302c02010104067075626c6963a11f0204600000160201000201003011300f060b2b0601040181fd590101150500
+# RESPONSE done=1 valid=1 error=0 code=00 len=47 timeout=0 cycles=90
+# RESPONSE hex=302d02010104067075626c6963a22002046000001602010002010030123010060b2b0601040181fd59010116410100
+# PARSED format=1 version=1 rid=60000016 status=0 index=0
+# PARSED rid_length=4 rid_raw=60000016
+# PARSED oid[11]=2b0601040181fd59010116 value tag=41 len=1 hex=00
+# M6D-12 STEP 22 STARTS transaction_before=27 after=28 delta=1 builder_before=27 after=28 delta=1
+# M6D-12 STEP 22 CHECK oid=22 tag=41 len=1 value=0000000000 functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=90 (informational)
+# M6D-12 STEP 22 PASS
+# M6D-12 STEP 23 GETNEXT RID=60000017
+# REQUEST len=46 hex=302c02010104067075626c6963a11f0204600000170201000201003011300f060b2b0601040181fd590101160500
+# RESPONSE done=1 valid=1 error=0 code=00 len=47 timeout=0 cycles=90
+# RESPONSE hex=302d02010104067075626c6963a22002046000001702010002010030123010060b2b0601040181fd59010117410100
+# PARSED format=1 version=1 rid=60000017 status=0 index=0
+# PARSED rid_length=4 rid_raw=60000017
+# PARSED oid[11]=2b0601040181fd59010117 value tag=41 len=1 hex=00
+# M6D-12 STEP 23 STARTS transaction_before=28 after=29 delta=1 builder_before=28 after=29 delta=1
+# M6D-12 STEP 23 CHECK oid=23 tag=41 len=1 value=0000000000 functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=90 (informational)
+# M6D-12 STEP 23 PASS
+# M6D-12 STEP 24 GETNEXT RID=60000018
+# REQUEST len=46 hex=302c02010104067075626c6963a11f0204600000180201000201003011300f060b2b0601040181fd590101170500
+# RESPONSE done=1 valid=1 error=0 code=00 len=47 timeout=0 cycles=90
+# RESPONSE hex=302d02010104067075626c6963a22002046000001802010002010030123010060b2b0601040181fd59010118410100
+# PARSED format=1 version=1 rid=60000018 status=0 index=0
+# PARSED rid_length=4 rid_raw=60000018
+# PARSED oid[11]=2b0601040181fd59010118 value tag=41 len=1 hex=00
+# M6D-12 STEP 24 STARTS transaction_before=29 after=30 delta=1 builder_before=29 after=30 delta=1
+# M6D-12 STEP 24 CHECK oid=24 tag=41 len=1 value=0000000000 functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=90 (informational)
+# M6D-12 STEP 24 PASS
+# M6D-12 STEP 25 GETNEXT RID=60000019
+# REQUEST len=46 hex=302c02010104067075626c6963a11f0204600000190201000201003011300f060b2b0601040181fd590101180500
+# RESPONSE done=1 valid=1 error=0 code=00 len=47 timeout=0 cycles=90
+# RESPONSE hex=302d02010104067075626c6963a22002046000001902010002010030123010060b2b0601040181fd59010119410100
+# PARSED format=1 version=1 rid=60000019 status=0 index=0
+# PARSED rid_length=4 rid_raw=60000019
+# PARSED oid[11]=2b0601040181fd59010119 value tag=41 len=1 hex=00
+# M6D-12 STEP 25 STARTS transaction_before=30 after=31 delta=1 builder_before=30 after=31 delta=1
+# M6D-12 STEP 25 CHECK oid=25 tag=41 len=1 value=0000000000 functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=90 (informational)
+# M6D-12 STEP 25 PASS
+# M6D-12 STEP 26 GETNEXT RID=6000001a
+# REQUEST len=46 hex=302c02010104067075626c6963a11f02046000001a0201000201003011300f060b2b0601040181fd590101190500
+# RESPONSE done=1 valid=1 error=0 code=00 len=46 timeout=0 cycles=67
+# RESPONSE hex=302c02010104067075626c6963a21f02046000001a0201000201003011300f060b2b0601040181fd590101198200
+# PARSED format=1 version=1 rid=6000001a status=0 index=0
+# PARSED rid_length=4 rid_raw=6000001a
+# PARSED oid[11]=2b0601040181fd59010119 value tag=82 len=0 hex=
+# M6D-12 STEP 26 STARTS transaction_before=31 after=32 delta=1 builder_before=31 after=32 delta=1
+# M6D-12 STEP 26 CHECK oid=25 tag=82 len=0 value=0000000000 functional=1 physical=1 valid_rises=1 done=1 quiet=200 quiet_ok=1 monitor=0 latency=67 (informational)
+# M6D-12 STEP 26 PASS
+# M6D-12 VISITED object=1 count=1
+# M6D-12 VISITED object=2 count=1
+# M6D-12 VISITED object=3 count=1
+# M6D-12 VISITED object=4 count=1
+# M6D-12 VISITED object=5 count=1
+# M6D-12 VISITED object=6 count=1
+# M6D-12 VISITED object=7 count=1
+# M6D-12 VISITED object=8 count=1
+# M6D-12 VISITED object=9 count=1
+# M6D-12 VISITED object=10 count=1
+# M6D-12 VISITED object=11 count=1
+# M6D-12 VISITED object=12 count=1
+# M6D-12 VISITED object=13 count=1
+# M6D-12 VISITED object=14 count=1
+# M6D-12 VISITED object=15 count=1
+# M6D-12 VISITED object=16 count=1
+# M6D-12 VISITED object=17 count=1
+# M6D-12 VISITED object=18 count=1
+# M6D-12 VISITED object=19 count=1
+# M6D-12 VISITED object=20 count=1
+# M6D-12 VISITED object=21 count=1
+# M6D-12 VISITED object=22 count=1
+# M6D-12 VISITED object=23 count=1
+# M6D-12 VISITED object=24 count=1
+# M6D-12 VISITED object=25 count=1
+# TOTAL physical=36 responses=32 done=36 txn=32 builder=32 monitor=0 failed=0
+# RESET assertions=1 releases=1
+# Formal Batch D M6D-12 PASS; 26 actual-OID driven requests; visited 1..25 exactly once plus endOfMibView
+# M6D-13 Formal final A->B->C->D PASS physical=36 responses=32 done=36 txn=32 builder=32 reset=1; M6E / repair NOT RUN; no freeze
+# ** Note: $finish    : C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_m6d_integration.v(834)
+#    Time: 102317 ns  Iteration: 0  Instance: /tb_afdx_m6d_integration
+# Break in Task formal_batch_d at C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_m6d_integration.v line 834
+# Stopped at C:/Users/LENOVO/Documents/Codex/2026-10-30/w/work/afdx_review_20261103/tb/tb_afdx_m6d_integration.v line 834
+# 0
+# End time: 16:40:28 on Nov 03,2026, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 0

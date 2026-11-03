@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "source": "captured_target_UDP_bytes",
+  "download_modes": [
+    "operator_defined",
+    "media_defined"
+  ],
+  "files": [
+    {
+      "name": "A.LUP",
+      "length": 700,
+      "sha256": "54e4fb4f9ba1bb6d7ae442025ad12b8a2491217b2508d03a1aa09323cb5297cf"
+    },
+    {
+      "name": "B.LUP",
+      "length": 1024,
+      "sha256": "2bd8709c5f474f35ecae639ee9ab00e74fc985df5ff0e88cb115d37d9ec9b3a9"
+    },
+    {
+      "name": "A.LUP",
+      "length": 700,
+      "sha256": "54e4fb4f9ba1bb6d7ae442025ad12b8a2491217b2508d03a1aa09323cb5297cf"
+    }
+  ],
+  "duplicate_blocks": 1,
+  "unknown_tid_errors": 1,
+  "status_codes": [
+    1,
+    2,
+    2,
+    3,
+    1,
+    2,
+    3
+  ]
+}

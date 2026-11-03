@@ -1,0 +1,9 @@
+{
+  "name": "tb_m5b_dual_gmii_integrity",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_m5b_dual_gmii_integrity/result.log",
+  "audits": [],
+  "issues": []
+}

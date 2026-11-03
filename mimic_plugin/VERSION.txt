@@ -1,0 +1,3 @@
+AFDX_Mimic_Plugin 1.0.0
+Computer-side semantic DHR prototype with standalone RTL quorum interface.
+Original framework, security plugin, agent and model artifacts unchanged.

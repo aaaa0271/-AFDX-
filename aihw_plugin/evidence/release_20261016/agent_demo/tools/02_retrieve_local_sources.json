@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "citations": [
+    {
+      "file": "AI_USAGE.md",
+      "line_start": 5,
+      "line_end": 5,
+      "text": "复合诊断可同时保留链路退化、双网内容分歧、时间异常、加载停滞、分片压力、管理突发和拥塞候选。测量相关性不直接证明物理原因，需要原始证据和干预实验核对。",
+      "source_sha256": "d9f421db1e64f760f55469576efe14f83d9704bb29821053ea8242c27f2b4011",
+      "similarity": 0.06026685982942581
+    },
+    {
+      "file": "AI_USAGE.md",
+      "line_start": 13,
+      "line_end": 13,
+      "text": "中文助手采用本地训练的微型条件循环语言模型，只生成有限的只读JSON工具计划。报告数字由工具计算，解释通过证据模板和本地文档检索完成，不具有通用问答或任意写设备配置能力。",
+      "source_sha256": "d9f421db1e64f760f55469576efe14f83d9704bb29821053ea8242c27f2b4011",
+      "similarity": 0.0437081940472126
+    },
+    {
+      "file": "AFDX_INTERFACES.md",
+      "line_start": 81,
+      "line_end": 81,
+      "text": "所有比例取0–1，其余精确边界见`afdx_ai/schema.py`。三个模型分别输出故障候选、异常分数、条件时延预测。森林投票份额不是经过校准的概率。直接同窗口证据可改变工具调查顺序，增加的优先级分数也不是后验概率。合成训练和异常召回限制见`UPSTREAM_MODEL_CARD.md`。",
+      "source_sha256": "fe8d85da99d831ffe35a9b902de71ba957aae7adcd8282a5fbef6c9d99b5eca4",
+      "similarity": 0.043369535356760025
+    }
+  ]
+}

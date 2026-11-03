@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "case_id": "model_disagreement",
+  "observation": "observation.json",
+  "artifacts": [
+    {
+      "id": "pair",
+      "type": "frame_pair",
+      "paths": [
+        "A.bin",
+        "B.bin"
+      ],
+      "source": "synthetic_lab",
+      "binding": "same_window",
+      "window_id": "agent-model_disagreement"
+    },
+    {
+      "id": "run_log",
+      "type": "log",
+      "paths": [
+        "run.log"
+      ],
+      "source": "synthetic_lab",
+      "binding": "same_window",
+      "window_id": "agent-model_disagreement"
+    }
+  ],
+  "expected_flow": {
+    "peer_ip": 167772161,
+    "local_ip": 167772176,
+    "rx_mac": 3298534883344,
+    "peer_mac": 2199023255554,
+    "tx_mac": 3298534883346,
+    "source_port": 100,
+    "destination_port": 200
+  }
+}

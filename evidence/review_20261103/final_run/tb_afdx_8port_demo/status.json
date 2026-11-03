@@ -1,0 +1,9 @@
+{
+  "name": "tb_afdx_8port_demo",
+  "suite": "completion",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_afdx_8port_demo/result.log",
+  "audits": [],
+  "issues": []
+}

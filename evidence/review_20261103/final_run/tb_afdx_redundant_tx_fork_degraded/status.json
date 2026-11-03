@@ -1,0 +1,9 @@
+{
+  "name": "tb_afdx_redundant_tx_fork_degraded",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_afdx_redundant_tx_fork_degraded/result.log",
+  "audits": [],
+  "issues": []
+}

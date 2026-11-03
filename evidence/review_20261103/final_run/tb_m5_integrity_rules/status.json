@@ -1,0 +1,9 @@
+{
+  "name": "tb_m5_integrity_rules",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_m5_integrity_rules/result.log",
+  "audits": [],
+  "issues": []
+}

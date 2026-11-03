@@ -1,0 +1,15 @@
+{
+  "name": "tb_security_bypass",
+  "suite": "security",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_security_bypass/result.log",
+  "audits": [
+    {
+      "script": "verify_shared.py",
+      "exit": 0,
+      "log": "tb_security_bypass/verify_shared.log"
+    }
+  ],
+  "issues": []
+}

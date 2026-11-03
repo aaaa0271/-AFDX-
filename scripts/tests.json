@@ -1,0 +1,1342 @@
+[
+  {
+    "name": "tb_afdx_eth_ipv4_udp_parser",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_eth_ipv4_udp_parser.v",
+    "marker": "M3-B ETH/IP/UDP PARSER BASIC TEST PASS",
+    "error_counter": "error_count",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_eth_ipv4_udp_parser_full",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_eth_ipv4_udp_parser_full.v",
+    "marker": "M3-B ETH/IP/UDP PARSER EXTENDED TEST PASS",
+    "error_counter": "error_count",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_payload_commit_buffer",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_payload_commit_buffer.v",
+    "marker": "M3-D PAYLOAD COMMIT BUFFER STANDALONE PASS",
+    "error_counter": "error_count",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_rx_frontend",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_rx_frontend.v",
+    "marker": "M3-A -> M3-B RX INTEGRATION TEST PASS",
+    "error_counter": "error_count",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_rx_frontend_m3c",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_rx_frontend_m3c.v",
+    "marker": "M3-A/B/C RX PIPELINE REGRESSION PASS",
+    "error_counter": "error_count",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_rx_frontend_m3d",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_rx_frontend_m3d.v",
+    "marker": "M3-D RX FRONTEND INTEGRATION REGRESSION PASS",
+    "error_counter": "error_count",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_sequence_integrity",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_sequence_integrity.v",
+    "marker": "M3-D SEQUENCE INTEGRITY STANDALONE PASS",
+    "error_counter": "error_count",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_udp_checksum",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_udp_checksum.v",
+    "marker": "M3 UDP CHECKSUM PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_vl_identifier",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_vl_identifier.v",
+    "marker": "M3-C VL IDENTIFICATION TEST PASS",
+    "error_counter": "error_count",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_gmii_rx_adapter",
+    "suite": "legacy",
+    "file": "tb/tb_gmii_rx_adapter.v",
+    "marker": "M3-A GMII RX BASIC TEST PASS",
+    "error_counter": "error_count",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_gmii_rx_adapter_full",
+    "suite": "legacy",
+    "file": "tb/tb_gmii_rx_adapter_full.v",
+    "marker": "M3-A GMII RX EXTENDED TEST PASS",
+    "error_counter": "error_count",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_redundant_tx_fork",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_redundant_tx_fork.v",
+    "marker": "M5-A1 REDUNDANT TX FORK ALL TESTS PASS",
+    "error_counter": "error_count",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_redundant_tx_fork_degraded",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_redundant_tx_fork_degraded.v",
+    "marker": "M5-C1 DEGRADED FORK ALL TESTS PASS",
+    "error_counter": "error_count",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_rx_dual_arbiter",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_rx_dual_arbiter.v",
+    "marker": "M5-D2b ALL TESTS PASS",
+    "error_counter": "error_count",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_rx_dual_frontend",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_rx_dual_frontend.v",
+    "marker": "M5 ALL REGRESSION TESTS PASS",
+    "error_counter": "error_count",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_rx_frame_parser",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_rx_frame_parser.v",
+    "marker": "M5-D2a GMII RX FRAME PARSER ALL TESTS PASS",
+    "error_counter": "error_count",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_rx_payload_frame_arbiter",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_rx_payload_frame_arbiter.v",
+    "marker": "M5-D2c2 ALL TESTS PASS",
+    "error_counter": "error_count",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_rx_redundancy_decision_core",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_rx_redundancy_decision_core.v",
+    "marker": "M5-D2c1 ALL TESTS PASS",
+    "error_counter": "error_count",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_rx_redundancy_eliminator",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_rx_redundancy_eliminator.v",
+    "marker": "M5-D1 RX REDUNDANCY ELIMINATOR ALL TESTS PASS",
+    "error_counter": "error_count",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_m5b_dual_gmii_integrity",
+    "suite": "legacy",
+    "file": "tb/tb_m5b_dual_gmii_integrity.v",
+    "marker": "M5-B DUAL GMII INTEGRITY ALL TESTS PASS",
+    "error_counter": "error_count",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_m5c_fault_degraded",
+    "suite": "legacy",
+    "file": "tb/tb_m5c_fault_degraded.v",
+    "marker": "M5-C FAULT + DEGRADED ALL TESTS PASS",
+    "error_counter": "error_count",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_multi_vl_dual_gmii_tx",
+    "suite": "legacy",
+    "file": "tb/tb_multi_vl_dual_gmii_tx.v",
+    "marker": "M5-A2 DUAL GMII TX ALL TESTS PASS",
+    "error_counter": "error_count",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_redundancy_integrity_monitor",
+    "suite": "legacy",
+    "file": "tb/tb_redundancy_integrity_monitor.v",
+    "marker": "M5-B REDUNDANCY MONITOR ALL TESTS PASS",
+    "error_counter": "error_count",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_m6a_integration",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_m6a_integration.v",
+    "marker": "M6A-INTEGRATION ALL TESTS PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_m6b_integration",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_m6b_integration.v",
+    "marker": "M6B-INTEGRATION ALL TESTS PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_management_telemetry",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_management_telemetry.v",
+    "marker": "M6A MANAGEMENT TELEMETRY ALL TESTS PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_mib_register_bank",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_mib_register_bank.v",
+    "marker": "M6B MIB REGISTER BANK ALL TESTS PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_ber_oid_codec",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_ber_oid_codec.v",
+    "marker": "M6C-B OID CODEC ALL TESTS PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_ber_primitive_codec",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_ber_primitive_codec.v",
+    "marker": "M6C-A BER PRIMITIVE ALL TESTS PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_m6c_integration",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_m6c_integration.v",
+    "marker": "M6C-INTEGRATION ALL TESTS PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_m6d_integration",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_m6d_integration.v",
+    "marker": "M6D-13 Formal final A->B->C->D PASS physical=36 responses=32 done=36 txn=32 builder=32 reset=1; M6E / repair NOT RUN; no freeze",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_snmp_request_decoder",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_snmp_request_decoder.v",
+    "marker": "M6D-A REQUEST DECODER PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_snmp_response_builder",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_snmp_response_builder.v",
+    "marker": "M6D-D RESPONSE BUILDER PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_snmp_transaction",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_snmp_transaction.v",
+    "marker": "M6D SNMP TRANSACTION PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_frame_builder_varlen_cfg",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_frame_builder_varlen_cfg.v",
+    "marker": "M6E_01B_TB_PASS",
+    "error_counter": "fails",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_m6e_02a_boundary",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_m6e_02a_boundary.v",
+    "marker": "M6E_02A_TB_PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_m6e_integration",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_m6e_integration.v",
+    "marker": "M6E_01D_TB_PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_m6e_udp_rx_buffer",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_m6e_udp_rx_buffer.v",
+    "marker": "M6E_TB_PASS",
+    "error_counter": "fails",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_gmii_tx_adapter_varlen",
+    "suite": "legacy",
+    "file": "tb/tb_gmii_tx_adapter_varlen.v",
+    "marker": "M6E_01C_TB_PASS",
+    "error_counter": "fails",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_m6e_01d_mechanics",
+    "suite": "legacy",
+    "file": "tb/tb_m6e_01d_mechanics.v",
+    "marker": "M6E_01D_TB_PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_m6e_gmii",
+    "suite": "legacy",
+    "file": "tb/tb_m6e_gmii.v",
+    "marker": "M6E_GMII_SMOKE_PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_m6f_system_top",
+    "suite": "legacy",
+    "file": "tb/tb_afdx_m6f_system_top.v",
+    "marker": "M6E_GMII_SMOKE_PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_m5_integrity_rules",
+    "suite": "legacy",
+    "file": "tb/tb_m5_integrity_rules.v",
+    "marker": "M5_RULES_REPAIR_PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_m6d_ber_boundaries",
+    "suite": "legacy",
+    "file": "tb/tb_m6d_ber_boundaries.v",
+    "marker": "M6D_BER_REPAIR_PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_m6d_p0_refresh_ber",
+    "suite": "legacy",
+    "file": "tb/tb_m6d_p0_refresh_ber.v",
+    "marker": "M6D_P0_REPAIR_PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_m6f_active_business",
+    "suite": "legacy",
+    "file": "tb/tb_m6f_active_business.v",
+    "marker": "M6F_ACTIVE_REPAIR_PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_m6f_realtime_joint",
+    "suite": "legacy",
+    "file": "tb/tb_m6f_realtime_joint.v",
+    "marker": "M6F_REAL_JOINT_REPAIR_PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_m6_business_varlen",
+    "suite": "legacy",
+    "file": "tb/tb_m6_business_varlen.v",
+    "marker": "M6_BUSINESS_REPAIR_PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_m6_full_bag",
+    "suite": "legacy",
+    "file": "tb/tb_m6_full_bag.v",
+    "marker": "M6_FULL_BAG_REPAIR_PASS",
+    "error_counter": "errors",
+    "run_ms": 150,
+    "auditors": []
+  },
+  {
+    "name": "tb_m6_realtime",
+    "suite": "legacy",
+    "file": "tb/tb_m6_realtime.v",
+    "marker": "M6_REALTIME_REPAIR_PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_snmp_multi_varbind",
+    "suite": "legacy",
+    "file": "tb/tb_snmp_multi_varbind.v",
+    "marker": "SNMP_MULTI_REPAIR_PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_udp_checksum_boundaries",
+    "suite": "legacy",
+    "file": "tb/tb_udp_checksum_boundaries.v",
+    "marker": "UDP_CHECKSUM_REPAIR_PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  },
+  {
+    "name": "tb_contest_615a_control",
+    "suite": "contest",
+    "file": "tb/tb_contest_615a_control.v",
+    "marker": "TB_CONTEST_615A_CONTROL_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": []
+  },
+  {
+    "name": "tb_contest_basic_mac_top",
+    "suite": "contest",
+    "file": "tb/tb_contest_basic_mac_top.v",
+    "marker": "TB_CONTEST_BASIC_MAC_TOP_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": [
+      [
+        "verify_service_wire.py",
+        "service_wire.txt"
+      ],
+      [
+        "test_service_wire.py",
+        "service_wire.txt"
+      ]
+    ]
+  },
+  {
+    "name": "tb_contest_configuration",
+    "suite": "contest",
+    "file": "tb/tb_contest_configuration.v",
+    "marker": "TB_CONTEST_CONFIGURATION_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": []
+  },
+  {
+    "name": "tb_contest_configured_rx",
+    "suite": "contest",
+    "file": "tb/tb_contest_configured_rx.v",
+    "marker": "TB_CONTEST_CONFIGURED_RX_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": []
+  },
+  {
+    "name": "tb_contest_ipv4_fragment",
+    "suite": "contest",
+    "file": "tb/tb_contest_ipv4_fragment.v",
+    "marker": "TB_CONTEST_IPV4_FRAGMENT_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": []
+  },
+  {
+    "name": "tb_contest_load_reject",
+    "suite": "contest",
+    "file": "tb/tb_contest_load_reject.v",
+    "marker": "TB_CONTEST_LOAD_REJECT_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": []
+  },
+  {
+    "name": "tb_contest_load_rtc_joint",
+    "suite": "contest",
+    "file": "tb/tb_contest_load_rtc_joint.v",
+    "marker": "TB_CONTEST_LOAD_RTC_JOINT_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": []
+  },
+  {
+    "name": "tb_contest_network_services",
+    "suite": "contest",
+    "file": "tb/tb_contest_network_services.v",
+    "marker": "TB_CONTEST_NETWORK_SERVICES_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": []
+  },
+  {
+    "name": "tb_contest_rtc_convergence",
+    "suite": "contest",
+    "file": "tb/tb_contest_rtc_convergence.v",
+    "marker": "TB_CONTEST_RTC_CONVERGENCE_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": []
+  },
+  {
+    "name": "tb_contest_rtc_ntp",
+    "suite": "contest",
+    "file": "tb/tb_contest_rtc_ntp.v",
+    "marker": "TB_CONTEST_RTC_NTP_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": []
+  },
+  {
+    "name": "tb_contest_rtc_timebase",
+    "suite": "contest",
+    "file": "tb/tb_contest_rtc_timebase.v",
+    "marker": "TB_CONTEST_RTC_TIMEBASE_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": []
+  },
+  {
+    "name": "tb_contest_service_mac",
+    "suite": "contest",
+    "file": "tb/tb_contest_service_mac.v",
+    "marker": "TB_CONTEST_SERVICE_MAC_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": []
+  },
+  {
+    "name": "tb_contest_snmp_pysnmp",
+    "suite": "contest",
+    "file": "tb/tb_contest_snmp_pysnmp.v",
+    "marker": "TB_CONTEST_SNMP_PYSNMP_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": [
+      [
+        "verify_snmp_interop.py",
+        "result.log"
+      ]
+    ]
+  },
+  {
+    "name": "tb_contest_tftp",
+    "suite": "contest",
+    "file": "tb/tb_contest_tftp.v",
+    "marker": "TB_CONTEST_TFTP_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": []
+  },
+  {
+    "name": "tb_contest_top",
+    "suite": "contest",
+    "file": "tb/tb_contest_top.v",
+    "marker": "TB_CONTEST_TOP_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": []
+  },
+  {
+    "name": "tb_completion_package",
+    "suite": "completion",
+    "file": "tb/tb_completion_package.v",
+    "marker": "TB_COMPLETION_PACKAGE_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": []
+  },
+  {
+    "name": "tb_completion_package_network",
+    "suite": "completion",
+    "file": "tb/tb_completion_package_network.v",
+    "marker": "TB_COMPLETION_PACKAGE_NETWORK_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": []
+  },
+  {
+    "name": "tb_completion_snmp_extended",
+    "suite": "completion",
+    "file": "tb/tb_completion_snmp_extended.v",
+    "marker": "TB_COMPLETION_SNMP_EXTENDED_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": [
+      [
+        "verify_snmp_extended.py",
+        "result.log"
+      ]
+    ]
+  },
+  {
+    "name": "tb_foundation_rx_queue",
+    "suite": "foundation",
+    "file": "tb/tb_foundation_rx_queue.v",
+    "marker": "TB_FOUNDATION_RX_QUEUE_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": []
+  },
+  {
+    "name": "tb_foundation_shared_degraded",
+    "suite": "foundation",
+    "file": "tb/tb_foundation_shared_degraded.v",
+    "marker": "TB_FOUNDATION_SHARED_DEGRADED_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": [
+      [
+        "verify_shared.py",
+        "result.log"
+      ]
+    ]
+  },
+  {
+    "name": "tb_foundation_shared_joint",
+    "suite": "foundation",
+    "file": "tb/tb_foundation_shared_joint.v",
+    "marker": "TB_FOUNDATION_SHARED_JOINT_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": [
+      [
+        "verify_shared.py",
+        "result.log"
+      ]
+    ]
+  },
+  {
+    "name": "tb_foundation_shared_stress",
+    "suite": "foundation",
+    "file": "tb/tb_foundation_shared_stress.v",
+    "marker": "TB_FOUNDATION_SHARED_STRESS_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": [
+      [
+        "verify_shared.py",
+        "result.log"
+      ]
+    ]
+  },
+  {
+    "name": "tb_foundation_snmp_bulk",
+    "suite": "foundation",
+    "file": "tb/tb_foundation_snmp_bulk.v",
+    "marker": "TB_FOUNDATION_SNMP_BULK_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": []
+  },
+  {
+    "name": "tb_foundation_snmp_bulk_mac",
+    "suite": "foundation",
+    "file": "tb/tb_foundation_snmp_bulk_mac.v",
+    "marker": "TB_FOUNDATION_SNMP_BULK_MAC_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": [
+      [
+        "verify_shared.py",
+        "result.log"
+      ]
+    ]
+  },
+  {
+    "name": "tb_foundation_snmp_mac",
+    "suite": "foundation",
+    "file": "tb/tb_foundation_snmp_mac.v",
+    "marker": "TB_FOUNDATION_SNMP_MAC_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": [
+      [
+        "verify_shared.py",
+        "result.log"
+      ]
+    ]
+  },
+  {
+    "name": "tb_foundation_snmp_set_copy",
+    "suite": "foundation",
+    "file": "tb/tb_foundation_snmp_set_copy.v",
+    "marker": "TB_FOUNDATION_SNMP_SET_COPY_PASS",
+    "error_counter": "errors",
+    "run_ms": 200,
+    "auditors": []
+  },
+  {
+    "name": "tb_datagram_line_rate",
+    "suite": "datagram",
+    "file": "tb/tb_datagram_line_rate.v",
+    "marker": "TB_DATAGRAM_LINE_RATE_PASS",
+    "error_counter": "errors",
+    "run_ms": 600,
+    "auditors": []
+  },
+  {
+    "name": "tb_datagram_mac_joint",
+    "suite": "datagram",
+    "file": "tb/tb_datagram_mac_joint.v",
+    "marker": "TB_DATAGRAM_MAC_JOINT_PASS",
+    "error_counter": "errors",
+    "run_ms": 600,
+    "auditors": [
+      [
+        "verify_shared.py",
+        "result.log"
+      ]
+    ]
+  },
+  {
+    "name": "tb_datagram_ports",
+    "suite": "datagram",
+    "file": "tb/tb_datagram_ports.v",
+    "marker": "TB_DATAGRAM_PORTS_PASS",
+    "error_counter": "errors",
+    "run_ms": 600,
+    "auditors": []
+  },
+  {
+    "name": "tb_datagram_ports_top",
+    "suite": "datagram",
+    "file": "tb/tb_datagram_ports_top.v",
+    "marker": "TB_DATAGRAM_PORTS_TOP_PASS",
+    "error_counter": "errors",
+    "run_ms": 600,
+    "auditors": []
+  },
+  {
+    "name": "tb_datagram_rx",
+    "suite": "datagram",
+    "file": "tb/tb_datagram_rx.v",
+    "marker": "TB_DATAGRAM_RX_PASS",
+    "error_counter": "errors",
+    "run_ms": 600,
+    "auditors": []
+  },
+  {
+    "name": "tb_datagram_source_ids",
+    "suite": "datagram",
+    "file": "tb/tb_datagram_source_ids.v",
+    "marker": "TB_DATAGRAM_SOURCE_IDS_PASS",
+    "error_counter": "errors",
+    "run_ms": 600,
+    "auditors": []
+  },
+  {
+    "name": "tb_datagram_tx",
+    "suite": "datagram",
+    "file": "tb/tb_datagram_tx.v",
+    "marker": "TB_DATAGRAM_TX_PASS",
+    "error_counter": "errors",
+    "run_ms": 600,
+    "auditors": [
+      [
+        "verify_tx.py",
+        "result.log"
+      ]
+    ]
+  },
+  {
+    "name": "tb_integration_subvl_mac",
+    "suite": "integration",
+    "file": "tb/tb_integration_subvl_mac.v",
+    "marker": "TB_INTEGRATION_SUBVL_MAC_PASS",
+    "error_counter": "errors",
+    "run_ms": 120,
+    "auditors": [
+      [
+        "verify_subvl_wire.py",
+        "subvl_wire.txt"
+      ]
+    ]
+  },
+  {
+    "name": "tb_afdx_service_domains",
+    "suite": "experimental",
+    "file": "tb/tb_afdx_service_domains.v",
+    "marker": "TB_SERVICE_DOMAIN_TABLE_PASS",
+    "error_counter": "errors",
+    "run_ms": 30,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_615a_process",
+    "suite": "experimental",
+    "file": "tb/tb_afdx_615a_process.v",
+    "marker": "TB_615A_PROCESS_PASS",
+    "error_counter": "errors",
+    "run_ms": 30,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_665_formats",
+    "suite": "experimental",
+    "file": "tb/tb_afdx_665_formats.v",
+    "marker": "TB_665_FORMATS_PASS",
+    "error_counter": "errors",
+    "run_ms": 30,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_standard_mib",
+    "suite": "experimental",
+    "file": "tb/tb_afdx_standard_mib.v",
+    "marker": "TB_STANDARD_MIB_SNMP_VERSIONS_PASS",
+    "error_counter": "errors",
+    "run_ms": 60,
+    "auditors": []
+  },
+  {
+    "name": "tb_afdx_snmp_wire_policy",
+    "suite": "experimental",
+    "file": "tb/tb_afdx_snmp_wire_policy.v",
+    "marker": "SNMP_WIRE_POLICY_MATRIX_PASS cases=15",
+    "error_counter": "errors",
+    "run_ms": 10,
+    "auditors": [
+      [
+        "verify_snmp_wire_policy.py",
+        "result.log"
+      ]
+    ]
+  },
+  {
+    "name": "tb_integration_multi_services",
+    "suite": "integration",
+    "file": "tb/tb_integration_multi_services.v",
+    "marker": "TB_INTEGRATION_MULTI_SERVICES_PASS",
+    "error_counter": "errors",
+    "run_ms": 180,
+    "auditors": [
+      [
+        "verify_multi_service_wire.py",
+        "multi_services_wire.txt"
+      ]
+    ]
+  },
+  {
+    "name": "tb_665_header_compat",
+    "suite": "completion",
+    "file": "tb/tb_665_header_compat.v",
+    "marker": "TB_665_HEADER_COMPAT_PASS",
+    "error_counter": "errors",
+    "run_ms": 5,
+    "auditors": []
+  },
+  {
+    "name": "tb_615a_control_recovery",
+    "suite": "completion",
+    "file": "tb/tb_615a_control_recovery.v",
+    "marker": "TB_615A_CONTROL_RECOVERY_PASS",
+    "error_counter": "errors",
+    "run_ms": 5,
+    "auditors": []
+  },
+  {
+    "name": "tb_snmp_versions",
+    "file": "tb/tb_snmp_versions.v",
+    "suite": "extension",
+    "marker": "TB_SNMP_VERSIONS_PASS",
+    "error_counter": "errors",
+    "run_ms": 50,
+    "auditors": [
+      [
+        "verify_snmp_versions.py",
+        "result.log"
+      ]
+    ],
+    "extension_test": true
+  },
+  {
+    "name": "tb_snmp_versions_mac",
+    "file": "tb/tb_snmp_versions.v",
+    "suite": "extension",
+    "marker": "TB_SNMP_VERSIONS_PASS",
+    "error_counter": "errors",
+    "run_ms": 50,
+    "auditors": [
+      [
+        "verify_snmp_versions.py",
+        "result.log"
+      ]
+    ],
+    "top": "tb_snmp_versions",
+    "parameters": {
+      "MAC": 1
+    },
+    "extension_test": true
+  },
+  {
+    "name": "tb_665_grammar_0",
+    "file": "tb/tb_665_grammar_focused.v",
+    "suite": "extension",
+    "marker": "TB_665_GRAMMAR_FOCUSED_PASS cases=69 paths=0",
+    "error_counter": "errors",
+    "run_ms": 50,
+    "auditors": [],
+    "top": "tb_665_grammar_focused",
+    "parameters": {
+      "PATH_MODE": 0
+    },
+    "extension_test": true
+  },
+  {
+    "name": "tb_665_grammar_1",
+    "file": "tb/tb_665_grammar_focused.v",
+    "suite": "extension",
+    "marker": "TB_665_GRAMMAR_FOCUSED_PASS cases=69 paths=1",
+    "error_counter": "errors",
+    "run_ms": 50,
+    "auditors": [],
+    "top": "tb_665_grammar_focused",
+    "parameters": {
+      "PATH_MODE": 1
+    },
+    "extension_test": true
+  },
+  {
+    "name": "tb_service_scaling_1",
+    "file": "tb/tb_service_domain_scaling.v",
+    "suite": "extension",
+    "marker": "TB_SERVICE_DOMAIN_SCALING_PASS",
+    "error_counter": "errors",
+    "run_ms": 50,
+    "auditors": [],
+    "top": "tb_service_domain_scaling",
+    "parameters": {
+      "DOMAINS": 1
+    },
+    "extension_test": true
+  },
+  {
+    "name": "tb_service_scaling_2",
+    "file": "tb/tb_service_domain_scaling.v",
+    "suite": "extension",
+    "marker": "TB_SERVICE_DOMAIN_SCALING_PASS",
+    "error_counter": "errors",
+    "run_ms": 50,
+    "auditors": [],
+    "top": "tb_service_domain_scaling",
+    "parameters": {
+      "DOMAINS": 2
+    },
+    "extension_test": true
+  },
+  {
+    "name": "tb_service_scaling_4",
+    "file": "tb/tb_service_domain_scaling.v",
+    "suite": "extension",
+    "marker": "TB_SERVICE_DOMAIN_SCALING_PASS",
+    "error_counter": "errors",
+    "run_ms": 50,
+    "auditors": [],
+    "top": "tb_service_domain_scaling",
+    "parameters": {
+      "DOMAINS": 4
+    },
+    "extension_test": true
+  },
+  {
+    "name": "tb_service_scaling_5",
+    "file": "tb/tb_service_domain_scaling.v",
+    "suite": "extension",
+    "marker": "TB_SERVICE_DOMAIN_SCALING_PASS",
+    "error_counter": "errors",
+    "run_ms": 50,
+    "auditors": [],
+    "top": "tb_service_domain_scaling",
+    "parameters": {
+      "DOMAINS": 5
+    },
+    "extension_test": true
+  },
+  {
+    "name": "tb_service_scaling_8",
+    "file": "tb/tb_service_domain_scaling.v",
+    "suite": "extension",
+    "marker": "TB_SERVICE_DOMAIN_SCALING_PASS",
+    "error_counter": "errors",
+    "run_ms": 50,
+    "auditors": [],
+    "top": "tb_service_domain_scaling",
+    "parameters": {
+      "DOMAINS": 8
+    },
+    "extension_test": true
+  },
+  {
+    "name": "tb_service_scaling_9",
+    "file": "tb/tb_service_domain_scaling.v",
+    "suite": "extension",
+    "marker": "TB_SERVICE_DOMAIN_SCALING_PASS",
+    "error_counter": "errors",
+    "run_ms": 50,
+    "auditors": [],
+    "top": "tb_service_domain_scaling",
+    "parameters": {
+      "DOMAINS": 9
+    },
+    "extension_test": true
+  },
+  {
+    "name": "tb_service_runtime_1",
+    "file": "tb/tb_service_domain_runtime.v",
+    "suite": "extension",
+    "marker": "TB_SERVICE_DOMAIN_RUNTIME_PASS",
+    "error_counter": "errors",
+    "run_ms": 300,
+    "auditors": [],
+    "top": "tb_service_domain_runtime",
+    "parameters": {
+      "DOMAINS": 1
+    },
+    "extension_test": true
+  },
+  {
+    "name": "tb_service_runtime_2",
+    "file": "tb/tb_service_domain_runtime.v",
+    "suite": "extension",
+    "marker": "TB_SERVICE_DOMAIN_RUNTIME_PASS",
+    "error_counter": "errors",
+    "run_ms": 300,
+    "auditors": [],
+    "top": "tb_service_domain_runtime",
+    "parameters": {
+      "DOMAINS": 2
+    },
+    "extension_test": true
+  },
+  {
+    "name": "tb_service_runtime_5",
+    "file": "tb/tb_service_domain_runtime.v",
+    "suite": "extension",
+    "marker": "TB_SERVICE_DOMAIN_RUNTIME_PASS",
+    "error_counter": "errors",
+    "run_ms": 300,
+    "auditors": [],
+    "top": "tb_service_domain_runtime",
+    "parameters": {
+      "DOMAINS": 5
+    },
+    "extension_test": true
+  },
+  {
+    "name": "tb_service_runtime_9",
+    "file": "tb/tb_service_domain_runtime.v",
+    "suite": "extension",
+    "marker": "TB_SERVICE_DOMAIN_RUNTIME_PASS",
+    "error_counter": "errors",
+    "run_ms": 300,
+    "auditors": [],
+    "top": "tb_service_domain_runtime",
+    "parameters": {
+      "DOMAINS": 9
+    },
+    "extension_test": true
+  },
+  {
+    "name": "tb_665_package_support_3",
+    "top": "tb_665_package_support",
+    "parameters": {
+      "VERSION": 3
+    },
+    "file": "tb/tb_665_package_support.v",
+    "suite": "extension",
+    "marker": "TB_665_PACKAGE_SUPPORT_PASS",
+    "error_counter": "errors",
+    "run_ms": 5,
+    "auditors": [],
+    "extension_test": true
+  },
+  {
+    "name": "tb_665_package_support_4",
+    "top": "tb_665_package_support",
+    "parameters": {
+      "VERSION": 4
+    },
+    "file": "tb/tb_665_package_support.v",
+    "suite": "extension",
+    "marker": "TB_665_PACKAGE_SUPPORT_PASS",
+    "error_counter": "errors",
+    "run_ms": 5,
+    "auditors": [],
+    "extension_test": true
+  },
+  {
+    "name": "tb_tftp_wait_abort",
+    "file": "tb/tb_tftp_wait_abort.v",
+    "suite": "extension",
+    "marker": "TB_TFTP_WAIT_ABORT_PASS",
+    "error_counter": "errors",
+    "run_ms": 5,
+    "auditors": [],
+    "extension_test": true
+  },
+  {
+    "name": "tb_security_sha",
+    "file": "tb/tb_security_sha.v",
+    "suite": "security",
+    "marker": "SEC_SHA_PASS",
+    "error_counter": "errors",
+    "run_ms": 5,
+    "auditors": [],
+    "timeout_seconds": 300
+  },
+  {
+    "name": "tb_security_plugin",
+    "file": "tb/tb_security_plugin.v",
+    "suite": "security",
+    "marker": "SEC_PLUGIN_PASS",
+    "error_counter": "errors",
+    "run_ms": 120,
+    "auditors": [
+      [
+        "verify_plugin_wire.py",
+        "."
+      ]
+    ],
+    "timeout_seconds": 600
+  },
+  {
+    "name": "tb_security_core_multi",
+    "file": "tb/tb_security_core_multi.v",
+    "suite": "security",
+    "marker": "SEC_CORE_MULTI_PASS",
+    "error_counter": "errors",
+    "run_ms": 150,
+    "auditors": [
+      [
+        "verify_multi_service_wire.py",
+        "multi_services_wire.txt"
+      ]
+    ],
+    "timeout_seconds": 600
+  },
+  {
+    "name": "tb_security_bypass",
+    "file": "tb/tb_security_bypass.v",
+    "suite": "security",
+    "marker": "SEC_BYPASS_PASS",
+    "error_counter": "errors",
+    "run_ms": 30,
+    "auditors": [
+      [
+        "verify_shared.py",
+        "result.log"
+      ]
+    ],
+    "timeout_seconds": 600
+  },
+  {
+    "name": "tb_mimic_quorum",
+    "file": "tb/tb_mimic_quorum.v",
+    "suite": "mimic",
+    "marker": "MIMIC_RTL_PASS cases=13 done=13",
+    "error_counter": "failures",
+    "run_ms": 5,
+    "auditors": [],
+    "timeout_seconds": 300
+  },
+  {
+    "name": "tb_afdx_8port_demo",
+    "file": "tb/tb_afdx_8port_demo.v",
+    "suite": "completion",
+    "marker": "TB_AFDX_8PORT_DEMO_PASS",
+    "error_counter": "errors",
+    "run_ms": 13,
+    "auditors": []
+  },
+  {
+    "name": "tb_review_tftp_budget",
+    "file": "tb/tb_review_tftp_budget.v",
+    "suite": "completion",
+    "marker": "TB_REVIEW_TFTP_BUDGET_PASS",
+    "error_counter": "errors",
+    "run_ms": 1,
+    "auditors": []
+  },
+  {
+    "name": "tb_review_control_budget",
+    "file": "tb/tb_review_control_budget.v",
+    "suite": "completion",
+    "marker": "TB_REVIEW_CONTROL_BUDGET_PASS",
+    "error_counter": "errors",
+    "run_ms": 1,
+    "auditors": []
+  },
+  {
+    "name": "tb_review_rtc_mac",
+    "file": "tb/tb_review_rtc_mac.v",
+    "suite": "completion",
+    "marker": "TB_REVIEW_RTC_MAC_PASS",
+    "error_counter": "errors",
+    "run_ms": 3,
+    "auditors": []
+  },
+  {
+    "name": "tb_review_8port",
+    "file": "tb/tb_review_8port.v",
+    "suite": "completion",
+    "marker": "TB_REVIEW_8PORT_PASS",
+    "error_counter": "errors",
+    "run_ms": 100,
+    "auditors": [
+      [
+        "verify_demo_wire.py",
+        "demo_wire.txt"
+      ]
+    ]
+  },
+  {
+    "name": "tb_review_security_8port",
+    "top": "tb_review_8port",
+    "parameters": {
+      "SECURE": 1
+    },
+    "file": "tb/tb_review_8port.v",
+    "suite": "completion",
+    "marker": "TB_REVIEW_8PORT_PASS",
+    "error_counter": "errors",
+    "run_ms": 100,
+    "auditors": [
+      [
+        "verify_demo_wire.py",
+        "demo_wire.txt"
+      ]
+    ]
+  },
+  {
+    "name": "tb_defense_live",
+    "file": "tb/tb_defense_live.v",
+    "suite": "integration",
+    "driver": "defense_live",
+    "marker": "DEFENSE_LIVE_INTEGRATION_PASS",
+    "error_counter": "errors",
+    "run_ms": 100,
+    "timeout_seconds": 4200,
+    "auditors": []
+  },
+  {
+    "name": "tb_defense_boundary",
+    "file": "tb/tb_defense_boundary.v",
+    "suite": "security",
+    "marker": "TB_DEFENSE_BOUNDARY_PASS",
+    "error_counter": "errors",
+    "run_ms": 1,
+    "auditors": []
+  },
+  {
+    "name": "tb_615a_roundtrip",
+    "suite": "review",
+    "file": "tb/tb_615a_roundtrip.v",
+    "marker": "TB_615A_ROUNDTRIP_PASS",
+    "error_counter": "errors",
+    "run_ms": 4,
+    "auditors": [
+      [
+        "verify_download_wire.py",
+        "download_wire.csv"
+      ]
+    ]
+  },
+  {
+    "name": "tb_615a_download_faults",
+    "suite": "review",
+    "file": "tb/tb_615a_download_faults.v",
+    "marker": "TB_615A_DOWNLOAD_FAULTS_PASS",
+    "error_counter": "errors",
+    "run_ms": 4,
+    "auditors": []
+  },
+  {
+    "name": "tb_615a_download_security",
+    "suite": "review",
+    "file": "tb/tb_615a_download_security.v",
+    "marker": "TB_615A_DOWNLOAD_SECURITY_PASS",
+    "error_counter": "errors",
+    "run_ms": 20,
+    "auditors": []
+  }
+]

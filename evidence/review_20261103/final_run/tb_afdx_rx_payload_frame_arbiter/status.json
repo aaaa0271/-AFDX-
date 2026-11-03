@@ -1,0 +1,9 @@
+{
+  "name": "tb_afdx_rx_payload_frame_arbiter",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_afdx_rx_payload_frame_arbiter/result.log",
+  "audits": [],
+  "issues": []
+}

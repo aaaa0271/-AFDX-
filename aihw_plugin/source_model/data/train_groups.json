@@ -1,0 +1,3122 @@
+[
+  {
+    "seed": 410000,
+    "split": "train",
+    "scenario_id": "train-0",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410001,
+    "split": "train",
+    "scenario_id": "train-1",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410002,
+    "split": "train",
+    "scenario_id": "train-2",
+    "family": "bursty",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410003,
+    "split": "train",
+    "scenario_id": "train-3",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410004,
+    "split": "train",
+    "scenario_id": "train-4",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410005,
+    "split": "train",
+    "scenario_id": "train-5",
+    "family": "bursty",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410006,
+    "split": "train",
+    "scenario_id": "train-6",
+    "family": "periodic",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410007,
+    "split": "train",
+    "scenario_id": "train-7",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410008,
+    "split": "train",
+    "scenario_id": "train-8",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410009,
+    "split": "train",
+    "scenario_id": "train-9",
+    "family": "periodic",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410010,
+    "split": "train",
+    "scenario_id": "train-10",
+    "family": "poisson",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410011,
+    "split": "train",
+    "scenario_id": "train-11",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410012,
+    "split": "train",
+    "scenario_id": "train-12",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410013,
+    "split": "train",
+    "scenario_id": "train-13",
+    "family": "poisson",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410014,
+    "split": "train",
+    "scenario_id": "train-14",
+    "family": "bursty",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410015,
+    "split": "train",
+    "scenario_id": "train-15",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410016,
+    "split": "train",
+    "scenario_id": "train-16",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410017,
+    "split": "train",
+    "scenario_id": "train-17",
+    "family": "bursty",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410018,
+    "split": "train",
+    "scenario_id": "train-18",
+    "family": "periodic",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410019,
+    "split": "train",
+    "scenario_id": "train-19",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410020,
+    "split": "train",
+    "scenario_id": "train-20",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410021,
+    "split": "train",
+    "scenario_id": "train-21",
+    "family": "periodic",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410022,
+    "split": "train",
+    "scenario_id": "train-22",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410023,
+    "split": "train",
+    "scenario_id": "train-23",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410024,
+    "split": "train",
+    "scenario_id": "train-24",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410025,
+    "split": "train",
+    "scenario_id": "train-25",
+    "family": "poisson",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410026,
+    "split": "train",
+    "scenario_id": "train-26",
+    "family": "bursty",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410027,
+    "split": "train",
+    "scenario_id": "train-27",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410028,
+    "split": "train",
+    "scenario_id": "train-28",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410029,
+    "split": "train",
+    "scenario_id": "train-29",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410030,
+    "split": "train",
+    "scenario_id": "train-30",
+    "family": "periodic",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410031,
+    "split": "train",
+    "scenario_id": "train-31",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410032,
+    "split": "train",
+    "scenario_id": "train-32",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410033,
+    "split": "train",
+    "scenario_id": "train-33",
+    "family": "periodic",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410034,
+    "split": "train",
+    "scenario_id": "train-34",
+    "family": "poisson",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410035,
+    "split": "train",
+    "scenario_id": "train-35",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410036,
+    "split": "train",
+    "scenario_id": "train-36",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410037,
+    "split": "train",
+    "scenario_id": "train-37",
+    "family": "poisson",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410038,
+    "split": "train",
+    "scenario_id": "train-38",
+    "family": "bursty",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410039,
+    "split": "train",
+    "scenario_id": "train-39",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410040,
+    "split": "train",
+    "scenario_id": "train-40",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410041,
+    "split": "train",
+    "scenario_id": "train-41",
+    "family": "bursty",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410042,
+    "split": "train",
+    "scenario_id": "train-42",
+    "family": "periodic",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410043,
+    "split": "train",
+    "scenario_id": "train-43",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410044,
+    "split": "train",
+    "scenario_id": "train-44",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410045,
+    "split": "train",
+    "scenario_id": "train-45",
+    "family": "periodic",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410046,
+    "split": "train",
+    "scenario_id": "train-46",
+    "family": "poisson",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410047,
+    "split": "train",
+    "scenario_id": "train-47",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410048,
+    "split": "train",
+    "scenario_id": "train-48",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410049,
+    "split": "train",
+    "scenario_id": "train-49",
+    "family": "poisson",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410050,
+    "split": "train",
+    "scenario_id": "train-50",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410051,
+    "split": "train",
+    "scenario_id": "train-51",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410052,
+    "split": "train",
+    "scenario_id": "train-52",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410053,
+    "split": "train",
+    "scenario_id": "train-53",
+    "family": "bursty",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410054,
+    "split": "train",
+    "scenario_id": "train-54",
+    "family": "periodic",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410055,
+    "split": "train",
+    "scenario_id": "train-55",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410056,
+    "split": "train",
+    "scenario_id": "train-56",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410057,
+    "split": "train",
+    "scenario_id": "train-57",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410058,
+    "split": "train",
+    "scenario_id": "train-58",
+    "family": "poisson",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410059,
+    "split": "train",
+    "scenario_id": "train-59",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410060,
+    "split": "train",
+    "scenario_id": "train-60",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410061,
+    "split": "train",
+    "scenario_id": "train-61",
+    "family": "poisson",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410062,
+    "split": "train",
+    "scenario_id": "train-62",
+    "family": "bursty",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410063,
+    "split": "train",
+    "scenario_id": "train-63",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410064,
+    "split": "train",
+    "scenario_id": "train-64",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410065,
+    "split": "train",
+    "scenario_id": "train-65",
+    "family": "bursty",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410066,
+    "split": "train",
+    "scenario_id": "train-66",
+    "family": "periodic",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410067,
+    "split": "train",
+    "scenario_id": "train-67",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410068,
+    "split": "train",
+    "scenario_id": "train-68",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410069,
+    "split": "train",
+    "scenario_id": "train-69",
+    "family": "periodic",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410070,
+    "split": "train",
+    "scenario_id": "train-70",
+    "family": "poisson",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410071,
+    "split": "train",
+    "scenario_id": "train-71",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410072,
+    "split": "train",
+    "scenario_id": "train-72",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410073,
+    "split": "train",
+    "scenario_id": "train-73",
+    "family": "poisson",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410074,
+    "split": "train",
+    "scenario_id": "train-74",
+    "family": "bursty",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410075,
+    "split": "train",
+    "scenario_id": "train-75",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410076,
+    "split": "train",
+    "scenario_id": "train-76",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410077,
+    "split": "train",
+    "scenario_id": "train-77",
+    "family": "bursty",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410078,
+    "split": "train",
+    "scenario_id": "train-78",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410079,
+    "split": "train",
+    "scenario_id": "train-79",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410080,
+    "split": "train",
+    "scenario_id": "train-80",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410081,
+    "split": "train",
+    "scenario_id": "train-81",
+    "family": "periodic",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410082,
+    "split": "train",
+    "scenario_id": "train-82",
+    "family": "poisson",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410083,
+    "split": "train",
+    "scenario_id": "train-83",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410084,
+    "split": "train",
+    "scenario_id": "train-84",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410085,
+    "split": "train",
+    "scenario_id": "train-85",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410086,
+    "split": "train",
+    "scenario_id": "train-86",
+    "family": "bursty",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410087,
+    "split": "train",
+    "scenario_id": "train-87",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410088,
+    "split": "train",
+    "scenario_id": "train-88",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410089,
+    "split": "train",
+    "scenario_id": "train-89",
+    "family": "bursty",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410090,
+    "split": "train",
+    "scenario_id": "train-90",
+    "family": "periodic",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410091,
+    "split": "train",
+    "scenario_id": "train-91",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410092,
+    "split": "train",
+    "scenario_id": "train-92",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410093,
+    "split": "train",
+    "scenario_id": "train-93",
+    "family": "periodic",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410094,
+    "split": "train",
+    "scenario_id": "train-94",
+    "family": "poisson",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410095,
+    "split": "train",
+    "scenario_id": "train-95",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410096,
+    "split": "train",
+    "scenario_id": "train-96",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410097,
+    "split": "train",
+    "scenario_id": "train-97",
+    "family": "poisson",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410098,
+    "split": "train",
+    "scenario_id": "train-98",
+    "family": "bursty",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410099,
+    "split": "train",
+    "scenario_id": "train-99",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410100,
+    "split": "train",
+    "scenario_id": "train-100",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410101,
+    "split": "train",
+    "scenario_id": "train-101",
+    "family": "bursty",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410102,
+    "split": "train",
+    "scenario_id": "train-102",
+    "family": "periodic",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410103,
+    "split": "train",
+    "scenario_id": "train-103",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410104,
+    "split": "train",
+    "scenario_id": "train-104",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410105,
+    "split": "train",
+    "scenario_id": "train-105",
+    "family": "periodic",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410106,
+    "split": "train",
+    "scenario_id": "train-106",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410107,
+    "split": "train",
+    "scenario_id": "train-107",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410108,
+    "split": "train",
+    "scenario_id": "train-108",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410109,
+    "split": "train",
+    "scenario_id": "train-109",
+    "family": "poisson",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410110,
+    "split": "train",
+    "scenario_id": "train-110",
+    "family": "bursty",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410111,
+    "split": "train",
+    "scenario_id": "train-111",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410112,
+    "split": "train",
+    "scenario_id": "train-112",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410113,
+    "split": "train",
+    "scenario_id": "train-113",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410114,
+    "split": "train",
+    "scenario_id": "train-114",
+    "family": "periodic",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410115,
+    "split": "train",
+    "scenario_id": "train-115",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410116,
+    "split": "train",
+    "scenario_id": "train-116",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410117,
+    "split": "train",
+    "scenario_id": "train-117",
+    "family": "periodic",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410118,
+    "split": "train",
+    "scenario_id": "train-118",
+    "family": "poisson",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410119,
+    "split": "train",
+    "scenario_id": "train-119",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410120,
+    "split": "train",
+    "scenario_id": "train-120",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410121,
+    "split": "train",
+    "scenario_id": "train-121",
+    "family": "poisson",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410122,
+    "split": "train",
+    "scenario_id": "train-122",
+    "family": "bursty",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410123,
+    "split": "train",
+    "scenario_id": "train-123",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410124,
+    "split": "train",
+    "scenario_id": "train-124",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410125,
+    "split": "train",
+    "scenario_id": "train-125",
+    "family": "bursty",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410126,
+    "split": "train",
+    "scenario_id": "train-126",
+    "family": "periodic",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410127,
+    "split": "train",
+    "scenario_id": "train-127",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410128,
+    "split": "train",
+    "scenario_id": "train-128",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410129,
+    "split": "train",
+    "scenario_id": "train-129",
+    "family": "periodic",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410130,
+    "split": "train",
+    "scenario_id": "train-130",
+    "family": "poisson",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410131,
+    "split": "train",
+    "scenario_id": "train-131",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410132,
+    "split": "train",
+    "scenario_id": "train-132",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410133,
+    "split": "train",
+    "scenario_id": "train-133",
+    "family": "poisson",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410134,
+    "split": "train",
+    "scenario_id": "train-134",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410135,
+    "split": "train",
+    "scenario_id": "train-135",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410136,
+    "split": "train",
+    "scenario_id": "train-136",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410137,
+    "split": "train",
+    "scenario_id": "train-137",
+    "family": "bursty",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410138,
+    "split": "train",
+    "scenario_id": "train-138",
+    "family": "periodic",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410139,
+    "split": "train",
+    "scenario_id": "train-139",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410140,
+    "split": "train",
+    "scenario_id": "train-140",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410141,
+    "split": "train",
+    "scenario_id": "train-141",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410142,
+    "split": "train",
+    "scenario_id": "train-142",
+    "family": "poisson",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410143,
+    "split": "train",
+    "scenario_id": "train-143",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410144,
+    "split": "train",
+    "scenario_id": "train-144",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410145,
+    "split": "train",
+    "scenario_id": "train-145",
+    "family": "poisson",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410146,
+    "split": "train",
+    "scenario_id": "train-146",
+    "family": "bursty",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410147,
+    "split": "train",
+    "scenario_id": "train-147",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410148,
+    "split": "train",
+    "scenario_id": "train-148",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410149,
+    "split": "train",
+    "scenario_id": "train-149",
+    "family": "bursty",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410150,
+    "split": "train",
+    "scenario_id": "train-150",
+    "family": "periodic",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410151,
+    "split": "train",
+    "scenario_id": "train-151",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410152,
+    "split": "train",
+    "scenario_id": "train-152",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410153,
+    "split": "train",
+    "scenario_id": "train-153",
+    "family": "periodic",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410154,
+    "split": "train",
+    "scenario_id": "train-154",
+    "family": "poisson",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410155,
+    "split": "train",
+    "scenario_id": "train-155",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410156,
+    "split": "train",
+    "scenario_id": "train-156",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410157,
+    "split": "train",
+    "scenario_id": "train-157",
+    "family": "poisson",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410158,
+    "split": "train",
+    "scenario_id": "train-158",
+    "family": "bursty",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410159,
+    "split": "train",
+    "scenario_id": "train-159",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410160,
+    "split": "train",
+    "scenario_id": "train-160",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410161,
+    "split": "train",
+    "scenario_id": "train-161",
+    "family": "bursty",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410162,
+    "split": "train",
+    "scenario_id": "train-162",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410163,
+    "split": "train",
+    "scenario_id": "train-163",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410164,
+    "split": "train",
+    "scenario_id": "train-164",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410165,
+    "split": "train",
+    "scenario_id": "train-165",
+    "family": "periodic",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410166,
+    "split": "train",
+    "scenario_id": "train-166",
+    "family": "poisson",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410167,
+    "split": "train",
+    "scenario_id": "train-167",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410168,
+    "split": "train",
+    "scenario_id": "train-168",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410169,
+    "split": "train",
+    "scenario_id": "train-169",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410170,
+    "split": "train",
+    "scenario_id": "train-170",
+    "family": "bursty",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410171,
+    "split": "train",
+    "scenario_id": "train-171",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410172,
+    "split": "train",
+    "scenario_id": "train-172",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410173,
+    "split": "train",
+    "scenario_id": "train-173",
+    "family": "bursty",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410174,
+    "split": "train",
+    "scenario_id": "train-174",
+    "family": "periodic",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410175,
+    "split": "train",
+    "scenario_id": "train-175",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410176,
+    "split": "train",
+    "scenario_id": "train-176",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410177,
+    "split": "train",
+    "scenario_id": "train-177",
+    "family": "periodic",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410178,
+    "split": "train",
+    "scenario_id": "train-178",
+    "family": "poisson",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410179,
+    "split": "train",
+    "scenario_id": "train-179",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410180,
+    "split": "train",
+    "scenario_id": "train-180",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410181,
+    "split": "train",
+    "scenario_id": "train-181",
+    "family": "poisson",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410182,
+    "split": "train",
+    "scenario_id": "train-182",
+    "family": "bursty",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410183,
+    "split": "train",
+    "scenario_id": "train-183",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410184,
+    "split": "train",
+    "scenario_id": "train-184",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410185,
+    "split": "train",
+    "scenario_id": "train-185",
+    "family": "bursty",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410186,
+    "split": "train",
+    "scenario_id": "train-186",
+    "family": "periodic",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410187,
+    "split": "train",
+    "scenario_id": "train-187",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410188,
+    "split": "train",
+    "scenario_id": "train-188",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410189,
+    "split": "train",
+    "scenario_id": "train-189",
+    "family": "periodic",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410190,
+    "split": "train",
+    "scenario_id": "train-190",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410191,
+    "split": "train",
+    "scenario_id": "train-191",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410192,
+    "split": "train",
+    "scenario_id": "train-192",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410193,
+    "split": "train",
+    "scenario_id": "train-193",
+    "family": "poisson",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410194,
+    "split": "train",
+    "scenario_id": "train-194",
+    "family": "bursty",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410195,
+    "split": "train",
+    "scenario_id": "train-195",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410196,
+    "split": "train",
+    "scenario_id": "train-196",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410197,
+    "split": "train",
+    "scenario_id": "train-197",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410198,
+    "split": "train",
+    "scenario_id": "train-198",
+    "family": "periodic",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410199,
+    "split": "train",
+    "scenario_id": "train-199",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410200,
+    "split": "train",
+    "scenario_id": "train-200",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410201,
+    "split": "train",
+    "scenario_id": "train-201",
+    "family": "periodic",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410202,
+    "split": "train",
+    "scenario_id": "train-202",
+    "family": "poisson",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410203,
+    "split": "train",
+    "scenario_id": "train-203",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410204,
+    "split": "train",
+    "scenario_id": "train-204",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410205,
+    "split": "train",
+    "scenario_id": "train-205",
+    "family": "poisson",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410206,
+    "split": "train",
+    "scenario_id": "train-206",
+    "family": "bursty",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410207,
+    "split": "train",
+    "scenario_id": "train-207",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410208,
+    "split": "train",
+    "scenario_id": "train-208",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410209,
+    "split": "train",
+    "scenario_id": "train-209",
+    "family": "bursty",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410210,
+    "split": "train",
+    "scenario_id": "train-210",
+    "family": "periodic",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410211,
+    "split": "train",
+    "scenario_id": "train-211",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410212,
+    "split": "train",
+    "scenario_id": "train-212",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410213,
+    "split": "train",
+    "scenario_id": "train-213",
+    "family": "periodic",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410214,
+    "split": "train",
+    "scenario_id": "train-214",
+    "family": "poisson",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410215,
+    "split": "train",
+    "scenario_id": "train-215",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410216,
+    "split": "train",
+    "scenario_id": "train-216",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410217,
+    "split": "train",
+    "scenario_id": "train-217",
+    "family": "poisson",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410218,
+    "split": "train",
+    "scenario_id": "train-218",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410219,
+    "split": "train",
+    "scenario_id": "train-219",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410220,
+    "split": "train",
+    "scenario_id": "train-220",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410221,
+    "split": "train",
+    "scenario_id": "train-221",
+    "family": "bursty",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410222,
+    "split": "train",
+    "scenario_id": "train-222",
+    "family": "periodic",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410223,
+    "split": "train",
+    "scenario_id": "train-223",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410224,
+    "split": "train",
+    "scenario_id": "train-224",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410225,
+    "split": "train",
+    "scenario_id": "train-225",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410226,
+    "split": "train",
+    "scenario_id": "train-226",
+    "family": "poisson",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410227,
+    "split": "train",
+    "scenario_id": "train-227",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410228,
+    "split": "train",
+    "scenario_id": "train-228",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410229,
+    "split": "train",
+    "scenario_id": "train-229",
+    "family": "poisson",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410230,
+    "split": "train",
+    "scenario_id": "train-230",
+    "family": "bursty",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410231,
+    "split": "train",
+    "scenario_id": "train-231",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410232,
+    "split": "train",
+    "scenario_id": "train-232",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410233,
+    "split": "train",
+    "scenario_id": "train-233",
+    "family": "bursty",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410234,
+    "split": "train",
+    "scenario_id": "train-234",
+    "family": "periodic",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410235,
+    "split": "train",
+    "scenario_id": "train-235",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410236,
+    "split": "train",
+    "scenario_id": "train-236",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410237,
+    "split": "train",
+    "scenario_id": "train-237",
+    "family": "periodic",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410238,
+    "split": "train",
+    "scenario_id": "train-238",
+    "family": "poisson",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410239,
+    "split": "train",
+    "scenario_id": "train-239",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410240,
+    "split": "train",
+    "scenario_id": "train-240",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410241,
+    "split": "train",
+    "scenario_id": "train-241",
+    "family": "poisson",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410242,
+    "split": "train",
+    "scenario_id": "train-242",
+    "family": "bursty",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410243,
+    "split": "train",
+    "scenario_id": "train-243",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410244,
+    "split": "train",
+    "scenario_id": "train-244",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410245,
+    "split": "train",
+    "scenario_id": "train-245",
+    "family": "bursty",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410246,
+    "split": "train",
+    "scenario_id": "train-246",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410247,
+    "split": "train",
+    "scenario_id": "train-247",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410248,
+    "split": "train",
+    "scenario_id": "train-248",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410249,
+    "split": "train",
+    "scenario_id": "train-249",
+    "family": "periodic",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410250,
+    "split": "train",
+    "scenario_id": "train-250",
+    "family": "poisson",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410251,
+    "split": "train",
+    "scenario_id": "train-251",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410252,
+    "split": "train",
+    "scenario_id": "train-252",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410253,
+    "split": "train",
+    "scenario_id": "train-253",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410254,
+    "split": "train",
+    "scenario_id": "train-254",
+    "family": "bursty",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410255,
+    "split": "train",
+    "scenario_id": "train-255",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410256,
+    "split": "train",
+    "scenario_id": "train-256",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410257,
+    "split": "train",
+    "scenario_id": "train-257",
+    "family": "bursty",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410258,
+    "split": "train",
+    "scenario_id": "train-258",
+    "family": "periodic",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410259,
+    "split": "train",
+    "scenario_id": "train-259",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410260,
+    "split": "train",
+    "scenario_id": "train-260",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410261,
+    "split": "train",
+    "scenario_id": "train-261",
+    "family": "periodic",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410262,
+    "split": "train",
+    "scenario_id": "train-262",
+    "family": "poisson",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410263,
+    "split": "train",
+    "scenario_id": "train-263",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410264,
+    "split": "train",
+    "scenario_id": "train-264",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410265,
+    "split": "train",
+    "scenario_id": "train-265",
+    "family": "poisson",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410266,
+    "split": "train",
+    "scenario_id": "train-266",
+    "family": "bursty",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410267,
+    "split": "train",
+    "scenario_id": "train-267",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410268,
+    "split": "train",
+    "scenario_id": "train-268",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410269,
+    "split": "train",
+    "scenario_id": "train-269",
+    "family": "bursty",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410270,
+    "split": "train",
+    "scenario_id": "train-270",
+    "family": "periodic",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410271,
+    "split": "train",
+    "scenario_id": "train-271",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410272,
+    "split": "train",
+    "scenario_id": "train-272",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410273,
+    "split": "train",
+    "scenario_id": "train-273",
+    "family": "periodic",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410274,
+    "split": "train",
+    "scenario_id": "train-274",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410275,
+    "split": "train",
+    "scenario_id": "train-275",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410276,
+    "split": "train",
+    "scenario_id": "train-276",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410277,
+    "split": "train",
+    "scenario_id": "train-277",
+    "family": "poisson",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410278,
+    "split": "train",
+    "scenario_id": "train-278",
+    "family": "bursty",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410279,
+    "split": "train",
+    "scenario_id": "train-279",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410280,
+    "split": "train",
+    "scenario_id": "train-280",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410281,
+    "split": "train",
+    "scenario_id": "train-281",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410282,
+    "split": "train",
+    "scenario_id": "train-282",
+    "family": "periodic",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410283,
+    "split": "train",
+    "scenario_id": "train-283",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410284,
+    "split": "train",
+    "scenario_id": "train-284",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410285,
+    "split": "train",
+    "scenario_id": "train-285",
+    "family": "periodic",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410286,
+    "split": "train",
+    "scenario_id": "train-286",
+    "family": "poisson",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410287,
+    "split": "train",
+    "scenario_id": "train-287",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410288,
+    "split": "train",
+    "scenario_id": "train-288",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410289,
+    "split": "train",
+    "scenario_id": "train-289",
+    "family": "poisson",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410290,
+    "split": "train",
+    "scenario_id": "train-290",
+    "family": "bursty",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410291,
+    "split": "train",
+    "scenario_id": "train-291",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410292,
+    "split": "train",
+    "scenario_id": "train-292",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410293,
+    "split": "train",
+    "scenario_id": "train-293",
+    "family": "bursty",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410294,
+    "split": "train",
+    "scenario_id": "train-294",
+    "family": "periodic",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410295,
+    "split": "train",
+    "scenario_id": "train-295",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410296,
+    "split": "train",
+    "scenario_id": "train-296",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410297,
+    "split": "train",
+    "scenario_id": "train-297",
+    "family": "periodic",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410298,
+    "split": "train",
+    "scenario_id": "train-298",
+    "family": "poisson",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410299,
+    "split": "train",
+    "scenario_id": "train-299",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410300,
+    "split": "train",
+    "scenario_id": "train-300",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410301,
+    "split": "train",
+    "scenario_id": "train-301",
+    "family": "poisson",
+    "injected_causes": [
+      "congestion"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410302,
+    "split": "train",
+    "scenario_id": "train-302",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410303,
+    "split": "train",
+    "scenario_id": "train-303",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410304,
+    "split": "train",
+    "scenario_id": "train-304",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410305,
+    "split": "train",
+    "scenario_id": "train-305",
+    "family": "bursty",
+    "injected_causes": [
+      "loader_stall"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410306,
+    "split": "train",
+    "scenario_id": "train-306",
+    "family": "periodic",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410307,
+    "split": "train",
+    "scenario_id": "train-307",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410308,
+    "split": "train",
+    "scenario_id": "train-308",
+    "family": "bursty",
+    "injected_causes": [],
+    "pattern": 2
+  },
+  {
+    "seed": 410309,
+    "split": "train",
+    "scenario_id": "train-309",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410310,
+    "split": "train",
+    "scenario_id": "train-310",
+    "family": "poisson",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410311,
+    "split": "train",
+    "scenario_id": "train-311",
+    "family": "bursty",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410312,
+    "split": "train",
+    "scenario_id": "train-312",
+    "family": "periodic",
+    "injected_causes": [],
+    "pattern": 0
+  },
+  {
+    "seed": 410313,
+    "split": "train",
+    "scenario_id": "train-313",
+    "family": "poisson",
+    "injected_causes": [
+      "fragment_pressure"
+    ],
+    "pattern": 1
+  },
+  {
+    "seed": 410314,
+    "split": "train",
+    "scenario_id": "train-314",
+    "family": "bursty",
+    "injected_causes": [
+      "management_burst"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410315,
+    "split": "train",
+    "scenario_id": "train-315",
+    "family": "periodic",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410316,
+    "split": "train",
+    "scenario_id": "train-316",
+    "family": "poisson",
+    "injected_causes": [],
+    "pattern": 1
+  },
+  {
+    "seed": 410317,
+    "split": "train",
+    "scenario_id": "train-317",
+    "family": "bursty",
+    "injected_causes": [
+      "replica_divergence"
+    ],
+    "pattern": 2
+  },
+  {
+    "seed": 410318,
+    "split": "train",
+    "scenario_id": "train-318",
+    "family": "periodic",
+    "injected_causes": [
+      "time_anomaly"
+    ],
+    "pattern": 0
+  },
+  {
+    "seed": 410319,
+    "split": "train",
+    "scenario_id": "train-319",
+    "family": "poisson",
+    "injected_causes": [
+      "link_degradation",
+      "replica_divergence"
+    ],
+    "pattern": 1
+  }
+]

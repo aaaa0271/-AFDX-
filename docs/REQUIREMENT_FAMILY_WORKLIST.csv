@@ -1,0 +1,34 @@
+﻿id,family,source_ids,reviewed_clause,normative_status,existing_tests
+AFDX-001,Frame layout and source/destination MAC and VL addressing,ARINC664P7-1;ARINC664P2-3;ARINC664P4-2,,OPEN,tb_datagram_mac_joint;tb_datagram_source_ids;tb_foundation_rx_queue;tb_foundation_shared_joint
+AFDX-002,Wire rate and frame limits and preamble IFG FCS,ARINC664P7-1;ARINC664P2-3,,OPEN,tb_afdx_eth_ipv4_udp_parser_full;tb_gmii_tx_adapter_varlen
+AFDX-003,BAG value constraints shaping and wire-side measurement,ARINC664P7-1,,OPEN,tb_datagram_mac_joint;tb_datagram_ports_top;tb_datagram_tx;tb_foundation_shared_stress;tb_m6_full_bag
+AFDX-004,Transmit jitter bounds under load and contention,ARINC664P7-1,,OPEN,tb_foundation_shared_stress
+AFDX-005,Transmit and receive latency with normative observation points,ARINC664P7-1,,OPEN,tb_foundation_shared_joint
+AFDX-006,A/B sequence reset wrap and per-network integrity,ARINC664P7-1,,OPEN,tb_afdx_sequence_integrity;tb_m5_integrity_rules;tb_foundation_rx_queue
+AFDX-007,Dedup skew disorder loss and recovery,ARINC664P7-1,,OPEN,tb_afdx_rx_redundancy_eliminator;tb_foundation_shared_degraded
+AFDX-008,VL isolation configuration validity and supported population,ARINC664P7-1;ARINC664P4-2,,OPEN,tb_contest_configuration;tb_contest_configured_rx
+AFDX-009,Sampling queuing SAP and sub-VL port model (native declared-profile MAC tested),ARINC664P7-1;ARINC664P3-2,,OPEN,tb_datagram_ports;tb_datagram_ports_top;tb_datagram_tx
+AFDX-010,IPv4 UDP headers and checksum checks,ARINC664P7-1;ARINC664P3-2;RFC768;RFC791,,OPEN,tb_afdx_eth_ipv4_udp_parser_full;tb_datagram_mac_joint;tb_datagram_rx;tb_datagram_tx;tb_udp_checksum_boundaries
+AFDX-011,Large-message transmit fragmentation and message-level limits,ARINC664P7-1;ARINC664P3-2;RFC791,,OPEN,tb_datagram_mac_joint;tb_datagram_tx
+AFDX-012,Receive reassembly keys ordering duplicates timeout and invalid fragments,ARINC664P7-1;ARINC664P3-2;RFC791,,OPEN,tb_contest_ipv4_fragment;tb_datagram_mac_joint;tb_datagram_rx
+AFDX-013,Reassembled UDP integrity and fragmented-message latency,ARINC664P7-1;ARINC664P3-2;RFC768,,OPEN,tb_datagram_mac_joint;tb_datagram_rx
+AFDX-014,Queue capacity overflow isolation backpressure and recovery,ARINC664P7-1,,OPEN,tb_afdx_payload_commit_buffer;tb_datagram_ports_top;tb_datagram_rx;tb_datagram_tx;tb_foundation_rx_queue
+AFDX-015,Separate manager loader time-server VL and sequence contexts,ARINC664P7-1;ARINC664P4-2,,OPEN,tb_foundation_shared_joint
+AFDX-016,ICMP ARP and other host-service applicability and dispositions,ARINC664P3-2;RFC792;RFC1122,,OPEN,
+AFDX-017,Reference network topology and worst-case end-system load,ARINC664P7-1,,OPEN,tb_foundation_shared_stress
+SNMP-001,Required version transport BER and operations,ARINC664P7-1;ARINC664P3-2;RFC1901;RFC3416;RFC3417,,OPEN,tb_completion_snmp_extended;tb_foundation_snmp_mac
+SNMP-002,GETBULK non-repeaters repetitions end-of-MIB and sizes,RFC3416,,OPEN,tb_foundation_snmp_bulk;tb_foundation_snmp_bulk_mac
+SNMP-003,Required MIB objects types and counters,ARINC664P7-1;ARINC664P3-2;RFC3418;RFC2863,,OPEN,tb_afdx_mib_register_bank;tb_foundation_snmp_mac
+SNMP-004,Request correlation atomic snapshots bounds and errors,RFC1901;RFC3416;RFC3417,,OPEN,tb_foundation_snmp_set_copy;tb_completion_snmp_extended
+LOAD-001,615A edition target-role and operation applicability,ARINC615A-4,,OPEN,
+LOAD-002,Initialization upload progress completion and final ACK,ARINC615A-4,,OPEN,tb_contest_615a_control;tb_foundation_shared_joint
+LOAD-003,Information discovery and applicable status formats,ARINC615A-4,,OPEN,
+LOAD-004,Download and applicable request status file sequences,ARINC615A-4,,OPEN,
+LOAD-005,Abort wait error statuses timeouts and recovery,ARINC615A-4;RFC1350,,OPEN,tb_contest_tftp;tb_completion_package_network
+LOAD-006,Multi-header and file/directory combinations,ARINC615A-4;ARINC665-5,,OPEN,tb_completion_package
+LOAD-007,Software package formats identity compatibility integrity,ARINC665-5,,OPEN,tb_completion_package;tb_completion_package_network
+LOAD-008,Atomic publish failed-update preservation restart,ARINC615A-4;ARINC665-5,,OPEN,tb_completion_package_network;tb_foundation_shared_joint
+RTC-001,Selected NTPv4 timestamps and client/server validation,RFC5905,,OPEN,tb_contest_rtc_ntp;tb_foundation_shared_joint
+RTC-002,Precision target independent drift holdover recovery,RFC5905,,OPEN,tb_contest_rtc_convergence;tb_contest_rtc_timebase
+DEL-001,Normative inventory and cross-edition compatibility review,ARINC664P7-1;ARINC664P2-3;ARINC664P3-2;ARINC664P4-2;ARINC615A-4;ARINC665-5,,OPEN,
+DEL-002,Executable project design test report and technical metrics,ARINC664P7-1;ARINC615A-4,,OPEN,tb_foundation_shared_joint

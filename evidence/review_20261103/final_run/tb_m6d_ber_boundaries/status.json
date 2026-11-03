@@ -1,0 +1,9 @@
+{
+  "name": "tb_m6d_ber_boundaries",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_m6d_ber_boundaries/result.log",
+  "audits": [],
+  "issues": []
+}

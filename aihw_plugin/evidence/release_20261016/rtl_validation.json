@@ -1,0 +1,32 @@
+{
+  "model_tag": "1a5cdc59",
+  "syntax_verilog2001": true,
+  "synthesis_performed": false,
+  "target_timing_closed": false,
+  "board_tested": false,
+  "tests": {
+    "tb_tcn_plugin": {
+      "status": "PASS",
+      "seconds": 47.40501300699998,
+      "log": "reports/tb_tcn_plugin.log"
+    },
+    "tb_csr": {
+      "status": "PASS",
+      "seconds": 0.17449687199950858,
+      "log": "reports/tb_csr.log"
+    },
+    "tb_arithmetic": {
+      "status": "PASS",
+      "seconds": 0.032958350000626524,
+      "log": "reports/tb_arithmetic.log"
+    }
+  },
+  "vectors": 388,
+  "compared_logits": 3492,
+  "compared_intermediate_values": 111744,
+  "protocol_cases": 12,
+  "compute_cycles": 14035,
+  "assumed_clock_hz": 12500000,
+  "simulated_compute_latency_us": 1122.8,
+  "latency_excludes_input_collection_transfer_and_output_backpressure": true
+}

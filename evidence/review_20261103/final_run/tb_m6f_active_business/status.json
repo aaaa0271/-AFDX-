@@ -1,0 +1,9 @@
+{
+  "name": "tb_m6f_active_business",
+  "suite": "legacy",
+  "status": "PASS",
+  "exit": 0,
+  "log": "tb_m6f_active_business/result.log",
+  "audits": [],
+  "issues": []
+}

@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "model_version": "afdx-synthetic-ml-1.0",
+  "source": "rtl_capture",
+  "window_id": "live_defense_28",
+  "status": "ok",
+  "confirmed_cause": null,
+  "candidates": [
+    {
+      "cause": "link_degradation",
+      "name": "链路质量下降",
+      "vote_share": 0.36020745753260125
+    },
+    {
+      "cause": "time_anomaly",
+      "name": "授时异常",
+      "vote_share": 0.25850711788211783
+    },
+    {
+      "cause": "normal",
+      "name": "正常",
+      "vote_share": 0.16544247505134194
+    }
+  ],
+  "vote_share_is_calibrated_probability": false,
+  "anomaly": {
+    "score": 0.5882233953423376,
+    "threshold": 0.5940978766120143,
+    "outside_normal_model": false
+  },
+  "out_of_support_features": [
+    "ab_unpaired_ratio",
+    "ntp_offset_abs_ms"
+  ],
+  "observed_evidence": [
+    {
+      "metric": "ab_unpaired_ratio",
+      "value": 1
+    },
+    {
+      "metric": "fcs_error_ratio",
+      "value": 0.0
+    },
+    {
+      "metric": "loader_retry_ratio",
+      "value": 0.0
+    }
+  ],
+  "suggested_tools": [
+    "check_measurement_coverage",
+    "summarize_events"
+  ],
+  "latency_forecast": {
+    "target": "next_window_latency_p95_us",
+    "estimate": 19.945945853182874,
+    "interval": [
+      9.033830257428924,
+      42.72534081485349
+    ],
+    "nominal_scenario_coverage": 0.9,
+    "calibration_unit": "scenario_max_of_10_windows",
+    "is_timing_guarantee": false,
+    "usable_within_training_support": true
+  },
+  "training_domain": "synthetic abstract_shared_inspector_v1",
+  "hardware_validation": false,
+  "conclusion": "信息不足、分布超界或模型意见不明确，需要补充证据。",
+  "status_model": "out_of_support"
+}

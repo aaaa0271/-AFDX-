@@ -1,0 +1,7 @@
+[
+  "D:\\Program Files (x86)\\eLinx3.0\\bin\\Passkey\\bin\\quartus_map.exe",
+  "--read_settings_files=on",
+  "--write_settings_files=off",
+  "--analysis_and_elaboration",
+  "ARINC"
+]
